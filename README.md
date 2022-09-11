@@ -1,1 +1,1 @@
-the manual for RStudio Server from a user's perspective
+Siia varamusse kogun keemiaga seonduva eesti keeles, tootmisvahendiks "bookdown".

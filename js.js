@@ -19,7 +19,7 @@ function setTargets() {
   let div = document.getElementById("main-nav").getElementsByTagName("nav")[0].getElementsByClassName("book-extra")[0];
   let a = document.createElement("a");
   a.setAttribute("id", "book-print");
-  a.setAttribute("href", "manual-for-rstudio.pdf");
+  a.setAttribute("href", "keemia.pdf");
   a.innerHTML = "View printable book ";
   let p = document.createElement("p");
   p.appendChild(a);

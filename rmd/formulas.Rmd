@@ -1,0 +1,201 @@
+# Elektronvalem, ruutskeem, Lewisi punktvalem
+
+## Ülesande püstitus
+
+Joonista elektronvalem ja ruutskeem, ning nende alusel Lewis’i punktivalem järgmistele aatomitele:
+
+a)	[Süsinik](#c) (C) Z=6
+
+b)	[Naatrium](#na) (Na) Z=11
+
+c)	[Väävel](#s) (S) Z=16
+
+d)	[Kaalium](#k) (K) Z=19
+
+e)	[Jood](#i) (I) Z=53
+
+f)	[Raud](#fe) (Fe) Z=26
+
+g)	[Hõbe](#ag) (Ag) Z=47
+
+## Lahendus
+
+### Süsinik []{#c}
+
+#### Elektronvalem
+
+```{=latex}
+\elconf{6}
+```
+
+#### Ruutskeem
+
+```{=latex}
+\begin{modiagram}[style = square, labels]
+    \atom{left}{1s, 2s, 2p = {; up, up}}
+    \EnergyAxis[title]
+\end{modiagram}
+
+```
+
+#### Lewisi punktvalem
+
+```{=latex}
+\Charge{0 = \., 90 = \., 180 = \., 270 = \.}{C}
+
+```
+
+### Naatrium []{#na}
+
+#### Elektronvalem
+
+```{=latex}
+\elconf{11}
+```
+
+#### Ruutskeem
+
+```{=latex}
+\begin{modiagram}[style = square, labels]
+    \atom{left}{1s, 2s, 2p}
+    \AO{s}[label = {3s}]{6; up}
+    \EnergyAxis[title]
+\end{modiagram}
+
+```
+
+#### Lewisi punktvalem
+
+```{=latex}
+\Charge{0 = \.}{Na}
+
+```
+
+### Väävel []{#s}
+
+#### Elektronvalem
+
+```{=latex}
+\elconf{16}
+```
+
+#### Ruutskeem
+
+```{=latex}
+\begin{modiagram}[style = square, labels]
+    \atom{left}{1s, 2s, 2p}
+    \AO{s}[label = {3s}]{6; pair}
+    \AO{p}[label[x] = $3\mathrm{p}_x$, label[y] = $3\mathrm{p}_y$,label[z]= $3\mathrm{p}_z$]{8; pair, up, up}
+    \EnergyAxis[title]
+\end{modiagram}
+
+```
+
+#### Lewisi punktvalem
+
+```{=latex}
+\Charge{0 = \:, 90 = \:, 180 = \., 270 = \.}{S}
+
+```
+
+### Kaalium []{#k}
+
+#### Elektronvalem
+
+```{=latex}
+\elconf{19}
+```
+
+#### Ruutskeem
+
+```{=latex}
+\begin{modiagram}[style = square, labels]
+    \atom{left}{1s, 2s, 2p}
+    \AO{s}[label = {3s}]{6; pair}
+    \AO{p}[label[x] = $3\mathrm{p}_x$, label[y] = $3\mathrm{p}_y$,label[z]= $3\mathrm{p}_z$]{8; pair, pair, pair}
+    \AO{s}[label = 4s]{9; up}
+    \EnergyAxis[title]
+\end{modiagram}
+
+```
+
+#### Lewisi punktvalem
+
+```{=latex}
+\Charge{0 = \.}{K}
+
+```
+
+### Raud []{#fe}
+
+#### Elektronvalem
+
+```{=latex}
+\elconf{26}
+```
+
+#### Ruutskeem
+
+Raua ruutskeem on esitatud joonisel \@ref(fig:orbital-energy-levels-diagram-of-fe).
+
+```{r label = "orbital-energy-levels-diagram-of-fe", fig.cap = "Raua ruutskeem"}
+include_external_graphics("rmd/orbitaalid-fe.svg")                    # 2
+                                                                     # 3
+```
+
+#### Lewisi punktvalem
+
+```{=latex}
+\Charge{0 = \., 90 = \.}{Fe}
+
+```
+
+### Hõbe []{#ag}
+
+#### Elektronvalem
+
+```{=latex}
+\elconf{47}
+```
+
+Huvitav asjaolu on, et hõbeda elektronvalem ei ole lõpuni koostatav lähtudes Madelungi reeglist, sest hõbedaatom on stabiilsem, kui *4d*-orbitaal on täidetud, mistõttu liigub üks elektron *5d*-orbitaalilt suurema energiatasemega *4d*-orbitaalile `r render_with_emojis("((ref:MEEK2002362))")`.
+
+#### Ruutskeem
+
+Hõbeda ruutskeem on esitatud joonisel \@ref(fig:orbital-energy-levels-diagram-of-ag).
+
+```{r label = "orbital-energy-levels-diagram-of-ag", fig.cap = "Hõbeda ruutskeem"}
+include_external_graphics("rmd/orbitaalid-ag.png")                    # 2
+                                                                     # 3
+```
+
+#### Lewisi punktvalem
+
+```{=latex}
+\Charge{0 = \.}{Ag}
+
+```
+
+### Hõbe []{#i}
+
+#### Elektronvalem
+
+```{=latex}
+\elconf{53}
+```
+
+#### Ruutskeem
+
+Joodi ruutskeem on esitatud joonisel \@ref(fig:orbital-energy-levels-diagram-of-i).
+
+```{r label = "orbital-energy-levels-diagram-of-i", fig.cap = "Joodi ruutskeem"}
+include_external_graphics("rmd/orbitaalid-i.png")                    # 2
+                                                                     # 3
+```
+
+#### Lewisi punktvalem
+
+```{=latex}
+\Charge{0 = \:, 90 = \:, 180 = \:, 270 = \.}{I}
+
+```
