@@ -1,0 +1,61 @@
+# Keemiatelefon
+
+Seda teevad kõik õpilased ühiselt. Võib olla ka nii, et
+paarikaupa.
+
+Esimesele õpilasele anname paberilehe, mille ülaossa on märgitud mingi keemilise elemendi
+sümbol. ta loob selle elemendi kohta ruutskeemi, kirjutab juurde oma nime(d), murrab lehe
+horisontaalselt kokku, nii et näha jääb ainult ruutskeem, ja annab edasi järgmis(t)ele.
+
+Järgmine selle ruutskeemi alusel koostab elektronvalemi, kirjutab nime, murrab, annab
+edasi. Järgmine elektronvalemi põhjal koostab Lewise skeemi ja teeb standardtoimingud.
+
+Järgmine nt Lewise skeemi põhjal teeb elektronvalemi. Seda tehakse, kuni lehel rohkem
+ruumi pole.
+
+Et ootamist ei oleks liiga palju, siis lisaks esimesele õpilasele saab ka õpilane keskel
+lähteülesande. Kui temani on jõudnud teine paberileht ja ta pole jõudnud oma ülesannet
+teha, on selge, et ta ei oska, ja ta lihtsalt annab oma lehe edasi ja teatab meile, sest me
+tõmbame ta mängust välja ja keegi meist tegeleb temaga eraldi, et ta selgeks saaks.
+Kasutame ainult selliseid elemente, mis alluvad kolmnurkskeemile. Siiski, võime sekka
+puistata erandeid neid ekstra ära märgistades.
+
+Ainus küsimus, mida nad võivad meilt küsida, on, mitmes element on see element, või
+milline element on sellise järjekorra tunnusega.
+
+[20 min]
+
+\newpage
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{N}, minu nimi: 
+
+---
+
+```{r label = "orbitals", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+---
+
+Elektronvalem:
+
+Minu nimi:
+
+---
+
+Periood:
+
+Joonistan Lewise skeemi, millele on märgitud ainult elektronid, mitte elemendi sümbol: \hfill Minu\nobreakspace{}nimi:
+
+---
+
+Keemilise elemendi sümbol: \hfill Minu nimi:
+
+---
+
+Mitu valentselektroni? \hfill Minu nimi:
+
+---
+
+Mitu energiataset? \hfill Minu nimi:

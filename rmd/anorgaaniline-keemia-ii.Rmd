@@ -1,0 +1,30 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+## Anorgaaniline II
+
+1: 1 - 9
+2: 1, 2
+
+## 1.1
+
+## 1.5
+
+vask jäi samaks, hõbe värvus pruuniks
+
+Kui lisasime naatriumhüdroksiidi, läks tumedamaks, kui väävelhapet, läbipaistvaks.
+
+# 1.6
+
+hõbedaga läks valgeks, aga kui lisasime NH_3, siis kadus sade ära
+
+vasega oli sinine, läks veel sinisemaks, sade hele, vedelik tume
+
+misiganes katse see oligi, kui magneesium oli vaja vette panna ja fenoolftaleiini lisada ja see ei reageerinud, mingi tund hiljem või nii oli vesi korralikult lilla
+
+```{=tex}
+\frac{a}{b}
+```
+

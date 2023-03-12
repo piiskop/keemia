@@ -176,7 +176,7 @@ include_external_graphics("rmd/orbitaalid-ag.png")                    # 2
 
 ```
 
-### Hõbe []{#i}
+### Jood []{#i}
 
 #### Elektronvalem
 

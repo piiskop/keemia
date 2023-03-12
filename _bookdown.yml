@@ -4,5 +4,6 @@ delete_merged_file: true
 rmd_files: [
   "index.Rmd",
   "rmd/formulas.Rmd",
+  "rmd/phone.Rmd",
   "references.Rmd"
 ]

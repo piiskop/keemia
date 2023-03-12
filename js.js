@@ -20,7 +20,7 @@ function setTargets() {
   let a = document.createElement("a");
   a.setAttribute("id", "book-print");
   a.setAttribute("href", "keemia.pdf");
-  a.innerHTML = "View printable book ";
+  a.innerHTML = "trükiteisend";
   let p = document.createElement("p");
   p.appendChild(a);
   div.appendChild(p);
