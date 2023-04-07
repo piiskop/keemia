@@ -165,6 +165,23 @@ render_with_emojis <- function(text) {
   return(paste("\\fontspec{Symbola}", text, "\\fontspec{DejaVu Serif}{}", sep = ""))
 }
 
+#' This function colors text.
+#' 
+#' @param color the color code in hexadecimals
+#' @param text the text to be colored
+#' 
+#' @returns the colored text
+render_color <- function(color, text) {
+  
+  if (knitr::is_html_output()) {
+    rendered_color <- paste("$\\color{#", color, "}{", text, "}$", sep = "")
+  } else {
+    rendered_color <- paste("$\\textcolor[HTML]{", color, "}{", text, "}$", sep = "")
+  }
+
+  return(rendered_color)
+}
+
 ```
 
 # Keemia

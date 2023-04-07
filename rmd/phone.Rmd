@@ -1,133 +1,2430 @@
 # Keemiatelefon
 
-Seda teevad kõik õpilased ühiselt. Õpilased loosivad end paaridesse ja vajadusel on keegi üksi. Kui vähemalt üks paar jääb hätta, siis järgmise vooru teeme nii, et igaüks on üksi ja lehti anname üle ühe.
+Seda teevad kõik õpilased ühiselt. Õpilased loosivad end paaridesse ja vajadusel on keegi üksi. Kõik rühmad on üksteisest piisavalt kaugel, et mitte näha muu rühma paberil olevat.
 
-Igale mängijaterühmale anname paberilehe, mille ülaossa on märgitud mingi keemilise elemendi sümbol. Ta loob selle elemendi kohta ruutskeemi, kirjutab juurde oma nime(d), murrab lehe horisontaalselt kokku, nii et näha jääb leht alates ruutskeemist, ja annab edasi järgmis(t)ele. Kui järgmine mänguriterühm on veel lahendamas, siis me suuname selle lehe kuskile, kus lehte ees ei ole, välja arvatud tagasi neile, kes ruutskeemi lahendasid. Järgmine selle ruutskeemi alusel koostab elektronvalemi, kirjutab nime, murrab, annab edasi. Järgmine elektronvalemi põhjal koostab Lewise skeemi ja teeb standardtoimingud. Järgmine nt Lewise skeemi põhjal teeb elektronvalemi. Seda tehakse, kuni lehel rohkem ruumi pole.
+Igale mängijaterühmale anname paberilehe, mille ülaossa on märgitud mingi keemilise elemendi sümbol. Ta loob selle elemendi kohta ruutskeemi, kirjutab juurde oma nime(d), murrab lehe horisontaalselt kokku, nii et näha jääb leht alates ruutskeemist, ja tõstab käe. Õpetajad on telefonioperaatorid ja keegi meist korjab selle lehe üles ning kui kuskil veel on liin vaba, siis suunab lehe sinna. Järgmine selle ruutskeemi alusel koostab elektronvalemi, kirjutab nime, murrab, tõstab käe. Järgmine elektronvalemi põhjal koostab Lewise skeemi ja teeb standardtoimingud. Järgmine nt Lewise skeemi põhjal teeb elektronvalemi. Seda tehakse, kuni lehel rohkem ruumi pole.
 
-Kui mängijad mängivad üksi ja üks mängija jääb liiga kauaks lahendamatemani on jõudnud teine paberileht ja ta pole jõudnud oma ülesannet teha, on selge, et ta ei oska, ja ta lihtsalt annab oma lehe edasi ja teatab meile, sest me tõmbame ta mängust välja ja keegi meist tegeleb temaga eraldi, et ta selgeks saaks.
-
-Kasutame ainult selliseid elemente, mis alluvad Madelungi reeglile. Siiski, võime sekka puistata erandeid neid ekstra ära märgistades.
+Kasutame sellisel kujul ainult selliseid elemente, mis alluvad Madelungi reeglile. Ülejäänud elementide puhul alustame elektronvalemist. Viimane element on baarium.
 
 Mängijate laudadel on keemiliste elementide perioodilisussüsteemi tabelid ilma elektronkonfiguratsioonideta.
 
-Kui esimese vooru lehed on lõpuni täidetud, vaatame üle, kas lehe lõpuks jõuti sama elemendini, mis oli lehe alguses. Kui ei jõutud, vaatame järele, kelle lahenduse tõttu sõnum muutus, ja arutame kõigiga ühiselt, kuidas korrigeerida.
+Kui mingi leht on lõpuni täidetud, vaatab keegi õpetajaist üle, kas jõuti sama elemendini, mis oli lehe alguses. Kui ei jõutud, vaatame järele, kelle lahenduse tõttu sõnum muutus, ja arutame kõigiga ühiselt, kuidas korrigeerida.
 
-Esimesele voorule järgneb teine voor, mis sarnaneb esimesele voorule, aga alustatakse mitte elemendist, vaid ruutskeemist. Kolmandas voorus alustame elektronkonfiguratsioonist.
+Kui keegi jääb lahendamisega hätta, nii et üks leht on juba täidetud, aga nemad pole veel kätt tõstnud, siis võtab keegi õpetaja nad kõrvale ja tegeleb nende õpetamisega nende lehe põhjal.
 
-[20 min]
+[25 min]
 
 \newpage
 
-Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{N}, minu nimi: 
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{N}
 
----
+\dotfill
 
-```{r label = "orbitals", echo=FALSE}
+```{r label = "orbitals-7", echo=FALSE}
 include_external_graphics("rmd/orbitaalid.svg")
 
 ```
 
----
+\dotfill
 
-Elektronvalem:
+Elektronvalem: \hrulefill
 
-Minu nimi:
+Minu nimi: \hrulefill
 
----
+\dotfill
 
-Periood:
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
 
-Joonistan Lewise skeemi, millele on märgitud ainult elektronid, mitte elemendi sümbol: \hfill Minu\nobreakspace{}nimi:
+Minu nimi: \hrulefill
 
----
+\dotfill
 
-Keemilise elemendi sümbol: \hfill Minu nimi:
+\vfill
 
----
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
 
-Mitu valentselektroni? \hfill Minu nimi:
+```
 
----
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
 
-Mitu energiataset? \hfill Minu nimi:
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
 
 \newpage
 \thispagestyle{empty}
 \mbox{}
 \pagebreak
 
-```{=latex}
-\begin{modiagram}[style = square, labels]
-    \atom{left}{1s, 2s, 2p = {; up, up}}
-    \EnergyAxis[title]
-\end{modiagram}
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Co}
+
+\dotfill
+
+```{r label = "orbitals-27", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
 
 ```
 
----
+\dotfill
 
-Element: \hfill Minu\nobreakspace{}nimi: 
+Elektronvalem: \hrulefill
 
----
+Minu nimi: \hrulefill
 
-Elektronvalem:
+\dotfill
 
-Minu nimi:
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
 
----
+Minu nimi: \hrulefill
 
-Periood:
+\dotfill
 
-Joonistan Lewise skeemi, millele on märgitud ainult elektronid, mitte elemendi sümbol: \hfill Minu\nobreakspace{}nimi:
+\vfill
 
----
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
 
-Keemilise elemendi sümbol: \hfill Minu nimi:
+```
 
----
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
 
-Mitu valentselektroni? \hfill Minu nimi:
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
 
----
-
-Mitu energiataset? \hfill Minu nimi:
+```
 
 \newpage
 \thispagestyle{empty}
 \mbox{}
 \pagebreak
 
-Elektronvalem:
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{P}
 
-```{=latex}
-\elconf{11}
+\dotfill
+
+```{r label = "orbitals-15", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
 ```
 
----
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Rb}
+
+\dotfill
+
+```{r label = "orbitals-37", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Br}
+
+\dotfill
+
+```{r label = "orbitals-35", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Mg}
+
+\dotfill
+
+```{r label = "orbitals-12", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Sc}
+
+\dotfill
+
+```{r label = "orbitals-21", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ni}
+
+\dotfill
+
+```{r label = "orbitals-28", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{I}
+
+\dotfill
+
+```{r label = "orbitals-53", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{As}
+
+\dotfill
+
+```{r label = "orbitals-33", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Zn}
+
+\dotfill
+
+```{r label = "orbitals-30", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ca}
+
+\dotfill
+
+```{r label = "orbitals-20", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Se}
+
+\dotfill
+
+```{r label = "orbitals-34", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ti}
+
+\dotfill
+
+```{r label = "orbitals-22", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Si}
+
+\dotfill
+
+```{r label = "orbitals-14", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{K}
+
+\dotfill
+
+```{r label = "orbitals-19", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Xe}
+
+\dotfill
+
+```{r label = "orbitals-54", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Te}
+
+\dotfill
+
+```{r label = "orbitals-52", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{In}
+
+\dotfill
+
+```{r label = "orbitals-49", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Tc}
+
+\dotfill
+
+```{r label = "orbitals-43", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{S}
+
+\dotfill
+
+```{r label = "orbitals-16", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Be}
+
+\dotfill
+
+```{r label = "orbitals-4", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{O}
+
+\dotfill
+
+```{r label = "orbitals-8", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ge}
+
+\dotfill
+
+```{r label = "orbitals-32", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Kr}
+
+\dotfill
+
+```{r label = "orbitals-36", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Sb}
+
+\dotfill
+
+```{r label = "orbitals-51", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Mn}
+
+\dotfill
+
+```{r label = "orbitals-25", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{B}
+
+\dotfill
+
+```{r label = "orbitals-5", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ne}
+
+\dotfill
+
+```{r label = "orbitals-10", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Zr}
+
+\dotfill
+
+```{r label = "orbitals-40", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Sr}
+
+\dotfill
+
+```{r label = "orbitals-38", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{V}
+
+\dotfill
+
+```{r label = "orbitals-23", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{C}
+
+\dotfill
+
+```{r label = "orbitals-6", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Sn}
+
+\dotfill
+
+```{r label = "orbitals-50", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ga}
+
+\dotfill
+
+```{r label = "orbitals-31", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ba}
+
+\dotfill
+
+```{r label = "orbitals-56", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Cs}
+
+\dotfill
+
+```{r label = "orbitals-55", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Y}
+
+\dotfill
+
+```{r label = "orbitals-39", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Li}
+
+\dotfill
+
+```{r label = "orbitals-3", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{He}
+
+\dotfill
+
+```{r label = "orbitals-2", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Na}
+
+\dotfill
 
 ```{r label = "orbitals-11", echo=FALSE}
 include_external_graphics("rmd/orbitaalid.svg")
 
 ```
 
----
+\dotfill
 
-Element: \hfill Minu\nobreakspace{}nimi: 
+Elektronvalem: \hrulefill
 
----
+Minu nimi: \hrulefill
 
-Periood:
+\dotfill
 
-Joonistan Lewise skeemi, millele on märgitud ainult elektronid, mitte elemendi sümbol: \hfill Minu\nobreakspace{}nimi:
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
 
----
+Minu nimi: \hrulefill
 
-Keemilise elemendi sümbol: \hfill Minu nimi:
+\dotfill
 
----
+\vfill
 
-Mitu valentselektroni? \hfill Minu nimi:
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
 
----
+```
 
-Mitu energiataset? \hfill Minu nimi:
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{H}
+
+\dotfill
+
+```{r label = "orbitals-1", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Ar}
+
+\dotfill
+
+```{r label = "orbitals-18", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Fe}
+
+\dotfill
+
+```{r label = "orbitals-26", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Cl}
+
+\dotfill
+
+```{r label = "orbitals-17", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Cd}
+
+\dotfill
+
+```{r label = "orbitals-48", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{Al}
+
+\dotfill
+
+```{r label = "orbitals-13", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Element: `r if (knitr::is_html_output()) { "\\require{mhchem}" }`\ce{F}
+
+\dotfill
+
+```{r label = "orbitals-9", echo=FALSE}
+include_external_graphics("rmd/orbitaalid.svg")
+
+```
+
+\dotfill
+
+Elektronvalem: \hrulefill
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Elektronvalem: \elconf{46}
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Elektronvalem: \elconf{47}
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Elektronvalem: \elconf{44}
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Elektronvalem: \elconf{29}
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Elektronvalem: \elconf{45}
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+Elektronvalem: \elconf{42}
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+| Energia | 1. tase | 2. tase | 3. tase | 4. tase | 5. tase | 6. tase |
+|-|-|-|-|-|-|-|
+| Elektrone | | | | | | |
+
+Minu nimi: \hrulefill
+
+\dotfill
+
+\vfill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern8pt }
+
+```
+
+Lewise skeem: \makebox[1in]{\hrulefill} Minu\nobreakspace{}nimi: \hrulefill
+
+```{=latex}
+	\renewcommand{\hrulefill}{%
+		\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+
+```
