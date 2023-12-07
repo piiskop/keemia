@@ -4,14 +4,16 @@ site: bookdown::bookdown_site
 author: "peacecop kalmer:"
 colorlinks: TRUE
 date: "`r Sys.Date()`"
-description: "keemia"
+description: "keemia õppe allikas"
 lang: et
-title: "Keemia"
+include-before:
+    - \input{title-page.tex}
+title: "`r if (knitr::is_latex_output()) { '' } else { 'Keemia' }`"
 
 documentclass: book
 papersize: a4
 geometry: top=2cm, right=2cm, bottom=3cm, left=3cm
-classoption: onecolumn, twoside
+classoption: twocolumn, twoside
 linestretch: 1.5
 
 fontsize: 12pt
@@ -19,6 +21,7 @@ mainfont: DejaVu Serif # for displaying both Chinese symbols and emojis
 CJKmainfont: Droid Sans Fallback
 
 bibliography: [references.bib]
+csl: apa-numeric-superscript-brackets.csl
 link-citations: yes
 
 lof: yes
@@ -27,17 +30,122 @@ lot: yes
 ---
 
 ```{r setup, echo=FALSE, message=FALSE}
+local({
+  hook_source <- knitr::knit_hooks$get('source')
+  knitr::knit_hooks$set(source = function(x, options) {
+    x <- xfun::split_lines(x)
+    n <- nchar(x, 'width')
+    i <- seq_along(x)  # line numbers
+    n <- n + nchar(i)
+    s <- strrep(' ', max(n) - n)
+    x <- paste(x, s, '  # ', i, sep = '', collapse = '\n')
+    hook_source(x, options)
+  })
+})
+
 # example chunk options set globally
 knitr::opts_chunk$set(
   collapse = TRUE,
-  echo = TRUE
+  echo = TRUE,
+  attr.source = '.numberLines'
 )
+
+options(OutDec = ",")
+decimal_separator_period = TRUE # for stat_regline_equation and stat_cor
 
 if (!require("librarian")) {
   install.packages("librarian", dependencies = TRUE)
 }
 
 library(librarian)
+
+names_10 <- c(
+	"1. Babiy, Alisa",
+	"2. Irhin, Donat",
+	"3. Kimasks, Stanislavs",
+	"4. Kustov, Vladimir",
+	"5. Malõšev, Polina",
+	"6. Šerstobitov, Mihhail",
+	"7. Šesterikov, Daniil",
+	"8. Žigadlo, Grigori",
+	"9. Žukova, Darja",
+	"10. Trubilko, Vladislav",
+	"11. Tšerkesov, Demid",
+	"12. Volkova, Darja",
+	"13. Volkova, Jeva"
+)
+
+#' This function builds a table with test results.
+#'
+#' @param tasks the data frame with task results
+#' @param names the names of the pupils
+#' @param caption the start of the caption in Estonian in the second case
+#' 
+#' @example build_table_with_grades(tasks = tasks_of_electric_current, names = names_11, caption = "Elektrivoolu")
+build_table_with_grades <- function(tasks, names, caption) {
+  summary <- rowSums(tasks)
+  
+  grade <- calculate_grade(summary)
+
+  indexes_of_tasks = c(1)
+  
+  for (index in 2:length(tasks)) {
+    indexes_of_tasks <- c(indexes_of_tasks, index) 
+  }
+
+  data_frame <- cbind(tasks, summary, grade)
+  colnames(data_frame) <- c(
+    indexes_of_tasks,
+    "Koond",
+    "Hinne"
+  )
+
+  rownames(data_frame) <- names
+  
+  print_table(
+    table = data_frame,
+    caption = paste(caption, "testi tulemused")
+  ) %>%
+    landscape()
+
+}
+
+#' This function calculates the grade according to the fraction.
+#'
+#' @param fractions the vector of fractions out of a whole
+#' 
+#' @example calculate_grade(fraction=.57)
+#' 
+#' @returns the grades as a vector
+calculate_grade <- function(fractions) {
+  
+  grades <- c()
+  for (index in 1:length(fractions)) {  # 2
+    if (fractions[index] < 1.8) {
+      if (fractions[index] < .9) {
+        if (fractions[index] < .75) {
+          if (fractions[index] < .5) {
+            if (fractions[index] < .2) {
+              grades[index] <- 1
+            } else {
+              grades[index] <- 2
+            }
+          } else {
+            grades[index] <- 3
+          }
+        } else {
+          grades[index] <- 4
+        }
+      } else {
+        grades[index] <- 5
+      }
+    } else {
+      grades[index] <- 6
+    }
+  }
+
+  return(grades)
+}
 
 #' This function displays external graphics by making the appropriate conversion aforehead.
 #' 
@@ -95,9 +203,9 @@ print_table <- function(table, caption, digits = 2, additional_header = NULL, fo
       table,
       bootstrap_options = c("striped", "bordered", "condensed", "responsive", "hover"),
       latex_options = c("striped", "repeat_header"),
-      # repeat_header_text = paste(caption, "$\\textit{(Jätkub...)}$"),
+      repeat_header_text = paste(caption, "$\\textit{(järgneb...)}$"),  # paste(caption, "$\\textit{(Continued...)}$"),
       repeat_header_method = "replace",
-      repeat_header_continued = TRUE # "Tabel järgneb järgmisel leheküljel..."
+      repeat_header_continued = "Tabel järgneb järgmisel leheküljel..." # TRUE
     ))
     
     if (!is.null(footnotes)) {
@@ -159,10 +267,33 @@ render_font <- function(text, to_italic = TRUE) {
 #' This function renders the given text having emojis correctly because it uses a font that supports them. That font can't display anything in bold nor italic.
 #' 
 #' @param text the given text that contains emojis
+#' @param escape Do we need to double-escape because we call the function from a table generation function?
 #' 
 #' @returns the input text with the emoji font
-render_with_emojis <- function(text) {
-  return(paste("\\fontspec{Symbola}", text, "\\fontspec{DejaVu Serif}{}", sep = ""))
+render_with_emojis <- function(text, escape = FALSE) {
+  
+  if (escape) {
+    return(paste("\\\\fontspec{Symbola}", text, "\\\\fontspec{DejaVu Serif}{}", sep = ""))
+  } else {
+    return(paste("\\fontspec{Symbola}", text, "\\fontspec{DejaVu Serif}{}", sep = ""))
+  }
+
+}
+
+#' This function renders a reference to a page as it cannot be used in the web output.
+#' 
+#' @param reference the reference identifier
+#' 
+#' @returns the rendered page reference
+render_pageref <- function(reference) {
+  
+  if (knitr::is_html_output()) {
+    rendered_pageref <- ""
+  } else {
+    rendered_pageref <- paste(" $\\pageref{", reference, "}$", sep = "")
+  }
+
+  return(rendered_pageref)
 }
 
 #' This function colors text.
@@ -184,6 +315,30 @@ render_color <- function(color, text) {
 
 ```
 
-# Keemia
+# Sissejuhatus {-}
 
-Siia koondan oma keemiavaldkonna üllitised. Õigupoolest oli mul juba koht nende koondamiseks, aga ONLYOFFICE ei võimalda just mugavalt diagramme koostada, mida R ja LaTeX võimaldavad, mistõttu võtsin kasutusele RStudio. [Keemia eelmine keskkond](http://chemistry.tennis24.ee/), mis on tehtud RStudios, on koostatud ebaoptimaalselt, mistõttu pidasin tõhusamaks uue keskkonna nullist ehitamist, nii et see oleks optimaalselt tehtud.
+Olen peacecop kalmer: ning õpetan füüsikat Kohila Gümnaasiumis, füüsikat ja keemiat Edu Valemis. Oma oskused-teadmised olen süvitsi ammutanud alates 2021. a Tallinna Ülikoolis integreeritud loodusteadusi õppides ning neid annan edasi olles need vahepeal läbi oma aju töödelnud. Kuna nüüd aastas 2023 on mul esimene kord neid kaht teadust õpetada, siis loon iga kursuse nullist kaasates õppesse enda hinnangul võimalikult tõhusaid allikaid ja vahendeid. See konspekt siin kajastab iga kursuse sisu ja esitab muud seotud infot. Mõistagi täiendan igat sektsiooni vastavalt sellele, kuidas loomisprotsess edeneb.
+
+Leian, et tõhus on iga teema puhul käsitleda juppi teooriat, lahendada selle kohta hulganisti arvutusülesandeid ning kontrollides teooriat eksperimentaalselt, enne kui võtta ette järgmine jupp. Samuti peavad jupid olema üksteisega loogiliselt seotud. Iga järgmine jupp võib eeldada eelneva jupi valdamist. 
+
+Igal õpilasel soovitan kasutusele võtta *A4*-vormingus ruuduliste lehtedega kaustik, kuhu õpilane loob oma konspekti, st märgib üles kõik vajaliku ja kuhu lahendab ka ülesanded. Samuti on õpilasel vaja eri värvi füüsilisi kirjutusvahendeid ja geomeetriavahendeid. Kalkulaator on abiks keeruliste arvutuste puhul. Konspekti võib luua ka virtuaalselt, kui õpilasel on graafikatahvel. Sellisel juhul annan kasutusse minu halduses oleva virtuaaltahvlite keskkonna, et kõik virtuaalsed konspektid oleksid ühes kohas.
+
+Kuna iga kontaktsessioon on vaid 45 min pikk, siis teadmiste-oskuste kinnistamiseks on vajalik õpilasel lahendada hulganisti ülesandeid, lugeda, vaadata ja kuulata juurde väljaspool kontaktsessiooni.
+
+Põhiõpik, mida kasutan, on @atkins_2010_chemical. Selles on õpilase- ja õpetajasõbralik kujundus ja sisu. Õpik sisaldab hulganisti enesekontrolli küsimusi ja ülesandeid, millest osadele on esitatud lahend. Selle õpiku kasutamisega lõimin looduseuurimise õppesse inglise keelt. Ülesanded iseseisvaks harjutamiseks pärinevad sellest õpikust. See allikas on abiks, kuni ma oma kursuseid veel piisavalt valmis pole saanud, ja edaspidi täienduseks.
+
+Eesti keeles saab täiendavalt lugeda ka @yldkeemiakursus'st.
+
+[]{#my-name}
+
+Kuna õpilased on uurinud, miks mu nimi just selline on, siis selgitan.  Teatavasti nimed ei ole looduslikud, vaid inimeste konstrukt, ja mulle meeldib seda reeglistikku järgida. Leian, et nimi peaks olema igaühel unikaalne. Ühtlasi on igaühe enda asi, kuidas ta oma nime soovib näidata ja seda soovi tuleb austada. Igaüks saab ka ise endale sobiliku nime määrata kasvõi nõustudes kellegi muu poolt omistatud nimega.
+
+Mida suurem osakaal on suurtähtedel nimes, seda rohkem nimekandja oma õigusi ja vastutust delegeerib[@naturalperson]. Hauaplaadil, lennupiletil ja juhiloal, samuti ID-kaardil on kõik suurtähed. Viimasel kolmel juhul pole tegemist inimese, vaid isikuga, esimesel surnud keha nimetamisega.
+
+Vabaks ei ole vaja kuulutada. Samas, kuulutada ju võib, aga kas see teeb vabaks? Inimene ei saa mitte kunagi olla täiesti vaba. Keha alati sõltub ümbritsevast keskkonnast ja väga vähe on selliseid inimesi, kes hingena suudavad välistada endale keskkonna mõju. Oleme, nagu on viis inimest, kellega enim suhtleme. Nime kirjutusviisi puhul on pigem küsimus mitte vabaduses, vaid õigustes ja vastutuses.
+
+Kasutan oma nimekujus koolonit, mis tähendab soovi olla ka juriidiliselt sõltumatu. Nagu juba mainisin, siis täielikult suveräänne olla ei saa, kuid juriidiliselt saab. Selle kohta on mul tõesti endavalmistatud dokument, kuna mõni inimene on sunnitud küsima dokumenti. Suveräänil ei pea olema dokumente. Isikut saab tõendada dokumentaalselt, aga et ma olen inimene, seda vist pole vaja tõestada. Tõendust vajatakse ikka isiku kohta.
+
+Mõni aasta tagasi leidis vastuseid hõlpsasti, aga järjepanu neid vastuseid eemaldati. Selleks ajaks olin enda jaoks juhtmõtte piisavalt selgeks teinud. Eesti inimestel kipub jah olema, et kas osatakse inglise keelt või vene keelt, mõlema oskajaid on üsna vähe. Kui sa valdad vene keelt, siis leiad ka selles keeles hullult palju infot, aga tuleb täheldada, et šarlatane on sõltumata keeleoskusest ja tuleb osata välja lugeda enda jaoks tõest teavet. Nimelt paljuski loodavad inimesed, kes oma eluga ise hakkama ei saa, lihtsatele lahendustele, et umbes kuulutada end vabaks ja kohtutäitur ei võta korterit ära. Nii see ei toimi. Tuleb pühenduda ja aru saada ümbritsevast keskkonnast ning hästi oluline on mitte tegutseda pelgalt kellegi muu järgi, vaid minna oma teed, sest ainult nii suudetakse põhjendada, miks midagi tehakse. Muidu oleks ka vastuolu: kirjutatakse nimi küll väikeselt, aga ikkagi elatakse kellegi muu järgi.
+
+Eesti suhtes avalikult teatamiseks loetakse vähemalt üle-Eestilises avalikus väljaandes teatamist. Kui väljaanne on saadaval Interneti kaudu, siis on tegemist lausa globaalse teadaandega. Mina olen seda teinud Harku Valla Teatajas[@lk, lk 4]  ja Õhtulehes[@jrgmine].

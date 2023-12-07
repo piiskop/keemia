@@ -3,7 +3,16 @@ new_session: false
 delete_merged_file: true
 rmd_files: [
   "index.Rmd",
+  "rmd/hindamine.Rmd",
+  "rmd/soovitusi-õppimiseks.Rmd",
+  "rmd/baasreeglistik/baasreeglistik.Rmd",
+  "rmd/keemia-alused.Rmd",
   "rmd/formulas.Rmd",
   "rmd/phone.Rmd",
+  "rmd/mõõtmiseksperiment.Rmd",
   "references.Rmd"
 ]
+language:
+  label:
+    fig: 'Joonis '
+    

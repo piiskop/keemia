@@ -1,0 +1,231 @@
+# Keemia alused
+
+## Sissejuhatus
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+
+1. valdab ettekujutust keemia ajaloolisest arengust;
+
+2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
+
+### Õppesisu
+
+Keemia kui teaduse kujunemine. Füüsikalised ja keemilised uurimismeetodid keemias. Keemiaga seotud karjäärivalikud.
+
+### Põhimõisted
+
+keemiline analüüs, kvalitatiivne analüüs, kvantitatiivne analüüs, keemiline süntees
+
+### Praktilised tööd ja IKT rakendamine
+
+Õppekäik keemiaga seotud ettevõttesse, õppeasutusse vms.
+
+## Aine ehitus
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+
+1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral);
+
+2. selgitab A-rühmade elementide metallilisuse ja mittemetallilisuse muutumist perioodilisustabelis seoses aatomi ehituse muutumisega; 
+
+3. määrab A-rühmade keemiliste elementide maksimaalseid ja minimaalseid oksüdatsiooniastmeid elemendi asukoha järgi perioodilisustabelis ning koostab elementide tüüpühendite valemeid;
+
+4. selgitab tüüpiliste näidete varal kovalentse, ioonilise, metallilise ja vesiniksideme olemust;
+
+5. hindab kovalentse sideme polaarsust, lähtudes sidet moodustavate elementide asukohast perioodilisustabelis;
+
+6. kirjeldab ning hindab keemiliste sidemete ja molekulide vastastiktoime (ka vesiniksideme) mõju ainete omadustele.
+
+## Õppesisu
+
+1. Tänapäevane ettekujutus aatomi ehitusest.
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+3. Keemilise sideme liigid.
+
+4. Vesinikside.
+
+5. Molekulidevahelised jõud.
+
+6. Ainete füüsikaliste omaduste sõltuvus aine ehitusest. 
+
+### Põhimõisted
+
+aatomorbitaal
+:
+
+mittepolaarne kovalentne side
+:
+
+polaarne kovalentne side
+:
+
+osalaeng
+:
+
+vesinikside
+:
+
+### Praktilised tööd ja IKT rakendamine
+
+Lihtsamate molekulide struktuuri uurimine ja võrdlemine molekulimudelite või arvutiprogrammidega.
+
+## Miks ja kuidas toimuvad keemilised reaktsioonid 
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+
+1. seostab keemilist reaktsiooni aineosakeste üleminekuga püsivamasse olekusse;
+
+2. selgitab keemiliste reaktsioonide soojusefekte, lähtudes keemiliste sidemete tekkimisel ja lagunemisel esinevatest energiamuutustest;
+
+3. analüüsib keemilise reaktsiooni kiirust mõjutavate tegurite toimet ning selgitab keemiliste protsesside kiiruse muutmist argielus;
+
+4. mõistab, et pöörduvate reaktsioonide puhul tekib vastassuunas kulgevate protsesside vahel tasakaal, ning toob sellekohaseid näiteid argielust ja tehnoloogiast.
+
+### Õppesisu
+
+1. Keemilise reaktsiooni aktiveerimisenergia, aktiivsed põrked.
+
+2. Ekso- ja endotermilised reaktsioonid.
+
+3. Keemilise reaktsiooni kiirus, seda mõjutavad tegurid.
+
+4. Keemiline tasakaal ja selle nihkumine (Le Chatelier’ printsiibist tutvustavalt). 
+
+### Põhimõisted
+
+reaktsiooni aktiveerimisenergia
+:
+
+reaktsiooni soojusefekt
+:
+
+reaktsiooni kiirus
+:
+
+katalüsaator
+:
+
+katalüüs
+:
+
+pöörduv reaktsioon
+:
+
+pöördumatu reaktsioon
+:
+
+keemiline tasakaal
+:
+
+### Praktilised tööd ja IKT rakendamine
+
+1. Keemilise reaktsiooni kiirust mõjutavate tegurite toime uurimine;
+
+2. keemilise reaktsiooni soojusefekti uurimine;
+
+3. auto heitgaaside katalüsaatori tööpõhimõtte selgitamine internetimaterjalide põhjal;
+
+4. keemilise tasakaalu nihkumise uurimine sh arvutimudeli abil.
+
+## Lahustumisprotsess, keemilised reaktsioonid lahustes
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+
+1. kirjeldab lahuste teket (iooniliste ja kovalentsete ainete korral);
+
+2. eristab elektrolüüte ja mitteelektrolüüte ning tugevaid ja nõrku elektrolüüte;
+
+3. selgitab happe ja aluse mõistet protolüütilise teoora põhjal;
+
+4. oskab arvutada molaarset kontsentratsiooni;
+
+5. koostab ioonidevaheliste reaktsioonide võrrandeid (molekulaarsel ja ioonsel kujul);
+
+6. hindab ning põhjendab ainete vees lahustumise korral lahuses tekkivat keskkonda.
+
+### Õppesisu 
+
+1. Ainete lahustumisprotsess.
+
+2. Elektrolüüdid ja mitteelektrolüüdid; tugevad ja nõrgad elektrolüüdid.
+
+3. Hapete ja aluste protolüütiline teooria.
+
+4. Molaarne kontsentratsioon (tutvustavalt).
+
+5. Ioonidevahelised reaktsioonid lahustes, nende kulgemise tingimused.
+
+6. pH.
+
+7. Keskkond hüdrolüüsuva soola lahuses.
+
+### Põhimõisted
+
+hüdraatumine
+:
+
+elektrolüüt
+:
+
+mitteelektrolüüt
+:
+
+tugev elektrolüüt
+:
+
+nõrk elektrolüüt
+:
+
+hape
+:
+
+alus
+:
+
+molaarne kontsentratsioon
+:
+
+soola hüdrolüüs
+:
+
+### Praktilised tööd ja IKT rakendamine
+
+1. Lahustumise soojusefektide uurimine;
+
+2. erinevate lahuste elektrijuhtivuse võrdlemine (pirni heleduse või Vernier’ anduriga);
+
+3. nõrkade ja tugevate hapete ning aluste pH ja elektrijuhtivuse võrdlemine;
+
+4. ioonidevaheliste reaktsioonide toimumise uurimine;
+
+5. erinevate ainete vesilahuste keskkonna (lahuste pH) uurimine;
+
+6. lahuse kontsentratsiooni määramine tiitrimisel (nt vee mööduva kareduse määramine, leelise kontsentratsiooni määramine puhastusvahendis või happe kontsentratsiooni määramine akuhappes vms).
+
+## Kalender
+
+### 2023-12-07
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+1. Sissejuhatus.
+
+2. Eelnevalt õpitu kordamine: tutvustus ja orienteerumine, aine ja energia[@atkins_2010_chemical(lk F1-F13)].
+
+3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)].
+
+4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].

@@ -1,0 +1,165 @@
+# Mõõtmiseksperiment
+
+## Eesmärk
+
+Õpilasel on selge, kuidas praktiliselt rakendada mõõtemääramatust ja -viga. Õpetajal on kogenud, kuidas õpilased mõõtemääramatuse ja -vea praktilistes tegevustes edenevad.
+
+## Sisu
+
+Õpilased tegutsevad paarikaupa või kolmekesi. Ühekorraga on üks õpilasrühm ühes jaamas. Jaamad:
+
+1. Mõõtkavadega joonlaud.
+
+2. Nihik.
+
+3. Nurgamõõtja.
+
+4. Valgustugevuse mõõtja.
+
+5. Vere hapnikusisalduse mõõtja.
+
+6. Pulsimõõtja.
+
+7. Temperatuuri analoogmõõtja.
+
+8. Temperatuuri digitaalmõõtja.
+
+9. Kompass.
+
+10. Väike voltmeeter.
+
+11. Suur voltmeeter.
+
+12. Tavaline joonlaud.
+
+Jaamas oleva mõõtmisvahendiga tuleb teostada mõõtmine või mõõtmised ning täheldada sõltuvalt mõõtevahendist oma konspekti järgmised andmed:
+
+1. Mõõtevahend.
+
+2. Kas digitaalne või analoogne?
+
+3. Mõõtevahendi kohta tootja poolt esitatud mõõtmistäpsus.
+
+4. Mõõtevahendi väikseim ühik.
+
+5. Mida mõõdeti?
+
+6. Mõõtmise tulemusväärtus ühe mõõtmise korral või -väärtused kaheksa mõõtmise korral.
+
+7. A-tüüpi mõõtemääramatus.
+
+8. B-tüüpi mõõtemääramatus.
+
+9. Kogu mõõtemääramatus.
+
+10. Mõõtmistulemus koos mõõtemääramatusega täielikult.
+
+11. Suhteline mõõtemääramatus.
+
+12. Mõõtmistulemus koos suhtelise mõõtemääramatusega.
+
+13. Mõõtmistulemuse võimalik vahemik.
+
+14. Graafik mõõtmistulemuse keskväärtuse ja mõõtemääramatuse piiridega, mitme mõõtmise puhul ka kõik mõõtmistulemused.
+
+15. Mõõteviga.
+
+\onecolumn
+
+## Mõõtmisraport
+
+### Mõõtevahend
+
+#### Milline mõõtevahend?
+
+\vspace{0.3\textheight}
+
+#### Kas digitaalne või analoogne?
+
+\vspace{0.3\textheight}
+
+#### Mõõtevahendi tootjapoolne mõõtetäpsus
+
+\vspace{0.3\textheight}
+
+#### Väikseim ühik
+
+\vspace{0.3\textheight}
+
+### Mõõtmine
+
+#### Mida mõõtsin?
+
+\vspace{0.3\textheight}
+
+#### Väljamõõdetud väärtus
+
+\vspace{0.3\textheight}
+
+#### A-tüüpi mõõtemääramatus
+
+```{r label = "measuring-uncertainty-A", echo=FALSE}
+x <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  7,
+  ""
+)
+
+data_frame_of_uncertainty_A <- data.frame(
+  x
+)
+
+colnames(data_frame_of_uncertainty_A) <- c(
+  "$\\frac{x}{}$"
+)
+
+rownames(data_frame_of_uncertainty_A) <- c(
+	"1.",
+	"2.",
+	"3.",
+	"4.",
+	"5.",
+	"6.",
+	"7.",
+	"$\\sum_{i = 1}^n{x}$",
+	"$n$",
+	"$\\bar{x}$"
+)
+
+print_table(
+  caption = "A-tüüpi mõõtemääramatuse arvutamine.",
+  table = data_frame_of_uncertainty_A
+)
+
+```
+
+
+#### B1-tüüpi mõõtemääramatus
+
+\twocolumn
+
+## Tegevused jaamati
+
+### Mõõtkavadega joonlaud
+
+Õpilane teeb mõõdistuse nii kaardil @virmalise3pdf kui @faili. Õpilane loeb kaardilt välja mõõtkava, valib vastavalt sellele mõõtkavadega joonlaua skaala ja asub mõõtma. @virmalise3pdf'l mõõdab õpilane suvalise skeemil tervenisti näha oleva lõigu pikkuse. @faili'l mõõdab õpilane aia detaili pikkuse ja kõrguse. Arvutada tuleb aiaosa pindala ja vastav mõõtemääramatus ning esitada tulemus. Kontrollida tuleb aia pikkust või kõrgust joonisel oleva suhtes esitades mõõtevea.
+
+\newpage
+
+### Nihik
+
+Õpilane mõõdab nihikuga oma nimetissõrme jämeduse. Selleks lülitab nihiku sisse vajutades *ON*-nupule. Kui näit erineb nullist, tuleb vajutada *ZERO*. Järgmisena tuleb nuppude juures all paremas servas oleva eenduse alla panna pöial ja nihutada plastikkarpi, mille tulemusel tekib metallribade vahele ava. Sinna avausse tuleb pista sõrm ja nihutada plastikkarpi, nii et sõrm oleks tihedalt mõlema metallriba vahel. Märkida üles näit! Korrata katset seitse korda vabastades iga kord sõrme ja alustades algusest vajadusel nullides näidu, nii et lõpuks oleks tehtud kaheksa katset!
+
+\newpage
+
+### Voltmeeter
+
+Mõõta tuleb nii tühjenenud kui tühjenemata patareid, sest viimase puhul on võimalik arvutada mõõteviga.
+

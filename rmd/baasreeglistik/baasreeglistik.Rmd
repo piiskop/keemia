@@ -1,0 +1,2141 @@
+# Baasreeglistik
+
+## Mõõtmine
+
+Mõõtmise jaoks tuleb järjest endale selgeks teha kõik osad, mis on esitatud joonisel \@ref(fig:activities-of-learning-measuring) leheküljel `r render_pageref(reference = "fig:activities-of-learning-measuring")`. Nende seas mõõtemääramatuse otsustusskeem on esitatud joonisel \@ref(fig:activities-of-learning-uncertainty) leheküljel `r render_pageref(reference = "fig:activities-of-learning-uncertainty")`.
+
+\onecolumn
+
+```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused.", out.height="96%"}
+include_external_graphics("rmd/baasreeglistik/physics-measuring.svg")
+
+```
+
+```{r label = "activities-of-learning-uncertainty", echo=FALSE, fig.cap = "Mõõtemääramatuse otsustamine.", out.height="96%"}
+include_external_graphics("rmd/baasreeglistik/physics-uncertainty.svg")
+
+```
+
+Mõõtemääramatust on üldjoontes kaht tüüpi: A ja B.
+
+Mõõtesüsteemi varieeruvusest annab ülevaate joonis 15 [@jcgm_gum_6_2020pdf(lk 83)].
+
+\twocolumn
+
+## Suhteline viga
+
+Suhteline viga näitab väljamõõdetud ja aktsepteeritud väärtuse erinevuse suhet aktsepteeritud väärtusse (valem \@ref(eq:relative-error) leheküljel `r render_pageref(reference = "eq:relative-error")`).
+
+\begin{align}
+R = \frac{|\text{väärtus}_\text{aktsepteeritud} - \text{väärtus}_\text{mõõdetud}|}{\text{väärtus}_\text{aktsepteeritud}}
+(\#eq:relative-error)
+\end{align}
+
+## Pythagorase teoreem:
+
+Pythagorase teoreem on esitatud avaldisena \@ref(eq:pythagorean) leheküljel `r render_pageref(reference = "eq:pythagorean")`.
+
+```{=tex}
+\begin{equation}
+|c| = \sqrt{|kaatet_2|^2 + |kaatet_2|^2}
+(\#eq:pythagorean)
+\end{equation}
+```
+
+\onecolumn
+
+## Aeg ja selle talitlused
+
+### Aeg
+
+```{r label = "delta-nu-cs", echo=FALSE}
+delta_nu_cs <- 9192631770
+
+```
+
+$\ce{^133Cs}$ aatomi häirimatu põhioleku hüperpeensiirdesageduse fikseeritud arvväärtus:
+
+```{=tex}
+\begin{align}
+\Delta(\nu_\text{Cs}) = 9 192 631 770 \frac{1}{\mathrm{s}}
+(\#eq:delta-nu-cs)
+\end{align}
+
+```
+
+[@bureau_1974_the(lk 130)].
+
+Avaldan avaldisest \@ref(eq:delta-nu-cs) sekundi:
+
+```{=tex}
+\begin{align}
+\mathrm{s} = \frac{9 192 631 770}{\Delta(\nu_\text{Cs})}
+(\#eq:second)
+\end{align}
+
+```
+
+Aja mõõtühik Système Internationale's on sekund.
+
+sekund
+: kestus 9 192 631 770 kiirgusperioodi, mis vastab $\ce{^133Cs}$ aatomi häirimatu põhiseisundi kahe ülipeene taseme vahelisele üleminekule
+
+Aasta keskmine päevade kogus on esitatud avaldises \@ref(eq:days-year) leheküljel `r render_pageref(reference = "eq:days-year")`.
+
+```{r label = "days_in_year", echo=FALSE}
+DAYS_IN_YEAR <- (365 * (9 * 76 + 75) + 366 * (9 * 24 + 25)) / 1000
+
+```
+
+\begin{align}
+\overline{\frac{days}{year}} = \frac{\num{365} \times (\num{9} \times \num{76} + \num{75}) + \num{366} \times (\num{9} \times \num{24} + \num{25})}{1000} = \num{`r as.character(DAYS_IN_YEAR)`}
+(\#eq:days-year)
+\end{align}
+
+### Vahemaa
+
+Valguse kiirus vaakumis on esitatud avaldisena \@ref(eq:speed-of-light-in-vacuum) leheküljel `r render_pageref(reference = "eq:speed-of-light-in-vacuum")`:
+
+```{r label = "speed-of-light", echo=FALSE}
+speed_of_light_in_vacuum <- 299792458
+delta_nu_cs_over_speed_of_light_in_vacuum_over <- delta_nu_cs / speed_of_light_in_vacuum
+reciprocal_of_speed_of_light_in_vacuum <- 1 / speed_of_light_in_vacuum
+
+```
+
+```{=tex}
+\begin{align}
+c = \qty{`r as.character(speed_of_light_in_vacuum)`}{\m\per\s}.
+(\#eq:speed-of-light-in-vacuum)
+\end{align}
+
+```
+
+[@bureau_1974_the(lk 127)].
+
+Avaldan valguskiiruse vaakumis valemist \@ref(eq:speed-of-light-in-vacuum) leheküljel `r render_pageref(reference = "eq:speed-of-light-in-vacuum")` meetri ning asendan sekundi avaldisest \@ref(eq:second), et saada meetri valem \@ref(eq:meter) leheküljel `r render_pageref(reference = "eq:meter")`.
+
+```{=tex}
+\begin{align}
+\mathrm{m} = \frac{c \mathrm{s}}{`r speed_of_light_in_vacuum`} = \frac{c \times \frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}{`r speed_of_light_in_vacuum`} = \frac{`r delta_nu_cs_over_speed_of_light_in_vacuum_over` \times c}{\Delta(\nu_\text{Cs})}.
+(\#eq:meter)
+\end{align}
+
+```
+
+Vahemaa mõõtühik Système Internationale's on meeter.
+
+meeter
+: vahemaa, mille valgus läbib vaakumis `r reciprocal_of_speed_of_light_in_vacuum` sekundi kestel
+
+Asukoha vektor on esitatud avaldises \@ref(eq:r) leheküljel `r render_pageref(reference = "eq:r")`, milles
+
+$x$, $y$ ja $z$
+: Descartes'i ruumi koordinaadid [@haynes_2014_crc(lk 2-1)]
+
+```{=tex}
+\begin{align}
+\vec{r} := x \cdot \vec{i} + y \cdot \vec{j} + z \cdot \vec{k},
+(\#eq:r)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-for-r) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-r")` ja sellest johtuvalt on ühik $\unit{\m}$.
+
+```{=tex}
+\begin{align}
+\mathrm{L}.
+(\#eq:dimensional-analysis-for-r)
+\end{align}
+
+```
+
+Maa keskmine raadius:
+
+```{r}
+RADIUS_EARTH <- 6.371E6
+```
+
+Ringjoone pikkus:
+
+```{=tex}
+\begin{equation}
+pikkus_{ringjoon} = 2 \cdot \pi \cdot raadius
+(\#eq:length-of-circle)
+\end{equation}
+```
+
+### Tasapinna nurk
+
+Tasapinna nurk on selle nurga haarade vahelise kaare ja haara pikkuse nurgast kaareni suhe (valem \@ref(eq:plane-angle) leheküljel `r render_pageref(reference = "eq:plane-angle")`[@haynes_2014_crc(lk 2-1)]).
+
+```{=tex}
+\begin{align}
+\alpha = \frac{s}{r},
+(\#eq:plane-angle)
+\end{align}
+
+```
+
+milles
+
+$s$
+: nurga haarade vahelise kaare pikkus
+
+$r$
+: nurga haara pikkus nurgast kaareni
+
+Dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-of-plane-angle) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-plane-angle")` ja sellest johtuvalt on ühik \num{1} või  \unit{\radian}.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L}{L}} = 1.
+(\#eq:dimensional-analysis-of-plane-angle)
+\end{align}
+
+```
+
+Tõusunurga arvutamise valem on \@ref(eq:tangent-angle) leheküljel `r render_pageref(reference = "eq:tangent-angle")`.
+
+```{=tex}
+\begin{equation}
+\alpha = \mathrm{atan}(\frac{\text{nihe}_\text{vertikaalne}}{\Delta(x)})
+(\#eq:tangent-angle)
+\end{equation}
+```
+
+Nurgateisendus kraadidest radiaanidesse on esitatud valemine \@ref(eq:angle-from-degrees-to-radians) leheküljel `r render_pageref(reference = "eq:angle-from-degrees-to-radians")`.
+
+```{=tex}
+\begin{equation}
+\text{nurk}_\text{rad} = \frac{\text{nurk°} \cdot \pi}{180°}
+(\#eq:angle-from-degrees-to-radians)
+\end{equation}
+```
+
+Koosinusteoreem on esitatud avaldisena \@ref(eq:cosine-theorem) leheküljel `r render_pageref(reference = "eq:cosine-theorem")`.
+
+```{=tex}
+\begin{equation}
+|a| =\\
+\sqrt{|b|^2 + |c|^2 - 2 \cdot |b| \cdot |c| \cdot \mathrm{cos}(\text{nurk}_{b, c})}
+(\#eq:cosine-theorem)
+\end{equation}
+
+```
+
+\twocolumn
+
+### Kiirus
+
+#### Vahemaa kiirus
+
+kiirus
+: vahemaa muutumise määr ajas [@haynes_2014_crc(lk 2-67)]
+
+Kiiruse vektor on väljendatud valemiga \@ref(eq:velocity) leheküljel `r render_pageref(reference = "eq:velocity")`[@haynes_2014_crc(lk 2-1)].
+
+```{=tex}
+\begin{align}
+\vec{v} = \frac{\mathrm{d}(\vec{r})}{\mathrm{d}(t)},
+(\#eq:velocity)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena  \@ref(eq:dimensional-analysis-for-velocity) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-velocity")` ja sellest johtuvalt on ühik $\unit{\m\per\s}$.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L}{T}}.
+(\#eq:dimensional-analysis-for-velocity)
+\end{align}
+
+```
+
+[]{#speed}
+
+Suunast sõltumatu kiirus on esitatud valemis \@ref(eq:speed) leheküljel `r render_pageref(reference = "eq:speed")`.
+
+```{=tex}
+\begin{align}
+v = |\vec{v}|.
+(\#eq:speed)
+\end{align}
+
+```
+
+#### Nurkkiirus
+
+nurkkiirus
+: nurk, mille võrra keha ajaühikus pöörleb[@haynes_2014_crc(lk 2-45)]
+
+Nurkkiiruse valem on \@ref(eq:angular-velocity) leheküljel `r render_pageref(reference = "eq:angular-velocity")`[@haynes_2014_crc(lk 2-1)].
+
+```{=tex}
+\begin{align}
+\omega = \frac{\mathrm{d}(\beta)}{\mathrm{d}(t)}.
+(\#eq:angular-velocity)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-angular-velocity) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-angular-velocity")` ja sellest johtuvalt on ühik \unit{\per\s} või \unit{\radian\per\s}.
+
+```{=tex}
+\begin{align}
+\frac{1}{\mathrm{T}}.
+(\#eq:dimensional-analysis-of-angular-velocity)
+\end{align}
+
+```
+
+Asendan nurkkiiruse valemisse \@ref(eq:angular-velocity) leheküljel `r render_pageref(reference = "eq:angular-velocity")` nurga valemi \@ref(eq:plane-angle) leheküljel `r render_pageref(reference = "eq:plane-angle")` ja seejärel kiiruse vektori ehk antud juhul tangentsiaalkiiruse valemi \@ref(eq:velocity) leheküljel `r render_pageref(reference = "eq:velocity")` ning saan nurkkiiruse arvutamise reegli tangentsiaalkiiruse ja raadiuse kaudu \@ref(eq:angular-velocity-by-tangential-velocity) leheküljel `r render_pageref(reference = "eq:angular-velocity-by-tangential-velocity")`.
+
+```{=tex}
+\begin{align}
+\omega = \frac{\frac{\mathrm{d}(s)}{r}}{\mathrm{d}(t)} = \frac{v}{r}.
+(\#eq:angular-velocity-by-tangential-velocity)
+\end{align}
+
+```
+
+\onecolumn
+
+### Kiirendus
+
+#### Vahemaa kiirendus
+
+kiirendus
+: kiiruse muutumise kiirus aja suhtes [@haynes_2014_crc(lk 2-44)]
+
+Kiirenduse vektori valem on \@ref(eq:a) leheküljel `r render_pageref(reference = "eq:a")`. Selles on esitatud järgnevad eelnevalt defineerimata muutujad:
+
+$\vec{v}$
+: kiiruse vektor
+
+$t$
+: kestus [@haynes_2014_crc(lk 2-2)]
+
+```{=tex}
+\begin{align}
+\vec{a} = \frac{\mathrm{d}(\vec{v})}{\mathrm{d}(t)},
+(\#eq:a)
+\end{align}
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-a) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-a")`. Seetõttu on ühik $\unit{\m\per\s\squared}$.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{L}{T}}{T} = \frac{L}{T^2}},
+(\#eq:dimensional-analysis-for-a)
+\end{align}
+```
+
+Avaldan valemist \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` aja keskmise kiirenduse ja püsikiirenduse korral valemina \@ref(eq:time-on-constant-acceleration) leheküljel `r render_pageref(reference="eq:time-on-constant-acceleration")`. Selles on esitatud järgnevad eelnevalt defineerimata muutujad:
+
+$\overrightarrow{v(0)}$
+: algkiiruse vektor
+
+$\overrightarrow{a(0)}$
+: alg- ehk püsikiirenduse vektor
+
+```{=tex}
+\begin{align}
+t = \frac{\vec{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}}.
+(\#eq:time-on-constant-acceleration)
+\end{align}
+
+```
+
+Joonisel \@ref(fig:cities) leheküljel `r render_pageref(reference = "fig:cities")` on näidatud gravitatsioonist põhjustatud kiirendus eri piirkondades Maal.
+
+(ref:caption-for-cities) Gravitatsioonist põhjustatud kiirendus eri Maa paigus[@elert_2019_glenn].
+
+```{r label = "cities", echo = FALSE, fig.cap = "(ref:caption-for-cities)", echo = FALSE, out.extra="angle = 90", out.width=".92\\textheight"}
+include_external_graphics("rmd/baasreeglistik/g.png")
+
+```
+
+```{r label = "g"}
+g <- 9.8
+g_Tallinn <- 9.82
+
+```
+
+"The value 9.806 m/s2 is midway between these two extremes, so it's sort of true to say that…
+
+g = 9.806 ± 0.026 m/s2
+
+This is not the same thing as an average, however. For that, use this value that someone else derived…
+
+g = 9.798 m/s2
+
+Here are my suggestions. Use the value of 9.8 m/s2 with two significant digits for calculations on the surface of the Earth unless a value of gravity is otherwise specified. That seems reasonable. Use the value of 9.80665 m/s2  [@haynes_2014_crc, p. 2-44, 14-11] with six significant digits only when you want to convert m/s2 to g. That is the law."
+
+Selline valem kehtib objekti kohta, mis on täpselt Maa pinnal. Kui see asub pinna sees või selle kohal, siis tuleb kasutada sellist valemit:
+
+$$g = G * \frac{m}{(r + h) ^ 2},$$
+
+kus *g* on gravitatsioonikiirendus, *G* on gravitatsioonikonstant, *m* on Maa mass, *r* on Maa raadius, *h* on kõrgus Maa pinnast.
+
+\twocolumn
+
+#### Nurkkiirendus
+
+Nurkkiirenduse arvutamise valem on \@ref(eq:angular-acceleration) leheküljel `r render_pageref(reference = "eq:angular-acceleration")`[@giancoli_2014_physics(lk 201)].
+
+```{=tex}
+\begin{align}
+\alpha = \frac{\mathrm{d}(\omega)}{\mathrm{d}(t)}.
+(\#eq:angular-acceleration)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-angular-acceleration) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-angular-acceleration")` ja sellest johtuvalt on ühik \unit{\per\s\squared}.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{1}{T}}{T} = \frac{1}{T^2}}.
+(\#eq:dimensional-analysis-of-angular-acceleration)
+\end{align}
+
+```
+
+Kui asendan nurkkiirenduse põhivalemisse \@ref(eq:angular-acceleration) leheküljel `r render_pageref(reference = "eq:angular-acceleration")` nurkkiiruse selle valemist \@ref(eq:angular-velocity-by-tangential-velocity) leheküljel `r render_pageref(reference = "eq:angular-velocity-by-tangential-velocity")` tangentsiaalkiiruse kaudu ja tangentsiaalkiirenduse valemist \@ref(eq:a) leheküljel `r render_pageref(reference = "eq:a")`, saan nurkkiirenduse arvutamise reegli tangentsiaalkiiruse kaudu \@ref(eq:angular-acceleration-by-tangential-velocity) leheküljel `r render_pageref(reference = "eq:angular-acceleration-by-tangential-velocity")`
+
+```{=tex}
+\begin{align}
+\alpha = \frac{\frac{\mathrm{d}(v)}{r}}{\mathrm{d}(t)} = \frac{a}{r}.
+(\#eq:angular-acceleration-by-tangential-velocity)
+\end{align}
+
+```
+
+```{=tex}
+\begin{equation}
+a_c = \frac{v^2}{r}
+(\#eq:centripetal-acceleration)
+\end{equation}
+```
+
+[@edsarx.1602.0636120160101, p. 2]
+
+### Jõnks
+
+jõnks
+: kiirenduse muut ajas[@thompson_snap(lk 2)] (avaldis \@ref(eq:jerk) leheküljel `r render_pageref(reference = "eq:jerk")`)
+
+```{=tex}
+\begin{align}
+w(t) = \frac{\frac{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}}{\mathrm{d}(t)}}{\mathrm{d}(t)} = \frac{\frac{\mathrm{d}(v)}{\mathrm{d}(t)}}{\mathrm{d}(t)} = \frac{\mathrm{d}(a(t))}{\mathrm{d}(t)}
+(\#eq:jerk)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-of-jerk) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-jerk")` ja sellest johtuvalt on ühik \unit{\m\per\s\cubed}.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{L}{T^2}}{T} = \frac{L}{T^3}}.
+(\#eq:dimensional-analysis-of-jerk)
+\end{align}
+
+```
+
+### Tuletused muutumatust jõnksust
+
+#### Kiirendus püsiva jõnksu kaudu
+
+Kiirenduse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näidatud seostes \@ref(eq:acceleration-by-jerk-with-integration-constants) leheküljel `r render_pageref(reference = "eq:acceleration-by-jerk-with-integration-constants")`[@a2016_38].
+
+```{=tex}
+\begin{align}
+\int{w(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(a(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
+w(t) \cdot t + C &= a(t) + D,\\
+w(t) \cdot t + C - D &= a(t),
+(\#eq:acceleration-by-jerk-with-integration-constants)
+\end{align}
+
+```
+
+milles
+
+$C$, $D$
+: integreerimiskonstandid
+
+Näitan avaldises \@ref(eq:initial-acceleration) leheküljel `r render_pageref(reference = "eq:initial-acceleration")`, milline on kiirenduse funktsioon alghetkel.
+
+```{=tex}
+\begin{align}
+a(0) = w(0) \cdot 0 + C - D = C - D.
+(\#eq:initial-acceleration)
+\end{align}
+
+```
+
+Asendan algkiirenduse avaldisest \@ref(eq:initial-acceleration) leheküljel `r render_pageref(reference = "eq:initial-acceleration")` integreerimiskonstandid kiirenduse funktsiooni avaldisse \@ref(eq:acceleration-by-jerk-with-integration-constants) leheküljel `r render_pageref(reference = "eq:acceleration-by-jerk-with-integration-constants")` saades lõpliku kiirendusfunktsiooni \@ref(eq:acceleration-at-constant-jerk) leheküljel `r render_pageref(reference = "eq:acceleration-at-constant-jerk")` tingimusel, et jõnks on muutumatu.
+
+```{=tex}
+\begin{align}
+a(t) = w(t) \cdot t + a(0).
+(\#eq:acceleration-at-constant-jerk)
+\end{align}
+
+```
+
+\onecolumn
+
+#### Kiirus püsiva jõnksu kaudu
+
+Kiiruse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näidatud seostes \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference = "eq:speed-by-jerk")` kasutades kiirenduse valemit kiiruse kaudu \@ref(eq:a) leheküljel `r render_pageref(reference = "eq:a")` ja kiirenduse valemit jõnksu kaudu \@ref(eq:acceleration-at-constant-jerk) leheküljel `r render_pageref(reference = "eq:acceleration-at-constant-jerk")`, kusjuures *E* ja *F* on suvalised reaalarvud.
+
+```{=tex}
+\begin{align}
+\int{a(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
+\int{w(t) \cdot t + a(0)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
+\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + E &= v(t) + F,\\
+\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0) &= v(t).
+(\#eq:speed-by-jerk)
+\end{align}
+
+```
+
+#### Vahemaa pikkus püsiva jõnksu kaudu
+
+Tee pikkuse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näidatud seostes \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference = "eq:path-length-by-jerk")` kasutades kiiruse valemit tee pikkuse kaudu \@ref(eq:velocity) leheküljel `r render_pageref(reference = "eq:velocity")` ja kiiruse valemit muutumatu jõnksu kaudu \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference = "eq:speed-by-jerk")`, kusjuures *G* ja *H* on suvalised reaalarvud.
+
+```{=tex}
+\begin{align}
+\int{v(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}} \cdot \mathrm{d}(t), \\
+\int{\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \\
+\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \\
+\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + r(0) &= r(t)
+(\#eq:path-length-by-jerk)
+\end{align}
+
+```
+
+#### Nihe kiiruste ja püsikiirenduse kaudu
+
+Kuna püsikiirenduse puhul jõnksu pole, lihtsustub valem \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` jõnksukomponendi võrra ja kui sellesse asendada aeg vastavast valemist \@ref(eq:time-on-constant-acceleration) leheküljel `r render_pageref(reference="eq:time-on-constant-acceleration")`, saan tuletada seose püsikiirenduse, kiiruste ja nihke vahel (avaldised \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`).
+
+```{=tex}
+\begin{align}
+\frac{a(0) \cdot (\frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}})^2}{2} + \overrightarrow{v(0)} \cdot \frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{\overrightarrow{v}^2 - 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v} + \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + \frac{\overrightarrow{v(0)} \cdot \overrightarrow{v} - \overrightarrow{v(0)}^2}{\overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{\overrightarrow{v}^2 \cancel{- 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} + \overrightarrow{v(0)}^2 \cancel{+ 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} - 2 \cdot \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{\overrightarrow{v}^2 - \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} &= r - r(0).
+(\#eq:constant-acceleration-via-velocities-and-displacement)
+\end{align}
+
+```
+
+[]{#mass}
+
+## Mass
+
+mass
+: aine kogus [@haynes_2014_crc(lk 2-58)]
+
+mass
+: vastupidavus kiirendusele
+
+Plancki konstant:
+
+```{r label = "planck-constant"}
+h <- 6.62607015e-34
+scalar_of_kg <- delta_nu_cs / h / delta_nu_cs_over_speed_of_light_in_vacuum_over^2
+
+```
+
+```{=tex}
+\begin{align}
+h = 6,626 070 15 \times 10^{-34} \mathrm{\frac{kg \times m^2}{s}}
+(\#eq:planck-constant)
+\end{align}
+
+```
+
+[@bureau_1974_the(lk 131)].
+
+Avaldan avaldisest \@ref(eq:planck-constant) leheküljel `r render_pageref(reference = "eq:planck-constant")` kilogrammi avaldisena \@ref(eq:kilogram) leheküljel `r render_pageref(reference = "eq:kilogram")`.
+
+```{=tex}
+\begin{align}
+\mathrm{kg} &= \frac{h}{\num{`r as.character(h)`}} \unit{\s\per\meter\squared} = \frac{h}{\num{`r as.character(h)`}} \times \frac{\frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}{(\frac{`r delta_nu_cs_over_speed_of_light_in_vacuum_over` \times c}{\Delta(\nu_\text{Cs})})^2} \\
+&= `r scalar_of_kg` \times \frac{h \times \Delta(\nu_\text{Cs})}{c^2}.
+(\#eq:kilogram)
+\end{align}
+
+```
+
+[]{#momentum}
+
+## Massikontsentratsioon (massi tihedus)
+
+```{r label = "calculate-V", echo=FALSE}
+#' This function calculates the volume of a substance, given its mass concentration, and its mass.
+#'
+#' @param density the mass concentration
+#' @param m_B the mass
+#' 
+#' @returns the volume
+calculate_V <- function(density, m_B) {
+  return(m_B / density)
+}
+
+```
+
+```{=tex}
+\begin{align}
+γ_\mathrm{B} := \frac{m_\mathrm{B}}{V}
+(\#eq:mass-concentration)
+\end{align}
+```
+
+[@haynes_2014_crc, p. 2-8].
+
+Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{M}{L^3}},
+(\#eq:dimensional-analysis-for-mass-concentration)
+\end{align}
+```
+
+millest johtuvalt on ühik $\unit{\kilogram\per\cubic\metre}$.
+
+Massikontsentratsiooni konverteerimine grammidest kuupsentimeetri kohta kilogrammidesse kuupmeetri kohta on näidatud avaldises \@ref(eq:mass-concentration-conversion-from-g-per-cm3-to-kg-per-m3):
+
+```{=tex}
+\begin{align}
+\qty{1}{\g\per\cm\cubed} \times \qty{0,001}{\kg\per\g} \times \qty{1e6}{\cm\cubed\per\metre\cubed} = \qty{1000}{\kg\metre\cubed}.
+(\#eq:mass-concentration-conversion-from-g-per-cm3-to-kg-per-m3)
+\end{align}
+```
+
+```{r label = "coversion-from-g-per-cm3-to-kg-per-m3", echo=FALSE}
+#' This function converts a mass concentration from grams per cubic centimeters to kilograms per cubic meters.
+#' 
+#' @param g_per_cm3 the mass concentration in grams per cubic centimeters
+#' 
+#' @returns the mass concentration in kilograms per cubic meters
+convert_from_g_per_cm3_to_kg_per_m3 <- function(g_per_cm3) {
+  return(g_per_cm3 * 1e-3 * 1e6)
+}
+
+```
+
+## Impulss
+
+### Lineaarne impulss
+
+impulss
+: [massi](#mass) ja [kiiruse](#speed) korrutis[@haynes_2014_crc(lk 2-59)] (avaldis \@ref(eq:momentum) leheküljel `r render_pageref(reference = "eq:momentum")`)
+
+```{=tex}
+\begin{align}
+\vec{p} = m \cdot \vec{v}.
+(\#eq:momentum)
+\end{align}
+
+```
+
+Dimensioonanalüüs impulsi valemile on esitatud avaldisena \@ref(eq:dimensional-analysis-for-momentum) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-momentum")` ja sellest johtuvalt on ühik \unit{\kg\m\per\s}.
+
+```{=tex}
+\begin{align}
+\mathrm{M \cdot \frac{L}{T}}.
+(\#eq:dimensional-analysis-for-momentum)
+\end{align}
+
+```
+
+Kehade süsteemi koguimpulss, mis on esitatud avaldises \@ref(eq:total-momentum) leheküljel `r render_pageref(reference = "eq:total-momentum")`, on alati jääv.
+
+\begin{align}
+\vec{p} = \sum_i{\vec{p_i}}
+(\#eq:total-momentum)
+\end{align}
+
+Elastne põrge:
+
+```{=tex}
+\begin{equation}
+m_1 * \vec{v_1} + m_2 * \vec{v_2} === m_1 * \vec{v_1 ^ \prime} + m_2 + \vec{v_2 ^ \prime},
+(\#eq:elastic-collision)
+\end{equation}
+```
+
+kus *m* on mass, *v* on kiirus
+
+Energia jäävuse seadus:
+
+```{=tex}
+\begin{equation}
+\frac{m_1 \cdot \vec{v_1} ^ 2}{2} + \frac{m_2 \cdot \vec{v_2} ^ 2}{2} === \frac{m_1 \cdot (\vec{v_1} ^ \prime) ^ 2}{2} + \frac{m_2 \cdot (\vec{v_2} ^ \prime) ^ 2}{2},
+(\#eq:conservation-of-energy)
+\end{equation}
+```
+
+kus *m* on mass ja *v* on kiirus.
+
+Mitteelastne põrge:
+
+$$m_1 * \vec{v_1} + m_2 * \vec{v_2} === (m_1 + m_2) * \vec{v ^ \prime},$$
+
+kus *m* on mass ja *v* on kiirus.
+
+$$jõuImpulss = impulsiMuut$$
+
+$$jõud * ajavahemik === impulsiMuut$$
+
+\twocolumn
+
+### Impulsimoment
+
+osakese nurkimpulss punkti ümber
+: sellest punktist osakese raadiusvektori ja osakese impulsi vektorkorrutis (avaldis \@ref(eq:angular-momentum) leheküljel `r render_pageref(reference = "eq:angular-momentum")`) [@haynes_2014_crc(lk 2-45)]
+
+```{=tex}
+\begin{align}
+\vec{L} = \vec{r} \times \vec{p}.
+(\#eq:angular-momentum)
+\end{align}
+
+```
+
+Dimensioonanalüüs impulsimomendi valemile on esitatud avaldisena \@ref(eq:dimensional-analysis-of-angular-momentum) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-angular-momentum")` ja sellest johtuvalt on ühik \unit{\kg\m\squared\per\s}.
+
+```{=tex}
+\begin{align}
+\mathrm{M \times \frac{L}{T} \times L = \frac{L^2 \times M}{T}}.
+(\#eq:dimensional-analysis-of-angular-momentum)
+\end{align}
+
+```
+
+Suund on kruvireegli järgi.
+
+Suletud süsteemi koguimpulsimoment on jääv.
+
+## Inertsimoment
+
+keha inertsimoment telje suhtes
+: keha massielementide ja nende kauguste teljest ruutude korrutis (või integraal)[@haynes_2014_crc(lk 2-59)]
+
+Inertsimomendi valem on \@ref(eq:moment-of-inertia) leheküljel `r render_pageref(reference = "eq:moment-of-inertia")`.
+
+```{=tex}
+\begin{align}
+I = \sum{m_i \times r_i^2}.
+(\#eq:moment-of-inertia)
+\end{align}
+
+```
+
+Dimensioonanalüüs inertsimomendi valemile on esitatud avaldisena \@ref(eq:dimensional-analysis-of-moment-of-inertia) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-moment-of-inertia")` ja sellest johtuvalt on ühik \unit{\kg\m\squared}.
+
+```{=tex}
+\begin{align}
+\mathrm{M \times L^2}.
+(\#eq:dimensional-analysis-of-moment-of-inertia)
+\end{align}
+
+```
+
+Inertsimomendi saab avaldada impulsimomendi ja nurkkiiruse kaudu. Selleks asendan massi impulsi valemist \@ref(eq:momentum) leheküljel `r render_pageref(reference = "eq:momentum")`, tangentsiaalkiiruse nurkkiiruse valemist \@ref(eq:angular-velocity-by-tangential-velocity) leheküljel `r render_pageref(reference = "eq:angular-velocity-by-tangential-velocity")` inertsimomendi põhivalemisse ja impulsi impulsimomendi valemist \@ref(eq:angular-momentum) leheküljel `r render_pageref(reference = "eq:angular-momentum")` inertsimomendi põhivalemisse \@ref(eq:moment-of-inertia) leheküljel `r render_pageref(reference = "eq:moment-of-inertia")`, et saada avaldis \@ref(eq:moment-of-inertia-by-angular-moment) leheküljel `r render_pageref(reference = "eq:moment-of-inertia-by-angular-moment")`.
+
+```{=tex}
+\begin{align}
+I = \sum{\frac{\vec{p_i}}{\vec{v_i}} \times r_i^2} = \sum{\frac{\vec{p}}{\vec{\omega \times r}} \times r^2} \\ = \sum{\frac{\vec{\frac{\vec{L}}{\vec{r}}}}{\vec{\omega \times r}} \times r^2} = \frac{\sum{\vec{L}}}{\vec{\omega}}.
+(\#eq:moment-of-inertia-by-angular-moment)
+\end{align}
+
+```
+
+\onecolumn
+## Kolme vektori ristkorrutis
+
+Avaldistena \@ref(eq:triple-vector-product) leheküljel `r render_pageref(reference = "eq:triple-vector-product")` ja \@ref(eq:triple-vector-product-continued) leheküljel `r render_pageref(reference = "eq:triple-vector-product-continued")` on esitatud kolme vektori ristkorrutis[@haynes_2014_crc(lk A-7)] [@vector] [@vector_khan_academy].
+
+\begin{landscape}
+
+\begin{align}
+\vec{V_1} \times (\vec{V_2} \times \vec{V_3}) = \vec{V_1} \times
+\begin{vmatrix}
+\vec{i}&\vec{j}&\vec{k}\\
+V_{2; x}&V_{2; y}&V_{2; z}\\
+V_{3; x}&V_{3; y}&V_{3; z}
+\end{vmatrix}
+= \vec{V_1} \times (\vec{i} \cdot
+\begin{vmatrix}
+V_{2; y}&V_{2; z}\\
+V_{3; y}&V_{3; z}
+\end{vmatrix}
+- \vec{j} \cdot
+\begin{vmatrix}
+V_{2; x}&V_{2; z}\\
+V_{3; x}&V_{3; z}
+\end{vmatrix}
++ \vec{k} \cdot
+\begin{vmatrix}
+V_{2; x}&V_{2; y}\\
+V_{3; x}&V_{3; y}
+\end{vmatrix}
+)\\
+= \vec{V_1} \times (\vec{i} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}) - \vec{j} \cdot (V_{2; x} \cdot V_{3; z} - V_{2; z} \cdot V_{3; x}) + \vec{k} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}))\\
+=
+\begin{vmatrix}
+\vec{i}&\vec{j}&\vec{k}\\
+V_{1; x}&V_{1; y}&V_{1; z}\\
+V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
+\end{vmatrix}\\
+= \vec{i} \cdot
+\begin{vmatrix}
+V_{1; y}&V_{1; z}\\
+V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
+\end{vmatrix}
+- \vec{j} \cdot
+\begin{vmatrix}
+V_{1; x}&V_{1; z}\\
+V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
+\end{vmatrix}\\
++ \vec{k} \cdot
+\begin{vmatrix}
+V_{1; x}&V_{1; y}\\
+V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}
+\end{vmatrix}\\
+= \vec{i} \cdot (V_{1; y} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}))\\
+- \vec{j} \cdot (V_{1; x} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}))\\
++ \vec{k} \cdot (V_{1; x} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}) - V_{1; y} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y})).
+(\#eq:triple-vector-product)
+\end{align}
+
+\begin{align}
+\vec{V_1} \times (\vec{V_2} \times \vec{V_3})\\
+= \vec{i} \cdot (V_{1; y} \cdot V_{2; x} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; z} \cdot V_{3; x} + V_{1; z} \cdot V_{2; x} \cdot V_{3; z} + V_{1; x} \cdot V_{2; x} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; x})\\
+- \vec{j} \cdot (V_{1; x} \cdot V_{2; x} \cdot V_{3; y} - V_{1; x} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; y} \cdot V_{3; z} + V_{1; z} \cdot V_{2; z} \cdot V_{3; y} + V_{1; y} \cdot V_{2; y} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; y})\\
++ \vec{k} \cdot (V_{1; x} \cdot V_{2; z} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; z}- V_{1; y} \cdot V_{2; y} \cdot V_{3; z} + V_{1; y} \cdot V_{2; z} \cdot V_{3; y} + V_{1; z} \cdot V_{2; z} \cdot V_{3; z} - V_{1; z} \cdot V_{2; z} \cdot V_{3; z})\\
+= \vec{i} \cdot (V_{2; x} \cdot (V_{1; y} \cdot V_{3; y} + V_{1; z} \cdot V_{3; z} + V_{1; x} \cdot V_{3; x}) - V_{3; x} \cdot (V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z} + V_{1; x} \cdot V_{2; x}))\\
+- \vec{j} \cdot (-V_{2; y} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; z} \cdot V_{3; z} + V_{1; y} \cdot V_{3; y}) + V_{3; y} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; z} \cdot V_{2; z} + V_{1; y} \cdot V_{2; y})) \\
++\vec{k} \cdot (V_{2; z} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; y} \cdot V_{3; y}+ V_{1; z} \cdot V_{3; z}) + -V_{3; z} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z}))\\
+= \vec{i} \cdot (V_{2; x} \cdot (\vec{V_1} \cdot \vec{V_3}) - V_{3; x} \cdot (\vec{V_1} \cdot \vec{V_2}))
+- \vec{j} \cdot (-V_{2; y} \cdot (\vec{V_1} \cdot \vec{V_3})+ V_{3; y} \cdot (\vec{V_1} \cdot \vec{V_2}))
++ \vec{k} \cdot (V_{2; z} \cdot (\vec{V_1} \cdot \vec{V_3})-V_{3; z} \cdot (\vec{V_1} \cdot \vec{V_2}))\\
+=(\vec{V_1} \cdot \vec{V_3}) \cdot (V_{2; x} \cdot \vec{i} + V_{2; y} \cdot \vec{j} + V_{2; z} \cdot \vec{k})
+- (\vec{V_1} \cdot \vec{V_2}) \cdot (V_{3; x} \cdot \vec{i} + V_{3; y} \cdot \vec{j} + V_{3; z} \cdot \vec{k})\\
+=(\vec{V_1} \cdot \vec{V_3}) \cdot \vec{V_2} - (\vec{V_1} \cdot \vec{V_2}) \cdot \vec{V_3}.
+(\#eq:triple-vector-product-continued)
+\end{align}
+
+\end{landscape}
+\twocolumn
+
+## Jõud
+
+### Lineaarne jõud
+
+Jõud on [impulsi](#momentum) muut ajas (avaldis \@ref(eq:force) leheküljel `r render_pageref(reference = "eq:force")`).
+
+```{=tex}
+\begin{align}
+\vec{F} = \frac{\mathrm{d}(\vec{p})}{\mathrm{d}(t)} = m \cdot \frac{\mathrm{d}(\vec{v})}{\mathrm{d}(t)} = m \cdot \vec{a},
+(\#eq:force)
+\end{align}
+
+```
+
+kus *m* on mass ja $\vec{a}$ on kiirenduse vektor [@haynes_2014_crc(lk 2-2)]. Impulsi dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-force) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-force")` ja sellest johtuvalt on ühik $\unit{\m\kg\per\s\squared}$ või lühemalt $\unit{\N}$.
+
+```{=tex}
+\begin{align}
+\mathrm{M \times \frac{L}{T^2} = \frac{L \times M}{T^2}}.
+(\#eq:dimensional-analysis-for-force)
+\end{align}
+```
+
+gravitatsioonikonstant:
+
+$$G := 6.67428 \times 10 ^ {-11} \times m^3 \times kg^{-1} \times s^{-2}$$ [@haynes_2014_crc, p. 14-1]
+
+```{r label = "G"}
+G = 6.67428E-11
+```
+
+või Newtoni oma
+
+$$G := 6.67384(80) × 10^{−11} \times m^3 \times kg^{-1} \times s^{-2}$$ [@haynes_2014_crc, p. 1-1, 1-2, 87]
+
+Maa mass:
+
+$$M_e := 5.9736 \times 10^{24} \times kg$$ [@haynes_2014_crc, p. 14-2]
+
+```{r label = "M_e"}
+M_e = 5.9736e24
+```
+
+```{=tex}
+\begin{equation}
+F_g = G \cdot \frac{m_1 \cdot m_2}{r^2},
+(\#eq:gravitational-force)
+\end{equation}
+```
+
+kus $F_g$ on raskusjõud, *G* on gravitatsioonikonstant, *m* on mass, *s* on punktmasside vaheline kaugus  [@haynes_2014_crc, p. 2-2].
+
+Vaba langemise ehk gravitatsiooni põhjustatud kiirendus  [@haynes_2014_crc, p. 2-12, 2-34, 14-21] valemitest \@ref(eq:force) ja \@ref(eq:gravitational-force):
+
+```{=tex}
+\begin{equation}
+\vec{g} := \frac{G \cdot m_1}{r^2}
+(\#eq:g)
+\end{equation}
+```
+
+Hooke'i seadus:
+
+```{=tex}
+\begin{equation}
+F = –k∙Δx,
+(\#eq:elasticity)
+\end{equation}
+```
+
+kus *F* on elastsusjõud, *k* elastsustegur ja $\Delta(x)$ on pikenemisvahemik.
+
+```{=tex}
+\begin{equation}
+F = k∙Δx,
+(\#eq:pulling-force)
+\end{equation}
+```
+
+kus $F$ on tõmbejõud, $k$ on elastsustegru ja $\Delta(x)$ on pikenemisvahemik.
+
+hõõrdeJõud = hõõrdeTegur \* rõhk
+
+```{r}
+calculateDistanceOfDecceleration <- function(velocity, frictionFactor) {
+  ((velocity) ^ 2) / 2 / g / frictionFactor
+}
+```
+
+### Jõumoment
+
+Jõumomendi valem on \@ref(eq:torque) leheküljel `r render_pageref(reference = "eq:torque")`[@haynes_2014_crc(lk 2-2)].
+
+```{=tex}
+\begin{align}
+\vec{T} = \vec{r} \times \vec{F},
+(\#eq:torque)
+\end{align}
+
+```
+
+milles
+
+$\vec{F}$
+: väändeliikumist tekitav jõud
+
+$\vec{r}$
+: vektor mõnest võrdluspunktist jõu rakenduspunktini[@haynes_2014_crc(lk 2-66)]
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-torque) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-torque")` ja sellest johtuvalt on ühik \unit{\m\squared\kg\per\s\squared} või lühemalt \unit{\N\m}.
+
+```{=tex}
+\begin{align}
+\mathrm{L \times \frac{L \times M}{T^2} = \frac{L^2 \times M}{T^2}}.
+(\#eq:dimensional-analysis-of-torque)
+\end{align}
+
+```
+
+Et väljendada jõumoment inertsimomendi ja nurkkiirenduse kaudu, asendan jõumomendi põhivalemisse \@ref(eq:torque) leheküljel `r render_pageref(reference = "eq:torque")` pöördkehale mõjuva jõu valemist \@ref(eq:force) leheküljel `r render_pageref(reference = "eq:force")`, seejärel tangentsiaalkiirenduse nurkkiirenduse valemist \@ref(eq:angular-acceleration-by-tangential-velocity) leheküljel `r render_pageref(reference = "eq:angular-acceleration-by-tangential-velocity")` ja lõpuks inertsimomendi valemist \@ref(eq:moment-of-inertia) leheküljel `r render_pageref(reference = "eq:moment-of-inertia")`, et saada valem \@ref(eq:torque-by-moment-of-inertia) leheküljel `r render_pageref(reference = "eq:torque-by-moment-of-inertia")`[@wikipediacontributors_2018_moment]. Kolme vektori ristkorrutise teostamiseks kasutasin valemit \@ref(eq:triple-vector-product-continued) leheküljel `r render_pageref(reference = "eq:triple-vector-product-continued")`.
+
+```{=tex}
+\begin{align}
+\vec{T} = \vec{r} \times \vec{m \cdot \vec{a}} = m \cdot \vec{r} \times \vec{a} = \\
+m \cdot \vec{r} \times \vec{\vec{r} \times \vec{\alpha}}\\
+= m \cdot ((\vec{r} \cdot \vec{r}) \cdot \vec{\alpha} - (\vec{\alpha} \cdot \vec{r}) \cdot \vec{r}) =\\
+m \times r^2 \times \vec{\alpha}\\
+= I \cdot \vec{\alpha}.
+(\#eq:torque-by-moment-of-inertia)
+\end{align}
+
+```
+
+Et väljendada jõumoment impulsimomendi kaudu, asendan jõumomendi avaldamise valemisse inertsimomendi ja nurkkiirenduse kaudu \@ref(eq:torque-by-moment-of-inertia) leheküljel `r render_pageref(reference = "eq:torque-by-moment-of-inertia")` esmalt inertsimomendi viimase avaldaldamise valemist impulsimomendi ja nurkkiiruse kaudu \@ref(eq:moment-of-inertia-by-angular-moment) leheküljel `r render_pageref(reference = "eq:moment-of-inertia-by-angular-moment")` ja seejärel nurkkiirenduse viimase põhivalemist \@ref(eq:angular-acceleration) leheküljel `r render_pageref(reference = "eq:angular-acceleration")`, et saada avaldis \@ref(eq:torque-by-angular-velocity) leheküljel `r render_pageref(reference = "eq:torque-by-angular-velocity")`.
+
+```{=tex}
+\begin{align}
+\vec{T} = \frac{\mathrm{d}(\vec{L})}{\mathrm{d}(\vec{\omega})} \times \vec{\frac{\mathrm{d}(\omega)}{\mathrm{d}(t)}} = \frac{\mathrm{d}({\vec{L}})}{\mathrm{d}(t)}.
+(\#eq:torque-by-angular-velocity)
+\end{align}
+
+```
+
+\onecolumn
+
+## Rõhk
+
+```{=tex}
+\begin{align}
+p := \frac{F}{A} = \frac{m \cdot a}{A},
+(\#eq:pressure)
+\end{align}
+```
+
+kus *A* on pindala [@haynes_2014_crc, p. 2-2]. Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L \cdot M}{T^2 \cdot L^2} = \frac{M}{T^2 \cdot L}},
+(\#eq:dimensional-analysis-for-pressure)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\kilogram\per\second\squared\per\meter}$ või lühemalt $\unit{\pascal}$.
+
+
+```{r label = "pressure", echo=FALSE}
+p <- 100e3
+p_at <- 101.325e3
+```
+
+standardseisund
+: määratletud olek (määratud temperatuur, rõhk, kontsentratsioon jne) termodünaamiliste funktsioonide tabeleerimiseks ja termodünaamiliste arvutuste tegemiseks [@haynes_2014_crc, p. 2-65]
+
+Standardseisundi rõhk on `r p` $\unit{\pascal}$ [@haynes_2014_crc, p. 1-7]. Standardne atmosfäärirõhk on `r p_at` $\unit{\pascal}$ [@haynes_2014_crc, p. 6-12].
+
+Ideaalse gaasi rõhk:
+```{r label = "r", echo=FALSE}
+R <- 8314.472e-3
+librarian::shelf("psychrolib")
+T_0 <- GetTKelvinFromTCelsius(0)
+T_1 <- GetTKelvinFromTCelsius(200)
+```
+
+```{=tex}
+\begin{align}
+p := \frac{n \cdot R \cdot T}{V},
+(\#eq:pressure-of-ideal-gas)
+\end{align}
+```
+
+milles *n* on ainehulk, *R* on universaalne gaasikonstant $`r R` \times \unit{\joule\per\mole\per\kelvin}$ ja *V* on ruumala [@American_Society_of_Heating_Refrigerating_and_Air-Conditioning_Engineers2017-im, p. 14]. Dimensionaalanalüüs:
+
+
+```{=tex}
+\begin{align}
+\frac{\mathrm{N} \cdot \frac{\mathrm{L^2 \cdot M}}{\mathrm{T^2 \cdot N} \cdot \Theta} \cdot \Theta}{\mathrm{L^3}} = \mathrm{\frac{M}{L \cdot T^2}},
+(\#eq:dimensional-analysis-for-pressure-of-ideal-gas)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\kilogram\per\meter\per\second\squared}$ ehk lühemalt $\unit{\pascal}$.
+
+```{r label = "p-sat-of-liquid-h2o", echo=FALSE}
+T_p_sat <- 237.3 - T_0 # must be separated as used inside an equation
+
+#' This function calculates the saturation vapor pressure.
+#' 
+#' @param T the absolute temperature
+#' @param method the method of calculation: "ASHRAE" or "FAO"
+#' 
+#' @returns the saturation vapor pressure
+calculate_p_sat <- function(T, method) {
+  
+  if (is.null(method)) {
+    stop("The method must be either \"ASHRAE\" or \"FAO\". The method is currently not set.")
+  } else if ("ASHRAE" == method) {
+    
+    for (index in 1:length(T)) {
+    
+      if (T[index] < 273.15 | T[index] > 473.15) {
+        stop(paste("The absolute temperature must be between 273.15 and 473.15 K inclusive. The current absolute temperature at the position", index, "is", T[index], "K."))
+      }
+      
+    }
+  
+    p_sat <- exp(-5.8002206e3 / T + 1.3914993 - 4.8640239e-2 * T + 4.1764768e-5 * T^2 - 1.4452093e-8 * T^3 + 6.5459673 * log(T))
+  } else if ("FAO" == method) {
+    p_sat <- 610.8 * exp((17.27 * (T - T_0)) / (T + T_p_sat))
+  } else {
+    stop(paste("The method must be either \"ASHRAE\" or \"FAO\". The method is currently", method, "."))
+  }
+  
+  return(signif(p_sat, digits = 5))
+}
+
+```
+
+Küllastusrõhk vedela vee kohal temperatuurivahemikus $\qty{`r as.character(T_0)`}{\kelvin}$ kuni $\qty{`r as.character(T_1)`}{\kelvin}$ on antud valemiga
+
+```{=tex}
+
+\begin{align}
+& p_\text{sat} && := e^{\sum_{i := 8}^{n}{C_i \times T^{i - 9}} + 6.5459673 \times \mathrm{ln}(T)}\\
+&&&= e^{\sum_{i := 8}^n{C_i \times (t + 273.15)^{i - 9}} + 6.5459673 \times \mathrm{ln}(t + 273.15)}\text{, kus}\\
+& C_8 && := -5.8002206 \times 10^3,\\
+& C_9 && := 1.3914993,\\
+& C_{10} && := -4.8640239 \times 10^{-2},\\
+& C_{11} && := 4.1764768 \times 10^{-5},\\
+& C_{12} && := -1.4452093 \times 10^{-8}
+(\#eq:saturation-pressure-over-liquid-h2o)
+\end{align}
+
+```
+
+milles *T* on absoluutne temperatuur [@American_Society_of_Heating_Refrigerating_and_Air-Conditioning_Engineers2017-im, p. 14]. [@inbook, p. 37] on esitatud teistsugune valem küllastusrõhu arvutamiseks:
+
+```{=tex}
+
+\begin{align}
+p_\text{sat} := 610.8 \times e^\frac{17.27 \times (T - \qty{`r as.character(T_0)`}{\kelvin})}{T - \qty{`r as.character(T_0)`}{\kelvin} + \qty{237.3}{\kelvin}} \times \unit{\pascal} = 610.8 \times e^\frac{17.27 \times (T - \qty{`r as.character(T_0)`}{\kelvin})}{T + \qty{`r as.character(T_p_sat)`}{\kelvin}} \times \unit{\pascal}.
+(\#eq:saturation-pressure-in-inbook)
+\end{align}
+
+```
+
+\twocolumn
+
+## Töö
+
+Töö valem on \@ref(eq:W) leheküljel `r render_pageref(reference = "eq:W")` [@haynes_2014_crc(lk 2-2)].
+
+```{=latex}
+\begin{align}
+W := \int{\vec{F}} \cdot \mathrm{d}(s).(\#eq:W) 
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-W) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-W")`.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L \cdot M}{T^2} \cdot L = \frac{L^2 \cdot M}{T^2}}.
+(\#eq:dimensional-analysis-of-W)
+\end{align}
+```
+
+Seetõttu ühik on $\unit{\m\squared\kg\per\second\squared}$ või lühemalt $\unit{\m\N}$ või kõige lühemalt $\unit{\J}$.
+
+## Energia
+
+### Potentsiaalne energia
+
+potentsiaalne energia
+: süsteemi energia osa, mis on seotud selle asukohaga jõuväljas[@haynes_2014_crc(lk 2-62)] (valem \@ref(eq:potential-energy) leheküljel `r render_pageref(reference = "eq:potential-energy")`[@haynes_2014_crc(lk 2-2)]).
+
+```{=latex}
+\begin{align}
+E_\mathrm{p} = \int{\vec{F}} \cdot \mathrm{d}(s),(\#eq:potential-energy) 
+\end{align}
+
+```
+
+milles
+
+*s*
+: tee pikkus[@haynes_2014_crc(lk 2-1)]
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-potential-energy) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-potential-energy")`.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L \cdot M}{T^2} \cdot L = \frac{L^2 \cdot M}{T^2}}.
+(\#eq:dimensional-analysis-of-potential-energy)
+\end{align}
+
+```
+
+Seetõttu ühik on $\unit{\m\squared\kg\per\second\squared}$ või lühemalt $\unit{\m\N}$ või kõige lühemalt $\unit{\J}$.
+
+Välisjõudude töö koorma tõstmisel võrdub koorma potentsiaalse energia muuduga:
+
+$$töö = E_{pot_2} - E_{pot_1},$$
+
+kus $E_{pot}$ on potentsiaalne energia.
+$${elastsusJõuEenergia}_{pot} = \frac{k * (\Delta(s)) ^ 2}{2},$$
+
+kus *k* on jäikus, $\Delta(s)$ on kokkusurumise vahemaa, *pot* on potentsiaalne.
+
+### Kineetiline energia
+
+#### Definitsioon
+
+kineetiline energia
+: energia, mis on seotud osakeste süsteemi liikumisega kindlaksmääratud võrdlusraamis[@haynes_2014_crc, p. 2-57]
+
+#### Lineaarne kineetiline energia
+
+Ühe osakese [massiga *m*](#mass), mis liigub [kiirusega *v*](#speed), kineetiline energia on avaldatav valemiga \@ref(eq:kinetic-energy) leheküljel `r render_pageref(reference = "eq:kinetic-energy")`[@haynes_2014_crc, p. 2-2].
+
+```{=tex}
+\begin{align}
+E_\mathrm{k} = \frac{m \cdot v^2}{2}
+(\#eq:kinetic-energy)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-kinetic-energy) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-kinetic-energy")` ja sellest johtuvalt on ühik \unit{\kg\m\squared\per\second\squared}.
+
+```{=tex}
+\begin{align}
+\mathrm{M \times \frac{L}{T}^2 = \frac{M \times L^2}{T^2}}.
+(\#eq:dimensional-analysis-of-kinetic-energy)
+\end{align}
+
+```
+
+#### Pöörlemise energia
+
+Kui asendada kineetilise energia põhivalemisse \@ref(eq:kinetic-energy) leheküljel `r render_pageref(reference = "eq:kinetic-energy")` tangentsiaalkiirus vastavast nurkkiiruse valemist \@ref(eq:angular-velocity-by-tangential-velocity) leheküljel `r render_pageref(reference = "eq:angular-velocity-by-tangential-velocity")` ja inertsimomendi viimase põhivalemist \@ref(eq:moment-of-inertia) leheküljel `r render_pageref(reference = "eq:moment-of-inertia")`, saan pöörlemise energia valemi \@ref(eq:rotational-kinetic-energy) leheküljel `r render_pageref(reference = "eq:rotational-kinetic-energy")`.
+
+\begin{align}
+E_\mathrm{k} = \frac{m \cdot (r \cdot \omega)^2}{2} = \frac{m \cdot r^2 \cdot \omega^2}{2} = \frac{I \times \omega^2}{2}.
+(\#eq:rotational-kinetic-energy)
+\end{align}
+
+Dimensionaalanalüüs on esitatud valemina \@ref(eq:dimensional-analysis-of-rotational-kinetic-energy) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-rotational-kinetic-energy")` ja sellest johtuvalt on ühik \unit{\kg\m\squared\per\second\squared}.
+
+\begin{align}
+\mathrm{\frac{M \times L^2 \times (\frac{1}{\mathrm{T}})^2}{1} = \frac{M \times L^2}{T^2}}.
+(\#eq:dimensional-analysis-of-rotational-kinetic-energy)
+\end{align}
+
+\onecolumn
+
+### Mehaanilise energia jäävus
+
+Kogu mehaaniline energia on kineetilise ja potentsiaalse energia summa igal hetkel[@giancoli_2014_physics(lk 150)] (valem \@ref(eq:total-mechanical-energy) leheküljel `r render_pageref(reference = "eq:total-mechanical-energy")`).
+
+```{=tex}
+\begin{align}
+E = E_\mathrm{k} + E_\mathrm{p}.
+(\#eq:total-mechanical-energy)
+\end{align}
+
+```
+
+mehaanilise energia jäävuse seadus
+: kogu mehaaniline energia jääb konstantseks seni, kuni ükski mittekonstantne jõud ei mõju
+
+Mehaanilise energia jäävuse seadus on väljendatud avaldises \@ref(eq:conservation-of-mechanical-energy) leheküljel `r render_pageref(reference = "eq:conservation-of-mechanical-energy")`, milles on lahti kirjutatud kogu mehaaniline energia avaldisest \@ref(eq:total-mechanical-energy) leheküljel `r render_pageref(reference = "eq:total-mechanical-energy")`.
+
+```{=tex}
+\begin{align}
+E_j = E_i = \mathrm{constant} = E_\mathrm{k}(i) + E_\mathrm{p}(i) = E_\mathrm{k}(j) + E_\mathrm{p}(j),
+(\#eq:conservation-of-mechanical-energy)
+\end{align}
+
+```
+
+milles
+
+*i*
+: varasem ajahetk
+
+*j*
+: hilisem ajahetk
+
+$${tegur}_{kasu} = \frac{töö}{energia}$$
+
+## Võimsus
+
+```{=tex}
+\begin{align}
+P := \frac{E}{t} = \frac{m \cdot a \cdot \Delta(s)}{t},
+(\#eq:power)
+\end{align}
+```
+
+kus *t* on aeg. Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\frac{L^2 \cdot M}{T^2 \cdot T} = \frac{L^2 \cdot M}{T^3}
+(\#eq:dimensional-analysis-for-power)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\frac{m^2 \cdot kg}{s^3}}$ või lühemalt $\unit{\frac{J}{s}}$ või veelgi lühemalt $\unit{W}$.
+
+```{=tex}
+\begin{equation}
+P_hp := 746 \times P 
+(\#eq:power-hp)
+\end{equation}
+```
+
+[@haynes_2014_crc, p. 2-55]
+```{r label = "function-for-power-hp"}
+convert_W_to_hp <- function(W) {
+  return(W / 746)
+}
+```
+
+## Aurustumissoojus
+
+```{=tex}
+\begin{align}
+\Delta_\text{vap}(H) = \frac{E}{m} = \frac{m \cdot a \cdot \Delta(s)}{m} = a \cdot \Delta(s).
+(\#eq:heat-of-vaporization)
+\end{align}
+```
+
+Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\frac{L^2 \cdot M}{T^2 \cdot M} = \frac{L^2}{T^2},
+(\#eq:dimensional-analysis-for-heat-of-vaporization)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\metre\squared\per\second\squared}$ või teisiti $\unit{\joule\kg}$.
+
+## Elektromagnetism
+
+### Elektrostaatika
+
+elektrilaeng ($Q$)
+: elektrienergia kogus; st omadus, mis kontrollib kehade vahelist vastasmõju elektriliste jõudude kaudu[@haynes_2014_crc]
+
+Elementaarlaeng on esitatud avaldises \@ref(eq:elementary-charge) leheküljel `r render_pageref(reference = "eq:elementary-charge")` [@bureau_1974_the(lk 134)].
+
+```{r label = "elementary-charge"}
+e <- 1.602176634e-19
+A <- 1 / (e * delta_nu_cs)
+
+```
+
+```{=tex}
+\begin{align}
+e = \qty{`r as.character(e)`}{\coulomb} = \qty{`r as.character(e)`}{\A\s}.
+(\#eq:elementary-charge)
+\end{align}
+
+```
+
+Elektrilaeng on positiivsete ja negatiivsete elementaarlaengute netosumma (valem \@ref(eq:charge) leheküljel `r render_pageref(reference = "eq:charge")`).
+
+```{=tex}
+\begin{align}
+Q = \sum{\pm e}.
+(\#eq:charge)
+\end{align}
+
+```
+
+Elektrilaengu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-electric-charge) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-electric-charge")`.
+
+```{=tex}
+\begin{align}
+\mathrm{I \cdot T}.
+(\#eq:dimensional-analysis-of-electric-charge)
+\end{align}
+
+```
+
+Vaba ruumi lubatavuse väärtus on esitatud avaldises \@ref(eq:permittivity-of-vacuum) leheküljel `r render_pageref(reference = "eq:permittivity-of-vacuum")`[@haynes_2014_crc(lk 12-151)].
+
+```{=tex}
+\begin{align}
+\epsilon_0 = \qty{8.8542e-12}{\farad\per\m} = \qty{8.8542e-12}{\per\m\cubed\per\kg\s\tothe{4}\A\tothe{2}}.
+(\#eq:permittivity-of-vacuum)
+\end{align}
+
+```
+
+dielektriline konstant ($ε$)
+: elektrilise nihke ja elektrivälja tugevuse suhe keskkonnas. Seda nimetatakse ka lubavuseks[@haynes_2014_crc(lk 2-50)]
+
+Dielektriline konstant on esitatud avaldises \@ref(eq:permittivity) leheküljel `r render_pageref(reference = "eq:permittivity")` [@haynes_2014_crc(lk 6-187)]. Selles $\epsilon_0$ on vaba ruumi lubatavus[@haynes_2014_crc(lk 10-187)].
+
+```{=tex}
+\begin{align}
+\epsilon = \epsilon_0 \cdot \epsilon_\mathrm{r}.
+(\#eq:permittivity)
+\end{align}
+
+```
+
+Levinuimate ainete dielektriline konstant on esitatud tabelis \@ref(tab:permittivity) leheküljel `r render_pageref(reference = "tab:permittivity")`.
+
+(ref:permittivity-co2) \ce{CO2}[@haynes_2014_crc, lk 6-209]
+(ref:permittivity-h2o) \ce{H2O}[@haynes_2014_crc, lk 6-188]
+(ref:permittivity-air) kuiv \ce{CO2}-vaba õhk[@haynes_2014_crc, lk 6-209]
+
+```{r label = "permittivity", echo=FALSE}
+permittivity <- c(
+  1.0009217,
+  80.100,
+  1.0005360
+)
+
+data_frame_of_permittivity <- data.frame(
+  permittivity
+)
+
+rownames(data_frame_of_permittivity) <- c(
+  "(ref:permittivity-co2)",
+  "(ref:permittivity-h2o)",
+  "(ref:permittivity-air)"
+)
+
+colnames(data_frame_of_permittivity) <- c(
+  "$\\epsilon_\\mathrm{r}$"
+)
+
+print_table(
+  caption = "Levinuimate ainete dielektriline läbitavus.",
+  table = data_frame_of_permittivity,
+  digits = 8
+)
+
+```
+
+Coulomb' seadus
+: väide, et jõud $F$ kahe elektrilaengu $q_1$ ja $q_2$ vahel, mis on eraldatud vahemaaga $r$, avaldub valemina \@ref(eq:coulomb-s-law) leheküljel `r render_pageref(reference = "eq:coulomb-s-law")`[@haynes_2014_crc(lk 2-49)]
+
+```{=tex}
+\begin{align}
+F = \frac{1}{4 \cdot π \cdot ε_0} \cdot \frac{q_1 \cdot q_2}{r^2}.
+(\#eq:coulomb-s-law)
+\end{align}
+
+```
+
+See on siiski vaid kuloniline jõud vabas ruumis. Üldiselt avaldub kuloniline jõud valemina \@ref(eq:coulomb-s-law-general) leheküljel `r render_pageref(reference = "eq:coulomb-s-law-general")`[@coulombs].
+
+```{=tex}
+\begin{align}
+F = \frac{1}{4 \cdot π \cdot ε} \cdot \frac{q_1 \cdot q_2}{r^2}.
+(\#eq:coulomb-s-law-general)
+\end{align}
+
+```
+
+Kulonilise jõu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-coulomb-s-law) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-coulomb-s-law")`, millest tulenevalt on ühik $\unit{\m\kg\per\s\squared}$ ehk lühimalt $\unit{\newton}$.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{1}{\frac{T^4 \cdot I^2}{L^3 \cdot M}} \cdot \frac{I \cdot T \cdot I \cdot T}{L^2} = \frac{L \cdot M}{T^2}}.
+(\#eq:dimensional-analysis-of-coulomb-s-law)
+\end{align}
+
+```
+
+### Elektrivool
+
+elektrivool
+: ajaühikus ahelat läbiv laeng[@haynes_2014_crc(lk 2-51)]
+
+Avaldan avaldisest \@ref(eq:elementary-charge) leheküljel `r render_pageref(reference = "eq:elementary-charge")` ampri ja kajastan tulemust avaldises \@ref(eq:ampere) leheküljel `r render_pageref(reference = "eq:ampere")`.
+
+```{=tex}
+\begin{align}
+\unit{A} &= \frac{e}{\qty{`r as.character(e)`}{\s}} = \frac{e}{\num{`r as.character(e)`} \times \frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}\\
+&= \num{`r as.character(A)`} \times e \times \Delta(\nu_\text{Cs}).
+(\#eq:ampere)
+\end{align}
+
+```
+
+Elektrivoolu valem on \@ref(eq:I) leheküljel `r render_pageref(reference = "eq:I")` ja selles $Q$ on elektrilaeng.
+
+```{=latex}
+\begin{align}
+I := \frac{\mathrm{d}(Q)}{\mathrm{d}(t)},(\#eq:I) 
+\end{align}
+
+```
+
+[@haynes_2014_crc(lk 2-3)]. Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{I \cdot T}{T} = I},
+(\#eq:dimensional-analysis-for-I)
+\end{align}
+```
+
+mistõttu ühik on $\unit{A}$.
+
+\twocolumn
+
+### Elektromotoorjõud
+
+elektromotoorjõud
+: allikast tarnitud energia jagatud läbi allika transporditava laenguga
+
+[@haynes_2014_crc(lk 2-52)]
+
+Elektromotoorjõud on esitatud avaldisena \@ref(eq:emf) leheküljel `r render_pageref(reference = "eq:emf")` ning selles *Q* on elektrilaeng [@haynes_2014_crc(lk 2-2)] ja $s$ on tee pikkus [@haynes_2014_crc(lk 2-1)] töö valemist \@ref(eq:W) leheküljel `r render_pageref(reference = "eq:W")`.
+
+```{=latex}
+\begin{align}
+E := \frac{W}{Q} = \int{\frac{\vec{F}}{Q}} \cdot \mathrm{d}(s).(\#eq:emf) 
+\end{align}
+
+```
+
+Elektromotoorjõu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-emf) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-emf")` [@haynes_2014_crc(lk 2-49), @newell_sp(lk 31)].
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{L \cdot M}{T^2}}{I \cdot T} \cdot L = \frac{L^2 \cdot M}{I \cdot T^3}}
+(\#eq:dimensional-analysis-of-emf)
+\end{align}
+
+```
+
+Seetõttu ühik on \unit{\m\squared\kg\per\ampere\per\second\cubed} või lihtsamalt $\unit{\m\squared\kg\per\coulomb\per\second\squared}$ või lühemalt $\unit{\m\newton\per\coulomb}$ või veel lühemalt $\unit{\J\per\coulomb}$ või kõige lühemalt $\unit{\V}$ [@haynes_2014_crc(lk 2-2)].
+
+Avaldan valemist \@ref(eq:emf) jõu ja loon avaldise \@ref(eq:F-via-E-Q-s) leheküljel `r render_pageref(reference = "eq:F-via-E-Q-s")`.
+
+```{=latex}
+\begin{align}
+\vec{F} := \frac{E \cdot Q}{s}.(\#eq:F-via-E-Q-s)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-F-via-E-Q-s) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-F-via-E-Q-s")`.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{L^2 \cdot M}{I \cdot T^3} \cdot I \cdot T}{L} = \frac{L^2 \cdot M \cdot I \cdot T}{I \cdot T^3 \cdot L} = \frac{L \cdot M}{T^2}}.
+(\#eq:dimensional-analysis-of-F-via-E-Q-s)
+\end{align}
+```
+
+Seetõttu ühik on $\unit{\m\kg\per\second\squared}$ ehk lihtsamalt $\unit{\N}$.
+
+Asendan valemisse \@ref(eq:W) jõu valemist \@ref(eq:F-via-E-Q-s) leheküljel`r render_pageref("eq:F-via-E-Q-s")`:
+
+```{=latex}
+\begin{align}
+W := \int{\overrightarrow{\frac{E \cdot Q}{\mathrm{d}(s)}}} \cdot \mathrm{d}(s) = E \cdot Q.(\#eq:W-via-E-Q) 
+\end{align}
+
+```
+
+Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L^2 \cdot M}{I \cdot T^3} \cdot I \cdot T = \frac{L^2 \cdot M}{T^2}},
+(\#eq:dimensional-analysis-for-W-via-E-Q)
+\end{align}
+```
+
+millest johtuvalt on ühik $\unit{\m\squared\kg\per\s\squared}$ ehk lühemalt $\unit{\m\N}$ ehk kõige lühemalt $\unit{\J}$.
+
+### Elektriline potentsiaal
+
+Elektrilise potentsiaali definitsioon on esitatud valemina \@ref(eq:V) leheküljel `r render_pageref(reference = "eq:V")`, milles $W$ on töö [@haynes_2014_crc(lk 2-2)].
+
+```{=latex}
+\begin{align}
+V := \frac{\mathrm{d}(W)}{\mathrm{d}(Q)}.(\#eq:V) 
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-V) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-V")`.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{L^2 \cdot M}{T^2}}{I \cdot T} = \frac{L^2 \cdot M}{T^2 \cdot I \cdot T} = \frac{L^2 \cdot M}{T^3 \cdot I}},
+(\#eq:dimensional-analysis-of-V)
+\end{align}
+
+```
+
+Seetõttu ühik on $\unit{\m\squared\kg\per\A\per\s\cubed}$ või kõige lühemalt $\unit{\V}$.
+
+\onecolumn
+
+### Elektripotentsiaalide erinevus
+
+Elektripotentsiaalide erinevus on ühtlasi pingelang ning selle definitsioon on esitatud valemina \@ref(eq:U) leheküljel `r render_pageref(reference = "eq:U")` ning selles $V_1$ ja $V_2$ on elektrilised potentsiaalid [@haynes_2014_crc(lk 2-2)].
+
+```{=latex}
+\begin{align}
+U = V_2 - V_1,(\#eq:U) 
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-U) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-U")`.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L^2 \cdot M}{T^3 \cdot I}},
+(\#eq:dimensional-analysis-of-U)
+\end{align}
+
+```
+
+Seetõttu ühik on $\unit{\m\squared\kg\per\A\per\s\cubed}$ või kõige lühemalt $\unit{\V}$.
+
+Töö arvutamise valem laengu liigutamiseks väiksema elektrilise potentsiaaliga punktist suurema potentsiaaliga punkti panen töö valemisse \@ref(eq:W-via-E-Q) leheküljel `r render_pageref(reference = "eq:W-via-E-Q")` elektromotoorjõu asemele elektriliste potentsiaalide erinevuse valemist \@ref(eq:U) leheküljel `r render_pageref(reference = "eq:U")` luues töö valemi \@ref(eq:work-through-U) leheküljel `r render_pageref(reference = "eq:work-through-U")`.
+
+```{r label = "calculate_work_through_U", echo=FALSE}
+#' This function calculates the work done for moving a charge from a lower electric potential point to a higher electric potential one.
+#' 
+#' @param V_2 the higher electric potential
+#' @param V_1 the lower electric potential
+#' @param Q the charge
+#' 
+#' @returns the electric field strength
+calculate_work_through_U <- function(V_2, V_1, Q) {
+  return((V_2 - V_1) / Q)
+}
+
+```
+
+```{=tex}
+\begin{align}
+W = U \cdot Q.
+(\#eq:work-through-U)
+\end{align}
+
+```
+
+### Elektrivälja tugevus
+
+elektrivälja tugevus ($E$)
+: elektrivälja poolt punktlaengule mõjuv jõud jagatuna elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Elektrivälja tugevuse arvutamise eeskiri on esitatud avaldisena \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")`.
+
+```{=tex}
+\begin{align}
+\vec{E} = \frac{\vec{F}}{Q}.
+(\#eq:electric-field-strength)
+\end{align}
+
+```
+
+Selles valemis $\vec{F}$ on jõud ja $Q$ on elektrilaeng. Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-electric-field-strength) `r render_pageref(reference = "eq:dimensional-analysis-for-electric-field-strength")`.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{L \times M}{T^2}}{I \times T} = \frac{L \times M}{I \times T^3}}.
+(\#eq:dimensional-analysis-for-electric-field-strength)
+\end{align}
+```
+
+Sellest johtuvalt on ühik $\unit{\m\kg\per\A\per\s\cubed}$ ehk lihtsamini $\unit{\N\per\coulomb}$.
+
+elektriline nihe ($D$)
+: vektorsuurus, mille suurus on võrdne elektrivälja tugevuse korrutisega keskkonna läbilaskvusega ja mille suund on sama, mis väljatugevusel[@haynes_2014_crc(lk 2-51)]
+
+Asendan töö valemist \@ref(eq:W) leheküljel `r render_pageref(reference = "eq:W")` jõu ja avaldan elektrivälja tugevuse töö kaudu, mis on esitatud avaldisena \@ref(eq:electric-field-strength-through-work) leheküljel `r render_pageref(reference = "eq:electric-field-strength-through-work")`.
+
+```{=tex}
+\begin{align}
+\vec{E} = \frac{W}{Q \cdot s}.
+(\#eq:electric-field-strength-through-work)
+\end{align}
+
+```
+
+Asendan elektromotoorjõu valemist \@ref(eq:emf) leheküljel `r render_pageref(reference = "eq:emf")` elektromotoorjõu ja saan avaldise \@ref(eq:electric-field-strength-through-emf) leheküljel `r render_pageref(reference = "eq:electric-field-strength-through-emf")`.
+
+```{=tex}
+\begin{align}
+\vec{E} = \frac{E}{s}.
+(\#eq:electric-field-strength-through-emf)
+\end{align}
+
+```
+
+Näeme, et elektrivälja tugevuse ühik võib olla ka $\unit{\V\per\m}$.
+
+Samamoodi saan elektromotoorjõu asemel kasutada viimases valemis elektripotentsiaalide erinevust valemist \@ref(eq:U) leheküljel `r render_pageref(reference = "eq:U")` ning tulemuseks on avaldis \@ref(eq:electric-field-strength-through-U) leheküljel `r render_pageref(reference = "eq:electric-field-strength-through-U")`.
+
+```{r label = "calculate-electric-field-strength-through-U", echo=FALSE}
+#' This function calculates the electric field strength between two electric potential lines.
+#' 
+#' @param V_2 the higher electric potential
+#' @param V_1 the lower electric potential
+#' @param s the distance between the equipotential lines
+#' 
+#' @returns the electric field strength
+calculate_electric_field_strength_through_U <- function(V_2, V_1, s) {
+  return((V_2 - V_1) / s)
+}
+
+```
+
+```{=tex}
+\begin{align}
+\vec{E} = \frac{V_2 - V_1}{s}.
+(\#eq:electric-field-strength-through-U)
+\end{align}
+
+```
+
+Lasen avaldada elektrivälja tugevuse põhivalemist \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` jõu avaldisena \@ref(eq:force-through-electric-field-strength) leheküljel `r render_pageref(reference = "eq:force-through-electric-field-strength")`.
+
+```{r label = "calculate-force-through-electric-field-strength", echo=FALSE}
+#' This function calculates the force through electric field strength.
+#' 
+#' @param E the electric field strength
+#' @param Q the electric charge
+#' 
+#' @returns the electric field strength
+calculate_force_through_electric_field_strength <- function(E, Q) {
+  return(E * Q)
+}
+
+```
+
+```{=tex}
+\begin{align}
+\vec{F} = \vec{E} \cdot Q.
+(\#eq:force-through-electric-field-strength)
+\end{align}
+
+```
+
+## Heli
+
+```{r label = "I-0"}
+I_0 <- 1e-12
+
+```
+
+Inimese kuulmislävel on võimsustihedus $\qty{`r as.character(I_0)`}{\W\per\m\squared}$ [@haynes_2014_crc(lk 14-52)].
+
+Helitaseme arvutamiseks võimsustiheduste järgi saab kasutada valemit \@ref(eq:sound-level) leheküljel `r render_pageref(reference = "eq:sound-level")`. Selle valemi dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-of-sound-level) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-sound-level")`, millest johtuvalt on ühik 1 või spetsiifiliselt detsibell.
+
+```{=tex}
+\begin{align}
+\beta = 10 \times \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}})
+(\#eq:sound-level)
+\end{align}
+
+```
+
+[@giancoli_2014_physics(lk 331)].
+
+```{=tex}
+\begin{align}
+1 \times \mathrm{log}(\frac{\mathrm{\frac{M \times L \times L}{T^3 \times L^2}}}{\mathrm{\frac{M \times L \times L}{T^3 \times L^2}}}).
+(\#eq:dimensional-analysis-of-sound-level)
+\end{align}
+
+```
+
+```{r label = "calculate-sound-level"}
+#' This function calculates the sound level.
+#' 
+#' @param I the power intensity
+#' 
+#' @returns the sound level
+calculate_sound_level <- function(I) {
+  return(10 * log10(I / I_0))
+}
+
+```
+
+Avaldan helitaseme valemist \@ref(eq:sound-level) leheküljel `r render_pageref(reference = "eq:sound-level")` võimsusintensiivsuse avaldises \@ref(eq:power-intensity) leheküljel `r render_pageref(reference = "eq:power-intensity")`
+
+```{=tex}
+\begin{align}
+\frac{\beta}{10} &= \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}}) \\
+10^{\frac{\beta}{10}} &= \frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}} \\
+I &= \qty{`r as.character(I_0)`}{\W\per\m\squared} \times 10^{\frac{\beta}{10}}.
+(\#eq:power-intensity)
+\end{align}
+
+```
+
+```{r label = "calculate-power-intensity"}
+#' This function calculates the power intensity.
+#' 
+#' @param beta the sound level
+#' 
+#' @returns the power intensity
+calculate_power_intensity <- function(beta) {
+  return(I_0 * 10^(beta / 10))
+}
+
+```
+
+Võimsusintensiivsuse sõltuvus kaugusest on esitatud avaldises \@ref(eq:dependence-of-power-intensity-on-distance) leheküljel `r render_pageref(reference = "eq:dependence-of-power-intensity-on-distance")`.
+
+```{=tex}
+\begin{align}
+I = \frac{P}{4 \times \pi \times r^2},
+(\#eq:dependence-of-power-intensity-on-distance)
+\end{align}
+
+```
+
+milles $P$ on võimsus ja $r$ kaugus heliallikast [@giancoli_2014_physics(lk 310)].
+
+
+\onecolumn
+
+[]{#prefixes}
+
+## Ühikud
+
++----------+-----------------+--------+---------+--------------------+
+| Eesliide | Kümne astendaja | Lühend | Näide   | Selgitus           |
++==========+=================+========+=========+====================+
+| piko-    | -12             | p      | 1 pN    | üks pikonjuuton    |
++----------+-----------------+--------+---------+--------------------+
+| nano-    | -9              | n      | 2 nm    | kaks nanomeetrit   |
++----------+-----------------+--------+---------+--------------------+
+| mikro-   | -6              | μ      | 3 μg    | kolm mikrogrammi   |
++----------+-----------------+--------+---------+--------------------+
+| milli-   | -3              | m      | 4 mW    | neli millivatti    |
++----------+-----------------+--------+---------+--------------------+
+| senti-   | -2              | c      | 5 cK    | viis sentikelvinit |
++----------+-----------------+--------+---------+--------------------+
+| detsi-   | -1              | d      | 6 dA    | kuus detsiamprit   |
++----------+-----------------+--------+---------+--------------------+
+| deka-    | 1               | D      | 7 Db    | seitse dekabitti   |
++----------+-----------------+--------+---------+--------------------+
+| hekto-   | 2               | H      | 8 HB    | kaheksa hektobaiti |
++----------+-----------------+--------+---------+--------------------+
+| kilo-    | 3               | K      | 9 Klx   | üheksa kiloluksi   |
++----------+-----------------+--------+---------+--------------------+
+| mega-    | 6               | M      | 10 MJ   | kümme megadžauli   |
++----------+-----------------+--------+---------+--------------------+
+| giga-    | 9               | G      | 100 GPa | sada gigapaskalit  |
++----------+-----------------+--------+---------+--------------------+
+| tera-    | 12              | T      | 0.5 Tcd | pool terakandelat  |
++----------+-----------------+--------+---------+--------------------+
+
+: Ühikute eesliited
+
+Konvertereid:
+
+1.  (UnitConverters.net)[<https://www.unitconverters.net/volume/cubic-kilometer-to-cubic-meter.htm>]
+
+2.  (Calculate weight of compounds and materials per volume)[<https://www.aqua-calc.com/calculate/volume-to-weight>]
+
+```{r label = "converters", echo=FALSE}
+convertFromKmPerHToMPerS <- function(velocityInKmPerH) {
+  (velocityInKmPerH * 1000 / 3600)
+}
+
+convertFromMiToM <- function(mi) {
+  mi * 1609.344
+}
+
+convertFromFtToM <- function(ft) {
+  convertFromMiToM(ft / 5280)
+}
+
+convert_degrees_to_radians <- function(degrees) {
+  return(degrees * pi / 180)
+}
+```
+
+## Mõõtemääramatus[@ldmtmisedloodusteadustesxlsx]
+
+Iga kord, kui mõõdame midagi, esineb ebatäpsusi, sest me ei saa mitte kunagi täielikult täpselt midagi mõõta. Näiteks, kui mõõdame joonlauaga kirjutusvahendi pikkust, siis saame pikkuse väärtuse välja lugeda joonlaua skaalalt, millel on väikseim ühik, millest oluliselt täpsemalt me pikkust välja lugeda ei saa. Samuti on võimalik meil asetada joonlaud ainult joonlaua skaala täpsusega kirjutusvahendi algpunkti. Võimalik on ka, et mõõtmistingimused ei ole ideaalsed. Nii määratleme kirjutusvahendi pikkuse mingis vahemikus ja see vahemik ongi mõõtemääramatus.
+
+Alati on mõõtmise tulemusena olemas mingi keskväärtus. Kui tehakse vaid üks mõõtmine, siis selle tulemus ongi keskväärtus, mitme mõõtmise puhul on keskväärtus väljamõõdetud väärtuste aritmeetiline keskmine.
+
+Mõõtemääramatuse tüübid on A, B1 ja B2.
+
+Kui teostatakse sama suuruse mõõtmisi korduvalt saades erinevaid väärtusi, siis on vajalik arvutada A-tüüpi mõõtemääramatus. Nt muutub ruumis heliintensiivsus pidevalt, kui ruum pole akustiliselt isoleeritud. Seetõttu tehakse palju korduvaid mõõtmisi ning kasutatakse statistikat, et mõõtmistulemus interpreteerida.
+
+A-tüüpi mõõtemääramatuse jaoks on vaja arvutada standardhälve ning korrutada see standardhälve Studenti jaotuse teguriga. Jaotusi on mitmeid, ent füüsikas võiksime kasutada eelkõige Studenti jaotust, kuna Studenti jaotusele allub mõõtmistulemuste jagunemine lõpliku arvu mõõtmiste korral ja mõõtmiste arv on alati lõplik.
+
+A-tüüpi mõõtemääramatuse arvutamise valem usaldusmäära $1 - α$ korral on \@ref(eq:measurement-uncertainty-of-type-A) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-A")`. Selles valemis:
+
+$u_\mathrm{A}$
+: A-tüüpi mõõtemääramatus
+
+$\alpha$
+: usaldamatuse määr
+
+$n$
+: mõõtmiste arv
+
+$t$
+: Studenti t-jaotuse funktsioon
+
+$\overline{x}$
+: aritmeetiline keskmine
+
+$x_i$
+: mõõdetud väärtus
+
+Studenti t-jaotuse funktsiooni väljundi saab kas ise arvutada, arvutada lasta või vaadata tabelist[@haynes_2014_crc(lk A-72)].
+
+```{=tex}
+\begin{equation}
+u_\mathrm{A} = \mathrm{t}(n - 1, \frac{\alpha}{2}) \cdot \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \cdot (n - 1)}}
+(\#eq:measurement-uncertainty-of-type-A)
+\end{equation}
+
+```
+
+B-tüüpi mõõtemääramatuseid on kaks. B1-tüüpi mõõtemääramatus arvutatakse mõõtevahendi dokumentatsiooni märgitud täpsusest. B2-tüüpi mõõtemääramatus arvutatakse mõõtevahendi väikseima ühiku põhjal.
+
+B1-tüüpi mõõtemääramatus on esitatud valemina \@ref(eq:measurement-uncertainty-of-type-B1) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-B1")`. Selles valemis
+
+$u_\mathrm{B1}$
+: B1-tüüpi mõõtemääramatus
+
+$e_\mathrm{p}$
+: mõõtevahendi lubatud piirhälve
+
+```{=tex}
+\begin{equation}
+u_\mathrm{B1} = \mathrm{t}(\infty, \frac{\alpha}{2}) \cdot \frac{e_\mathrm{p}}{3}.
+(\#eq:measurement-uncertainty-of-type-B1)
+\end{equation}
+
+```
+
+B2-tüüpi mõõtemääramatus on esitatud valemina \@ref(eq:measurement-uncertainty-of-type-B2) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-B2")`. Selles valemis
+
+$u_\mathrm{B2}$
+: B2-tüüpi mõõtemääramatus
+
+$l$
+: väikseim ühik
+
+$n$
+: mõõtevahendi kasutamisega võimalike veategemise kordade arv ühes mõõtmises
+
+Näiteks joonlauaga mõõtes saame teha kaks viga: joonlaua skaala alguse paigutamisel ja mõõdu väljalugemisel.
+
+```{=tex}
+\begin{equation}
+u_\mathrm{B2} = (1 - \alpha) \cdot \frac{l}{2} \cdot n.
+(\#eq:measurement-uncertainty-of-type-B2)
+\end{equation}
+
+```
+
+Kui kõiki tüüpi mõõtemääramatused on välja arvutatud, tuleb mõõtemääramatused liita, nagu liidetakse vektoreid (avaldis \@ref(eq:measurement-uncertainty) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty")`).
+
+\begin{align}
+u = \sqrt{u_\mathrm{A}^2 + u_\mathrm{B1}^2 + u_\mathrm{B2}^2}.
+(\#eq:measurement-uncertainty)
+\end{align}
+
+Lõpuks tuleb mõõdetud väärtus väljendada kujul, mis on esitatud
+
+### Suhteline mõõtemääramatus
+
+Suhteline mõõtemääramatus arvutatakse absoluutse mõõtemääramatuse ja mõõdetud keskväärtuse suhtena (valem \@ref(eq:relative-uncertainty) leheküljel `r render_pageref(reference = "eq:relative-uncertainty")`)[@uncertaintypdf, lk 22, 23; @mtmised, lk 16].
+
+\begin{align}
+R = \frac{u}{\overline{q}}
+(\#eq:relative-uncertainty)
+\end{align}
+
+\newpage
+
+### Mõõtkavadega joonlaud
+
+Mõõtkavadega joonlaud on analoogmõõtevahend, millel on mitu mõõtkava ja mida saab kasutada vastava mõõtkavaga kaardi vahemaade lugemiseks ilma lisaarvutamise vajaduseta.
+
+Kui mõõdan sellega staatilist sihitist, siis saan ilmselt iga kord sama või ainult veidi erineva tulemuse sõltuvalt sellest, kui hästi suudan joonlaua paigutada. Seetõttu suur arv kordusmõõtmisi ei lisa oluliselt täpsust. Seega pole vaja arvutada A-tüüpi mõõtemääramatust.
+
+```{r label = "ruler", echo=FALSE}
+ruler_smallest_unit <- .5
+ruler_relation = 4000 / 400
+ruler_smallest_unit_actual <- ruler_smallest_unit * ruler_relation 
+ruler_x <- 42
+ruler_x_actual <- ruler_x * ruler_relation
+ruler_relative <- ruler_smallest_unit / ruler_x
+ruler_data_frame <- data.frame(ruler_x_actual)
+
+ruler_lower <- ruler_x_actual - ruler_smallest_unit_actual
+ruler_upper <- ruler_x_actual + ruler_smallest_unit_actual
+
+```
+
+Minu kasutada oleva *deli* joonlaua kohta puuduvad tehaseandmed, mistõttu lähtun B-tüüpi mõõtemääramatuse arvutamises joonlaua väikseimast ühikust, milleks on skaalat $\frac{\num{1}}{\num{400}}$ kasutades \qty{`r as.character(ruler_smallest_unit)`}{\m} (joonis \@ref(fig:measuring-with-ruler-with-scales) leheküljel `r render_pageref(reference = "fig:measuring-with-ruler-with-scales")`[@noauthor_undated-ar]). Kuna kaardi mõõtkava on $\frac{\num{1}}{{4000}}$, siis on tegelikkuses lühim selle joonlauaga ja skaalaga mõõdetav vahemaa \qty{`r as.character(ruler_smallest_unit_actual)`}{\m}.
+
+```{r label = "measuring-with-ruler-with-scales", echo=FALSE, fig.cap = "Kahe kontrollpunkti vahelise kauguse mõõtmine mõõtkavadega joonlauaga."}
+include_external_graphics("rmd/baasreeglistik/skaaladega-joonlaud.png")
+
+```
+
+See joonlaud ei ole digitaalne, mistõttu jääb B-tüüpi mõõtemääramatuseks väikseim ühik.
+
+Mõõdetud vahemaa on väljendatuna täielikult \qty{`r as.character(ruler_x_actual)`(`r as.character(ruler_smallest_unit_actual)`)}{\m}.
+
+Suhtelise mõõtemääramatuse arvutamiseks tuleb absoluutne mõõtemääramatus jagada mõõdetud suurusega vastavalt valemile \@ref(eq:relative-uncertainty) leheküljel `r render_pageref(reference = "eq:relative-uncertainty")` ning see arvutuskäik on esitatud avaldisena \@ref(eq:ruler-relational-uncertainty) leheküljel `r render_pageref(reference = "eq:ruler-relational-uncertainty")`:
+
+\begin{align}
+R = \frac{\qty{`r as.character(ruler_smallest_unit)`}{\m}}{\qty{`r as.character(ruler_x)`}{\m}} =  \num{`r as.character(signif(x = ruler_relative, digits = 3))`}
+(\#eq:ruler-relational-uncertainty)
+\end{align}
+
+Mõõdetud suurus esitatuna suhtelise mõõtemääramatusega on \qty{`r as.character(ruler_x)`}{\m}\pm\num{`r as.character(signif(x = ruler_relative, digits = 3))`}.
+
+See tähendab, et nende kahe kontrollpunkti vaheline kaugus on vahemikus vahemikus [\qty{`r as.character(signif(x = ruler_lower, digits = 3))`}{\m}; \qty{`r as.character(signif(x = ruler_upper, digits = 3))`}{\m}].
+
+Joonisel \@ref(fig:ruler-uncertainties) leheküljel `r render_pageref(reference = "fig:ruler-uncertainties")` on esitatud mõõdetud keskväärtus koos mõõtemääramatusega graafiliselt.
+
+```{r label = "ruler-uncertainties", fig.cap="Kahe kontrollpunkti omavaheline kaugus mõõtemääramatusega.", echo=FALSE}
+librarian::shelf(c(                                                                                                                                                                                                                                                                               # 2
+  "ggplot2",                                                                                                                                                                                                                                                                                      # 3
+  "latex2exp"                                                                                                                                                                                                                                                                                     # 4
+))                                                                                                                                                                                                                                                                                                # 5
+                                                                                                                                                                                                                                                                                                  # 6
+color_x <- "#008000"                                                                                                                                                                                                                                                                             # 10
+                                                                                                                                                                                                                                                                                                 # 12
+ggplot(data = ruler_data_frame, mapping = aes(x = `ruler_x_actual`, y = 0)) +                                                                                                                                                                                                   # 13
+  geom_point(shape = 23, size = 1) +                                                                                                                                                                                                                                                             # 14
+  labs(x = TeX("$\\frac{\\textit{q}}{m}$")) +                                                                                                                                                                                              # 15
+  geom_errorbarh(aes(xmin = `ruler_x_actual` - ruler_smallest_unit_actual, xmax = `ruler_x_actual` + ruler_smallest_unit_actual), color = color_x) +                                                                                                                                                                      # 16
+  theme(
+    axis.title.x = element_text(colour = color_x),
+    axis.text.x = element_text(colour = color_x),
+    axis.ticks.x = element_line(colour = color_x),
+    axis.title.y=element_blank(), 
+    axis.text.y=element_blank(), 
+    axis.ticks.y=element_blank()
+  ) +
+  scale_x_continuous(
+  labels = scales::number_format(accuracy = 1))
+
+```
+
+\onecolumn
+
+[]{#caliper}
+
+### Nihik
+
+Nihik on kauguse mõõtmisvahend, mille haarade vahele saab panna mõõdetava sihitise või mille haarad saab panna mõõdetavasse vahesse ja lugeda skaalalt välja kaugus.
+
+Digitaalne nihik omab kuva, mis näitab elektrooniliselt kauguse kuvades selle teatud täpsusega ja tehes ümardamise inimese eest. Elektrooniliste vahenditega pruugime kordusmõõtmisel saada eelmisest veidi erineva tulemuse, sest eksperimenteerija ei pruugi sättida haarasid täpselt, eri väljad võivad mõjutada masina tööd. Mida tundlikum on sensor, seda rohkem mõõtetulemused üksteisest erinevad. Seetõttu tuleb digitaalse mõõtmisvahendi puhul arvutada mõõtmistulemusele ka A-tüüpi mõõtemääramatus. Et tulemusi vähegi tõsiselt võtta, tuleb teha vähemalt neli mõõtmist. Mida rohkem mõõtmisi eksperimenteerija teeb, seda stabiilsemaks ta mõõtmistulemuste keskväärtuse saab.
+
+Näitena on mul kasutuses digitaalne nihik ja ma mõõdan sellega oma sõrme jämedust, nagu on näha joonisel \@ref(fig:measuring-with-caliper) leheküljel `r render_pageref(reference = "fig:measuring-with-caliper")`.
+
+```{r label = "measuring-with-caliper", echo=FALSE, fig.cap = "Sõrme jämeduse mõõtmine digitaalse nihikuga."}
+include_external_graphics("rmd/baasreeglistik/nihik.jpg")
+
+```
+
+
+```{r label = "caliper", echo=FALSE}
+caliper <- c(9.97e-3, 9.47e-3, 9.44e-3, 9.42e-3)
+caliper_number <- length(caliper)
+caliper_mean <- mean(caliper)
+caliper_difference_from_mean <- caliper - caliper_mean
+caliper_difference_from_mean_squared <- caliper_difference_from_mean^2
+caliper_difference_from_mean_squared_sum <- sum(caliper_difference_from_mean_squared)
+caliper_number_less_1 <- caliper_number - 1
+caliper_variance <- caliper_difference_from_mean_squared_sum / (caliper_number_less_1)
+caliper_sd <- sqrt(caliper_variance)
+
+caliper_less_sd <- caliper - caliper_sd
+
+caliper_sd_mean <- caliper_sd / sqrt(caliper_number)
+librarian::shelf(c(
+  "distributions3"
+))
+studentTDistribution = StudentsT(df = caliper_number_less_1)
+alpha <- 1 - .05 / 2
+caliper_number_student = quantile(studentTDistribution, alpha)
+student_7 <- quantile(StudentsT(df = 6), alpha)
+
+caliper_uncertainty_A <- caliper_sd_mean * caliper_number_student
+
+caliper_smallest_unit <- .01e-3
+caliper_b <- caliper_smallest_unit / 2
+#caliper_b_last <- caliper_b * 10
+caliper_uncertainty <- sqrt(caliper_uncertainty_A^2 + caliper_b^2)
+
+caliper_lower <- caliper_mean - caliper_uncertainty
+caliper_upper <- caliper_mean + caliper_uncertainty
+caliper_relative <- caliper_uncertainty / caliper_mean
+
+caliper_data_frame = data.frame(caliper)
+
+```
+
+Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:measurement-uncertainty-of-type-A) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty-of-type-A")`.
+
+Selleks tuleb esmalt arvutada aritmeetiline keskmine. Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:caliper-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
+
+\begin{align}
+x_1 = \qty{`r as.character(caliper[1])`}{\m},\\
+x_2 = \qty{`r as.character(caliper[2])`}{\m},\\
+x_3 = \qty{`r as.character(caliper[3])`}{\m},\\
+x_4 = \qty{`r as.character(caliper[4])`}{\m}.
+(\#eq:caliper-x)
+\end{align}
+
+
+Aritmeetilise keskmise arvutan liites kõik mõõdetud väärtused kokku ja jagades nende arvuga (avaldis \@ref(eq:caliper-mean) leheküljel `r render_pageref(reference = "eq:caliper-mean")`).
+
+\begin{align}
+\overline{x} = \frac{(\qty{`r as.character(caliper[1])`}{\m}) + (\qty{`r as.character(caliper[2])`}{\m}) +  \qty{`r as.character(caliper[3])`}{\m} + \qty{`r as.character(caliper[4])`}{\m}}{\num{`r as.character(caliper_number)`}} = \qty{`r as.character(caliper_mean)`}{\m}.
+(\#eq:caliper-mean)
+\end{align}
+
+Nüüd on vaja arvutada iga väärtuse erinevus aritmeetilisest keskmisest (avaldised \@ref(eq:caliper-mean-x) leheküljel `r render_pageref(reference = "eq:caliper-mean-x")`).
+
+\begin{align}
+\overline{x} - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\\
+\overline{x} - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\\
+\overline{x} - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\\
+\overline{x} - x_4 = (\qty{`r as.character(caliper[4])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m}.
+(\#eq:caliper-mean-x)
+\end{align}
+
+Need erinevused on vaja ruutu tõsta (avaldised \@ref(eq:caliper-mean-x-squared) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared")`).
+
+\begin{align}
+(\overline{x} - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_4)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}.
+(\#eq:caliper-mean-x-squared)
+\end{align}
+
+Ruudustatud erinevused on vaja kokku liita (avaldis \@ref(eq:caliper-difference-from-mean-square-sum) leheküljel `r render_pageref(reference = "eq:caliper-difference-from-mean-square-sum")`).
+
+\begin{align}
+\sum_{i = 1}{\overline{x} - x_i} =\\
+(\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}) =\\
+\qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}.
+(\#eq:caliper-difference-from-mean-square-sum)
+\end{align}
+
+Summa tuleb jagada ühega vähem kui mõõtmiste arv, et saada üksiktulemuse dispersioon (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1")`)[@mtmised, lk 10].
+
+\begin{align}
+\sigma_x^2 = \frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)} = \frac{\qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}}{\num{`r as.character(caliper_number)`} - \num{1}} = \qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}.
+(\#eq:caliper-mean-x-squared-sum-over-n-1)
+\end{align}
+
+Üksiktulemuse standardhälbe saan, kui arvutan ruutjuure dispersioonist (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1-sqrt) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1-sqrt")`).
+
+\begin{align}
+\sigma_x = \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)}} = \sqrt{\qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}} = \qty{`r as.character(signif(x = caliper_sd, digits = 4))`}{\m}.
+(\#eq:caliper-mean-x-squared-sum-over-n-1-sqrt)
+\end{align}
+
+\twocolumn
