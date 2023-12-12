@@ -174,3 +174,7 @@ Hindan väljundeid mitteeristavalt. *A* märgin, kui kõik väljundid vastavad k
 Kui õpilane selgitab mingi kontaktsessiooniväliseks lahendamiseks jäetud ülesande lahenduse tahvli abil meile kõigile korrektselt, vabaneb ta selle ülesande mooduli osas teiste tegevuste hindamiseks esitamisest ja tema selle mooduli teadmised-oskused saavad märgituks kui olemasolevad (*A*).
 
 *Teistsuguse füüsika* kursuse õpilane saab oma õppimise tulemuseks *A*, kui ta on esitanud korrektse uurimuse, teinud selle kohta nõuetele vastava eestikeelse kokkuvõtte ja esitlenud oma uurimust.
+
+## Konspekt
+
+Iga õpilane kohustub looma konspekti, millesse märgib üles kõik olulise ja lahendab kõik ülesanded. Konspekt võiks olla *A4*-vormingus ruuduline. Soovitan kasutada eri värve eri tüüpi info eraldamiseks ning luua sisujuhi koos lehekülgede numeratsiooniga. Konspekti kontrollin pisteliselt ja tagasisidestan. Enda loodud konspekti tohib õpilane kasutada kõikide hindeliste ülesannete lahendamises.

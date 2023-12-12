@@ -224,8 +224,221 @@ Kava:
 
 1. Sissejuhatus.
 
-2. Eelnevalt õpitu kordamine: tutvustus ja orienteerumine, aine ja energia[@atkins_2010_chemical(lk F1-F13)].
+2. Eelnevalt õpitu kordamine: tutvustus ja orienteerumine, aine ja energia[@atkins_2010_chemical(lk F1-F13)]. Valemini 3 jõudsin rääkida.
+
+### 2023-12-12
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
 
 3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)].
 
 4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
+
+### 2023-12-12
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)].
+
+4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
+
+\onecolumn
+
+## Testid
+
+### 2023-12-12
+
+1.  Mis on keemia?
+
+    \vspace{0.1\textheight}
+
+    Mida tähendab keemia makroskoopiline tasand?
+    
+    \vspace{0.1\textheight}
+
+    Mida tähendab keemia mikroskoopiline tasand?
+    
+    \vspace{0.1\textheight}
+
+    Mida tähendab keemia sümboolne tasand?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+2.  Mille poolest erinevad orgaaniline ja anorgaaniline keemia?
+    
+    \vspace{0.1\textheight}
+
+    Mis on füüsikaline keemia?
+        
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+3.  Mille poolest erinevad aine ja substants?
+
+    \vspace{0.1\textheight}
+
+    Millised on aine faasid?
+    
+    \vspace{0.1\textheight}
+
+    Kirjelda aatomite liikumist iga aine faasi puhul!
+    
+    \vspace{0.1\textheight}
+    
+    Mis on mineraal?
+        
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+4.  Keemiline ja füüsikaline omadus.
+
+    Klassifitseeri järgmised omadused keemilisteks või füüsikalisteks:
+ 
+    - hõbedast esemed tuhmuvad;
+ 
+    - rubiinide punane värvus on tingitud kroomiioonide olemasolust; 
+ 
+    - etanooli keemistemperatuur on 78°C.
+ 
+    Tuvasta kõik füüsikalised omadused ja muudatused järgmises väites: "Laagri õde mõõtis vigastatud telkija temperatuuri ja süütas propaanipõleti; kui vesi hakkas keema, osa veeauru kondenseerus külmale aknale".
+
+    Leheküljel `r render_pageref(reference="fig:fundamentals-properties-physical-chemical")` oleval joonisel \@ref(fig:fundamentals-properties-physical-chemical) olevates konteinerites tähistavad rohelised sfäärid ühe elemendi aatomeid, punased sfäärid teise elemendi aatomeid. Igal juhul on piltidel näha kas füüsikalist või keemilist muutust; tuvastada muudatuse tüüp.
+    
+    ```{r label = "fundamentals-properties-physical-chemical", echo=FALSE, fig.cap = "Füüsikaline või keemiline muutus."}
+    include_external_graphics("rmd/füüsikaline-keemiline.svg")
+
+    ```
+
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+5.  Märgista, kui omadus on ekstensiivne:
+    
+    \begin{itemize}
+    	\item[\faSquareO] temperatuur, mille juures jää sulab;
+    	\item[\faSquareO] nikkelkloriidi värvus;
+    	\item[\faSquareO] bensiini põlemisel toodetud energia;
+    	\item[\faSquareO] bensiini maksumus.
+    \end{itemize}
+
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+6.  Mis on jõud?
+    
+    \vspace{0.1\textheight}
+
+    Esita üks jõu arvutamise valem ültuntud tähistustega või kasuta legendi!
+        
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+7.  Mis on töö?
+        
+    \vspace{0.1\textheight}
+
+    Esita üks töö arvutamise valem kasutades üldtuntud tähistusi või lisades legend!
+        
+    \vspace{0.1\textheight}
+
+    Mis on termiline liikumine?
+        
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+8.  Mis on energia?
+        
+    \vspace{0.1\textheight}
+
+    Kirjelda, kuidas muutuvad eseme kineetiline ja potentsiaalne energia, kui eset tõstetakse!
+        
+    \vspace{0.1\textheight}
+
+    Kas selle tõstetava eseme koguenergia on suurem enne tõstmist, pärast tõstmist või koguenergia ei muutu?
+
+    \vspace{0.1\textheight}
+
+    Mis on energia jäävuse seadus?
+
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+9.  Esita Coulomb' potentsiaalse energia valem kasutades üldtutnud tähistusi või lisades legendi!
+        
+    \vspace{0.1\textheight}
+
+    Milline seos on elektromagneetilisel väljal ja energial?
+        
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+10. Kui \qty{23,45}{\milli\liter} vett sisaldavasse mõõtesilindrisse uputatakse \qty{112,32}{\g} massiga mittereageerivat metallitükk, tõuseb veetase \qty{29,27}{\milli\liter}-ni. Milline on metalli tihedus (grammides kuupsentimeetri kohta)? Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend! Lubatud on kasutada standardse vee tiheduse tabelit.
+
+    \vspace{0.2\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+11. Teemandi tihedus on \qty{3,51}{\gram\per\cubic\centi\m}. Rahvusvaheline (kuid mitte-SI) teemantide kaalumise ühik on "karaat" (\num{1} karaat = \qty{200}{\milli\gram}). Kui suur on \num{0,750}-karaadise teemandi maht? Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend!
+
+    \vspace{0.2\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+12. Kolb kaalub tühjana \qty{43,50}{\gram} ja veega täidetuna \qty{105,50}{\gram}. Kui sama kolb täita teise vedelikuga, on mass \qty{96,75}{\gram}. Milline on teise vedeliku tihedus?  Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend!
+
+    \vspace{0.3\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+13. Kosmoselaevad on tavaliselt kaetud alumiiniumiga, et tagada varjestus kiirguse eest. Piisav varjestus eeldab, et kattekiht peab sisaldama \qty{20,}{\gram} alumiiniumi ruutsentimeetri kohta. Arvutada, kui paks peab alumiiniumkate piisava varjestuse tagamiseks olema.  Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend! Kasutada on lubatud keemiliste elementide perioodilisussüsteemi tihedustega tabelit.
+
+    \vspace{0.2\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+14. Metalli tihedust mõõdeti kahe erineva meetodiga. Igal juhul arvutage tihedus. Märgi, milline mõõtmine on täpsem.
+
+ - Metallist ristkülikukujulise ploki mõõtmeteks mõõdeti \qty{1,10}{\centi\m}, \qty{0,531}{\centi\m} ja  \qty{0,212}{\centi\m}.
+Selle ploki mass oli \qty{0,213}{\gram}.
+
+ - Silinder täideti \qty{19,65}{\milli\liter} märgini veega ja silindri mass veega oli \qty{39,753}{\gram}. Metallitüki vette kastmisel tõusis vee tase \qty{20,37}{\milli\liter}-ni ja silindri massiks metalliga vees kaaluti \qty{41,003}{\gram}.
+ 
+    Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\twocolumn
