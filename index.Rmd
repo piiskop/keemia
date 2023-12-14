@@ -65,14 +65,15 @@ names_10 <- c(
 	"3. Kimasks, Stanislavs",
 	"4. Kustov, Vladimir",
 	"5. Malõšev, Polina",
-	"6. Šerstobitov, Mihhail",
-	"7. Šesterikov, Daniil",
-	"8. Žigadlo, Grigori",
-	"9. Žukova, Darja",
-	"10. Trubilko, Vladislav",
-	"11. Tšerkesov, Demid",
-	"12. Volkova, Darja",
-	"13. Volkova, Jeva"
+	"6. Nersesjan, Feliks",
+	"7. Salnikova, Veronika",
+	"8. Šerstobitov, Mihhail",
+	"9. Šesterikov, Daniil",
+	"10. Žigadlo, Grigori",
+	"11. Žukova, Darja",
+	"12. Trubilko, Vladislav",
+	"13. Volkova, Darja",
+	"14. Volkova, Jeva"
 )
 
 #' This function builds a table with test results.
@@ -80,34 +81,47 @@ names_10 <- c(
 #' @param tasks the data frame with task results
 #' @param names the names of the pupils
 #' @param caption the start of the caption in Estonian in the second case
+#' @param long Is it a test with multiple questions?
 #' 
-#' @example build_table_with_grades(tasks = tasks_of_electric_current, names = names_11, caption = "Elektrivoolu")
-build_table_with_grades <- function(tasks, names, caption) {
-  summary <- rowSums(tasks)
+#' @example build_table_with_grades(tasks = tasks_of_electric_current, names = names_11, caption = "Elektrivoolu", long = TRUE)
+build_table_with_grades <- function(tasks, names, caption, long = TRUE) {
+  if (long) {
+    summary <- rowSums(tasks)
+    
+    grade <- calculate_grade(summary)
   
-  grade <- calculate_grade(summary)
-
-  indexes_of_tasks = c(1)
+    indexes_of_tasks = c(1)
+    
+    for (index in 2:length(tasks)) {
+      indexes_of_tasks <- c(indexes_of_tasks, index) 
+    }
   
-  for (index in 2:length(tasks)) {
-    indexes_of_tasks <- c(indexes_of_tasks, index) 
+    data_frame <- cbind(tasks, summary, grade)
+    colnames(data_frame) <- c(
+      indexes_of_tasks,
+      "Koond",
+      "Hinne"
+    )
+  } else {
+    data_frame <- tasks
+    colnames(data_frame) <- c(
+      "Ülesanne",
+      "Hinne"
+    )
   }
-
-  data_frame <- cbind(tasks, summary, grade)
-  colnames(data_frame) <- c(
-    indexes_of_tasks,
-    "Koond",
-    "Hinne"
-  )
 
   rownames(data_frame) <- names
   
-  print_table(
+  table <- print_table(
     table = data_frame,
-    caption = paste(caption, "testi tulemused")
-  ) %>%
-    landscape()
+    caption = paste(caption, "testi tulemused.")
+  )
 
+  if (long) {
+    landscape(table)
+  } else {
+    table
+  }
 }
 
 #' This function calculates the grade according to the fraction.

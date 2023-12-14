@@ -234,11 +234,35 @@ Kava:
 
 Kava:
 
-3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)].
+3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)]. Rääkisin prootonite arvu Z'ni.
+
+### 2023-12-12
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)]. Käsitlesime isotoobid.
+
+### 2023-12-14
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)]. Alustame elementide organisatsiooniga.
 
 4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
 
-### 2023-12-12
+5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
+
+6. Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+
+### 2023-12-14
 
 Õppesisu:
 
@@ -250,11 +274,33 @@ Kava:
 
 4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
 
+5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
+
+6. Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+
+### 2023-12-14
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)].
+
+4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
+
+5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
+
+6. Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+
 \onecolumn
 
 ## Testid
 
 ### 2023-12-12
+
+#### Ülesanded
 
 1.  Mis on keemia?
 
@@ -306,16 +352,14 @@ Kava:
 
 \newpage
 
-4.  Keemiline ja füüsikaline omadus.
+4.  Märgista omadus, kui see on keemiline:
+    
+    \begin{itemize}
+    	\item[\faSquareO] hõbedast esemed tuhmuvad;
+    	\item[\faSquareO] rubiinide punane värvus on tingitud kroomiioonide olemasolust;
+    	\item[\faSquareO] etanooli keemistemperatuur on 78°C.
+    \end{itemize}
 
-    Klassifitseeri järgmised omadused keemilisteks või füüsikalisteks:
- 
-    - hõbedast esemed tuhmuvad;
- 
-    - rubiinide punane värvus on tingitud kroomiioonide olemasolust; 
- 
-    - etanooli keemistemperatuur on 78°C.
- 
     Tuvasta kõik füüsikalised omadused ja muudatused järgmises väites: "Laagri õde mõõtis vigastatud telkija temperatuuri ja süütas propaanipõleti; kui vesi hakkas keema, osa veeauru kondenseerus külmale aknale".
 
     Leheküljel `r render_pageref(reference="fig:fundamentals-properties-physical-chemical")` oleval joonisel \@ref(fig:fundamentals-properties-physical-chemical) olevates konteinerites tähistavad rohelised sfäärid ühe elemendi aatomeid, punased sfäärid teise elemendi aatomeid. Igal juhul on piltidel näha kas füüsikalist või keemilist muutust; tuvastada muudatuse tüüp.
@@ -440,5 +484,303 @@ Selle ploki mass oli \qty{0,213}{\gram}.
     \vspace{0.4\textheight}
 
     Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+#### Tulemused
+
+\nobreak
+
+```{r label="intro-results-2023-12-12", echo=FALSE}
+
+tasks_of_intro_2023_12_12<- data.frame(
+  c( # Ülesanne
+    8, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    7, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    6, # Malõšev, Polina
+    2, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    4, # 12. Volkova, Darja
+    3 # Volkova, Jeva
+  ),
+  c( # Hinne
+    1, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    5, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    3, # Malõšev, Polina
+    3, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    3, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    3, # 12. Volkova, Darja
+    1 # Volkova, Jeva
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_intro_2023_12_12, names = names_10, caption = "Sissejuhatus: 2023-12-12", long = FALSE)
+
+```
+
+\newpage
+
+### 2023-12-14
+
+1.  Berülliumi aatomi mass on \qty{1,50e-26}{\kg}. Mitu berülliumi aatomit on röntgentoru aknana kasutatavas berülliumkiles massiga \qty{0,210}{\g}?
+
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+2.  Täida tabel \@ref(tab:basics-intro-p-n-e) leheküljel `r render_pageref(reference="tab:basics-intro-p-n-e")` vastavalt sellele, kui palju prootoneid, neutroneid ja elektrone on esitatud isotoobi aatomi koostises! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+     
+    ```{r label="basics-intro-p-n-e", echo=FALSE}
+    p <- c(
+      "\\blank{\\num{5}}",
+      "\\blank{\\num{5}}",
+      "\\blank{\\num{15}}",
+      "\\blank{\\num{92}}"
+    )
+    n <- c(
+      "\\blank{\\num{6}}",
+      "\\blank{\\num{5}}",
+      "\\blank{\\num{16}}",
+      "\\blank{\\num{146}}"
+    )
+    e <- c(
+      "\\blank{\\num{5}}",
+      "\\blank{\\num{5}}",
+      "\\blank{\\num{15}}",
+      "\\blank{\\num{92}}"
+    )
+    
+    p_n_e <- data.frame(
+      p,
+      n,
+      e
+    )
+    
+    rownames(p_n_e) <- c(
+      "boor-11",
+      "\\ce{^{10}B}",
+      "fosfor-31",
+      "\\ce{^{238}U}"
+    )
+    
+    colnames(p_n_e) <- c(
+      "Prootoneid",
+      "Neutroneid",
+      "Elektrone"
+    )
+    
+    print_table(table=p_n_e, caption="Boori, fosfori ja uraani isotoopide koostisosad.")
+    
+    ```
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+3.  Täida tabel \@ref(tab:basics-intro-p-n-e-of-unknown) leheküljel `r render_pageref(reference="tab:basics-intro-p-n-e-of-unknown")` vastavalt sellele, millise isotoobi aatomi koostises on nii palju prootoneid, neutroneid ja elektrone! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+     
+    ```{r label="basics-intro-p-n-e-of-unknown", echo=FALSE}
+    p <- c(
+      "\\num{77}",
+      "\\num{10}",
+      "\\num{23}"
+    )
+    n <- c(
+      "\\num{117}",
+      "\\num{12}",
+      "\\num{28}"
+    )
+    e <- c(
+      "\\num{77}",
+      "\\num{10}",
+      "\\num{23}"
+    )
+    
+    p_n_e <- data.frame(
+      p,
+      n,
+      e
+    )
+    
+    rownames(p_n_e) <- c(
+      "\\blank{\\ce{^{194}Ir}}",
+      "\\blank{\\ce{^{22}Ne}}",
+      "\\blank{\\ce{^{51}V}}"
+    )
+    
+    colnames(p_n_e) <- c(
+      "Prootoneid",
+      "Neutroneid",
+      "Elektrone"
+    )
+    
+    print_table(table=p_n_e, caption="Tundmatute isotoopide koostisosad.")
+    
+    ```
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\begin{landscape}
+
+4.  Täida tabel \\@ref(tab:basics-intro-symbol-p-n-e-A) leheküljel `r render_pageref(reference="tab:basics-intro-symbol-p-n-e-A")`! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+     
+    ```{r label="basics-intro-symbol-p-n-e-A", echo=FALSE}
+    symbol <- c(
+      "\\ce{^{36}Cl}",
+      "\\blank{\\ce{^{65}Zn}}",
+      "\\blank{\\ce{^{40}Ca}}",
+      "\\blank{\\ce{^{137}La}}"
+    )
+    p <- c(
+      "\\blank{\\num{17}}",
+      "\\num{30}",
+      "\\blank{\\num{20}}",
+      "\\blank{\\num{57}}"
+    )
+    n <- c(
+      "\\blank{\\num{19}}",
+      "\\blank{\\num{35}}",
+      "\\num{20}",
+      "\\num{80}"
+    )
+    e <- c(
+      "\\blank{\\num{17}}",
+      "\\blank{\\num{30}}",
+      "\\num{20}",
+      "\\blank{\\num{57}}"
+    )
+    A <- c(
+      "\\blank{\\num{36}}",
+      "\\num{65}",
+      "\\blank{\\num{40}}",
+      "\\blank{\\num{137}}"
+    )
+    
+    symbol_p_n_e_A <- data.frame(
+      symbol,
+      p,
+      n,
+      e,
+      A
+    )
+    
+    rownames(symbol_p_n_e_A) <- c(
+      "\\blank{kloor}",
+      "\\blank{tsink}",
+      "\\blank{kaltsium}",
+      "lantaan"
+    )
+    
+    colnames(symbol_p_n_e_A) <- c(
+      "Sümbol",
+      "Prootoneid",
+      "Neutroneid",
+      "Elektrone",
+      "Nukleone"
+    )
+    
+    print_table(table=symbol_p_n_e_A, caption="Mõne isotoobi koostisosad.")
+    
+    ```
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5.  Millised omadused on ühised argoon-40, kaalium-40 ja kaltsium-40 aatomitel?
+
+    \vspace{0.1\textheight}
+
+    Mille poolest need erinevad?
+
+    \vspace{0.1\textheight}
+    
+    (Võta arvesse subatomaarsete osakeste arvu ja tüüpe.) Lubatud on elementide tabel.
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+6.  Arvuta \ce{^{58}Fe} aatomi kogumassi osa, mis tuleneb
+    
+     - neutronitest;
+     
+     - prootonitest;
+     
+     - elektronidest.
+     
+    Kui suur on neutronite mass autos massiga \qty{1,000}{\tonne}? Oletame, et sõiduki kogumass tuleneb \ce{^{56}Fe}-st.
+     
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi ja füüsikaliste aluskonstantide väärtuste tabelit.
+
+    \vspace{0.6\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+7.  Millised aatomi hüpoteesid püstitas John Dalton?
+
+    \vspace{0.1\textheight}
+
+    Milline nendest neljast hüpoteesist lükati hiljem ümber ja miks?
+
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+8.  Mis on keemiline element?
+
+    \vspace{0.1\textheight}
+
+    Mille keemilised elemendid moodustavad?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+9.  Millest koosneb aatom?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+10. Mille järgi on keemilised elemendid reastatud süsteemi ühest 118'ni?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+11. Mille jaoks kasutatakse massispektromeetrit?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+12. Kuidas jaotub laeng aatomis?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+13. Mida tähendab massiarv?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+14. Mille poolest erinevad keemilise elemendi isotoobid?
+    
+    \vspace{0.1\textheight}
+
+    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
 
 \twocolumn
