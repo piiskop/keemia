@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="103.42398"
+   height="71.911987"
+   viewBox="0 0 103.42398 71.911986"
+   sodipodi:docname="Chemical Principles The Quest for Insight.PDF"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath226">
+      <path
+         d="m -39.96,821.314 h 690 v -861 h -690 z"
+         id="path224" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath234">
+      <path
+         d="m -9.96,791.314 h 630 v -801 h -630 z"
+         id="path232" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath242">
+      <path
+         d="M 0,781.354 H 609.72 V 0.274 H 0 Z"
+         id="path240" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath746">
+      <path
+         d="M 243.544,101.773 H 165.976 V 47.839 h 77.568 z"
+         id="path744" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath754">
+      <path
+         d="m 210.108,101.773 c 0.346,-0.03 0.692,-0.06 1.039,-0.092 1.187,-0.291 2.109,-1.063 2.538,-2.109 1.014,-2.475 -0.951,-4.803 -3.272,-4.83 -0.387,-0.928 -0.774,-1.856 -1.162,-2.783 -0.187,-0.44 -0.298,-1.087 -0.519,-1.437 -0.191,-0.302 -0.725,-1.5 -0.643,-1.743 1.242,-0.555 2.992,-3.407 2.63,-5.594 -0.147,-0.891 -0.393,-1.482 -0.551,-2.172 2.61,-1.904 5.219,-3.81 7.828,-5.716 0.588,-0.42 2.175,-1.837 2.782,-1.988 1.164,1.458 4.251,2.063 6.511,1.254 0.68,-0.243 1.248,-0.673 1.804,-1.04 1.549,1.275 3.099,2.549 4.648,3.822 -2.56,5.602 5.256,9.688 8.622,5.35 2.546,-3.281 0.715,-7.575 -2.996,-8.377 -1.056,-0.227 -2.268,0.042 -2.997,0.367 -0.242,0.108 -0.788,0.569 -0.978,0.459 -1.529,-1.244 -3.058,-2.487 -4.586,-3.73 0.143,-0.336 0.285,-0.673 0.428,-1.009 0.475,-1.555 0.228,-3.53 -0.367,-4.738 0.881,0.395 1.591,0.757 2.812,0.947 0.567,0.088 1.245,-0.119 1.651,-0.244 2.19,-0.675 4.477,-3.162 3.516,-6.299 -0.241,-0.788 -0.654,-1.402 -1.069,-2.018 -0.824,-1.216 -3.388,-2.149 -5.412,-1.528 -2.292,0.703 -4.74,3.794 -3.241,6.909 -0.869,-0.593 -1.719,-1.156 -2.965,-1.406 -0.418,-0.084 -2.242,0.031 -2.324,-0.03 -0.365,-0.442 -0.456,-1.167 -0.704,-1.712 -0.369,-0.816 -1.179,-2.3 -1.314,-3.18 4.52,-3.302 0.624,-11.257 -5.167,-8.806 -2.006,0.85 -4.046,3.625 -2.813,6.574 0.856,2.044 2.604,3.42 5.473,3.271 0.53,1.264 1.06,2.528 1.59,3.791 0.09,0.205 0.486,1.087 0.397,1.162 -0.407,0.367 -0.815,0.734 -1.222,1.101 -0.629,0.807 -1.031,1.601 -1.346,2.751 -0.116,0.426 -0.31,1.029 -0.214,1.621 0.071,0.54 0.143,1.08 0.214,1.62 0.085,0.3 0.372,0.701 0.337,0.979 -3.506,2.578 -7.012,5.156 -10.518,7.734 -2.508,-1.896 -5.334,-2.18 -8.041,-0.213 -0.02,0 -0.041,0 -0.061,0 -2.588,-2.12 -5.177,-4.24 -7.766,-6.36 0.121,-0.536 0.43,-1.084 0.581,-1.681 0.344,-1.353 -0.069,-2.842 -0.397,-3.852 0.009,0 0.02,0 0.031,0 4.192,2.097 9.129,-1.289 7.52,-6.206 -0.183,-0.561 -0.576,-1.157 -0.918,-1.59 -1.204,-1.532 -3.906,-2.307 -6.206,-1.285 -2.079,0.925 -3.381,3.412 -2.598,6.36 -1.735,-0.985 -2.503,-1.259 -5.075,-1.132 -0.693,-1.661 -1.386,-3.322 -2.079,-4.983 0.593,-0.385 1.008,-1.003 1.345,-1.651 1.989,-3.821 -1.437,-8.718 -5.992,-7.338 -0.589,0.179 -1.209,0.477 -1.651,0.826 -2.92,2.304 -2.454,6.84 0.581,8.652 0.532,0.317 1.22,0.495 1.926,0.611 0.438,0 0.876,0 1.314,0 0.693,1.661 1.387,3.322 2.08,4.984 -1.249,0.707 -3.103,3.287 -2.752,5.534 0.071,0.51 0.143,1.018 0.214,1.528 0.122,0.276 0.245,0.551 0.367,0.825 0,0.032 0,0.062 0,0.092 -2.232,1.641 -4.464,3.282 -6.696,4.923 -3.175,-2.323 -7.177,-0.683 -8.102,2.69 -0.212,0.775 -0.297,1.911 -0.031,2.752 0.178,0.559 0.48,1.163 0.795,1.62 2.298,3.328 7.534,2.37 8.958,-1.07 0.276,-0.665 0.493,-1.653 0.337,-2.598 -0.067,-0.407 -0.348,-0.993 -0.214,-1.315 0.564,-0.244 0.986,-0.787 1.467,-1.131 1.692,-1.223 3.384,-2.447 5.075,-3.67 0.416,0.11 0.691,0.558 1.04,0.765 0.833,0.494 1.774,0.642 2.905,0.856 1.364,0.258 2.721,-0.404 3.515,-0.826 0.258,-0.137 0.859,-0.635 1.009,-0.519 2.578,2.09 5.158,4.178 7.736,6.267 -0.16,0.647 -0.5,1.311 -0.643,2.079 -0.657,3.527 2.353,6.267 4.77,6.941 0.842,0.234 1.842,0.041 2.66,0.092 0.805,1.966 1.61,3.933 2.415,5.9 -1.889,1.405 -0.907,4.285 0.489,5.412 0.389,0.313 1.478,0.428 1.652,0.58"
+         clip-rule="evenodd"
+         id="path752" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath762">
+      <path
+         d="M 243.707,101.896 H 165.806 V 47.751 h 77.901 z"
+         id="path760" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath770">
+      <path
+         d="M 0,781.354 H 609.72 V 0.274 H 0 Z"
+         id="path768" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1662">
+      <path
+         d="M 0,781.354 H 609.72 V 0.274 H 0 Z"
+         id="path1660" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="Chemical Principles The Quest for Insight"
+     transform="matrix(1.3333333,0,0,-1.3333333,-221.30133,135.69728)">
+    <g
+       id="g220">
+      <g
+         id="g222"
+         clip-path="url(#clipPath226)">
+        <g
+           id="g228">
+          <g
+             id="g230"
+             clip-path="url(#clipPath234)">
+            <g
+               id="g236">
+              <g
+                 id="g238"
+                 clip-path="url(#clipPath242)">
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,41.165,749.222)"
+                   style="font-variant:normal;font-weight:bold;font-size:8px;font-family:Optima;-inkscape-font-specification:Optima-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text246"><tspan
+                     x="0 3.9992001 8.4463997"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan244">F28</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,70.582,749.222)"
+                   style="font-variant:normal;font-weight:500;font-size:7px;font-family:Optima;-inkscape-font-specification:Optima-Medium;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text250"><tspan
+                     x="0 4.0243001 9.9946003 15.9649 21.760201 26.953501 34.0928 38.1171 44.087399 48.048698 53.242001 57.2663"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan248">FUNDAMENTALS</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,221.04,715.257)"
+                   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:9.5px;font-family:Sabon;-inkscape-font-specification:Sabon-BoldItalic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text260"><tspan
+                     x="0 6.3355498 11.6166 15.83365 18.737801 22.954849 28.235901 32.45295 40.365501 43.357052 47.5741 52.674648 55.485699 58.389851 61.552399 66.652946 70.347504 78.260048 83.712097 86.523148 91.623703 94.527847 99.628403 102.79095 105.6951 110.79565 116.2477 119.15185 122.1434 127.24395 132.696 135.68755 139.9046 142.80875 147.0258 152.12634 160.03889 165.31995 170.4205 175.87254 181.3246 186.77666 189.6808 193.37535 198.6564 203.75694 211.147 214.84155 217.7457 220.90825 226.1893 230.40636 233.3105 237.00505 242.10561 245.26814 248.2597 253.36024 256.2644 261.36496 264.5275 267.43164 270.59421 275.87524 280.09229 282.99646 288.44849 293.90054 301.81311 307.09415 311.31119 315.00574 318.70029 321.60446 326.70499"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan252">The chemical formula of an ionic compound shows the ratio of the numbers of</tspan><tspan
+                     x="0 5.1005502 8.2630997 13.36365 21.276199 24.970751 27.874901 32.975449 36.138 39.042149 43.259201 48.359749 52.576801 57.857849 60.762001 64.97905 67.7901 72.007149 79.919701 84.136749 89.588799 92.75135 95.655502 100.93655 104.6311 108.84815 112.5427 116.75975 122.2118 125.37435 128.2785 131.27005 136.72211 139.62625 144.72681 150.17885 154.3959 157.30005 160.4626 165.56316 169.25771 177.17026 182.6223 185.43335 190.53391 193.43805 198.89011 204.34215 207.33369 210.49625 213.13631 216.04045 222.547 225.45116 228.61369 233.71425 237.4088 245.32135 250.77341 253.58446 258.685 261.58914 267.0412 272.49326 275.4848 278.64734 281.55151 286.65204 289.81461 292.71875 297.81931 303.27136 306.17551 309.16705 314.26761 319.71964 322.71121"
+                     y="11.001"
+                     sodipodi:role="line"
+                     id="tspan254">atoms of each element present in one formula unit. A formula unit of an ionic</tspan><tspan
+                     x="0 4.2170501 9.3176003 17.23015 22.5112 27.61175 33.063801 38.51585 43.967899 46.872051 49.863602 53.558151 56.462299 61.562851 64.467003 69.216049 72.910599 78.011147 83.463203 88.744247 91.648399 96.748947 99.911499 102.81565 105.8072 110.90775 116.3598 120.05435 122.9585 130.34856 133.3401 136.50266 141.78371 144.68785 147.8504 153.13145 157.3485 160.25266 163.9472 169.04774 176.9603 181.17735 184.0815 189.53355 194.9856 202.89815 208.1792 212.39626 216.09081 218.99495 224.0955 227.25806 230.1622 235.26276 238.42529 243.52585 251.4384 255.13295 258.03711 263.13766 266.3002 269.20435 273.42139 278.52194 282.73901 288.02005 290.92419 295.14124 297.9523 302.16934 310.08191 314.29895 319.75101 322.91354 325.81769 330.91824"
+                     y="22.002001"
+                     sodipodi:role="line"
+                     id="tspan256">compound is a group of ions with the same number of atoms of each element as</tspan><tspan
+                     x="0 5.1005502 10.3816 15.66265 19.8797 24.980249 28.674801 32.36935 35.273499 38.265049 43.717098 46.62125 49.612801 52.775349 56.469898 59.37405 62.536598 67.637154 71.331703 79.244247 84.696297 87.507347 92.607903"
+                     y="33.002998"
+                     sodipodi:role="line"
+                     id="tspan258">appears in its formula.</tspan></text>
+                <path
+                   d="M 557.131,640.308 H 41.04 v 13.282 h 516.091 z"
+                   style="fill:#ddf0ef;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path262" />
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,48.3104,644.549)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Optima;-inkscape-font-specification:Optima-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text266"><tspan
+                     x="0 4.4991002 9.9972 12.9933 17.492399 21.991501 26.490601 28.4139 33.578999 41.0751 48.076199 50.827499 55.326599 62.327702 69.823799 76.824898 81.323997 88.325104 91.076401 98.077499 103.5846 109.5867 114.0858 116.8371 124.8372 130.83929 135.33839 140.34151 144.84061 150.3387 154.8378"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan264">SKILLS YOU SHOULD HAVE MASTERED</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.0824,619.457)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:ZapfDingbats;-inkscape-font-specification:ZapfDingbats;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text270"><tspan
+                     x="0 6.8274002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan268">❑ </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,51.6584,619.457)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text274"><tspan
+                     x="0 4.3109999 6.6869998 13.437 15.876 19.250999 22.158001 24.597 29.375999 33.687 38.466 40.904999 44.279999 49.058998 51.435001 56.214001 60.056999 62.964001 69.308998 73.152 76.995003 81.774002 84.150002 91.367996 96.147003 98.585999 102.429 106.272 111.051 113.49 117.333 120.609 123.048 125.424 127.863 132.642 137.42101 140.69701 143.136 145.51199 149.823 154.60201 159.381 161.757 166.06799 168.97501 173.754 180.972 184.149"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan272">1 Distinguish between molecules, ions, and atoms.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.0824,604.454)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:ZapfDingbats;-inkscape-font-specification:ZapfDingbats;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text278"><tspan
+                     x="0 6.8274002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan276">❑ </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,51.6584,604.454)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text284"><tspan
+                     x="0 4.3109999 6.6869998 9.5939999 14.373 18.216 22.995001 25.902 28.341 31.247999 35.558998 37.935001 41.778 46.556999 53.775002 58.554001 63.333 68.112 72.890999 77.669998 81.044998 83.420998 87.732002 91.107002 93.483002 98.262001 101.439 105.948 110.259 115.038 117.477 121.32 123.696 128.47501 131.85001 134.226 136.66499 141.444 146.22301 149.39999 153.909 158.22 162.99899 165.438 169.28101 171.657 175.968 180.74699 185.526 187.90199 192.213 195.588 197.964 205.18201 209.961 212.39999 216.243 220.086 224.86501 227.304 231.61501"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan280">2 Identify compounds as organic or inorganic and as molecular</tspan><tspan
+                     x="-9.5760002 -4.7969999 -1.4220001 0.954 3.3929999 8.1719999 12.951 15.39 19.134001"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan282">or ionic.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.0824,578.453)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:ZapfDingbats;-inkscape-font-specification:ZapfDingbats;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text288"><tspan
+                     x="0 6.8274002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan286">❑ </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,51.6584,578.453)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text292"><tspan
+                     x="0 4.3109999 6.6869998 12.969 16.344 20.187 22.563 26.469 30.780001 34.154999 36.594002 41.373001 46.152 49.527 51.903 59.120998 62.964001 67.275002 72.054001 75.429001 77.805 82.584 88.551003 91.719002 95.561996 100.341 103.509 107.352 110.727 114.57 119.349 122.256 124.695 129.474 133.785 136.161 143.379 148.158 150.597 154.44 158.283 163.062 165.50101 169.34399 172.521"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan290">3 Use various means ofrepresenting molecules.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.0824,563.45)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:ZapfDingbats;-inkscape-font-specification:ZapfDingbats;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text296"><tspan
+                     x="0 6.8274002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan294">❑ </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,51.6584,563.45)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text302"><tspan
+                     x="0 4.3109999 6.6869998 11.466 14.634 18.476999 23.256001 25.695 29.538 32.445 34.820999 37.728001 42.507 46.349998 48.726002 53.036999 57.816002 60.255001 65.033997 69.813004 72.189003 76.968002 80.343002 82.719002 86.561996 90.873001 93.779999 96.219002 100.998 105.777 108.153 111.06 115.839 120.15 123.057 125.433 129.744 132.12 139.338 143.649 146.088 150.867 153.774 158.18401 161.36099 166.14 170.91901 175.698 178.07401 181.91701 184.356 188.19901 195.41701 199.25999 204.039 206.946 209.32201 211.761 215.136 217.51199 219.951 222.39 226.86301 230.70599 233.145"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan298">4 Predict the anion or cation that a main-group element is likely</tspan><tspan
+                     x="-9.5760002 -6.6690001 -1.89 0.486 3.0869999 7.8660002 11.34 18.558001 20.934 23.841 29.087999 33.867001 38.178001 45.396 50.174999 52.613998 56.457001 58.833 65.213997 67.653 71.963997 74.871002"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan300">to form (Example C.1).</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.0864,619.448)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:ZapfDingbats;-inkscape-font-specification:ZapfDingbats;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text306"><tspan
+                     x="0 6.8274002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan304">❑ </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,317.6624,619.448)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text312"><tspan
+                     x="0 4.3109999 6.6869998 9.5939999 14.373 17.280001 21.122999 24.597 29.375999 32.543999 36.387001 39.293999 41.669998 45.314999 50.094002 53.937 61.154999 63.594002 67.436996 71.748001 74.186996 76.563004 79.164001 83.943001 87.417 94.536003 99.315002 101.754 106.065 109.44 111.816 114.255 119.034 121.41 124.578 128.42101 131.229 135.07201 138.24001 142.08299 146.862 150.705 154.548 156.924 159.83099 164.61 166.98599 169.89301 174.672 178.515 180.89101 185.472 190.25101 197.46899 202.248 206.091 209.466 211.842 216.621"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan308">5 Interpret chemical formulas in reference to the number of</tspan><tspan
+                     x="-9.5760002 -5.7329998 -1.4220001 2.223 7.0019999 9.3780003 12.285 16.596001 21.375 25.218 27.594 32.373001 38.34 42.651001 45.557999 50.337002 57.555 59.931 64.709999 67.877998 71.721001 75.096001 78.939003 83.718002 86.625"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan310">each type ofatom present.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.0864,593.447)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:ZapfDingbats;-inkscape-font-specification:ZapfDingbats;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text316"><tspan
+                     x="0 6.6636"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan314">❑ </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,317.3384,593.447)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text320"><tspan
+                     x="0 4.2245998 6.5142002 11.2068 14.2884 18.045 22.7376 25.0902 28.8468 31.6674 33.957001 36.777599 41.4702 45.226799 47.516399 50.030998 54.723598 58.111198 65.143799 69.836403 72.189003 76.413597 79.702202 81.991798 86.684402 92.474998 97.167603 99.520203 104.2128 108.4374 111.924 116.1486 118.4382 120.7908 125.4834 130.17599 132.52859 136.2852 138.5748 142.33141 147.024 154.15559 158.84821 163.5408 168.2334 172.92599 177.61861 180.9072 183.19679 186.0174 191.17799 195.87061 200.0952 207.22681 211.9194 214.272 218.02859 220.31821 226.61279 228.96539 233.19 236.0106"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan318">6 Predict the formulas ofbinary ionic compounds (Example C.2).</tspan></text>
+                <path
+                   d="M 557.131,510.106 H 41.04 v 13.281 h 516.091 z"
+                   style="fill:#ddf0ef;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path322" />
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,47.9917,513.649)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Optima;-inkscape-font-specification:Optima-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text326"><tspan
+                     x="0 4.4991002 9.9972 14.4963 19.9944 25.9965 28.992599 33.491699 37.990799"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan324">EXERCISES</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.2947,488.287)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text330"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan328">C.1</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,59.0437,488.287)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text340"><tspan
+                     x="0 5.2470002 9.5579996 13.203 17.982 20.358 25.136999 31.104 34.011002 38.790001 42.632999 45.008999 48.852001 53.631001 58.41 61.317001 65.627998 68.067001 72.846001 76.689003 80.064003 83.439003 85.815002 90.594002 93.032997 96.875999 99.782997 104.562 107.73 111.573 116.352 118.728 123.507 127.35 129.789 134.064 140.814 143.19 147.96899 152.748 155.187 159.966 163.341 165.717 169.56 171.99899 174.90601 179.685 183.528 186.903 189.27901 193.59 195.966 203.18401 205.623 210.40199 213.30901 218.088 221.256 225.099"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan332">Each ofthe containers pictured below holds either a mixture,</tspan><tspan
+                     x="-16.749001 -12.438 -10.062 -6.6869998 -4.2480001 0.53100002 4.941 7.3800001 11.223 13.599 17.441999 22.221001 29.438999 34.217999 38.997002 43.776001 48.555 53.334 55.772999 58.148998 62.928001 66.303001 68.679001 72.989998 75.365997 78.740997 81.18 85.959 90.369003 92.807999 96.651001 99.027 102.87 105.309 109.152 116.37 120.213 124.992 127.899 130.338 132.714 138.798 143.577 147.42 149.79601 154.377 156.81599 161.595 165.438 167.814 171.189 175.968 180.74699 184.59 187.758 191.601 194.976 197.35201 200.52 204.36301 209.142 212.31 216.153 219.528 223.371 228.14999"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan334">a single compound, or a single element. The blue spheres represent</tspan><tspan
+                     x="-16.749001 -12.438 -9.5310001 -4.7519999 2.4660001 5.8410001 8.217 12.996 18.962999 23.742001 28.521 32.363998 34.740002 38.583 41.021999 44.865002 52.083 55.925999 60.705002 63.612 66.051003 68.427002 71.334 76.112999 79.956001 82.332001 86.741997 89.910004 93.752998 97.596001 102.375 104.751 108.126 112.905 117.684 121.527 124.695 128.53799 131.91299 134.289 137.196 141.97501 145.81799 148.194 152.505 155.412 160.19099 167.409 170.784 173.16 177.939 183.90601 188.217 190.593 193.968 197.811 201.65401 206.433 211.21201"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan336">atoms ofone element, the green spheres the atoms ofa second</tspan><tspan
+                     x="-16.749001 -12.906 -10.467 -6.6240001 0.59399998 4.4369998 9.2159996 12.123 14.562 16.938 19.844999 24.624001 27 30.843 35.153999 38.799 43.577999 45.953999 49.797001 54.108002 57.483002 61.326 63.764999 66.140999 68.580002 73.359001 77.202003 81.981003 84.888 87.327003 90.234001 94.544998 96.920998 99.828003 104.607 108.45 110.826 113.733 118.044 122.823 126.666 129.04201 133.821 139.78799 143.631 148.41 153.189 156.09599 159.939 164.718 167.625 170.802"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan338">element. In each case, identify the type ofcontents.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.2947,367.291)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text344"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan342">C.2</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,59.0437,367.291)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text354"><tspan
+                     x="0 5.2470002 9.5579996 13.203 17.982 20.358 25.136999 31.104 34.011002 38.790001 42.632999 45.008999 48.852001 53.631001 58.41 61.317001 65.627998 68.067001 72.846001 76.689003 80.064003 83.439003 85.815002 90.594002 93.032997 96.875999 99.782997 104.562 107.73 111.573 116.352 118.728 123.507 127.35 129.789 134.064 140.814 143.19 147.96899 152.748 155.187 159.966 163.341 165.717 169.56 171.99899 174.90601 179.685 183.528 186.903 189.27901 193.59 195.966 203.18401 205.623 210.40199 213.30901 218.088 221.256 225.099"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan346">Each ofthe containers pictured below holds either a mixture,</tspan><tspan
+                     x="-16.749001 -12.438 -10.062 -6.6869998 -4.2480001 0.53100002 4.941 7.3800001 11.223 13.599 17.441999 22.221001 29.438999 34.217999 38.997002 43.776001 48.555 53.334 55.772999 58.148998 62.928001 66.303001 68.679001 72.989998 75.365997 78.740997 81.18 85.959 90.369003 92.807999 96.651001 99.027 102.87 105.309 109.152 116.37 120.213 124.992 127.899 130.338 132.714 138.798 143.577 147.42 149.79601 154.377 156.81599 161.595 165.438 167.814 171.189 175.968 180.74699 184.59 187.758 191.601 194.976 197.35201 200.52 204.36301 209.142 212.31 216.153 219.528 223.371 228.14999"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan348">a single compound, or a single element. The blue spheres represent</tspan><tspan
+                     x="-16.749001 -12.438 -9.5310001 -4.7519999 2.4660001 5.8410001 8.217 12.996 18.962999 23.742001 28.521 32.363998 34.740002 38.583 41.021999 44.865002 52.083 55.925999 60.705002 63.612 66.051003 68.427002 71.334 76.112999 79.956001 82.332001 86.741997 89.910004 93.752998 97.596001 102.375 104.751 108.126 112.905 117.684 121.527 124.695 128.53799 131.91299 134.289 137.196 141.97501 145.81799 148.194 152.505 155.412 160.19099 167.409 170.784 173.16 177.939 183.90601 188.217 190.593 193.968 197.811 201.65401 206.433 211.21201"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan350">atoms ofone element, the green spheres the atoms ofa second</tspan><tspan
+                     x="-16.749001 -12.906 -10.467 -6.6240001 0.59399998 4.4369998 9.2159996 12.123 14.562 16.938 19.844999 24.624001 27 30.843 35.153999 38.799 43.577999 45.953999 49.797001 54.108002 57.483002 61.326 63.764999 66.140999 68.580002 73.359001 77.202003 81.981003 84.888 87.327003 90.234001 94.544998 96.920998 99.828003 104.607 108.45 110.826 113.733 118.044 122.823 126.666 129.04201 133.821 139.78799 143.631 148.41 153.189 156.09599 159.939 164.718 167.625 170.802"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan352">element. In each case, identify the type ofcontents.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.2947,246.295)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text358"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan356">C.3</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,59.0437,246.295)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text368"><tspan
+                     x="0 6.0840001 10.863 14.706 17.082001 20.924999 25.704 32.922001 37.701 42.48 47.258999 52.037998 56.817001 59.193001 63.972 68.282997 73.061996 75.969002 80.748001 85.527 90.306 94.986 99.296997 101.736 104.175 106.551 108.99 112.365 114.741 119.052 121.428 125.334 129.177 131.616 134.05499 138.33 145.08 147.45599 151.299 156.078 163.29601 168.075 172.854 177.633 182.412 187.19099 189.567 192.168 196.94701 201.726 206.505 211.284 213.66 216.099"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan360">The compound xanthophyll is a yellow compound found in</tspan><tspan
+                     x="-16.749001 -11.97 -9.5310001 -6.3629999 -1.584 0.792 3.5999999 7.4429998 11.754 14.661 19.440001 23.283001 26.658001 30.033001 32.409 36.720001 41.499001 46.278 48.653999 53.432999 57.708 64.053001 67.896004 71.271004 74.447998 76.887001 79.263 86.013 90.323997 95.102997 98.010002 102.789 107.568 112.347 117.027 121.338 123.777 126.216 128.592 132.435 137.214 141.993 144.89999 149.211 151.64999 156.429 159.804 162.17999 166.491 169.39799 174.177 181.395 184.77 187.146 191.925 197.892 201.735 206.04601 209.42101 214.2 218.979 223.758"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan362">bird feathers and ﬂowers. Xanthophyll contains atoms ofcarbon,</tspan><tspan
+                     x="-16.749001 -12.069 -8.2620001 -3.483 -0.30599999 4.3740001 8.7840004 12.627 17.406 19.844999 22.221001 26.532 31.311001 36.09 38.466 42.84 47.618999 51.425999 55.835999 59.679001 64.458 66.834 69.273003 74.052002 76.428001 79.334999 84.113998 87.957001 90.333 93.599998 97.911003 100.818 103.257 108.036 110.412 114.723 119.034 121.473 125.784 130.095 132.534 136.845 139.284 141.66 144.567 147.474 150.849 153.22501 160.44299 165.222 167.661 171.504 175.347 180.12601 182.565 186.408 189.783 192.159 196.002 200.313 203.95799 208.737 211.11301 215.892 219.69901 223.605"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan364">hydrogen, and oxygen in the ratio 20:28:1. Its molecules each have</tspan><tspan
+                     x="-16.749001 -13.374 -10.935 -6.1560001 -3.78 0.59399998 5.3730001 9.1800003 13.59 17.433001 22.212 24.587999 28.899 31.806 36.584999 43.803001 46.98 49.418999 51.794998 59.606998 62.981998 65.420998 68.328003 72.170998 74.546997 77.454002 82.233002 86.075996 88.452003 95.669998 100.449 102.888 106.731 110.574 115.353 117.792 122.103 125.478 127.854 130.455 135.23399 138.70799 145.827 150.606 153.045 157.356 159.73199 164.511 170.478 175.257 179.56799 184.347 187.254 192.033 196.812 201.591 206.271 210.582 213.021 215.46001"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan366">six oxygen atoms. Write the molecular formula ofxanthophyll.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.2947,196.3)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text372"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan370">C.4</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,59.0437,196.3)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text382"><tspan
+                     x="0 5.2649999 9.5760002 12.015 14.454 19.233 24.011999 31.23 35.036999 38.880001 41.319 46.098 48.473999 50.912998 54.287998 56.664001 60.974998 65.753998 68.129997 72.441002 77.220001 80.126999 82.566002 87.345001 89.783997 94.563004 97.470001 99.908997 103.752 106.128 109.035 113.814 118.125 121.032 123.408 128.187 132.498 135.873 138.24899 143.028 146.871 150.714 155.493 157.869 162.64799 166.02299 169.866 174.645 177.021 179.92799 184.707 187.08299 189.99001 193.158 197.00101 201.312"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan374">Valinomycin is an antibiotic that has been used to treat</tspan><tspan
+                     x="-16.749001 -13.842 -9.0629997 -4.2839999 -0.44100001 2.727 6.5700002 11.349 13.788 18.566999 21.941999 24.381001 27.558001 29.997 32.373001 37.638 41.949001 44.388 46.827 51.605999 56.384998 63.603001 67.410004 71.252998 73.692001 78.471001 80.847 84.690002 89.469002 94.248001 97.154999 101.466 103.905 108.684 112.059 114.435 118.746 121.653 126.432 133.64999 137.02499 139.401 144.17999 150.147 153.99001 158.30099 161.67599 166.455 171.23399 176.013 178.452 180.828 185.508 189.315 194.09399 197.271 201.951 206.36099 210.20399 214.983"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan376">tuberculosis. Valinomycin contains atoms ofcarbon, hydrogen,</tspan><tspan
+                     x="-16.749001 -11.97 -9.5310001 -6.6240001 -3.447 1.233 5.6430001 9.4860001 14.265 16.704 19.08 23.391001 28.17 32.949001 35.325001 39.699001 44.478001 48.285 52.695 56.537998 61.317001 63.693001 66.132004 70.911003 73.287003 76.194 80.973 84.816002 87.192001 90.459 94.769997 97.677002 100.116 104.895 107.271 111.582 114.021 118.332 122.643 125.082 129.39301 131.832 136.14301 138.582 140.95799 143.86501 146.772 150.147 152.52299 159.741 164.52 166.959 170.802 174.645 179.424 181.86301 185.70599 189.08099 191.457 195.3 199.61099 203.256 208.035 210.411 215.19 218.99699 222.903"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan378">nitrogen, and oxygen in the ratio 9:15:1:3. Its molecules each have</tspan><tspan
+                     x="-16.749001 -12.438 -8.1269999 -5.7509999 -1.377 3.402 7.2090001 11.619 15.462 20.240999 22.617001 26.927999 29.834999 34.613998 41.832001 45.008999 47.448002 49.824001 57.636002 61.011002 63.450001 66.357002 70.199997 72.575996 75.483002 80.262001 84.105003 86.481003 93.698997 98.477997 100.917 104.76 108.603 113.382 115.821 120.132 123.507 125.883 128.48399 133.263 136.737 143.856 148.63499 151.07401 155.38499 157.761 162.53999 168.507 172.41299 176.724 179.16299 181.60201 186.381 191.16 198.37801 202.185 206.028 208.467 213.246 215.685"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan380">18 oxygen atoms. Write the molecular formula ofvalinomycin. </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,42.2947,146.305)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text386"><tspan
+                     x="0 6.6465001 9.2969999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan384">C.5</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,59.6467,146.305)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text398"><tspan
+                     x="0 3.0366001 7.9452 10.4508 13.4874 18.396 22.368601 24.874201 27.604799 32.513401 35.082001 37.6506 42.055199 48.934799 51.503399 56.411999 60.8526 63.3582 68.2668 72.707397 75.276001 77.844597 80.881203 85.3218 90.2304 95.139 98.175598 101.6802 104.7168 107.2854 111.159 116.0676 118.5732 125.9208 130.82941 133.39799 137.37061 141.3432 146.2518 148.8204 153.261 156.76559 159.27119 162.7758 165.81239 169.317 174.2256 178.1982 181.2348 186.1434 189.44099 193.4136 196.8192 199.3878 201.8934 206.433 209.82961 213.8652"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan388">In the following ball-and-stick molecular structures, gray</tspan><tspan
+                     x="-17.351999 -14.7834 -9.8747997 -4.9661999 -2.3975999 1.575 6.0156002 9.0522003 13.0248 16.5294 19.035 23.007601 27.4482 30.952801 35.861401 40.77 45.6786 48.2472 50.7528 54.0504 58.022999 62.931599 65.437202 69.940804 74.849403 78.786003 83.3256 87.298203 92.206802 94.775398 97.280998 103.6566 108.5652 111.1338 114.1704 118.143 120.6486 125.4582 129.39481 134.30341 137.61 142.4196 146.9592 150.93179 155.84039 158.409 160.9146 165.6252 168.1938 173.1024 177.075 179.5806 184.4892 187.0578 190.09441 193.401 198.2106 202.7502 206.72279 211.63139"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan390">indicates carbon, red oxygen, white hydrogen, blue nitrogen,</tspan><tspan
+                     x="-17.351999 -12.9114 -8.0028 -3.0941999 -0.58859998 3.951 7.2486 11.2212 15.1938 20.1024 22.608 26.382601 31.291201 33.859798 38.768398 42.272999 44.841599 49.750198 53.722801 56.291401 58.797001 66.738602 70.243202 72.811798 75.848396 79.820999 82.326599 85.363197 90.271797 94.2444 96.75 100.5246 105.4332 109.4058 116.7534 119.322 123.2946 127.7352 130.3038 132.8094 135.53999 140.44859 144.0522 151.3008 156.2094 158.778 163.2186 165.7242 170.6328 176.85539 180.828 185.2686 189.0432"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan392">and green chlorine. Write the chemical formula ofeach</tspan><tspan
+                     x="-17.351999 -13.8474 -10.8108 -7.3062 -2.3975999 1.575 4.6115999 9.5201998 12.8178 16.7904"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan394">structure.</tspan><tspan
+                     x="-17.351999 -14.445 -10.134 90.431999 93.338997 98.117996"
+                     y="49.994999"
+                     sodipodi:role="line"
+                     id="tspan396">(a)(b)</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.2987,488.314)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text402"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan400">C.6</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,325.0477,488.314)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text410"><tspan
+                     x="0 7.8119998 11.187 13.626 16.533001 20.375999 22.752001 25.659 30.438 34.280998 36.657001 40.301998 45.081001 48.924 56.141998 58.581001 62.424 66.735001 69.174004 71.550003 74.151001 78.93 82.403999 89.523003 94.302002 96.740997 101.052 103.428 108.207 114.174 118.017 122.328 125.973 130.752 133.12801 137.907 142.218 144.657 147.09599 150.00301 154.314 159.093 163.87199 166.77901 170.15401 173.061 175.5 179.244 184.02299 186.399 189.774 192.681 196.056 200.83501 204.67799 207.58501 212.364 215.532 219.375"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan404">Write the chemical formula ofeach ball-and-stick structure.</tspan><tspan
+                     x="-16.749001 -12.438 -8.5950003 -4.7519999 -2.3759999 2.8710001 7.5510001 11.394 14.562 18.405001 20.844 24.219 28.062 30.438 36.819 39.257999 43.569 45.945 48.546001 53.325001 56.700001 59.076 61.983002 66.762001 70.605003 72.981003 76.823997 81.602997 84.042 88.820999 92.195999 94.571999 98.415001 103.194 107.973 111.816 114.255"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan406">See Exercise C.5 for the color code. </tspan><tspan
+                     x="-16.749001 -13.842 -9.5310001 86.661003 89.568001 94.347"
+                     y="30.996"
+                     sodipodi:role="line"
+                     id="tspan408">(a)(b)</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.2987,372.322)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text414"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan412">C.7</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,325.0477,372.322)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text424"><tspan
+                     x="0 4.3109999 7.2179999 11.529 14.436 18.278999 20.655001 26.900999 31.68 35.522999 38.43 43.209 47.051998 50.426998 52.803001 56.646 60.957001 64.601997 69.380997 71.757004 76.536003 82.502998 85.410004 90.189003 94.031998 96.407997 99.009003 103.788 106.227 108.666 112.941 119.691 122.13 126.909 131.22 133.59599 137.439 139.87801 143.72099 150.939 154.782 159.561 162.468 165.843 168.21899 170.658 174.033 176.409 183.627 188.40601 191.57401 195.41701 197.793 200.23199 202.67101 207.144 210.987 213.42599 217.737 220.11301 223.02"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan416">State whether each ofthe following elements is more likely to</tspan><tspan
+                     x="-16.749001 -14.148 -9.3690004 -5.895 1.323 3.6989999 8.0100002 10.386 14.229 18.540001 21.447001 23.886 28.665001 33.444 35.82 40.598999 43.973999 46.349998 50.660999 55.439999 57.816002 62.126999 66.905998 69.345001 74.124001 78.903 81.342003 83.718002 88.028999 92.807999 97.586998 99.962997 106.713 110.088 112.527 115.434 119.277 121.653 124.56 129.339 133.18201 135.558 138.159 142.938 146.412 153.53101 158.31 160.74899 165.06 167.436 170.037 174.81599 178.19099 180.567 183.474 188.25301 192.09599 194.472 196.911 201.69 206.46899 208.845 216.063 220.842 224.217"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan418">form a cation or an anion, and write the formula for the ion most</tspan><tspan
+                     x="-16.749001 -14.31 -11.871 -7.3979998 -3.5550001 -1.1160001 3.1949999 5.5710001 8.4779997 13.257 15.633 20.412001 24.254999 26.631001 29.232 34.011002 37.485001 44.702999 48.546001 53.325001 55.764 58.139999 61.047001 65.358002 68.264999 70.640999 74.484001 78.327003 81.702003 84.140999 88.919998 96.138 98.577003 100.953 103.86 108.639 111.546 113.922 116.361 121.14 125.919 128.358 133.13699 136.98 139.41901 141.795 144.702 148.545 151.452 153.828 157.203 161.04601 163.485 167.328 172.10699 174.54601 179.325 186.543"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan420">likely to be formed: (a) cesium; (b) iodine; (c) selenium;</tspan><tspan
+                     x="-16.749001 -13.842 -9.0629997 -3.78 0.063000001 4.3740001 6.8130002 10.656 13.095 17.874001 25.091999 27.531"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan422">(d)calcium. </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.2987,322.327)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text428"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan426">C.8</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,325.0477,322.327)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text438"><tspan
+                     x="0 4.3109999 7.2179999 11.529 14.436 18.278999 20.655001 26.900999 31.68 35.522999 38.43 43.209 47.051998 50.426998 52.803001 56.646 60.957001 64.601997 69.380997 71.757004 76.536003 82.502998 85.410004 90.189003 94.031998 96.407997 99.009003 103.788 106.227 108.666 112.941 119.691 122.13 126.909 131.22 133.59599 137.439 139.87801 143.72099 150.939 154.782 159.561 162.468 165.843 168.21899 170.658 174.033 176.409 183.627 188.40601 191.57401 195.41701 197.793 200.23199 202.67101 207.144 210.987 213.42599 217.737 220.11301 223.02"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan430">State whether each ofthe following elements is more likely to</tspan><tspan
+                     x="-16.749001 -14.148 -9.3690004 -5.895 1.323 3.6989999 8.0100002 10.386 14.229 18.540001 21.447001 23.886 28.665001 33.444 35.82 40.598999 43.973999 46.349998 50.660999 55.439999 57.816002 62.126999 66.905998 69.345001 74.124001 78.903 81.342003 83.718002 88.028999 92.807999 97.586998 99.962997 106.713 110.088 112.527 115.434 119.277 121.653 124.56 129.339 133.18201 135.558 138.159 142.938 146.412 153.53101 158.31 160.74899 165.06 167.436 170.037 174.81599 178.19099 180.567 183.474 188.25301 192.09599 194.472 196.911 201.69 206.46899 208.845 216.063 220.842 224.217"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan432">form a cation or an anion, and write the formula for the ion most</tspan><tspan
+                     x="-16.749001 -14.31 -11.871 -7.3979998 -3.5550001 -1.1160001 3.1949999 5.5710001 8.4779997 13.257 15.633 20.412001 24.254999 26.631001 29.232 34.011002 37.485001 44.702999 48.546001 53.325001 55.764 58.139999 61.047001 65.358002 68.264999 70.640999 73.547997 77.390999 79.830002 82.268997 87.047997 90.422997 92.862 97.640999 104.859 107.298 109.674 112.581 117.36 120.267 122.643 127.422 131.733 135.108 137.547 142.326 149.54401 151.983 154.35899 157.26601 161.10899 164.01601 166.392 169.767 174.54601 179.325 181.76401 186.543 188.98199 193.761 200.979"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan434">likely to be formed: (a) tellurium; (b) barium; (c) rubidium;</tspan><tspan
+                     x="-16.749001 -13.842 -9.0629997 -1.404 3.375 6.552 11.331 18.549 20.988001 25.767 29.610001"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan436">(d)bromine.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.2987,272.332)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text442"><tspan
+                     x="0 6.4962001 8.9963999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan440">C.9</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,325.0477,272.332)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text448"><tspan
+                     x="0 7.2179999 11.493 18.243 20.618999 27.837 32.147999 36.926998 41.237999 43.613998 48.393002 51.57 56.348999 59.256001 64.035004 68.814003 72.089996 74.528999 76.904999 81.683998 85.527 90.306 93.212997 96.389999 101.169 105.948 109.224 111.663 114.039 118.35 123.129 127.908 130.284 134.127 136.56599 140.409 144.252 147.159 150.336 155.11501 159.894 163.269 165.645 169.95599 173.12399 176.967 179.343 184.12199 187.28999 191.133 194.508 198.351 203.13 206.037 208.41299 210.85201"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan444">How many protons, neutrons, and electrons are present in</tspan><tspan
+                     x="-16.749001 -13.842 -9.5310001"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan446">(a)</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,320.793,264.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text452"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan450">10</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,327.259,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text456"><tspan
+                     x="0 5.2470002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan454">Be</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,336.349,264.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text460"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan458">2+</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,344.085,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text464"><tspan
+                     x="0 2.4389999 4.8150001 7.7220001 12.501 15.408"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan462">; (b) </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,361.869,264.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text468"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan466">17</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,368.335,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text472"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan470">O</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,375.553,264.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text476"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan474">2</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,384.408,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text480"><tspan
+                     x="0 2.4389999 4.8150001 7.7220001 11.565 14.472"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan478">; (c) </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,401.255,264.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text484"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan482">80</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,407.722,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text488"><tspan
+                     x="0 5.2470002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan486">Br</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,421.965,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text492"><tspan
+                     x="0 2.4389999 4.8150001 7.7220001 12.501 15.408"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan490">; (d) </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,439.749,264.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text496"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan494">75</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,446.216,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text500"><tspan
+                     x="0 6.2820001"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan498">As</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,455.872,264.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text504"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan502">3</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,464.7271,261.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text508"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan506">?</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.2891,244.282)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text512"><tspan
+                     x="0 6.4970999 8.9982004 14.0013"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan510">C.10</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,330.0421,244.282)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text518"><tspan
+                     x="0 7.2179999 11.493 18.243 20.618999 27.837 32.147999 36.926998 41.237999 43.613998 48.393002 51.57 56.348999 59.256001 64.035004 68.814003 72.089996 74.528999 76.904999 81.683998 85.527 90.306 93.212997 96.389999 101.169 105.948 109.224 111.663 114.039 118.35 123.129 127.908 130.284 134.127 136.56599 140.409 144.252 147.159 150.336 155.11501 159.894 163.269 165.645 169.95599 173.12399 176.967 179.343 184.12199 187.28999 191.133 194.508 198.351 203.13 206.037 208.41299 210.85201"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan514">How many protons, neutrons, and electrons are present in</tspan><tspan
+                     x="-21.753 -18.846001 -14.535"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan516">(a)</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,323.169,236.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text522"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan520">64</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,329.635,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text526"><tspan
+                     x="0 6.2820001"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan524">Cu</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,340.696,236.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text530"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan528">2</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,349.551,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text534"><tspan
+                     x="0 2.4389999 4.8150001 7.7220001 12.501 15.408"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan532">; (b) </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,367.334,236.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text538"><tspan
+                     x="0 3.2332499 6.4664998"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan536">138</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,377.034,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text542"><tspan
+                     x="0 5.2470002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan540">La</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,386.592,236.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text546"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan544">3</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,395.447,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text550"><tspan
+                     x="0 2.4389999 4.8150001 7.7220001 11.565 14.472"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan548">; (c) </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,412.294,236.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text554"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan552">12</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,418.761,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text558"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan556">C</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,425.043,236.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text562"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan560">2</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,433.898,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text566"><tspan
+                     x="0 2.4389999 4.8150001 7.7220001 12.501 15.408"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan564">; (d) </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,451.681,236.928)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text570"><tspan
+                     x="0 3.2339251"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan568">39</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,458.148,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text574"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan572">K</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,470.051,233.283)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text578"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan576">?</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.294,216.282)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text582"><tspan
+                     x="0 6.4970999 8.9982004 14.0013"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan580">C.11</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,330.047,216.282)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text592"><tspan
+                     x="0 7.8119998 11.187 13.626 16.533001 20.375999 22.752001 25.659 30.438 34.280998 36.657001 40.032001 44.342999 51.561001 56.34 61.118999 63.557999 65.933998 70.712997 76.68 79.586998 84.365997 88.209 90.584999 93.024002 97.803001 102.582 104.958 107.865 112.644 116.955 119.862 122.238 127.017 131.328 134.703 137.07899 139.98599 144.297 147.20399 149.58 153.89101 156.267 161.04601 164.22301 169.002 171.909 176.688 181.467 184.743 187.18201"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan584">Write the symbol ofthe ion that has (a) 9 protons, </tspan><tspan
+                     x="-21.753 -17.441999 -13.131 -10.755 -5.9759998 -2.1329999 2.6459999 5.553 8.7299995 13.509 18.288 21.563999 24.003 26.379 30.690001 35.469002 40.248001 42.624001 46.935001 51.245998 53.622002 57.465 59.903999 63.747002 67.589996 70.497002 73.674004 78.453003 83.232002 86.607002 89.045998 91.421997 94.329002 99.108002 102.015 104.391 108.702 113.013 115.389 120.168 123.345 128.12399 131.03101 135.81 140.589 143.86501 146.304 148.67999 152.991 157.302 159.67799 164.457 168.3 173.07899 175.98599 179.16299 183.942 188.72099 191.99699 194.436 196.812 201.123 205.90199 210.681"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan586">10 neutrons, and 10 electrons; (b) 12 protons, 12 neutrons, and </tspan><tspan
+                     x="-21.753 -17.441999 -13.131 -10.755 -6.9120002 -4.473 -0.63 3.2130001 6.1199999 9.2969999 14.076 18.855 22.23 24.669001 27.045 29.952 33.794998 36.702 39.077999 43.389 47.700001 50.076 54.855 58.032001 62.811001 65.718002 70.497002 75.276001 78.552002 80.990997 83.366997 87.678001 91.988998 94.364998 99.143997 102.987 107.766 110.673 113.85 118.629 123.408 126.684 129.123 131.49899 135.81 140.589 145.368 147.744 152.05499 156.366 158.742 162.58501 165.024 168.867 172.71001 175.617 178.79401 183.573 188.35201 191.72701 194.166"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan588">10 electrons; (c) 52 protons, 76 neutrons, and 54 electrons; </tspan><tspan
+                     x="-21.753 -18.846001 -14.067 -11.16 -8.7840004 -4.473 -0.162 2.214 6.993 10.17 14.949 17.856001 22.635 27.414 30.690001 33.129002 35.505001 39.816002 44.126999 46.502998 51.282001 55.125 59.903999 62.811001 65.987999 70.766998 75.545998 78.821999 81.261002 83.637001 87.947998 92.726997 97.505997 99.882004 104.193 108.504 110.88 114.723 117.162 121.005 124.848 127.755 130.93201 135.711 140.49001 143.66701"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan590">(d) 37 protons, 49 neutrons, and 36 electrons.</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.294,166.287)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text596"><tspan
+                     x="0 6.4970999 8.9982004 14.0013"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan594">C.12</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,330.047,166.287)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text606"><tspan
+                     x="0 7.8119998 11.187 13.626 16.533001 20.375999 22.752001 25.659 30.438 34.280998 36.657001 40.032001 44.342999 51.561001 56.34 61.118999 63.557999 65.933998 70.712997 76.68 79.586998 84.365997 88.209 90.584999 93.024002 97.803001 102.582 104.958 107.865 112.644 116.955 119.862 122.238 127.017 131.328 134.703 137.07899 139.98599 144.297 147.20399 149.58 153.89101 158.202 160.578 165.35699 168.534 173.313 176.22 180.99899 185.778 189.054 191.493"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan598">Write the symbol ofthe ion that has (a) 11 protons, </tspan><tspan
+                     x="-21.753 -17.441999 -13.131 -10.755 -5.9759998 -2.1329999 2.6459999 5.553 8.7299995 13.509 18.288 21.563999 24.003 26.379 30.690001 35.469002 40.248001 42.624001 46.935001 51.245998 53.622002 57.465 59.903999 63.747002 67.589996 70.497002 73.674004 78.453003 83.232002 86.607002 89.045998 91.421997 94.329002 99.108002 102.015 104.391 108.702 113.013 115.389 120.168 123.345 128.12399 131.03101 135.81 140.589 143.86501 146.304 148.67999 152.991 157.302 159.67799 164.457 168.3 173.07899 175.98599 179.16299 183.942 188.72099 191.99699 194.436 196.812 201.123 205.90199 210.681"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan600">13 neutrons, and 10 electrons; (b) 13 protons, 14 neutrons, and </tspan><tspan
+                     x="-21.753 -17.441999 -13.131 -10.755 -6.9120002 -4.473 -0.63 3.2130001 6.1199999 9.2969999 14.076 18.855 22.23 24.669001 27.045 29.952 33.794998 36.702 39.077999 43.389 47.700001 50.076 54.855 58.032001 62.811001 65.718002 70.497002 75.276001 78.552002 80.990997 83.366997 87.678001 91.988998 94.364998 99.143997 102.987 107.766 110.673 113.85 118.629 123.408 126.684 129.123 131.49899 135.81 140.589 145.368 147.744 152.05499 156.366 158.742 162.58501 165.024 168.867 172.71001 175.617 178.79401 183.573 188.35201 191.72701 194.166"
+                     y="21.996"
+                     sodipodi:role="line"
+                     id="tspan602">10 electrons; (c) 34 protons, 45 neutrons, and 36 electrons; </tspan><tspan
+                     x="-21.753 -18.846001 -14.067 -11.16 -8.7840004 -4.473 -0.162 2.214 6.993 10.17 14.949 17.856001 22.635 27.414 30.690001 33.129002 35.505001 39.816002 44.126999 46.502998 51.282001 55.125 59.903999 62.811001 65.987999 70.766998 75.545998 78.821999 81.261002 83.637001 87.947998 92.726997 97.505997 99.882004 104.193 108.504 110.88 114.723 117.162 121.005 124.848 127.755 130.93201 135.711 140.49001 143.66701 146.106"
+                     y="32.993999"
+                     sodipodi:role="line"
+                     id="tspan604">(d) 24 protons, 28 neutrons, and 22 electrons. </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.294,116.292)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text610"><tspan
+                     x="0 6.4970999 8.9982004 14.0013"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan608">C.13</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,330.047,116.292)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text616"><tspan
+                     x="0 7.8119998 11.187 13.626 16.533001 20.375999 22.752001 25.659 30.438 34.280998 36.657001 39.257999 44.036999 47.511002 54.630001 59.409 61.848 66.158997 68.535004 73.314003 79.280998 83.592003 85.968002 89.810997 94.589996 101.808 106.587 111.366 116.145 120.924 125.703 128.07899 130.67999 135.459 138.933 146.151 149.994 154.77299 157.149 161.72099 166.032 168.408 172.25101 177.03 184.248 189.02699 191.466 196.245 198.68401 203.463"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan612">Write the formula ofa compound formed by combining</tspan><tspan
+                     x="-21.753 -18.846001 -14.535 -9.2519999 -2.97 -0.53100002 1.845 6.1560001 10.935 15.714 18.09 23.364 27.207001 29.646 32.021999 34.929001 39.708 42.615002 44.991001 53.612999 57.924 60.299999 64.611 69.389999 74.168999 76.544998 83.763 86.202003 88.578003 91.485001 95.328003 98.235001 100.611 107.829 112.14 114.516 118.827 123.606 128.38499 130.761 135.07201 137.511 139.88699 142.79401 147.573 150.48 152.856 159.138 163.91701 166.293 170.604 175.383 180.162 182.53799 185.44501 187.884"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan614">(a)Al and Te; (b) Mg and O; (c) Na and S; (d) Rb and I. </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.294,88.293)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text620"><tspan
+                     x="0 6.4970999 8.9982004 14.0013"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan618">C.14</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,330.047,88.293)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text626"><tspan
+                     x="0 7.8119998 11.187 13.626 16.533001 20.375999 22.752001 25.659 30.438 34.280998 36.657001 39.257999 44.036999 47.511002 54.630001 59.409 61.848 66.158997 68.535004 73.314003 79.280998 83.592003 85.968002 89.810997 94.589996 101.808 106.587 111.366 116.145 120.924 125.703 128.07899 130.67999 135.459 138.933 146.151 149.994 154.77299 157.149 161.72099 166.032 168.408 172.25101 177.03 184.248 189.02699 191.466 196.245 198.68401 203.463"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan622">Write the formula ofa compound formed by combining</tspan><tspan
+                     x="-21.753 -18.846001 -14.535 -9.2519999 -0.63 3.681 6.0570002 10.368 15.147 19.926001 22.302 29.52 31.959 34.334999 37.242001 42.021 44.928001 47.304001 54.054001 58.365002 60.741001 65.052002 69.831001 74.610001 76.986 81.296997 83.736 86.112 89.018997 92.862 95.768997 98.144997 103.392 107.703 110.079 114.39 119.169 123.948 126.324 132.606 135.045 137.48399 139.86 142.767 147.54601 150.453 152.82899 159.11099 161.487 165.798 170.577 175.356 177.73199 182.043 185.886 188.325"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan624">(a)Mg and N; (b) Ga and S; (c) Ba and Cl; (d) K and Se. </tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,308.294,60.294)"
+                   style="font-variant:normal;font-weight:bold;font-size:9px;font-family:Sabon;-inkscape-font-specification:Sabon-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text630"><tspan
+                     x="0 6.4970999 8.9982004 14.0013"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan628">C.15</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,330.047,60.294)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text636"><tspan
+                     x="0 6.2820001 8.658 15.876 20.187 22.625999 27.405001 30.312 34.722 37.898998 42.678001 47.457001 52.236 54.612 58.455002 60.894001 64.737 71.955002 75.797997 80.577003 83.484001 85.860001 88.299004 93.078003 95.454002 99.927002 103.77 107.145 109.584 114.363 119.142 121.518 125.829 128.205 130.806 135.58501 139.05901 146.27699 149.65199 152.028 154.935 159.714 163.55701 165.933 168.534 173.313 175.752 178.19099 182.466 189.216 191.655 196.43401 200.745 203.121 205.56 210.339 215.118 217.55701"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan632">A main-group element in Period 3 forms the following ionic</tspan><tspan
+                     x="-21.753 -17.91 -13.131 -5.9130001 -1.1339999 3.645 8.4239998 13.203 17.982 21.357 23.796 26.172001 31.419001 36.666"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan634">compounds: EBr</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,370.086,47.4833)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text640"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan638">3</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,375.695,49.2834)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text644"><tspan
+                     x="0 4.3109999 9.0900002 13.869 16.245001"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan642">and E</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,397.187,47.4833)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text648"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan646">2</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,400.421,49.2834)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text652"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan650">O</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,407.639,47.4833)"
+                   style="font-variant:normal;font-weight:normal;font-size:6.75px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text656"><tspan
+                     x="0"
+                     y="0"
+                     id="tspan654">3</tspan></text>
+                <text
+                   xml:space="preserve"
+                   transform="matrix(1,0,0,-1,410.872,49.2834)"
+                   style="font-variant:normal;font-weight:normal;font-size:9px;font-family:SabonMT;-inkscape-font-specification:SabonMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text662"><tspan
+                     x="0 2.4389999 4.8150001 7.7220001 12.033 14.94 17.316 22.382999 27.162001 29.538 35.784 40.563 43.001999 46.646999 51.425999 53.801998 58.212002 61.389 66.167999 70.946999 75.725998 78.101997 82.880997 87.660004 91.502998 94.877998 97.253998 100.161 104.94 108.783 111.159 115.002 117.441 121.284 128.502 132.345 137.12399"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan658">. (a) To which group does the element</tspan><tspan
+                     x="-102.582 -97.334999 -94.959 -90.18 -86.336998 -83.898003 -79.119003 -74.339996 -70.028999 -66.653999 -64.278 -61.370998 -56.591999 -53.685001 -51.308998 -43.497002 -40.122002 -37.682999 -34.776001 -30.933001 -28.556999 -25.65 -20.871 -17.028 -14.652 -9.8730001 -5.5619998 1.656 5.4990001 7.875 12.186 16.965 21.743999 24.120001 27.495001 31.806 39.023998 43.803001 48.582001 51.021 53.396999 58.175999 64.142998 67.986 70.425003 74.267998 81.486 85.329002 90.108002 93.014999 95.390999 100.638 103.077"
+                     y="10.998"
+                     sodipodi:role="line"
+                     id="tspan660">E belong? (b) Write the name and symbol ofelement E. </tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g740">
+      <g
+         id="g742"
+         clip-path="url(#clipPath746)">
+        <g
+           id="g748">
+          <g
+             id="g750"
+             clip-path="url(#clipPath754)">
+            <g
+               id="g756">
+              <g
+                 id="g758"
+                 clip-path="url(#clipPath762)">
+                <g
+                   id="g764">
+                  <g
+                     id="g766"
+                     clip-path="url(#clipPath770)">
+                    <g
+                       id="g772">
+                      <g
+                         id="g774"
+                         transform="matrix(78.230789,0,0,54.264008,165.70799,47.662003)">
+                        <image
+                           width="1"
+                           height="1"
+                           style="image-rendering:optimizeSpeed"
+                           preserveAspectRatio="none"
+                           transform="matrix(1,0,0,-1,0,1)"
+                           xlink:href="data:image/png;base64,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"
+                           id="image776" />
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g1656">
+      <g
+         id="g1658"
+         clip-path="url(#clipPath1662)">
+        <g
+           id="g1664"
+           transform="translate(-0.9600067,821.314)">
+          <path
+             d="m 0,0 v -24 m -39,-15 h 24 M 612,0 v -24 m 39,-15 H 627 M 0,-861 v 24 m -39,15 h 24 m 627,-39 v 24 m 39,15 h -24"
+             style="fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1666" />
+        </g>
+        <g
+           id="g1668"
+           transform="translate(-0.9600067,821.314)">
+          <path
+             d="m 0,0 v -24 m -39,-15 h 24 M 612,0 v -24 m 39,-15 H 627 M 0,-861 v 24 m -39,15 h 24 m 627,-39 v 24 m 39,15 h -24"
+             style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1670" />
+        </g>
+        <g
+           id="g1672"
+           transform="translate(281.03999,809.314)">
+          <path
+             d="M 0,0 H 48 M 0,-837 h 48 m -357,442.5 v -48 m 666,48 v -48 M 24,12 v -24 m 0,-813 v -24 m -345,430.5 h 24 m 642,0 h 24 M 24,0 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6 m -6,-837 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6 m -339,418.5 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6 m 660,0 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6"
+             style="fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1674" />
+        </g>
+        <g
+           id="g1676"
+           transform="translate(281.03999,809.314)">
+          <path
+             d="M 0,0 H 48 M 0,-837 h 48 m -357,442.5 v -48 m 666,48 v -48 M 24,12 v -24 m 0,-813 v -24 m -345,430.5 h 24 m 642,0 h 24 M 24,0 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6 m -6,-837 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6 m -339,418.5 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6 m 660,0 h 6 c 0,-3.312 -2.688,-6 -6,-6 -3.312,0 -6,2.688 -6,6 0,3.312 2.688,6 6,6 3.312,0 6,-2.688 6,-6"
+             style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1678" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

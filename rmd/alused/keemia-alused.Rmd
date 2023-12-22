@@ -258,9 +258,15 @@ Kava:
 
 4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
 
-5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
+### 2023-12-14
 
-6. Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
 
 ### 2023-12-14
 
@@ -270,15 +276,11 @@ Kava:
 
 Kava:
 
-3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)].
-
-4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
-
 5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
 
-6. Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+6. Eelnevalt õpitu kordamine: Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
 
-### 2023-12-14
+### 2023-12-19
 
 Õppesisu:
 
@@ -286,13 +288,9 @@ Kava:
 
 Kava:
 
-3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)].
-
-4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
-
 5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
 
-6. Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+6. Eelnevalt õpitu kordamine: Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
 
 \onecolumn
 
@@ -365,7 +363,7 @@ Kava:
     Leheküljel `r render_pageref(reference="fig:fundamentals-properties-physical-chemical")` oleval joonisel \@ref(fig:fundamentals-properties-physical-chemical) olevates konteinerites tähistavad rohelised sfäärid ühe elemendi aatomeid, punased sfäärid teise elemendi aatomeid. Igal juhul on piltidel näha kas füüsikalist või keemilist muutust; tuvastada muudatuse tüüp.
     
     ```{r label = "fundamentals-properties-physical-chemical", echo=FALSE, fig.cap = "Füüsikaline või keemiline muutus."}
-    include_external_graphics("rmd/füüsikaline-keemiline.svg")
+    include_external_graphics("rmd/alused/füüsikaline-keemiline.svg")
 
     ```
 
@@ -487,9 +485,44 @@ Selle ploki mass oli \qty{0,213}{\gram}.
 
 #### Tulemused
 
-\nobreak
+2023-12-12 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-12) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-12")`.
 
 ```{r label="intro-results-2023-12-12", echo=FALSE}
+
+tasks_of_intro_2023_12_12<- data.frame(
+  c( # Ülesanne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # Hinne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  )
+)
 
 tasks_of_intro_2023_12_12<- data.frame(
   c( # Ülesanne
@@ -502,7 +535,7 @@ tasks_of_intro_2023_12_12<- data.frame(
     0, # 7. Salnikova, Veronika
     5, # Šerstobitov, Mihhail
     0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
+    1, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
     0, # 10. Trubilko, Vladislav
     4, # 12. Volkova, Darja
@@ -513,12 +546,12 @@ tasks_of_intro_2023_12_12<- data.frame(
     0, # Donat Irhin
     5, # 3. Kimasks, Stanislavs
     0, # Kustov, Vladimir
-    3, # Malõšev, Polina
-    3, # 6. Nersesjan, Feliks
+    4, # Malõšev, Polina
+    4, # 6. Nersesjan, Feliks
     0, # 7. Salnikova, Veronika
     3, # Šerstobitov, Mihhail
     0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
+    3, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
     0, # 10. Trubilko, Vladislav
     3, # 12. Volkova, Darja
@@ -533,6 +566,8 @@ tasks_of_intro_2023_12_12<- data.frame(
 \newpage
 
 ### 2023-12-14
+
+#### Ülesanded
 
 1.  Berülliumi aatomi mass on \qty{1,50e-26}{\kg}. Mitu berülliumi aatomit on röntgentoru aknana kasutatavas berülliumkiles massiga \qty{0,210}{\g}?
 
@@ -782,5 +817,464 @@ tasks_of_intro_2023_12_12<- data.frame(
     \vspace{0.1\textheight}
 
     Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+#### Tulemused
+
+2023-12-14 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-14) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-14")`.
+
+```{r label="intro-results-2023-12-14", echo=FALSE}
+
+tasks_of_intro_2023_12_14<- data.frame(
+  c( # Ülesanne
+    2, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    4, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    3, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail
+    8, # 7. Šesterikov, Daniil
+    5, # Žigadlo, Grigori
+    9, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    7 # Volkova, Jeva
+  ),
+  c( # Hinne
+    5, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    4, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    3, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    1, # 7. Šesterikov, Daniil
+    4, # Žigadlo, Grigori
+    1, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    3 # Volkova, Jeva
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_intro_2023_12_14, names = names_10, caption = "Sissejuhatus: 2023-12-14", long = FALSE)
+
+```
+
+\newpage
+
+### 2023-12-19
+
+Järgnevad 2024-12-19 ülesanded:
+
+\begin{landscape}
+
+1.  Täidan tabeli \\@ref(tab:basics-intro-name-group-type) leheküljel `r render_pageref(reference="tab:basics-intro-name-group-type")`! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-name-group-type", echo=FALSE}
+    name <- c(
+      "\\blank{skandium}",
+      "\\blank{strontsium}",
+      "\\blank{antimon}",
+      "\\blank{väävel}"
+    )
+    group <- c(
+      "\\blank{\\num{3}}",
+      "\\blank{\\num{2}}",
+      "\\blank{\\num{16}}",
+      "\\blank{\\num{15}}"
+    )
+    type <- c(
+      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
+      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
+      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
+      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid"
+    )
+    
+    name_group_type <- data.frame(
+      name,
+      group,
+      type
+    )
+    
+    rownames(name_group_type) <- c(
+      "\\ce{Sc}",
+      "\\ce{Sr}",
+      "\\ce{S}",
+      "\\ce{Sb}"
+    )
+    
+    colnames(name_group_type) <- c(
+      "Nimi",
+      "Grupp",
+      "Tüüp"
+    )
+    
+    print_table(table=name_group_type, caption="Valitud elementide nimed, grupid ja tüübid.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+2.  Täidan tabeli \@ref(tab:basics-intro-symbol-type) leheküljel `r render_pageref(reference="tab:basics-intro-symbol-type")`! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-symbol-type", echo=FALSE}
+    symbol <- c(
+      "\\blank{\\ce{Sr}}",
+      "\\blank{\\ce{Xe}}",
+      "\\blank{\\ce{Si}}"
+    )
+    type <- c(
+      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
+      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
+      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid"
+    )
+    
+    symbol_type <- data.frame(
+      symbol,
+      type
+    )
+    
+    rownames(symbol_type) <- c(
+      "Strontsium",
+      "Ksenoon",
+      "Räni"
+    )
+    
+    colnames(symbol_type) <- c(
+      "Sümbol",
+      "Tüüp"
+    )
+    
+    print_table(table=symbol_type, caption="Valitud elementide sümbolid ja tüübid.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\begin{landscape}
+
+3.  Täidan tabeli \\@ref(tab:basics-intro-halogens) leheküljel `r render_pageref(reference="tab:basics-intro-halogens")` halogeenide kohta. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-halogens", echo=FALSE}
+    name <- c(
+      "\\blank{Fluor}",
+      "\\blank{Kloor}",
+      "\\blank{Broom}",
+      "\\blank{Jood}",
+      "\\blank{Astaat}",
+      "\\blank{Tennessiin}"
+    )
+    symbol <- c(
+      "\\blank{F}",
+      "\\blank{Cl}",
+      "\\blank{Br}",
+      "\\blank{I}",
+      "\\blank{At}",
+      "\\blank{Ts}"
+    )
+    Z <- c(
+      "\\blank{9}",
+      "\\blank{17}",
+      "\\blank{35}",
+      "\\blank{53}",
+      "\\blank{85}",
+      "\\blank{117}"
+    )
+    phase <- c(
+      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
+      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
+      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
+      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
+      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
+      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu"
+    )
+
+    halogens <- data.frame(
+      name,
+      symbol,
+      Z,
+      phase
+    )
+
+    colnames(halogens) <- c(
+      "Nimi",
+      "Sümbol",
+      "$Z$",
+      "Faas toatemperatuuril"
+    )
+    
+    print_table(table=halogens, caption="Halogeenid.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+4.  Täidan tabeli \@ref(tab:basics-intro-blocks) leheküljel `r render_pageref(reference="tab:basics-intro-blocks")` plokkide kohta. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-blocks", echo=FALSE}
+    block <- c(
+      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
+      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
+      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
+      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
+      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
+      "\\Circle s; \\Circle p; \\Circle d; \\Circle f"
+    )
+
+    blocks <- data.frame(
+      block
+    )
+
+    colnames(blocks) <- c(
+      "Plokk"
+    )
+    rownames(blocks) <- c(
+      "Tsirkoonium",
+      "\\ce{As}",
+      "\\ce{Ta}",
+      "Baarium",
+      "\\ce{Si}",
+      "Koobalt"
+    )
+    print_table(table=blocks, caption="Plokid.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5.  Element, millel on \num{118} neutronit ja mille massiarv on \num{200}, on \blank{Plii}. See element asub \blank{\num{14}}. rühmas ja on \Circle metall \Circle mittemetall \Circle metalloid.
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+(ref:caption-basics-review-compounds-mixture-element) \faSquareO element, \faSquareO ühend, \faSquareO segu.
+
+\newpage
+
+6.  Pildil \@ref(fig:basics-compounds-mixture-elements) leheküljel `r render_pageref(reference="fig:basics-compounds-mixture-elements")` kujutatud konteinerid sisaldavad kas segu, ühte ühendit, ühte elementi või nende kombinatsiooni. Sinised sfäärid tähistavad ühe elemendi aatomeid, rohelised sfäärid teise elemendi aatomeid. Täidan kummagi pildi allkirja vastavalt selle sisule.
+    
+    ```{r label = "basics-compounds-mixture-elements", echo=FALSE, fig.cap = "Konteinerid.", fig.subcap=c("(ref:caption-basics-review-compounds-mixture-element)", "(ref:caption-basics-review-compounds-mixture-element)")}
+    include_external_graphics("rmd/alused/alused-kordamine-ühendid-segu-element.svg")
+    include_external_graphics("rmd/alused/alused-ühendid-element.svg")
+
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+7.  Pildil \@ref(fig:basics-review-compounds-ball-stick) leheküljel `r render_pageref(reference="fig:basics-review-compounds-ball-stick")` kujutatud palli- ja pulgakujulistes molekulaarstruktuurides tähistab hall värv süsinikku, punane värv hapnikku, valge värv vesinikku, sinine värv lämmastikku ja roheline värv kloori. Kirjutan kummagi struktuuri alla vastava struktuuri keemilise valemi tähtede ja numbritega.
+    
+    ```{r label = "basics-review-compounds-ball-stick", echo=FALSE, fig.cap = "Pallid ja pulgad.", fig.subcap=c("\\blank{\\ce{C3H7NO2}}.", "\\blank{\\ce{C2h7n}}.")}
+    include_external_graphics("rmd/alused/alused-kordamine-ühendid-pallid-pulgad-C-H-N-O.svg")
+    include_external_graphics("rmd/alused/alused-kordamine-ühendid-C-H-N.svg")
+
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+8.  Täidan tabeli \@ref(tab:basics-intro-compounds-ions) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-ions")` vastavalt sellele, kas element moodustab tõenäolisemalt katiooni või aniooni. Kirjutan tabelisse kõige tõenäolisemalt moodustuva iooni valemi. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-compounds-ions", echo=FALSE}
+    type <- c(
+      "\\Circle katioon \\Circle anioon",
+      "\\Circle katioon \\Circle anioon",
+      "\\Circle katioon \\Circle anioon",
+      "\\Circle katioon \\Circle anioon"
+    )
+
+    ion <- c(
+      "\\blank{\\ce{Cs+}}",
+      "\\blank{\\ce{I-}}",
+      "\\blank{\\ce{Se2-}}",
+      "\\blank{\\ce{Ca2+}}"
+    )
+    ions <- data.frame(
+      type,
+      ion
+    )
+
+    colnames(ions) <- c(
+      "Tüüp",
+      "Valem"
+    )
+    rownames(ions) <- c(
+      "Tseesium",
+      "Jood",
+      "Seleen",
+      "Kaltsium"
+    )
+    print_table(table=ions, caption="Tõenäolisimalt moodustuvad ioonid.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+9.  Täidan tabeli \@ref(tab:basics-intro-compounds-contents-of-ions) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-contents-of-ions")`. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-compounds-contents-of-ions", echo=FALSE}
+    p <- c(
+      "\\blank{\\num{4}}",
+      "\\blank{\\num{8}}",
+      "\\blank{\\num{35}}",
+      "\\blank{\\num{33}}"
+    )
+
+    n <- c(
+      "\\blank{\\num{6}}",
+      "\\blank{\\num{9}}",
+      "\\blank{\\num{45}}",
+      "\\blank{\\num{42}}"
+    )
+
+    e <- c(
+      "\\blank{\\num{2}}",
+      "\\blank{\\num{10}}",
+      "\\blank{\\num{36}}",
+      "\\blank{\\num{36}}"
+    )
+    content_of_ions <- data.frame(
+      p,
+      n,
+      e
+    )
+
+    colnames(content_of_ions) <- c(
+      "Prootoneid",
+      "Neutroneid",
+      "Elektrone"
+    )
+    rownames(content_of_ions) <- c(
+      "\\ce{^10Be^2+}",
+      "\\ce{^17O^2-}",
+      "\\ce{^80Br^-}",
+      "\\ce{^75As^3-}"
+    )
+    print_table(table=content_of_ions, caption="Valitud ioonide koostis.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+10. Täidan tabeli \@ref(tab:basics-intro-compounds-formulas-of-ions) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-formulas-of-ions")`. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-compounds-formulas-of-ions", echo=FALSE}
+    p <- c(
+      "\\num{9}",
+      "\\num{12}",
+      "\\num{52}",
+      "\\num{37}"
+    )
+
+    n <- c(
+      "\\num{10}",
+      "\\num{12}",
+      "\\num{76}",
+      "\\num{49}"
+    )
+
+    e <- c(
+      "\\num{10}",
+      "\\num{10}",
+      "\\num{54}",
+      "\\num{36}"
+    )
+    symbol <- c(
+      "\\blank{\\ce{^19F-}}",
+      "\\blank{\\ce{^24Mg^2+}}",
+      "\\blank{\\ce{^128Te^2-}}",
+      "\\blank{\\ce{^86Rb+}}"
+    )
+    formulas_of_ions <- data.frame(
+      p,
+      n,
+      e,
+      symbol
+    )
+
+    colnames(formulas_of_ions) <- c(
+      "Prootoneid",
+      "Neutroneid",
+      "Elektrone",
+      "Valem"
+    )
+    print_table(table=formulas_of_ions, caption="Valitud ioonide valemid koostise järgi.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+11. Täidan tabeli \@ref(tab:basics-intro-compounds-by-elements) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-by-elements")` vastavalt sellele, milline ühend moodustub etteantud elementidest. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+
+    ```{r label="basics-intro-compounds-by-elements", echo=FALSE}
+    element_1 <- c(
+      "\\ce{Al}",
+      "\\ce{Mg}",
+      "\\ce{Na}",
+      "\\ce{Rb}"
+    )
+    element_2 <- c(
+      "\\ce{Te}",
+      "\\ce{O}",
+      "\\ce{S}",
+      "\\ce{I}"
+    )
+    formula <- c(
+      "\\blank{\\ce{Al2Te3}}",
+      "\\blank{\\ce{MgO}}",
+      "\\blank{\\ce{Na2S}}",
+      "\\blank{\\ce{RbI}}"
+    )
+    compounds_by_elements <- data.frame(
+      element_1,
+      element_2,
+      formula
+    )
+
+    colnames(compounds_by_elements) <- c(
+      "1. element",
+      "2. element",
+      "Ühend"
+    )
+    print_table(table=compounds_by_elements, caption="Ühendid elementide järgi.")
+    
+    ```
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+12. Kolmanda perioodi põhirühma element moodustab järgmised ioonühendid: $E\ce{Br3}$ ja $E\ce{_2O3}$. Element $E$ kuulub \blank{\num{13}}. rühma. Elemendi $E$ nimi on \blank{\ce{Alumiinium}} ja sümbol on \blank{\ce{Al}}. Lubatud on kasutada perioodilisussüsteemi tabelit.
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+13. Määran \ce{^48Ti} aatomi kogumassi osa, mis tuleneb
+     - neutronitest;
+     - prootonitest;
+     - elektronidest.
+ 
+    Kui suur on prootonite mass titaanist jalgrattaraamis massiga \qty{3,0e1}{\kg}? Oletame, et jalgratta raami kogumass tuleneb \ce{^48Ti}-st. Märkus. Vabade prootonite ja neutronite mass on veidi suurem kui nende osakeste mass aatomites, seega on vastus vaid ligikaudne.
+    
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi ja põhikonstantide tabelit.
+
+    \vspace{0.5\textheight}
+
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+14. Järgmised ühendid sisaldavad polüatoomseid ioone.
+     - Naatriumioonidest ja vesinikfosfitioonidest (\ce{HPO3^2-}) moodustunud ühendi  valem on \blank{Na2HPO3}.
+     - Ammooniumioonidest (\ce{NH4+}) ja karbonaadiioonidest (\ce{CO3^2-}) moodustuva ammooniumkarbonaadi valem on \blank{(NH4)2CO3}.
+     - Magneesiumsulfaadi valem on \ce{MgSO4}. Katiooni laeng \ce{CuSO4}-s on \blank{2+}.
+     - Kaaliumfosfaadi valem on \ce{K3PO4}. \ce{Sn3(PO4)2} katiooni laeng on \blank{2+}.
+ 
+    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
 
 \twocolumn

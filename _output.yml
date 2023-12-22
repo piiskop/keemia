@@ -9,4 +9,4 @@ bookdown::pdf_book:
   keep_tex: yes
   latex_engine: xelatex
   template: default.latex
-
+  extra_dependencies: "subfig"
