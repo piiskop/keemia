@@ -187,7 +187,7 @@ include_external_graphics = function(path) {
 #' @param table the data frame or matrix
 #' @param caption the caption
 #' @param digits the number of significant digits
-#' @param additional_header the additional header
+#' @param additional_header the additional header, for instance additional_header = c("Spanned header" = 4)
 #' @param footnotes the array of footnotes
 #' @param do_i_transpose Do i transpose?
 #' 
@@ -217,6 +217,7 @@ print_table <- function(table, caption, digits = 2, additional_header = NULL, fo
       table,
       bootstrap_options = c("striped", "bordered", "condensed", "responsive", "hover"),
       latex_options = c("striped", "repeat_header"),
+      # latex_options = c("repeat_header"),
       repeat_header_text = paste(caption, "$\\textit{(järgneb...)}$"),  # paste(caption, "$\\textit{(Continued...)}$"),
       repeat_header_method = "replace",
       repeat_header_continued = "Tabel järgneb järgmisel leheküljel..." # TRUE

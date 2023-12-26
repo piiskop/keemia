@@ -254,19 +254,9 @@ Kava:
 
 Kava:
 
-3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)]. Alustame elementide organisatsiooniga.
+3. Eelnevalt õpitu kordamine: elemendid ja aatomid[@atkins_2010_chemical(lk F15-F21)]. Alustasime elementide organisatsiooniga.
 
-4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
-
-### 2023-12-14
-
-Õppesisu:
-
-2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
-
-Kava:
-
-4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)].
+4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)]. Ühendite üldosa käsitlesime.
 
 ### 2023-12-14
 
@@ -276,9 +266,17 @@ Kava:
 
 Kava:
 
-5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
+4. Eelnevalt õpitu kordamine: ühendid[@atkins_2010_chemical(lk F22-F28)]. Ioonilised ühendid käsitlesime kuni näiteni C.2.
 
-6. Eelnevalt õpitu kordamine: Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+### 2023-12-14
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)]. Jõudsin rääkida katioonide nimetuste esimese lõigu.
 
 ### 2023-12-19
 
@@ -288,9 +286,59 @@ Kava:
 
 Kava:
 
-5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)].
+5. Eelnevalt õpitu kordamine: ühendite nomenklatuur[@atkins_2010_chemical(lk F29-F36)]. Enesetest D.3A tehtud.
 
 6. Eelnevalt õpitu kordamine: Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+
+### 2024-1-9
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+1. Eelnevalt õpitu kordamine: Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+
+### 2024-1-9
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+1. Eelnevalt õpitu kordamine: Keemiliste valemite määramine[@atkins_2010_chemical(lk F45-F50)].
+
+### 2024-1-11
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+1. Eelnevalt õpitu kordamine: Segud ja lahused[@atkins_2010_chemical(lk F51-F58)].
+
+### 2024-1-11
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+1. Eelnevalt õpitu kordamine: Keemilised võrrandid[@atkins_2010_chemical(lk F60-F63)].
+
+### 2024-1-11
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava:
+
+1. Eelnevalt õpitu kordamine: Vesilahused ja sademine[@atkins_2010_chemical(lk F65-F70)].
 
 \onecolumn
 
@@ -1059,7 +1107,7 @@ Järgnevad 2024-12-19 ülesanded:
 
 6.  Pildil \@ref(fig:basics-compounds-mixture-elements) leheküljel `r render_pageref(reference="fig:basics-compounds-mixture-elements")` kujutatud konteinerid sisaldavad kas segu, ühte ühendit, ühte elementi või nende kombinatsiooni. Sinised sfäärid tähistavad ühe elemendi aatomeid, rohelised sfäärid teise elemendi aatomeid. Täidan kummagi pildi allkirja vastavalt selle sisule.
     
-    ```{r label = "basics-compounds-mixture-elements", echo=FALSE, fig.cap = "Konteinerid.", fig.subcap=c("(ref:caption-basics-review-compounds-mixture-element)", "(ref:caption-basics-review-compounds-mixture-element)")}
+    ```{r label = "basics-compounds-mixture-elements", echo=FALSE, fig.cap = "Konteinerid.", fig.subcap=c("(ref:caption-basics-review-compounds-mixture-element)", "(ref:caption-basics-review-compounds-mixture-element)"), fig.align="center"}
     include_external_graphics("rmd/alused/alused-kordamine-ühendid-segu-element.svg")
     include_external_graphics("rmd/alused/alused-ühendid-element.svg")
 
@@ -1068,8 +1116,8 @@ Järgnevad 2024-12-19 ülesanded:
     Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
 
 7.  Pildil \@ref(fig:basics-review-compounds-ball-stick) leheküljel `r render_pageref(reference="fig:basics-review-compounds-ball-stick")` kujutatud palli- ja pulgakujulistes molekulaarstruktuurides tähistab hall värv süsinikku, punane värv hapnikku, valge värv vesinikku, sinine värv lämmastikku ja roheline värv kloori. Kirjutan kummagi struktuuri alla vastava struktuuri keemilise valemi tähtede ja numbritega.
-    
-    ```{r label = "basics-review-compounds-ball-stick", echo=FALSE, fig.cap = "Pallid ja pulgad.", fig.subcap=c("\\blank{\\ce{C3H7NO2}}.", "\\blank{\\ce{C2h7n}}.")}
+
+    ```{r label = "basics-review-compounds-ball-stick", echo=FALSE, fig.cap = "Pallid ja pulgad.", fig.subcap=c("\\blank{\\ce{C3H7NO2}}.", "\\blank{\\ce{C2h7n}}."), fig.align="center"}
     include_external_graphics("rmd/alused/alused-kordamine-ühendid-pallid-pulgad-C-H-N-O.svg")
     include_external_graphics("rmd/alused/alused-kordamine-ühendid-C-H-N.svg")
 
@@ -1276,5 +1324,284 @@ Järgnevad 2024-12-19 ülesanded:
      - Kaaliumfosfaadi valem on \ce{K3PO4}. \ce{Sn3(PO4)2} katiooni laeng on \blank{2+}.
  
     Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+### 2024-1-9
+
+1.  Kirjutan järgnevate ühendite valemid:
+     - mangaan(II)kloriid: \blank{\ce{MnCl2}};
+     - kaltsiumfosfaat: \blank{\ce{Ca3(PO4)2}};
+     - alumiiniumsulfit: \blank{\ce{Al2(SO3)3}};
+     - magneesiumnitriid: \blank{\ce{Mg3N2}}.
+ 
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\begin{landscape}
+
+2.  Täidan tabeli \\@ref(tab:basics-intro-nomenclature-old-modern-names) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-old-modern-names")`.
+
+    ```{r label="basics-intro-nomenclature-old-modern-names", echo=FALSE}
+    old <- c(
+      "\\blank{kolmealuseline} \\blank{kaltsiumfosfaat}",
+      "\\blank{tina-} \\blank{disulfiid}",
+      "\\blank{vanaadiumpentoksiid}",
+      "\\blank{vaskoksiid}"
+    )
+    modern <- c(
+      "\\blank{trikaltsiumbis}",
+      "\\blank{tina(IV)sulfiid}",
+      "\\blank{divanaadium-} \\blank{pentaoksiid}",
+      "\\blank{vask(I)oksiid}"
+    )
+    names <- data.frame(
+      old,
+      modern
+    )
+
+    colnames(names) <- c(
+      "Vana",
+      "Tänapäevane"
+    )
+    rownames(names) <- c(
+      "luude peamine anorgaaniline komponent \\ce{Ca3(PO4)2}",
+      "\\ce{SnS2}",
+      "\\ce{V2O5}",
+      "\\ce{Cu2O}"
+    )
+    print_table(table=names, caption="Valitud ioonühendid vana ja tänapäevase nimega.") %>%
+      column_spec(1, width="8em") %>%
+      column_spec(2, width="16em") %>%
+      column_spec(3, width="32em")
+    
+    ```
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+     
+\end{landscape}
+
+3.  Kirjutan valemi:
+     
+     \begin{multicols}{2}
+     - titaandioksiid: \blank{\ce{TiO2}};
+     
+     - ränitetrakloriid: \blank{\ce{SiCl4}};
+     
+     - süsinikdisulfiid: \blank{\ce{CS2}};
+     
+     - vääveltetrafluoriid: \blank{\ce{SF4}};
+     
+     - liitiumsulfiid: \blank{\ce{Li2S}};
+     
+     - antimonpentafluoriid: \blank{\ce{SbF5}};
+     
+     - dilämmastikpentooksiid: \blank{\ce{N2O5}};
+     
+     - joodheptafluoriid: \blank{\ce{IF7}}.
+     \end{multicols}
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+4.  Kirjutan järgmiste binaarsete molekulaarsete ühendi nimed:
+     
+     - \ce{SF6}: \blank{väävelheksafluoriid};
+     
+     - \ce{N2O5}: \blank{dilämmastik-}\blank{pentaoksiid};
+     
+     - \ce{NI3}: \blank{lämmastiktrijodiid};
+     
+     - \ce{XeF4}: \blank{ksenoontetrafluoriid};
+     
+     - \ce{AsBr3}: \blank{arseentribromiid};
+     
+     - \ce{ClO2}: \blank{kloordioksiid};
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5.  Järgmised vesilahused on tavalised laborihapped. Mis on nende nimed?
+
+     - \ce{HCl(aq)}: \blank{vesinikkloriidhape};
+     
+     - \ce{H2SO4(aq)}: \blank{väävelhape};
+     
+     - \ce{HNO3(aq)}: \blank{lämmastikhape};
+     
+     - \ce{CH3COOH(aq)}: \blank{äädikhape};
+     
+     - \ce{H2SO3(aq)}: \blank{väävlishape};
+     
+     - \ce{H3PO4(aq)}: \blank{fosforhape}.
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+6.  Kirjutan valemi ioonse ühendi kohta, mis moodustub
+
+     - tsingi- ja fluoriidiioonist: \blank{\ce{ZnF2}};
+     
+     - baariumi- ja nitraadiioonist: \blank{\ce{Ba(NO3)2}};
+     
+     - hõbe- ja jodiidiioonist: \blank{\ce{AgI}};
+     
+     - liitiumi- ja nitriidiioonist: \blank{\ce{Li3N}};
+     
+     - kroom(III)- ja sulfiidiioonist: \blank{\ce{Cr2S3}}.
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+     
+7.  Ühendi, mis moodustub perioodilisuse tabeli \num{2}. rühma \num{6}. perioodi elemendi kombineerimisel rühma \num{17} / VII \num{3}. perioodi elemendiga, nimetus on \blank{baariumkloriid} ja selle valem on \blank{\ce{BaCl2}}. See ühend on \Circle molekulaarne \Circle{ioonne}. Kasutada on lubatud keemiliste elementide perioodilisussüsteemi tabelit.
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+8.  Nimetan kõik järgmised ühendid:
+
+     - \ce{Na2SO3}: \blank{naatriumsulfit};
+     
+     - \ce{Fe2O3}: \blank{raud(III)oksiid};
+     
+     - \ce{FeO}: \blank{raud(II)oksiid};
+     
+     - \ce{Mg(OH)2}: \blank{magneesiumhüdroksiid};
+     
+     - \ce{NiSO4.6H2O}: \blank{nikkel(II)-} \blank{sulfaatheksahüdraat};
+     
+     - \ce{PCl5}: \blank{fosforpentakloriid};
+     
+     - \ce{Cr(H2PO4)3}: \blank{kroom(III)-} \blank{divesinikfosfaat};
+     
+     - \ce{As2O3}: \blank{trisenoks};
+     
+     - \ce{RuCl2}: \blank{ruteenium(II)kloriid}.
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+9.  Täidan tabeli \@ref(tab:basics-intro-nomenclature-incorrect-correct-names) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-incorrect-correct-names")`.
+
+    ```{r label="basics-intro-nomenclature-incorrect-correct-names", echo=FALSE}
+    incorrect <- c(
+      "vask(I)karbonaat",
+      "kaaliumsulfaat",
+      "liitiumkloor"
+    )
+    correct <- c(
+      "\\blank{vask(II)karbonaat}",
+      "\\blank{kaaliumsulfit}",
+      "\\blank{liitiumkloriid}"
+    )
+    incorrect_correct_names <- data.frame(
+      incorrect,
+      correct
+    )
+
+    colnames(incorrect_correct_names) <- c(
+      "Vale",
+      "Õige"
+    )
+    rownames(incorrect_correct_names) <- c(
+      "\\ce{CuCO3}",
+      "\\ce{K2SO3}",
+      "\\ce{LiCl}"
+    )
+    print_table(table=incorrect_correct_names, caption="Valitud ühendite nime korrigeerimine.")
+    
+    ```
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+10. Nimetan kõik järgmised orgaanilised ühendid:
+
+     - \ce{CH3CH2CH2CH2CH2CH2CH3}: \blank{heptaan};
+     
+     - \ce{CH3CH2CH3}: \blank{propaan};
+     
+     - \ce{CH3CH2CH2CH2CH3}: \blank{pentaan};
+     
+     - \ce{CH3CH2CH2CH3}: \blank{butaan}.
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\begin{landscape}
+
+11. Täidan tabeli \\@ref(tab:basics-intro-nomenclature-old-contemporary-names-formulas) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-old-contemporary-names-formulas")`. Lubatud on kasutada levinuimate katioonide nimetuste ja nende laengute tabelit.
+
+    ```{r label="basics-intro-nomenclature-old-contemporary-names-formulas", echo=FALSE}
+    contemporary <- c(
+      "\\blank{koobalt(III)-} \\blank{oksiidmonohüdraat}",
+      "\\blank{koobalt(II)-} \\blank{hüdroksiid}"
+    )
+    formula <- c(
+      "\\blank{\\ce{Co2O3.H2O}}",
+      "\\blank{\\ce{Co(OH)2}}"
+    )
+    old_contemporary_names_formulas <- data.frame(
+      contemporary,
+      formula
+    )
+
+    colnames(old_contemporary_names_formulas) <- c(
+      "Kaasaegne nimi",
+      "Valem"
+    )
+    rownames(old_contemporary_names_formulas) <- c(
+      "koobaltoksiidmonohüdraat",
+      "koobaltishüdroksiid"
+    )
+    print_table(table=old_contemporary_names_formulas, caption="Valitud ühendite nime kaasajastamine ja valemid.") %>%
+      column_spec(2, width="24em")
+    
+    ```
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+12. Täidan tabeli \\@ref(tab:basics-intro-nomenclature-exceptions-name-type) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-exceptions-name-type")`.
+
+    ```{r label="basics-intro-nomenclature-exceptions-name-type", echo=FALSE}
+    name <- c(
+      "\\blank{liitiumalumiiniumhüdriid}",
+      "\\blank{naatriumhüdriid}"
+    )
+    type <- c(
+      "\\Circle ioonne \\Circle molekulaarne",
+      "\\Circle ioonne \\Circle molekulaarne"
+    )
+    exceptions_name_type <- data.frame(
+      name,
+      type
+    )
+
+    colnames(exceptions_name_type) <- c(
+      "Nimetus",
+      "Tüüp"
+    )
+    rownames(exceptions_name_type) <- c(
+      "\\ce{LiAlH4}",
+      "\\ce{NaH}"
+    )
+    print_table(table=exceptions_name_type, caption="Valitud ühendite erandlikud nimed ja tüübid.")
+    
+    ```
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+13. Nimetan kõik järgmised ühendid, kasutades juhisena analoogseid fosfori ja väävliga ühendeid:
+
+     - \ce{H2SeO4}: \blank{seleenhape};
+     
+     - \ce{Na3AsO4}: \blank{naatriumarsenaat}.
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+14. Kirjutan orgaanilise ühendi tüübi:
+
+     - \ce{CH3CH2CH2OH}: \blank{alkohol};
+     
+     - \ce{CH3CH2CH2CH2COOH}: \blank{karboksüülhape};
+     
+     - \ce{CH3F}: \blank{fluorometaan}.
+
+    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
 
 \twocolumn
