@@ -199,29 +199,29 @@ Dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-of-pla
 Tõusunurga arvutamise valem on \@ref(eq:tangent-angle) leheküljel `r render_pageref(reference = "eq:tangent-angle")`.
 
 ```{=tex}
-\begin{equation}
+\begin{align}
 \alpha = \mathrm{atan}(\frac{\text{nihe}_\text{vertikaalne}}{\Delta(x)})
 (\#eq:tangent-angle)
-\end{equation}
+\end{align}
 ```
 
 Nurgateisendus kraadidest radiaanidesse on esitatud valemine \@ref(eq:angle-from-degrees-to-radians) leheküljel `r render_pageref(reference = "eq:angle-from-degrees-to-radians")`.
 
 ```{=tex}
-\begin{equation}
+\begin{align}
 \text{nurk}_\text{rad} = \frac{\text{nurk°} \cdot \pi}{180°}
 (\#eq:angle-from-degrees-to-radians)
-\end{equation}
+\end{align}
 ```
 
 Koosinusteoreem on esitatud avaldisena \@ref(eq:cosine-theorem) leheküljel `r render_pageref(reference = "eq:cosine-theorem")`.
 
 ```{=tex}
-\begin{equation}
-|a| =\\
+\begin{align}
+|a| =\leavevmode\\
 \sqrt{|b|^2 + |c|^2 - 2 \cdot |b| \cdot |c| \cdot \mathrm{cos}(\text{nurk}_{b, c})}
 (\#eq:cosine-theorem)
-\end{equation}
+\end{align}
 
 ```
 
@@ -455,8 +455,8 @@ Kiirenduse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on nä
 
 ```{=tex}
 \begin{align}
-\int{w(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(a(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
-w(t) \cdot t + C &= a(t) + D,\\
+\int{w(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(a(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\leavevmode\\
+w(t) \cdot t + C &= a(t) + D,\leavevmode\\
 w(t) \cdot t + C - D &= a(t),
 (\#eq:acceleration-by-jerk-with-integration-constants)
 \end{align}
@@ -496,9 +496,9 @@ Kiiruse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näida
 
 ```{=tex}
 \begin{align}
-\int{a(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
-\int{w(t) \cdot t + a(0)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
-\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + E &= v(t) + F,\\
+\int{a(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\leavevmode\\
+\int{w(t) \cdot t + a(0)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\leavevmode\\
+\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + E &= v(t) + F,\leavevmode\\
 \frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0) &= v(t).
 (\#eq:speed-by-jerk)
 \end{align}
@@ -511,9 +511,9 @@ Tee pikkuse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on n�
 
 ```{=tex}
 \begin{align}
-\int{v(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}} \cdot \mathrm{d}(t), \\
-\int{\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \\
-\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \\
+\int{v(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}} \cdot \mathrm{d}(t), \leavevmode\\
+\int{\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \leavevmode\\
+\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \leavevmode\\
 \frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + r(0) &= r(t)
 (\#eq:path-length-by-jerk)
 \end{align}
@@ -526,9 +526,9 @@ Kuna püsikiirenduse puhul jõnksu pole, lihtsustub valem \@ref(eq:path-length-b
 
 ```{=tex}
 \begin{align}
-\frac{a(0) \cdot (\frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}})^2}{2} + \overrightarrow{v(0)} \cdot \frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}} + r(0) &= r, \\
-\frac{\overrightarrow{v}^2 - 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v} + \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + \frac{\overrightarrow{v(0)} \cdot \overrightarrow{v} - \overrightarrow{v(0)}^2}{\overrightarrow{a(0)}} + r(0) &= r, \\
-\frac{\overrightarrow{v}^2 \cancel{- 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} + \overrightarrow{v(0)}^2 \cancel{+ 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} - 2 \cdot \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{a(0) \cdot (\frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}})^2}{2} + \overrightarrow{v(0)} \cdot \frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}} + r(0) &= r, \leavevmode\\
+\frac{\overrightarrow{v}^2 - 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v} + \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + \frac{\overrightarrow{v(0)} \cdot \overrightarrow{v} - \overrightarrow{v(0)}^2}{\overrightarrow{a(0)}} + r(0) &= r, \leavevmode\\
+\frac{\overrightarrow{v}^2 \cancel{- 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} + \overrightarrow{v(0)}^2 \cancel{+ 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} - 2 \cdot \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + r(0) &= r, \leavevmode\\
 \frac{\overrightarrow{v}^2 - \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} &= r - r(0).
 (\#eq:constant-acceleration-via-velocities-and-displacement)
 \end{align}
@@ -567,7 +567,7 @@ Avaldan avaldisest \@ref(eq:planck-constant) leheküljel `r render_pageref(refer
 
 ```{=tex}
 \begin{align}
-\mathrm{kg} &= \frac{h}{\num{`r as.character(h)`}} \unit{\s\per\meter\squared} = \frac{h}{\num{`r as.character(h)`}} \times \frac{\frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}{(\frac{`r delta_nu_cs_over_speed_of_light_in_vacuum_over` \times c}{\Delta(\nu_\text{Cs})})^2} \\
+\mathrm{kg} &= \frac{h}{\num{`r as.character(h)`}} \unit{\s\per\meter\squared} = \frac{h}{\num{`r as.character(h)`}} \times \frac{\frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}{(\frac{`r delta_nu_cs_over_speed_of_light_in_vacuum_over` \times c}{\Delta(\nu_\text{Cs})})^2} \leavevmode\\
 &= `r scalar_of_kg` \times \frac{h \times \Delta(\nu_\text{Cs})}{c^2}.
 (\#eq:kilogram)
 \end{align}
@@ -628,6 +628,405 @@ Massikontsentratsiooni konverteerimine grammidest kuupsentimeetri kohta kilogram
 #' @returns the mass concentration in kilograms per cubic meters
 convert_from_g_per_cm3_to_kg_per_m3 <- function(g_per_cm3) {
   return(g_per_cm3 * 1e-3 * 1e6)
+}
+
+```
+
+## Aine hulk
+
+(ref:n-explanation-on-NA) Avogadro konstant on esitatud avaldisena \@ref(eq:avogadro-constant) leheküljel `r render_pageref(reference="eq:avogadro-constant")`[@bureau_1974_the, lk 127].
+
+(ref:n-explanation-on-others) mis tahes muu osake või osakeste rühm[@bureau_1974_the, lk 134].
+
+```{r label = "avogadro-constant", echo=FALSE}
+N_A <- 6.02214076e23
+
+```
+
+Elementaarüksus:
+
+1. aatom,
+
+2. molekul,
+
+3. ioon,
+
+4. elektron,
+
+5. (ref:n-explanation-on-others)
+
+aine hulk
+: määratletud elementaarüksuste arvu mõõt
+
+Mool on aine hulga ühik.
+
+(ref:n-explanation-on-NA)
+
+```{=tex}
+\begin{align}
+N_\text{A} = (6,022 140 76 × 10^{23} \pm 4.4 × 10^{−8}) \frac{1}{\mathrm{mol}}.
+(\#eq:avogadro-constant)
+\end{align}
+
+```
+
+Avaldan Avogadro konstandist (avaldis \@ref(eq:avogadro-constant)) mooli (avaldis \@ref(eq:mole) leheküljel `r render_pageref(reference="eq:mole")`).
+
+```{=tex}
+\begin{align}
+\text{mol} = \frac{6,022 140 76 × 10^{23} \pm 4.4 × 10^{−8}}{N_\text{A}}.
+(\#eq:mole)
+\end{align}
+
+```
+
+Sellest johtuvalt on mool selline aine hulk, milles on $6,022 140 76 × 10^{23}$ määratletud elementaarüksust.
+
+Aine hulga valem on \@ref(eq:amount) leheküljel `r render_pageref(reference="eq:amount")`.
+
+```{=tex}
+\begin{align}
+n_\text{B} = \frac{N_\text{B}}{N_\text{A}},
+(\#eq:amount)
+\end{align}
+
+```
+
+kus
+
+$N$
+: üksuste arv (nt molekulid, aatomid,
+ioonid, valemiühikud)
+
+$N_\text{A}$
+: Avogadro konstant (avaldis \@ref(eq:avogadro-constant))[@haynes_2014_crc, lk 2-8]
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-amount) leheküljel `r render_pageref(reference="eq:dimensional-analysis-for-amount")` ja sellest johtuvalt on ühik mool.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{1}{\frac{1}{N}} = N}.
+(\#eq:dimensional-analysis-for-amount)
+\end{align}
+
+```
+
+```{r label = "carbon", echo=FALSE}
+M_12C <- .012
+A_12C <- 12
+M_u <- M_12C / A_12C
+
+```
+
+Avogadro arvu väärtus on valitud selline, et üks mool süsinik-12 kaaluks $(`r M_12C` \pm 4,5 \times 10^{-10}) \unit{kg}$. See on seega süsinik-12 molaarmass ja ühtlasi ainus molaarmass, mis on standardselt fikseeritud, et muud molaarmassid oleksid esitatud selle suhtes. Seega nii palju kaalub Avogadro arv süsinik-12 aatomeid. Süsinik-12's on `r A_12C` nukleoni. Kui jagada süsinik-12 molaarmass süsinik-12 nukleonide arvuga, saame teada, kui palju kaalub üks mool ehk Avogadro arv süsinik-12 nukleone (avaldis \@ref(eq:molar-mass-constant) leheküljel `r render_pageref(reference="eq:molar-mass-constant")`).
+
+```{=tex}
+\begin{align}
+M_\text{u} = \frac{M(\ce{^12C})}{A(\ce{^12C})} = \frac{\qty{`r as.character(M_12C)`}{\kg\per\mole}}{\num{`r as.character(A_12C)`}} = \qty{`r as.character(M_u)`}{\kg\per\mol},
+(\#eq:molar-mass-constant)
+\end{align}
+
+```
+
+milles
+
+$M_\text{u}$
+: molaarmassi konstant konverteerimaks grammidest kilogrammideks ja näitab siis ka ühtlasi, kui palju kaalub üks mool ehk Avogadro arv süsinik-12 nukleone
+
+Ühe süsinik-12 nukleoni massi väljaarvutamiseks tuleb Avogadro arvu süsinik-12 nukleonide mass jagada Avogadro arvuga (avaldis \@ref(eq:unified-atomic-mass-constant) leheküljel `r render_pageref(reference="eq:unified-atomic-mass-constant")`)[@bureau_1974_the, lk 287].
+
+```{r label = "unified-atomic-mass-constant", echo=FALSE}
+m_u <- M_u / N_A
+m_u
+
+```
+
+```{=tex}
+\begin{align}
+m_\text{u} = \frac{M_\text{u}}{N_\text{A}} = \frac{\qty{`r as.character(M_u)`}{\kg\per\mol}}{\qty{`r as.character(N_A)`}{\per\mole}} &= \qty{`r as.character(m_u)`}{\kg} \leavevmode\\
+&= \qty{1}{\dalton},
+(\#eq:unified-atomic-mass-constant)
+\end{align}
+
+```
+
+milles
+
+$m_\text{u}$
+: ühtne aatommassi konstant ja näitab, kui palju kaalub üks süsinik-12 nukleon keskmiselt
+
+Süsinik-12 aatomi keskmise massi saame, kui korrutame süsinik-12 nukleoni keskmise massi nuklonide arvuga ühes süsinik-12 aatomis (avaldis \@ref(eq:mass-of-12C) leheküljel `r render_pageref(reference="eq:mass-of-12C")`).
+
+```{r label = "atomic-mass-of-12C", echo=FALSE}
+m_12C <- m_u * A_12C
+
+```
+
+```{=tex}
+\begin{align}
+m(\ce{^12C}) &= m_\text{u} \cdot A(\ce{^12C}) = \qty{`r as.character(m_u)`}{\kg} \times \num{`r as.character(A_12C)`} \leavevmode\\
+&= \qty{`r as.character(m_12C)`}{\kg} = \qty{`r as.character(A_12C)`}{\dalton}.
+(\#eq:mass-of-12C)
+\end{align}
+
+```
+
+Elemendi $X$ suhteline aatommass on elemendi aatomi massi ja ühtse aatommassi konstandi suhe (avaldis \@ref(eq:relative-atomic-mass) leheküljel `r render_pageref(reference="eq:relative-atomic-mass")`)[@haynes_2014_crc, lk 1-8].
+
+```{=tex}
+\begin{align}
+A_\text{r}(X) = \frac{m(X)}{m_\text{u}}.
+(\#eq:relative-atomic-mass)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-relative-atomic-mass) leheküljel `r render_pageref(reference="eq:dimensional-analysis-for-relative-atomic-mass")` ja sellest johtuvalt on ühik 1.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{M}{M}},
+(\#eq:dimensional-analysis-for-relative-atomic-mass)
+\end{align}
+
+```
+
+Kuna vastavalt tuletuskäigule \@ref(eq:unified-atomic-mass-constant) $m_\text{u} = \qty{1}{\dalton}$, siis suhteline aatommass on sama mis elemendi aatommassi skalaar (avaldis \@ref(eq:relative-atomic-mass-shorter) leheküljel `r render_pageref(reference="eq:relative-atomic-mass-shorter")`).
+
+```{=tex}
+\begin{align}
+A_\text{r}(X) = \frac{m(X)}{\qty{1}{\dalton}},
+(\#eq:relative-atomic-mass-shorter)
+\end{align}
+
+```
+
+Perioodilisussüsteemi tabelites on aatommassid esitatud kas daltonites või ilma ühikuta. Piisab, kui võtta vaid aatommassi arvväärtus ja seda kasutada suhtelise aatommassina, et arvutada molaarmass (avaldis \@ref(eq:molar-mass) leheküljel `r render_pageref(reference="eq:molar-mass")`).
+
+```{=tex}
+\begin{align}
+M(X) = A_\text{r}(X) \cdot M_\text{u}.
+(\#eq:molar-mass)
+\end{align}
+
+```
+
+```{r label="convert-from-Ar-to-M", echo=FALSE}
+convert_from_Ar_to_M <- function(A_r) {
+  return(A_r * M_u)
+}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-molar-mass) leheküljel `r render_pageref(reference="eq:dimensional-analysis-for-molar-mass")` ja sellest johtuvalt on ühik $\unit{\kg\per\mol}$.
+
+```{=tex}
+\begin{align}
+\mathrm{1 \times \frac{M}{N} = \frac{M}{N}},
+(\#eq:dimensional-analysis-for-molar-mass)
+\end{align}
+
+```
+
+Kui korrutada ühes moolis olevate aatomite arv ühe aatomi massiga, saame mooli kogu massi ehk molaarmassi (avaldis \@ref(eq:molar-mass-by-atomic-mass-and-avogadro) leheküljel `r render_pageref(reference="eq:molar-mass-by-atomic-mass-and-avogadro")`).
+
+```{=tex}
+\begin{align}
+M(X) = m(X) \cdot N_\text{A}.
+(\#eq:molar-mass-by-atomic-mass-and-avogadro)
+\end{align}
+
+```
+
+Dimensioonanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-molar-mass-by-atomic-mass-and-avogadro) leheküljel `r render_pageref(reference="eq:dimensional-analysis-for-molar-mass-by-atomic-mass-and-avogadro")` ja sellest johtuvalt on ühik $\mathrm{\frac{kg}{mol}}$.
+
+```{=tex}
+\begin{align}
+\mathrm{M \cdot \frac{1}{N} = \frac{M}{N}},
+(\#eq:dimensional-analysis-for-molar-mass-by-atomic-mass-and-avogadro)
+\end{align}
+
+```
+
+(ref:u-H) &nbsp;[@haynes_2014_crc, lk 4-8]
+
+(ref:u-C) &nbsp;[@haynes_2014_crc, lk 4-17]
+
+(ref:u-O) &nbsp;[@haynes_2014_crc, lk 4-25]
+
+```{r label = "molar-masses", echo=FALSE, eval=TRUE}
+librarian::shelf(c(
+  "kableExtra"
+))
+
+relative_atomic_masses <- c(
+  1.008,
+  12.01,
+  16
+)
+
+relative_atomic_masses_with_footnotes <- paste(relative_atomic_masses, footnote_marker_number(1:3))
+
+molar_masses <- convert_from_Ar_to_M(relative_atomic_masses)
+
+table_of_molar_masses <- data.frame(
+  relative_atomic_masses_with_footnotes = relative_atomic_masses_with_footnotes,
+  molar_masses = molar_masses
+)
+
+colnames(table_of_molar_masses) <- c(
+  "Suhteline aatommass",
+  "$\\frac{\\text{Molaarmass}}{\\unit{\\kg\\per\\mol}}$"
+)
+
+rownames(table_of_molar_masses) <- c(
+  "$\\ce{H}$",
+  "$\\ce{C}$",
+  "$\\ce{O}$"
+)
+
+print_table(
+  table = table_of_molar_masses,
+  caption = "Valitud elementide molaarmassid.",
+  digits = 6,
+  footnotes = c(
+    "(ref:u-H)",
+    "(ref:u-C)",
+    "(ref:u-O)"
+  )
+)
+
+```
+
+Molaarmass massi ja aine koguse järgi on esitatud avaldisena \@ref(eq:molar-mass-by-mass-and-amount) leheküljel `r render_pageref(reference="eq:molar-mass-by-mass-and-amount")`[@haynes_2014_crc, lk 2-8].
+
+```{r label = "calculate-m", echo=FALSE}
+#' This function calculates the mass of a substance, by its molar mass, and amount.
+#'
+#' @param M_B the molar mass of the substance
+#' @param n_B the amount of the substance
+#' 
+#' @returns the mass of the substance
+calculate_m <- function(M_B, n_B) {
+  return(M_B * n_B)
+}
+
+```
+
+```{=tex}
+\begin{align}
+M_\text{B} = \frac{m}{n_\text{B}}.
+(\#eq:molar-mass-by-mass-and-amount)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-molar-mass-by-mass-and-amount) leheküljel `r render_pageref(reference="eq:dimensional-analysis-for-molar-mass-by-mass-and-amount")` ja sellest johtuvalt on ühik $\mathrm{\frac{kg}{mol}}$.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{M}{N}},
+(\#eq:dimensional-analysis-for-molar-mass-by-mass-and-amount)
+\end{align}
+
+```
+
+Aine ruumala saab arvutada, kui on lisaks teada selle aine massikontsentratsioon. Avaldan valemist \@ref(eq:mass-concentration) ruumala ja asendan sellesse massi valemist \@ref(eq:molar-mass-by-mass-and-amount), et saada ruumala valem \@ref(eq:volume) leheküljel `r render_pageref(reference="eq:volume")`.
+
+```{r label = "calculate-V-by-molar-mass-and-amount-and-mass-concentration", echo=FALSE}
+#' This function calculates the volume of a substance, given its molar mass, amount, and mass concentration.
+#' 
+#' @param M_B the molar mass
+#' @param n_B the amount
+#' @param mass_concentration the mass concentration
+#' 
+#' @returns the volume
+calculate_V_by_molar_mass_and_amount_and_mass_concentration <- function(M_B, n_B, mass_concentration) {
+  return(M_B * n_B / mass_concentration)
+}
+
+```
+
+```{=tex}
+\begin{align}
+V = \frac{m_B}{γ_\mathrm{B}} = \frac{M_\text{B} \cdot n_\text{B}}{γ_\mathrm{B}}.
+(\#eq:volume)
+\end{align}
+
+```
+
+Dimensioonanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-volume) leheküljel `r render_pageref(reference="eq:dimensional-analysis-for-volume")`), millest johtuvalt on ühik kuupmeeter.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{\frac{M}{N} \cdot N}{\frac{M}{L^3}} = L^3},
+(\#eq:dimensional-analysis-for-volume)
+\end{align}
+
+```
+
+Koguse kontsentratsioon on esitatud avaldisena \@ref(eq:amount-concentration) leheküljel `r render_pageref(reference="eq:amount-concentration")`)[@haynes_2014_crc, lk 2-8].
+
+```{=tex}
+\begin{align}
+c_\text{B} = \frac{n_\text{B}}{V}
+(\#eq:amount-concentration)
+\end{align}
+
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-amount-concentration) leheküljel `r render_pageref(reference="eq:dimensional-analysis-for-amount-concentration")`) ja sellest johtuvalt on ühik $\unit{\mol\per\metre\cubed}$.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{N}{L^3}},
+(\#eq:dimensional-analysis-for-amount-concentration)
+\end{align}
+
+```
+
+Täiendan koguse kontsentratsiooni valemit \@ref(eq:amount-concentration) leheküljel `r render_pageref(reference = "eq:amount-concentration")` asendades sellesse ruumala massikontsentratsiooni valemist \@ref(eq:mass-concentration) leheküljel `r render_pageref(reference = "eq:mass-concentration")` ning saan avaldise \@ref(eq:amount-concentration-by-mass-concentration) leheküljel `r render_pageref(reference="eq:amount-concentration-by-mass-concentration")`).
+
+```{=tex}
+\begin{align}
+c_\text{B} = \frac{n_\text{B}}{\frac{m_\text{B}}{γ_\mathrm{B}}} = \frac{n_\text{B} \cdot γ_\mathrm{B}}{m_\text{B}}.
+(\#eq:amount-concentration-by-mass-concentration)
+\end{align}
+
+```
+
+```{r label = "calculate-c-by-mass-concentration", echo=FALSE}
+#' This function calculates the amount concentration for a substance whose mass concentration is given.
+#' 
+#' @param n the amount of the substance
+#' @param mass_concentration the mass concentration of the substance
+#' @param m the mass of the substance
+#' 
+#' @returns the amount concentration
+calculate_c_by_mass_concentration <- function(n, mass_concentration, m) {
+  return(n * mass_concentration / m)
+}
+
+```
+
+Molaarsust mõõdetakse moolides liitrite kohta (avaldis \@ref(eq:conversion-from-M-to-mol-per-m3) leheküljel `r render_pageref(reference="eq:conversion-from-M-to-mol-per-m3")`)[@haynes_2014_crc, lk 2-59].
+
+```{=tex}
+\begin{align}
+\mathrm{M} = \unit{\mole\per\liter} \cdot \qty{1e3}{\liter\per\cubic\meter} = \qty{1e3}{\mole\per\cubic\meter}
+(\#eq:conversion-from-M-to-mol-per-m3)
+\end{align}
+
+```
+
+```{r label = "convert-from-M-to-mol-per-m3", echo=FALSE}
+#' This function converts from the given molarity to moles per cubic meters.
+#' 
+#' @param M the molarity
+#' 
+#' @returns the value in moles per cubic meters
+convert_from_M_to_mol_per_m3 <- function(M) {
+  return(1e3 * M)
 }
 
 ```
@@ -754,7 +1153,7 @@ Inertsimomendi saab avaldada impulsimomendi ja nurkkiiruse kaudu. Selleks asenda
 
 ```{=tex}
 \begin{align}
-I = \sum{\frac{\vec{p_i}}{\vec{v_i}} \times r_i^2} = \sum{\frac{\vec{p}}{\vec{\omega \times r}} \times r^2} \\ = \sum{\frac{\vec{\frac{\vec{L}}{\vec{r}}}}{\vec{\omega \times r}} \times r^2} = \frac{\sum{\vec{L}}}{\vec{\omega}}.
+I = \sum{\frac{\vec{p_i}}{\vec{v_i}} \times r_i^2} = \sum{\frac{\vec{p}}{\vec{\omega \times r}} \times r^2} \leavevmode\\ = \sum{\frac{\vec{\frac{\vec{L}}{\vec{r}}}}{\vec{\omega \times r}} \times r^2} = \frac{\sum{\vec{L}}}{\vec{\omega}}.
 (\#eq:moment-of-inertia-by-angular-moment)
 \end{align}
 
@@ -770,67 +1169,67 @@ Avaldistena \@ref(eq:triple-vector-product) leheküljel `r render_pageref(refere
 \begin{align}
 \vec{V_1} \times (\vec{V_2} \times \vec{V_3}) = \vec{V_1} \times
 \begin{vmatrix}
-\vec{i}&\vec{j}&\vec{k}\\
-V_{2; x}&V_{2; y}&V_{2; z}\\
+\vec{i}&\vec{j}&\vec{k}\leavevmode\\
+V_{2; x}&V_{2; y}&V_{2; z}\leavevmode\\
 V_{3; x}&V_{3; y}&V_{3; z}
 \end{vmatrix}
 = \vec{V_1} \times (\vec{i} \cdot
 \begin{vmatrix}
-V_{2; y}&V_{2; z}\\
+V_{2; y}&V_{2; z}\leavevmode\\
 V_{3; y}&V_{3; z}
 \end{vmatrix}
 - \vec{j} \cdot
 \begin{vmatrix}
-V_{2; x}&V_{2; z}\\
+V_{2; x}&V_{2; z}\leavevmode\\
 V_{3; x}&V_{3; z}
 \end{vmatrix}
 + \vec{k} \cdot
 \begin{vmatrix}
-V_{2; x}&V_{2; y}\\
+V_{2; x}&V_{2; y}\leavevmode\\
 V_{3; x}&V_{3; y}
 \end{vmatrix}
-)\\
-= \vec{V_1} \times (\vec{i} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}) - \vec{j} \cdot (V_{2; x} \cdot V_{3; z} - V_{2; z} \cdot V_{3; x}) + \vec{k} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}))\\
+)\leavevmode\\
+= \vec{V_1} \times (\vec{i} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}) - \vec{j} \cdot (V_{2; x} \cdot V_{3; z} - V_{2; z} \cdot V_{3; x}) + \vec{k} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}))\leavevmode\\
 =
 \begin{vmatrix}
-\vec{i}&\vec{j}&\vec{k}\\
+\vec{i}&\vec{j}&\vec{k}\leavevmode\\
 V_{1; x}&V_{1; y}&V_{1; z}\\
 V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
-\end{vmatrix}\\
+\end{vmatrix}\leavevmode\\
 = \vec{i} \cdot
 \begin{vmatrix}
-V_{1; y}&V_{1; z}\\
+V_{1; y}&V_{1; z}\leavevmode\\
 V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
 \end{vmatrix}
 - \vec{j} \cdot
 \begin{vmatrix}
-V_{1; x}&V_{1; z}\\
+V_{1; x}&V_{1; z}\leavevmode\\
 V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
-\end{vmatrix}\\
+\end{vmatrix}\leavevmode\\
 + \vec{k} \cdot
 \begin{vmatrix}
-V_{1; x}&V_{1; y}\\
+V_{1; x}&V_{1; y}\leavevmode\\
 V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}
-\end{vmatrix}\\
-= \vec{i} \cdot (V_{1; y} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}))\\
-- \vec{j} \cdot (V_{1; x} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}))\\
+\end{vmatrix}\leavevmode\\
+= \vec{i} \cdot (V_{1; y} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}))\leavevmode\\
+- \vec{j} \cdot (V_{1; x} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}))\leavevmode\\
 + \vec{k} \cdot (V_{1; x} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}) - V_{1; y} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y})).
 (\#eq:triple-vector-product)
 \end{align}
 
 \begin{align}
-\vec{V_1} \times (\vec{V_2} \times \vec{V_3})\\
-= \vec{i} \cdot (V_{1; y} \cdot V_{2; x} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; z} \cdot V_{3; x} + V_{1; z} \cdot V_{2; x} \cdot V_{3; z} + V_{1; x} \cdot V_{2; x} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; x})\\
-- \vec{j} \cdot (V_{1; x} \cdot V_{2; x} \cdot V_{3; y} - V_{1; x} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; y} \cdot V_{3; z} + V_{1; z} \cdot V_{2; z} \cdot V_{3; y} + V_{1; y} \cdot V_{2; y} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; y})\\
-+ \vec{k} \cdot (V_{1; x} \cdot V_{2; z} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; z}- V_{1; y} \cdot V_{2; y} \cdot V_{3; z} + V_{1; y} \cdot V_{2; z} \cdot V_{3; y} + V_{1; z} \cdot V_{2; z} \cdot V_{3; z} - V_{1; z} \cdot V_{2; z} \cdot V_{3; z})\\
-= \vec{i} \cdot (V_{2; x} \cdot (V_{1; y} \cdot V_{3; y} + V_{1; z} \cdot V_{3; z} + V_{1; x} \cdot V_{3; x}) - V_{3; x} \cdot (V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z} + V_{1; x} \cdot V_{2; x}))\\
-- \vec{j} \cdot (-V_{2; y} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; z} \cdot V_{3; z} + V_{1; y} \cdot V_{3; y}) + V_{3; y} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; z} \cdot V_{2; z} + V_{1; y} \cdot V_{2; y})) \\
-+\vec{k} \cdot (V_{2; z} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; y} \cdot V_{3; y}+ V_{1; z} \cdot V_{3; z}) + -V_{3; z} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z}))\\
+\vec{V_1} \times (\vec{V_2} \times \vec{V_3})\leavevmode\leavevmode\\
+= \vec{i} \cdot (V_{1; y} \cdot V_{2; x} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; z} \cdot V_{3; x} + V_{1; z} \cdot V_{2; x} \cdot V_{3; z} + V_{1; x} \cdot V_{2; x} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; x})\leavevmode\\
+- \vec{j} \cdot (V_{1; x} \cdot V_{2; x} \cdot V_{3; y} - V_{1; x} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; y} \cdot V_{3; z} + V_{1; z} \cdot V_{2; z} \cdot V_{3; y} + V_{1; y} \cdot V_{2; y} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; y})\leavevmode\\
++ \vec{k} \cdot (V_{1; x} \cdot V_{2; z} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; z}- V_{1; y} \cdot V_{2; y} \cdot V_{3; z} + V_{1; y} \cdot V_{2; z} \cdot V_{3; y} + V_{1; z} \cdot V_{2; z} \cdot V_{3; z} - V_{1; z} \cdot V_{2; z} \cdot V_{3; z})\leavevmode\\
+= \vec{i} \cdot (V_{2; x} \cdot (V_{1; y} \cdot V_{3; y} + V_{1; z} \cdot V_{3; z} + V_{1; x} \cdot V_{3; x}) - V_{3; x} \cdot (V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z} + V_{1; x} \cdot V_{2; x}))\leavevmode\\
+- \vec{j} \cdot (-V_{2; y} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; z} \cdot V_{3; z} + V_{1; y} \cdot V_{3; y}) + V_{3; y} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; z} \cdot V_{2; z} + V_{1; y} \cdot V_{2; y})) \leavevmode\\
++\vec{k} \cdot (V_{2; z} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; y} \cdot V_{3; y}+ V_{1; z} \cdot V_{3; z}) + -V_{3; z} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z}))\leavevmode\\
 = \vec{i} \cdot (V_{2; x} \cdot (\vec{V_1} \cdot \vec{V_3}) - V_{3; x} \cdot (\vec{V_1} \cdot \vec{V_2}))
 - \vec{j} \cdot (-V_{2; y} \cdot (\vec{V_1} \cdot \vec{V_3})+ V_{3; y} \cdot (\vec{V_1} \cdot \vec{V_2}))
-+ \vec{k} \cdot (V_{2; z} \cdot (\vec{V_1} \cdot \vec{V_3})-V_{3; z} \cdot (\vec{V_1} \cdot \vec{V_2}))\\
++ \vec{k} \cdot (V_{2; z} \cdot (\vec{V_1} \cdot \vec{V_3})-V_{3; z} \cdot (\vec{V_1} \cdot \vec{V_2}))\leavevmode\\
 =(\vec{V_1} \cdot \vec{V_3}) \cdot (V_{2; x} \cdot \vec{i} + V_{2; y} \cdot \vec{j} + V_{2; z} \cdot \vec{k})
-- (\vec{V_1} \cdot \vec{V_2}) \cdot (V_{3; x} \cdot \vec{i} + V_{3; y} \cdot \vec{j} + V_{3; z} \cdot \vec{k})\\
+- (\vec{V_1} \cdot \vec{V_2}) \cdot (V_{3; x} \cdot \vec{i} + V_{3; y} \cdot \vec{j} + V_{3; z} \cdot \vec{k})\leavevmode\\
 =(\vec{V_1} \cdot \vec{V_3}) \cdot \vec{V_2} - (\vec{V_1} \cdot \vec{V_2}) \cdot \vec{V_3}.
 (\#eq:triple-vector-product-continued)
 \end{align}
@@ -961,10 +1360,10 @@ Et väljendada jõumoment inertsimomendi ja nurkkiirenduse kaudu, asendan jõumo
 
 ```{=tex}
 \begin{align}
-\vec{T} = \vec{r} \times \vec{m \cdot \vec{a}} = m \cdot \vec{r} \times \vec{a} = \\
-m \cdot \vec{r} \times \vec{\vec{r} \times \vec{\alpha}}\\
-= m \cdot ((\vec{r} \cdot \vec{r}) \cdot \vec{\alpha} - (\vec{\alpha} \cdot \vec{r}) \cdot \vec{r}) =\\
-m \times r^2 \times \vec{\alpha}\\
+\vec{T} = \vec{r} \times \vec{m \cdot \vec{a}} = m \cdot \vec{r} \times \vec{a} = \leavevmode\\
+m \cdot \vec{r} \times \vec{\vec{r} \times \vec{\alpha}}\leavevmode\\
+= m \cdot ((\vec{r} \cdot \vec{r}) \cdot \vec{\alpha} - (\vec{\alpha} \cdot \vec{r}) \cdot \vec{r}) =\leavevmode\\
+m \times r^2 \times \vec{\alpha}\leavevmode\\
 = I \cdot \vec{\alpha}.
 (\#eq:torque-by-moment-of-inertia)
 \end{align}
@@ -1081,12 +1480,12 @@ Küllastusrõhk vedela vee kohal temperatuurivahemikus $\qty{`r as.character(T_0
 ```{=tex}
 
 \begin{align}
-& p_\text{sat} && := e^{\sum_{i := 8}^{n}{C_i \times T^{i - 9}} + 6.5459673 \times \mathrm{ln}(T)}\\
-&&&= e^{\sum_{i := 8}^n{C_i \times (t + 273.15)^{i - 9}} + 6.5459673 \times \mathrm{ln}(t + 273.15)}\text{, kus}\\
-& C_8 && := -5.8002206 \times 10^3,\\
-& C_9 && := 1.3914993,\\
-& C_{10} && := -4.8640239 \times 10^{-2},\\
-& C_{11} && := 4.1764768 \times 10^{-5},\\
+& p_\text{sat} && := e^{\sum_{i := 8}^{n}{C_i \times T^{i - 9}} + 6.5459673 \times \mathrm{ln}(T)}\leavevmode\\
+&&&= e^{\sum_{i := 8}^n{C_i \times (t + 273.15)^{i - 9}} + 6.5459673 \times \mathrm{ln}(t + 273.15)}\text{, kus}\leavevmode\\
+& C_8 && := -5.8002206 \times 10^3,\leavevmode\\
+& C_9 && := 1.3914993,\leavevmode\\
+& C_{10} && := -4.8640239 \times 10^{-2},\leavevmode\\
+& C_{11} && := 4.1764768 \times 10^{-5},\leavevmode\\
 & C_{12} && := -1.4452093 \times 10^{-8}
 (\#eq:saturation-pressure-over-liquid-h2o)
 \end{align}
@@ -1445,7 +1844,7 @@ Avaldan avaldisest \@ref(eq:elementary-charge) leheküljel `r render_pageref(ref
 
 ```{=tex}
 \begin{align}
-\unit{A} &= \frac{e}{\qty{`r as.character(e)`}{\s}} = \frac{e}{\num{`r as.character(e)`} \times \frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}\\
+\unit{A} &= \frac{e}{\qty{`r as.character(e)`}{\s}} = \frac{e}{\num{`r as.character(e)`} \times \frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}\leavevmode\\
 &= \num{`r as.character(A)`} \times e \times \Delta(\nu_\text{Cs}).
 (\#eq:ampere)
 \end{align}
@@ -1757,8 +2156,8 @@ Avaldan helitaseme valemist \@ref(eq:sound-level) leheküljel `r render_pageref(
 
 ```{=tex}
 \begin{align}
-\frac{\beta}{10} &= \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}}) \\
-10^{\frac{\beta}{10}} &= \frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}} \\
+\frac{\beta}{10} &= \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}}) \leavevmode\\
+10^{\frac{\beta}{10}} &= \frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}} \leavevmode\\
 I &= \qty{`r as.character(I_0)`}{\W\per\m\squared} \times 10^{\frac{\beta}{10}}.
 (\#eq:power-intensity)
 \end{align}
@@ -2080,9 +2479,9 @@ Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:measurement-un
 Selleks tuleb esmalt arvutada aritmeetiline keskmine. Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:caliper-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
 
 \begin{align}
-x_1 = \qty{`r as.character(caliper[1])`}{\m},\\
-x_2 = \qty{`r as.character(caliper[2])`}{\m},\\
-x_3 = \qty{`r as.character(caliper[3])`}{\m},\\
+x_1 = \qty{`r as.character(caliper[1])`}{\m},\leavevmode\\
+x_2 = \qty{`r as.character(caliper[2])`}{\m},\leavevmode\\
+x_3 = \qty{`r as.character(caliper[3])`}{\m},\leavevmode\\
 x_4 = \qty{`r as.character(caliper[4])`}{\m}.
 (\#eq:caliper-x)
 \end{align}
@@ -2098,9 +2497,9 @@ Aritmeetilise keskmise arvutan liites kõik mõõdetud väärtused kokku ja jaga
 Nüüd on vaja arvutada iga väärtuse erinevus aritmeetilisest keskmisest (avaldised \@ref(eq:caliper-mean-x) leheküljel `r render_pageref(reference = "eq:caliper-mean-x")`).
 
 \begin{align}
-\overline{x} - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\\
-\overline{x} - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\\
-\overline{x} - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\\
+\overline{x} - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\leavevmode\\
+\overline{x} - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\leavevmode\\
+\overline{x} - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\leavevmode\\
 \overline{x} - x_4 = (\qty{`r as.character(caliper[4])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m}.
 (\#eq:caliper-mean-x)
 \end{align}
@@ -2108,9 +2507,9 @@ Nüüd on vaja arvutada iga väärtuse erinevus aritmeetilisest keskmisest (aval
 Need erinevused on vaja ruutu tõsta (avaldised \@ref(eq:caliper-mean-x-squared) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared")`).
 
 \begin{align}
-(\overline{x} - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\\
-(\overline{x} - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\\
-(\overline{x} - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\leavevmode\\
+(\overline{x} - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\leavevmode\\
+(\overline{x} - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\leavevmode\\
 (\overline{x} - x_4)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}.
 (\#eq:caliper-mean-x-squared)
 \end{align}
@@ -2118,8 +2517,8 @@ Need erinevused on vaja ruutu tõsta (avaldised \@ref(eq:caliper-mean-x-squared)
 Ruudustatud erinevused on vaja kokku liita (avaldis \@ref(eq:caliper-difference-from-mean-square-sum) leheküljel `r render_pageref(reference = "eq:caliper-difference-from-mean-square-sum")`).
 
 \begin{align}
-\sum_{i = 1}{\overline{x} - x_i} =\\
-(\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}) =\\
+\sum_{i = 1}{\overline{x} - x_i} =\leavevmode\\
+(\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}) =\leavevmode\\
 \qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}.
 (\#eq:caliper-difference-from-mean-square-sum)
 \end{align}

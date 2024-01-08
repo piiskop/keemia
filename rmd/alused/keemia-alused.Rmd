@@ -1097,7 +1097,7 @@ Järgnevad 2024-12-19 ülesanded:
 
     Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-5.  Element, millel on \num{118} neutronit ja mille massiarv on \num{200}, on \blank{Plii}. See element asub \blank{\num{14}}. rühmas ja on \Circle metall \Circle mittemetall \Circle metalloid.
+5.  Element, millel on \num{118} neutronit ja mille massiarv on \num{200}, on \blank{Plii}. See element asub \blank{\num{14}}. rühmas ja on \Circle metall \Circle mittemetall \Circle metalloid.  Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
 
     Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
 
