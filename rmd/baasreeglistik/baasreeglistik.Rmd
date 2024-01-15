@@ -965,7 +965,7 @@ Dimensioonanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-vol
 
 ```
 
-Koguse kontsentratsioon on esitatud avaldisena \@ref(eq:amount-concentration) leheküljel `r render_pageref(reference="eq:amount-concentration")`)[@haynes_2014_crc, lk 2-8].
+Hulga kontsentratsioon on esitatud avaldisena \@ref(eq:amount-concentration) leheküljel `r render_pageref(reference="eq:amount-concentration")`[@haynes_2014_crc, lk 2-8].
 
 ```{=tex}
 \begin{align}
@@ -1094,8 +1094,6 @@ kus *m* on mass ja *v* on kiirus.
 $$jõuImpulss = impulsiMuut$$
 
 $$jõud * ajavahemik === impulsiMuut$$
-
-\twocolumn
 
 ### Impulsimoment
 
@@ -2835,5 +2833,3 @@ print_table(table=solubility, caption="(ref:solubility)", additional_header=c("A
   landscape()
 
 ```
-
-\twocolumn

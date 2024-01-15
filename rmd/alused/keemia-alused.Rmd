@@ -4,11 +4,15 @@
 
 ### Õpitulemused
 
+\begin{multicols}{2}
+
 Kursuse lõpus õpilane:
 
 1. valdab ettekujutust keemia ajaloolisest arengust;
 
 2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
+
+\end{multicols}
 
 ### Õppesisu
 
@@ -26,6 +30,8 @@ keemiline analüüs, kvalitatiivne analüüs, kvantitatiivne analüüs, keemilin
 
 ### Õpitulemused
 
+\begin{multicols}{2}
+
 Kursuse lõpus õpilane:
 
 1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral);
@@ -40,7 +46,11 @@ Kursuse lõpus õpilane:
 
 6. kirjeldab ning hindab keemiliste sidemete ja molekulide vastastiktoime (ka vesiniksideme) mõju ainete omadustele.
 
+\end{multicols}
+
 ## Õppesisu
+
+\begin{multicols}{2}
 
 1. Tänapäevane ettekujutus aatomi ehitusest.
 
@@ -53,6 +63,8 @@ Kursuse lõpus õpilane:
 5. Molekulidevahelised jõud.
 
 6. Ainete füüsikaliste omaduste sõltuvus aine ehitusest. 
+
+\end{multicols}
 
 ### Põhimõisted
 
@@ -79,6 +91,8 @@ Lihtsamate molekulide struktuuri uurimine ja võrdlemine molekulimudelite või a
 
 ### Õpitulemused
 
+\begin{multicols}{2}
+
 Kursuse lõpus õpilane:
 
 1. seostab keemilist reaktsiooni aineosakeste üleminekuga püsivamasse olekusse;
@@ -89,7 +103,11 @@ Kursuse lõpus õpilane:
 
 4. mõistab, et pöörduvate reaktsioonide puhul tekib vastassuunas kulgevate protsesside vahel tasakaal, ning toob sellekohaseid näiteid argielust ja tehnoloogiast.
 
+\end{multicols}
+
 ### Õppesisu
+
+\begin{multicols}{2}
 
 1. Keemilise reaktsiooni aktiveerimisenergia, aktiivsed põrked.
 
@@ -98,6 +116,8 @@ Kursuse lõpus õpilane:
 3. Keemilise reaktsiooni kiirus, seda mõjutavad tegurid.
 
 4. Keemiline tasakaal ja selle nihkumine (Le Chatelier’ printsiibist tutvustavalt). 
+
+\end{multicols}
 
 ### Põhimõisted
 
@@ -127,6 +147,8 @@ keemiline tasakaal
 
 ### Praktilised tööd ja IKT rakendamine
 
+\begin{multicols}{2}
+
 1. Keemilise reaktsiooni kiirust mõjutavate tegurite toime uurimine;
 
 2. keemilise reaktsiooni soojusefekti uurimine;
@@ -135,9 +157,13 @@ keemiline tasakaal
 
 4. keemilise tasakaalu nihkumise uurimine sh arvutimudeli abil.
 
+\end{multicols}
+
 ## Lahustumisprotsess, keemilised reaktsioonid lahustes
 
 ### Õpitulemused
+
+\begin{multicols}{2}
 
 Kursuse lõpus õpilane:
 
@@ -153,7 +179,11 @@ Kursuse lõpus õpilane:
 
 6. hindab ning põhjendab ainete vees lahustumise korral lahuses tekkivat keskkonda.
 
+\end{multicols}
+
 ### Õppesisu 
+
+\begin{multicols}{2}
 
 1. Ainete lahustumisprotsess.
 
@@ -169,36 +199,40 @@ Kursuse lõpus õpilane:
 
 7. Keskkond hüdrolüüsuva soola lahuses.
 
+\end{multicols}
+
 ### Põhimõisted
 
 hüdraatumine
 :
 
 elektrolüüt
-:
+: aine, mis lahuses esineb ioonidena[@atkins_2010_chemical(lk F66)]
 
 mitteelektrolüüt
-:
+: aine, mis lahuses ioone ei moodusta[@atkins_2010_chemical(lk F66)]
 
 tugev elektrolüüt
-:
+:     aine, mis esineb lahuses peaaegu täielikult ioonidena[@atkins_2010_chemical(lk F66)]
 
 nõrk elektrolüüt
-:
+: lahuses mittetäielikult ioniseeritud aine[@atkins_2010_chemical(lk F66)]
 
 hape
-:
+: molekul või ioon, mis on prootoni doonor[@atkins_2010_chemical(lk F74)]
 
 alus
-:
+: molekul või ioon, mis on prootoni aktseptor[@atkins_2010_chemical(lk F74)]
 
 molaarne kontsentratsioon
-:
+: lahustunud aine molekulide või valemiühikute kogus (moolides) antud lahuse mahus (liitrites) (avaldis \@ref(eq:amount-concentration) leheküljel `r render_pageref(reference="eq:amount-concentration")`)[@atkins_2010_chemical(lk F54)]
 
 soola hüdrolüüs
 :
 
 ### Praktilised tööd ja IKT rakendamine
+
+\begin{multicols}{2}
 
 1. Lahustumise soojusefektide uurimine;
 
@@ -211,6 +245,8 @@ soola hüdrolüüs
 5. erinevate ainete vesilahuste keskkonna (lahuste pH) uurimine;
 
 6. lahuse kontsentratsiooni määramine tiitrimisel (nt vee mööduva kareduse määramine, leelise kontsentratsiooni määramine puhastusvahendis või happe kontsentratsiooni määramine akuhappes vms).
+
+\end{multicols}
 
 ## Kalender
 
@@ -296,9 +332,7 @@ Kava:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava:
-
-1. Eelnevalt õpitu kordamine: Moolid ja molaarmassid[@atkins_2010_chemical(lk F37-F43)].
+Kava: Eelnevalt õpitu kordamine: Moolid ja molaarmassid. Mool[@atkins_2010_chemical(lk F37-F39)].
 
 ### 2024-1-9
 
@@ -306,9 +340,22 @@ Kava:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava:
+4. Molaarne kontsentratsioon (tutvustavalt).
 
-1. Eelnevalt õpitu kordamine: Keemiliste valemite määramine[@atkins_2010_chemical(lk F45-F50)].
+Õpitulemusena õpilane
+
+4. oskab arvutada molaarset kontsentratsiooni.
+
+Põhimõiste:
+
+molaarne kontsentratsioon
+: lahustunud aine molekulide või valemiühikute kogus (moolides) antud lahuse mahus (liitrites) (avaldis \@ref(eq:amount-concentration) leheküljel `r render_pageref(reference="eq:amount-concentration")`)[@atkins_2010_chemical(lk F54)]
+
+Kava: Eelnevalt õpitu kordamine: Moolid ja molaarmassid. Molaarmass[@atkins_2010_chemical(lk F39-F43)].
+
+### 2024-1-11
+
+Õpilased ei osalenud.
 
 ### 2024-1-11
 
@@ -316,9 +363,18 @@ Kava:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava:
+4. Molaarne kontsentratsioon (tutvustavalt).
 
-1. Eelnevalt õpitu kordamine: Segud ja lahused[@atkins_2010_chemical(lk F51-F58)].
+Õpitulemusena õpilane
+
+4. oskab arvutada molaarset kontsentratsiooni.
+
+Põhimõiste:
+
+molaarne kontsentratsioon
+: lahustunud aine molekulide või valemiühikute kogus (moolides) antud lahuse mahus (liitrites) (avaldis \@ref(eq:amount-concentration) leheküljel `r render_pageref(reference="eq:amount-concentration")`)[@atkins_2010_chemical(lk F54)]
+
+Kava: 	Kordamine: mooli ja molaarmassi test ja ülevaatamine.
 
 ### 2024-1-11
 
@@ -326,21 +382,87 @@ Kava:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava:
+Kava: Eelnevalt õpitu kordamine: Keemiliste valemite määramine[@atkins_2010_chemical(lk F45-F50)].
 
-1. Eelnevalt õpitu kordamine: Keemilised võrrandid[@atkins_2010_chemical(lk F60-F63)].
+### 2024-1-16
 
-### 2024-1-11
+Õppesisu:
+
+1. Ainete lahustumisprotsess.
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava: Eelnevalt õpitu kordamine: Segud ja lahused[@atkins_2010_chemical(lk F51-F58)].
+
+### 2024-1-16
 
 Õppesisu:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava:
+Kava: Eelnevalt õpitu kordamine: Keemilised võrrandid[@atkins_2010_chemical(lk F60-F63)].
 
-1. Eelnevalt õpitu kordamine: Vesilahused ja sademine[@atkins_2010_chemical(lk F65-F70)].
+### 2024-1-18
 
-\onecolumn
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+2. Elektrolüüdid ja mitteelektrolüüdid; tugevad ja nõrgad elektrolüüdid.
+
+Põhimõisted:
+
+elektrolüüt
+: aine, mis lahuses esineb ioonidena[@atkins_2010_chemical(lk F66)]
+
+mitteelektrolüüt
+: aine, mis lahuses ioone ei moodusta[@atkins_2010_chemical(lk F66)]
+
+tugev elektrolüüt
+:     aine, mis esineb lahuses peaaegu täielikult ioonidena[@atkins_2010_chemical(lk F66)]
+
+nõrk elektrolüüt
+: lahuses mittetäielikult ioniseeritud aine[@atkins_2010_chemical(lk F66)]
+
+Kava: Eelnevalt õpitu kordamine: Vesilahused ja sademine[@atkins_2010_chemical(lk F65-F70)].
+
+### 2024-1-18
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+3. Hapete ja aluste protolüütiline teooria.
+
+6. pH.
+
+Õpitulemustena õpilane:
+
+3. selgitab happe ja aluse mõistet protolüütilise teoora põhjal;
+
+5. koostab ioonidevaheliste reaktsioonide võrrandeid (molekulaarsel ja ioonsel kujul).
+
+Põhimõisted:
+
+hape
+: molekul või ioon, mis on prootoni doonor[@atkins_2010_chemical(lk 74)]
+
+alus
+: molekul või ioon, mis on prootoni aktseptor[@atkins_2010_chemical(lk 74)]
+
+Kava: Eelnevalt õpitu kordamine: Happed ja alused[@atkins_2010_chemical(lk F72-F76)].
+
+### 2024-1-18
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Õpitulemustena õpilane:
+
+5. koostab ioonidevaheliste reaktsioonide võrrandeid (molekulaarsel ja ioonsel kujul).
+
+Kava: Eelnevalt õpitu kordamine: Redoksreaktsioonid[@atkins_2010_chemical(lk F77-F84)].
 
 ## Testid
 
@@ -872,6 +994,7 @@ tasks_of_intro_2023_12_12<- data.frame(
 
 ```{r label="intro-results-2023-12-14", echo=FALSE}
 
+
 tasks_of_intro_2023_12_14<- data.frame(
   c( # Ülesanne
     2, # 1. Babiy, Alisa
@@ -914,6 +1037,8 @@ tasks_of_intro_2023_12_14<- data.frame(
 \newpage
 
 ### 2023-12-19
+
+#### Ülesanded
 
 Järgnevad 2024-12-19 ülesanded:
 
@@ -1325,7 +1450,53 @@ Järgnevad 2024-12-19 ülesanded:
  
     Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
 
+#### Tulemused
+
+2023-12-19 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-19) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-19")`.
+
+```{r label="intro-results-2023-12-19", echo=FALSE}
+tasks_of_intro_2023_12_19<- data.frame(
+  c( # Ülesanne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    7, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    6, # Malõšev, Polina
+    4, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    2, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # Hinne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    5, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    4, # Malõšev, Polina
+    5, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    3, # Šerstobitov, Mihhail, esimesel katsel 1
+    0, # 7. Šesterikov, Daniil
+    2, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_intro_2023_12_19, names = names_10, caption = "Sissejuhatus: 2023-12-19", long = FALSE)
+
+```
+
 ### 2024-1-9
+
+#### Ülesanded
 
 1.  Kirjutan järgnevate ühendite valemid:
      - mangaan(II)kloriid: \blank{\ce{MnCl2}};
@@ -1604,4 +1775,411 @@ Järgnevad 2024-12-19 ülesanded:
 
     Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-\twocolumn
+#### Tulemused
+
+2024-1-9 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-9) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-9")`.
+
+```{r label="intro-results-2024-1-9", echo=FALSE}
+tasks_of_intro_2024_1_9<- data.frame(
+  c( # Ülesanne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    7, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    6, # Malõšev, Polina
+    4, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # Hinne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    3, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    4, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_intro_2024_1_9, names = names_10, caption = "Sissejuhatus: 2024-1-9", long = FALSE)
+
+```
+
+\pagebreak
+
+### 2024-1-11
+
+#### Ülesanded
+
+1.  Nanotehnoloogia valdkond pakub mõningaid intrigeerivaid võimalusi, näiteks ühe aatomi laiuste kiudude loomine. Oletame, et mul õnnestuks süsinik-nanotorudesse kapseldades ühendada \qty{1,00}{\mol} \ce{Ag}-aatomit, millest igaühe raadius on \qty{144}{\pico\m}, üheks sellistest kiududest. Kui pikk see kiud oleks?
+    
+    \vspace{0.2\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+2.  Nanotehnoloogia laboris võib mul olla võimalik üksikute aatomitega manipuleerida. Joonisel \@ref(fig:basics-revision-moles-Br-Ca) leheküljel `r render_pageref(reference="fig:basics-revision-moles-Br-Ca")` vasakpoolsed aatomid on broomiaatomid (moolmass \qty{80}{\g\per\mol}), paremal on kaltsiumi aatomid (moolmass \qty{40}{\g\per\mol}). Mitu kaltsiumi aatomit tuleks parempoolsele pannile lisada, et kahe panni massid oleksid võrdsed?
+
+    ```{r label="basics-revision-moles-Br-Ca", echo=FALSE, fig.cap="Vaataja poolt vasakul asuvad broomi aatomid."}
+    include_external_graphics("rmd/alused/alused-kordamine-Br-Ca.svg")
+    
+    ```
+    
+    \vspace{0.2\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+3.  Maa ligikaudne rahvaarv on \num{6,0} miljardit inimest.
+Mitu mooli inimesi elab Maal? Kui kõik inimesed oleksid hernekorjajad, siis kui kaua kuluks kogu Maa elanikkonnal \qty{1}{\mol} herneste korjamiseks kiirusega üks hernes sekundis, töötades \num{24} tundi ööpäevas, \num{365} päeva aastas?
+    
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+4.  Epsomi soolad koosnevad magneesiumsulfaatheptahüdraadist. Kirjutan selle valemi. Mitu hapnikuaatomit on \qty{5,15}{\g} Epsomi soolades? Mitu ühendi valemiühikut on \qty{5,15}{\g}-s? Mitu mooli veemolekule on \qty{5,15}{\g} Epsomi soolades? Kasutada on lubatud keemiliste elementide perioodilisussüsteemi tabelit.
+    
+    \vspace{0.5\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+5.  Tuumaenergiatööstus ekstraheerib liitiumi looduslikest proovidest \ce{^6Li}, kuid mitte \ce{^7Li}. Selle tulemusena suureneb liitiumi kaubanduslike proovide molaarmass. Kahe isotoobi praegune arvukus on vastavalt \qty{7,42}{\percent} ja \qty{92,58}{\percent} ning nende aatomite massid on vastavalt \qty{9,988e-24}{\g} ja \qty{1,165e-23}{\g}. Kui suur on liitiumi loodusliku proovi praegune molaarmass? Kui suur on molaarmass, kui \ce{^6Li} arvukus väheneb \qty{5,67}{\percent}-ni?
+    
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+6.  Boori aatomite molaarmass looduslikus proovis on \qty{10,81}{\g\per\mol}. Proov koosneb teadaolevalt \ce{^10B}-st (moolmass \qty{10,013}{\g\per\mol}) ja \ce{^11B} (moolmass \qty{11,093}{\g\per\mol}). Kui suur on kahe isotoobi arvukus protsentides?
+    
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+7.  Milline proov kõigist järgmistest paaridest sisaldab suuremat arvu aatomite mooli?
+
+ - \qty{75}{\g} indiumi või \qty{8,0e1}{\g} telluuri;
+ 
+ - \qty{15,0}{\g} \ce{P} või \qty{15,0}{\g} \ce{S};
+ 
+ - \num{7,36e27} aatomit \ce{Ru} või \num{7,36e27} aatomit \ce{Fe}.
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+     
+    \vspace{0.5\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+8.  Aruandes väideti, et Kanadas Sudbury's asuv Sudbury' Neutrino Observatoorium kasutab \qty{12}{\m} läbimõõduga sfäärilises paagis \qty{1,00e3}{\tonne} (\qty{1}{\tonne} = \qty{1e3}{\kg}) rasket vett \ce{D2O}, et tuvastada subatomaarseid osakesi, mida nimetatakse neutriinodeks. Tavalise vee (\ce{H2O}) tihedus paagi temperatuuril on \qty{1,00}{\g\per\cubic\centi\m}.
+Arvutan \ce{D2O} molaarmassi, kasutades deuteeriumi molaarmassi \qty{2,014}{\g\per\mole}. Eeldades, et \ce{D2O} molekuli ruumala on sama, mis \ce{H2O} molekuli ruumala, arvutan raske vee tiheduse.
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+         
+    \vspace{0.4\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+9.  Raske vee tihedus on \qty{1,1117e3}{\kg\per\cubic\m}. Arvutan tiheduse andmete ja raske vee massi \qty{1,00e6}{\kg} põhjal paagi mahu kuupmeetrites, seejärel võrdlen seda mahtu paagi mahuga, mis on arvutatud selle läbimõõdu \qty{1,2e1}{\m} järgi. Kas teatatud raske vee mass on täpne? Kas eeldus, et \ce{D2O} molekuli ruumala on sama mis \ce{H2O} molekuli ruumala, on mõistlik? Selgitan oma arutluskäiku. (Raadiusega $r$ sfääri ruumala on $V = \frac{4 \cdot \pi \cdot r^3}{3}$.)
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+         
+    \vspace{0.4\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+10. Arvutan hulga (moolides) ning molekulide ja valemiühikute (või aatomite, kui on märgitud) arvu:
+
+ - \qty{10,0}{\g} alumiiniumoksiidi \ce{Al2O3};
+ 
+ - \qty{25,92}{\milli\g} vesinikfluoriidi, \ce{HF}.
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+         
+    \vspace{0.4\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+11. Arvutan hulga (moolides) ning molekulide ja valemiühikute (või aatomite, kui on märgitud) arvu:
+
+ - \qty{1,55}{\milli\g} vesinikperoksiidi, \ce{H2O2};
+ 
+ - \qty{1,25}{\kg} glükoosi, \ce{C6H12O6};
+ 
+ - \qty{4,37}{\g} lämmastikku \ce{N} aatomite ja \ce{N2} molekulidena.
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+         
+    \vspace{0.5\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+12. Arvutan (moolides)
+
+ - \ce{Cu2+}-ioonide hulga \qty{3,00}{\g}'s \ce{CuBr2}'s;
+ 
+ - \ce{SO3} molekulide hulga \qty{7,00e2}{\milli\g}'s \ce{SO3}'s;
+ 
+ - \ce{F-}-ioonide hulga \qty{25,2}{\kg}'s \ce{UF6}'s;
+ 
+ - \ce{H2O} hulga \qty{2,00}{\g}'s \ce{Na2CO3.10H2O}'s.
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+         
+    \vspace{0.6\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+13. Määran \ce{KNO3} valemiühikute arvu \qty{0,750}{\mol}'s \ce{KNO3}'s.
+
+    Kui suur on \num{2,39e20} \ce{Ag2SO4} valemiühiku mass (milligrammides)?
+    
+    Hindan \ce{NaHCO2} valemiühikute arvu \qty{3,429}{\g}'s \ce{NaHCO2}'s, naatriumformiaadis, mida kasutatakse kangaste värvimisel ja trükkimisel.
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.5\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+14. Arvutan ühe veemolekuli massi grammides.
+
+    Määran \ce{H2O} molekulide arvu \qty{1,00}{\kg}'s vees.
+     
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+#### Tulemused
+
+2024-1-11 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-11) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-11")`.
+
+```{r label="intro-results-2024-1-11", echo=FALSE}
+tasks_of_intro_2024_1_11<- data.frame(
+  c( # Ülesanne
+    3, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    5, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail, teisel katsel 6
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # Hinne
+    1, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    1, # Šerstobitov, Mihhail, teisel katsel 5
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_intro_2024_1_11, names = names_10, caption = "Sissejuhatus: 2024-1-11", long = FALSE)
+
+```
+
+\pagebreak
+
+### 2024-1-16
+
+1.  Tsitraal on sidruniõli lõhnav komponent, mida kasutatakse odekolonnides. Joonisel \@ref(fig:basics-revision-formulas-citral-C-H) leheküljel `r render_pageref(reference="fig:basics-revision-formulas-citral-C-H")` on näidatud molekulaarne struktuur. Arvutan süsiniku ja vesiniku massiosad tsitraalis protsentides.
+
+    ```{r label="basics-revision-formulas-citral-C-H", echo=FALSE, fig.cap="Tsitraali molekul: halliga on tähistatud süsiniku, valgelt vesiniku aatomid ja punaselt hapniku aatom."}
+    include_external_graphics("rmd/alused/alused-kordamine-valemid-tsitraal.svg")
+    
+    ```
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+    
+\pagebreak
+
+2.  Tsitraal on sidruniõli lõhnav komponent, mida kasutatakse odekolonnides. Joonisel \@ref(fig:basics-revision-formulas-citral-N-O) leheküljel `r render_pageref(reference="fig:basics-revision-formulas-citral-N-O")` on näidatud molekulaarne struktuur. Arvutan lämmastiku ja hapniku massiosad tsitraalis protsentides.
+
+    ```{r label="basics-revision-formulas-citral-N-O", echo=FALSE, fig.cap="Tsitraali molekul: halliga on tähistatud süsiniku, valgelt vesiniku aatomid ja punaselt hapniku aatom."}
+    include_external_graphics("rmd/alused/alused-kordamine-valemid-tsitraal.svg")
+    
+    ```
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+    
+\pagebreak
+
+3.  Milline on süsiniku ja lämmastiku kummagi massiosa protsentides \ce{L}-karnitiinis \ce{C7H15NO3}'s - ühendis, mida kasutatakse toidulisandina lihaste väsimuse vähendamiseks?
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.5\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+    
+\pagebreak
+
+4.  Milline on vesiniku massiosa protsentides \ce{L}-karnitiinis \ce{C7H15NO3}'s - ühendis, mida kasutatakse toidulisandina lihaste väsimuse vähendamiseks?
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+    
+\pagebreak
+
+5.  Milline on hapniku massiosa protsentides \ce{L}-karnitiinis \ce{C7H15NO3}'s - ühendis, mida kasutatakse toidulisandina lihaste väsimuse vähendamiseks?
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+6.  Metall $M$ moodustab oksiidi valemiga \ce{$M$2O}, mille metalli osa ühendi massis on \qty{88,8}{\percent}. Milline on selle metalli molaarmass? Ühendi nimetus on \blank{vask(I)oksiid}.
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+7.  Alumiiniumi tootmisel kasutatava ühendi krüoliidi komponentide massiosad on \qty{32,79}{\percent}&nbsp;\ce{Na}, \qty{13,02}{\percent} \ce{Al} ja \qty{54,19}{\percent} \ce{F}. Krüoliidi empiiriline valem on \blank{\ce{Na3AlF6}}. Näitan terve arvutuskäigu.
+    
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+8.  Määran järgmiste analüüside põhjal empiirilise valemi: Laboris gaasi \ce{O2} tekitamiseks kasutataval ühendil on järgmine massiosaline koostis: \qty{31,91}{\percent} \ce{K} ja \qty{28,93}{\percent} \ce{Cl}, ülejäänu on hapnik. Hapniku tootmiseks kasutatava ühendi empiiriline valem on \blank{\ce{KClO3}}.
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.4\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+9.  Määran järgmiste analüüside põhjal empiirilise valemi: Väetise massiosaline koostis on järgmine: \qty{12,2}{\percent} \ce{N}, \qty{5,26}{\percent} \ce{H}, \qty{26,9}{\percent} \ce{P} ja \qty{55,6}{\percent} \ce{O}. Selle väetise empiiriline valem on \blank{\ce{NH6PO4}}. 
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.4\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+10. Katses kombineeriti \qty{4,14}{\g} fosforit klooriga, et saada \qty{27,8}{\g} valget tahket ühendit. Selle ühendi empiiriline valem on \blank{\ce{PCl5}}. Kui oletada, et ühendi empiiriline ja molekulaarne valem on samad, siis selle ühendi nimetus on \blank{fosforpentakloriid}.
+
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+11. Ärevuse raviks kasutatav ravim diasepaam sisaldab \qty{67,49}{\percent} \ce{C}, \qty{4,60}{\percent} \ce{H}, \qty{12,45}{\percent} \ce{Cl}. Diasepaami empiirilise valemi süsiniku, vesiniku ja kloori osa, kui kloori osa moolides on kõige väiksem, on \blank{\ce{C16H13Cl}}?
+
+    Näitan terve arvutuskäigu.
+    
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.4\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+12. Ärevuse raviks kasutatav ravim diasepaam sisaldab \qty{12,45}{\percent} \ce{Cl}, \qty{9,84}{\percent} \ce{N} ja \qty{5,62}{\percent} \ce{O}. Diasepaami empiirilise valemi lämmastiku, hapniku ja kloori osa, kui kloori osa moolides on kõige väiksem, on \blank{\ce{ClN2O}}.
+
+    Näitan terve arvutuskäigu.
+    
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.4\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+13. Kohvis ja tees sisalduva stimulaatori kofeiini koostis on \qty{49,48}{\percent} \ce{C}, \qty{5,19}{\percent} \ce{H}, \qty{28,85}{\percent} \ce{N} ja \qty{16,48}{\percent} \ce{O}. Kofeiini empiiriline valem on \blank{\ce{C4H5N2O}}.
+
+    Näitan terve arvutuskäigu.
+    
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.5\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+14. Kohvis ja tees sisalduva stimulaatori kofeiini molaarmass on \qty{194,19}{\g\per\mol} ja kofeiini empiiriline valem on \ce{C4H5N2O}. Kofeiini molekulvalem on \blank{\ce{C8H10N4O2}}.
+
+    Näitan terve arvutuskäigu.
+        
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+             
+    \vspace{0.3\textheight}
+    
+    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
