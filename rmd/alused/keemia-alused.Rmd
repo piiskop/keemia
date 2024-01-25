@@ -1,3 +1,5 @@
+[]{#fundamentals}
+
 # Keemia alused
 
 ## Sissejuhatus
@@ -20,7 +22,17 @@ Keemia kui teaduse kujunemine. Füüsikalised ja keemilised uurimismeetodid keem
 
 ### Põhimõisted
 
-keemiline analüüs, kvalitatiivne analüüs, kvantitatiivne analüüs, keemiline süntees
+keemiline analüüs
+: avastamine, millised elemendid on omavahel ühinenud, moodustades aine[@atkins_2010_chemical(lk F22)]
+
+kvalitatiivne analüüs
+: valimis sisalduvate ainete identifitseerimine[@atkins_2010_chemical(lk F69)]
+
+kvantitatiivne analüüs
+: iga esineva aine või elemendi koguse määramine[@atkins_2010_chemical(lk F69)]
+
+keemiline süntees
+: elementide ühendamise protsess ühendite saamiseks või ühe ühendi teisendamine teiseks[@atkins_2010_chemical(lk F22)]
 
 ### Praktilised tööd ja IKT rakendamine
 
@@ -40,19 +52,19 @@ Kursuse lõpus õpilane:
 
 3. määrab A-rühmade keemiliste elementide maksimaalseid ja minimaalseid oksüdatsiooniastmeid elemendi asukoha järgi perioodilisustabelis ning koostab elementide tüüpühendite valemeid;
 
-4. selgitab tüüpiliste näidete varal kovalentse, ioonilise, metallilise ja vesiniksideme olemust;
+4. selgitab tüüpiliste näidete varal kovalentse, ioonilise, metallilise ja vesiniksideme olemust; 
 
-5. hindab kovalentse sideme polaarsust, lähtudes sidet moodustavate elementide asukohast perioodilisustabelis;
+5. hindab kovalentse sideme polaarsust, lähtudes sidet moodustavate elementide asukohast perioodilisustabelis; 
 
 6. kirjeldab ning hindab keemiliste sidemete ja molekulide vastastiktoime (ka vesiniksideme) mõju ainete omadustele.
 
 \end{multicols}
 
-## Õppesisu
+### Õppesisu
 
 \begin{multicols}{2}
 
-1. Tänapäevane ettekujutus aatomi ehitusest.
+1. Tänapäevane ettekujutus aatomi ehitusest. 
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
@@ -109,7 +121,7 @@ Kursuse lõpus õpilane:
 
 \begin{multicols}{2}
 
-1. Keemilise reaktsiooni aktiveerimisenergia, aktiivsed põrked.
+1. Keemilise reaktsiooni aktiveerimisenergia, aktiivsed põrked. 
 
 2. Ekso- ja endotermilised reaktsioonid.
 
@@ -130,8 +142,8 @@ reaktsiooni soojusefekt
 reaktsiooni kiirus
 :
 
-katalüsaator
-:
+katalüsaator 
+: aine, mis suurendab reaktsiooni kiirust, kuid mida ise reaktsiooni käigus ei tarbita[@atkins_2010_chemical(lk F61)]
 
 katalüüs
 :
@@ -143,7 +155,8 @@ pöördumatu reaktsioon
 :
 
 keemiline tasakaal
-:
+: olukord, mida modelleeritakse keemilise võrrandiga, mis sümboliseerib nii kvalitatiivseid kui ka kvantitatiivseid muutusi, mis toimuvad keemilises reaktsioonis[@atkins_2010_chemical(lk 62)]
+
 
 ### Praktilised tööd ja IKT rakendamine
 
@@ -189,15 +202,15 @@ Kursuse lõpus õpilane:
 
 2. Elektrolüüdid ja mitteelektrolüüdid; tugevad ja nõrgad elektrolüüdid.
 
-3. Hapete ja aluste protolüütiline teooria.
+3. Hapete ja aluste protolüütiline teooria. ; 
 
 4. Molaarne kontsentratsioon (tutvustavalt).
 
 5. Ioonidevahelised reaktsioonid lahustes, nende kulgemise tingimused.
 
-6. pH.
+6. pH. 
 
-7. Keskkond hüdrolüüsuva soola lahuses.
+7. Keskkond hüdrolüüsuva soola lahuses. 
 
 \end{multicols}
 
@@ -248,6 +261,41 @@ soola hüdrolüüs
 
 \end{multicols}
 
+## Õpiku seotud osad
+
+1.1 The Nuclear Model of the Atom, 1-3
+1.9 Atomic Orbitals, 23-29
+1.17 Ionization Energy, 42-44
+
+CHEMICAL BONDS, 55-91, 16
+
+3.11 Bonding in Heteronuclear Diatomic Molecules, 120-121
+
+5.2 Ion–Dipole Forces, 172-173
+5.5 Hydrogen Bonding, 178-179
+
+ 7.4 Heat, 243
+
+ 10.5 The Direction of Reaction, 396-394
+ THE RESPONSE OF EQUILIBRIA TO CHANGES IN CONDITIONS 405-414
+
+ 11.5 The pH Scale, 431-434
+ POLYPROTIC ACIDS AND BASES, 454-464
+ AUTOPROTOLYSIS AND pH, 464-468
+
+12.14 Qualitative Analysis, 507-508
+
+13.3 The Structure of Galvanic Cells, 522-524
+
+REACTION RATES, 561-571
+14.8 The Rate Laws of Elementary Reactions, 581-585
+14.10 Rates and Equilibrium, 586-587
+14.11 The Effect of Temperature, 14.12 Collision Theory, 587-594
+ACCELERATING REACTIONS, 595-610
+
+15.4 Compounds of Hydrogen, 618-619
+15.16 Compounds with Hydrogen and the Halogens, 642-644
+
 ## Kalender
 
 ### 2023-12-07
@@ -287,6 +335,14 @@ Kava:
 Õppesisu:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Põhimõisted:
+
+keemiline analüüs
+: avastamine, millised elemendid on omavahel ühinenud, moodustades aine[@atkins_2010_chemical(lk F22)]
+
+keemiline süntees
+: elementide ühendamise protsess ühendite saamiseks või ühe ühendi teisendamine teiseks[@atkins_2010_chemical(lk F22)]
 
 Kava:
 
@@ -378,11 +434,27 @@ Kava: 	Kordamine: mooli ja molaarmassi test ja ülevaatamine.
 
 ### 2024-1-11
 
+Kursuse lõpus õpilane:
+
+3. määrab A-rühmade keemiliste elementide maksimaalseid ja minimaalseid oksüdatsiooniastmeid elemendi asukoha järgi perioodilisustabelis ning koostab elementide tüüpühendite valemeid.
+
 Õppesisu:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
 Kava: Eelnevalt õpitu kordamine: Keemiliste valemite määramine[@atkins_2010_chemical(lk F45-F50)].
+
+### 2024-1-16
+
+Kursuse lõpus õpilane:
+
+3. määrab A-rühmade keemiliste elementide maksimaalseid ja minimaalseid oksüdatsiooniastmeid elemendi asukoha järgi perioodilisustabelis ning koostab elementide tüüpühendite valemeid.
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Kava: Eelnevalt õpitu kordamine: Keemiliste valemite määramine[@atkins_2010_chemical(lk F45-F50)]. Ühendi komponentide massi osamäärade arvutamise ülesannete lahendamise selgitamine.
 
 ### 2024-1-16
 
@@ -392,15 +464,45 @@ Kava: Eelnevalt õpitu kordamine: Keemiliste valemite määramine[@atkins_2010_c
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava: Eelnevalt õpitu kordamine: Segud ja lahused[@atkins_2010_chemical(lk F51-F58)].
+Kava: Eelnevalt õpitu kordamine:
 
-### 2024-1-16
+1. Keemiliste valemite määramine[@atkins_2010_chemical(lk F45-F50)]. Massi osamäärade järgi empiirilise valemi tuletamise ülesande lahendamise selgitamine.
+
+2. Segud ja lahused[@atkins_2010_chemical(lk F51-F58)].
+
+### 2024-1-18
 
 Õppesisu:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava: Eelnevalt õpitu kordamine: Keemilised võrrandid[@atkins_2010_chemical(lk F60-F63)].
+Kava: Segud ja lahused[@atkins_2010_chemical(lk F51-F58)]. Jõudsin seletama hakata [viiendat ülesannet](#intro-tasks-20240118-5).
+
+### 2024-1-18
+
+Kursuse lõpus õpilane:
+
+2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Põhimõisted:
+
+katalüsaator
+: aine, mis suurendab reaktsiooni kiirust, kuid mida ise reaktsiooni käigus ei tarbita[@atkins_2010_chemical(lk F61)]
+
+keemiline tasakaal
+: olukord, mida modelleeritakse keemilise võrrandiga, mis sümboliseerib nii kvalitatiivseid kui ka kvantitatiivseid muutusi, mis toimuvad keemilises reaktsioonis[@atkins_2010_chemical(lk 62)]
+
+Kava:
+
+1. Selgitasin [viienda ülesande](#intro-tasks-20240118-5) lõpuni.
+
+2. Tutvustasin [õppekava keemia aluste teemasid](#fundamentals).
+
+3. Eelnevalt õpitu kordamine: Keemilised võrrandid[@atkins_2010_chemical(lk F60-F63)].
 
 ### 2024-1-18
 
@@ -410,37 +512,64 @@ Kava: Eelnevalt õpitu kordamine: Keemilised võrrandid[@atkins_2010_chemical(lk
 
 2. Elektrolüüdid ja mitteelektrolüüdid; tugevad ja nõrgad elektrolüüdid.
 
+Õpitulemustena õpilane:
+
+1. kirjeldab lahuste teket (iooniliste ja kovalentsete ainete korral);
+
+2. eristab elektrolüüte ja mitteelektrolüüte ning tugevaid ja nõrku elektrolüüte;
+
+5. koostab ioonidevaheliste reaktsioonide võrrandeid (molekulaarsel ja ioonsel kujul).
+
 Põhimõisted:
 
 elektrolüüt
 : aine, mis lahuses esineb ioonidena[@atkins_2010_chemical(lk F66)]
 
+kvalitatiivne analüüs
+: valimis sisalduvate ainete identifitseerimine[@atkins_2010_chemical(lk F69)]
+
+kvantitatiivne analüüs
+: iga esineva aine või elemendi koguse määramine[@atkins_2010_chemical(lk F69)]
+
 mitteelektrolüüt
 : aine, mis lahuses ioone ei moodusta[@atkins_2010_chemical(lk F66)]
-
-tugev elektrolüüt
-:     aine, mis esineb lahuses peaaegu täielikult ioonidena[@atkins_2010_chemical(lk F66)]
 
 nõrk elektrolüüt
 : lahuses mittetäielikult ioniseeritud aine[@atkins_2010_chemical(lk F66)]
 
+tugev elektrolüüt
+:     aine, mis esineb lahuses peaaegu täielikult ioonidena[@atkins_2010_chemical(lk F66)]
+
 Kava: Eelnevalt õpitu kordamine: Vesilahused ja sademine[@atkins_2010_chemical(lk F65-F70)].
 
-### 2024-1-18
+### 2024-1-23
+
+Kursuse lõpus õpilane:
+
+2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
 
 Õppesisu:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
+Põhimõisted:
+
+keemiline tasakaal
+: olukord, mida modelleeritakse keemilise võrrandiga, mis sümboliseerib nii kvalitatiivseid kui ka kvantitatiivseid muutusi, mis toimuvad keemilises reaktsioonis[@atkins_2010_chemical(lk 62)]
+
+Kava: Selgitasin [kaheksanda ülesande](#intro-tasks-20240123-8) lõpuni.
+
+### 2024-1-23
+
+Õppesisu:
+
 3. Hapete ja aluste protolüütiline teooria.
 
 6. pH.
 
-Õpitulemustena õpilane:
+Õpitulemusena õpilane:
 
 3. selgitab happe ja aluse mõistet protolüütilise teoora põhjal;
-
-5. koostab ioonidevaheliste reaktsioonide võrrandeid (molekulaarsel ja ioonsel kujul).
 
 Põhimõisted:
 
@@ -452,1734 +581,44 @@ alus
 
 Kava: Eelnevalt õpitu kordamine: Happed ja alused[@atkins_2010_chemical(lk F72-F76)].
 
-### 2024-1-18
+### 2024-1-25
 
 Õppesisu:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Õpitulemustena õpilane:
-
-5. koostab ioonidevaheliste reaktsioonide võrrandeid (molekulaarsel ja ioonsel kujul).
-
 Kava: Eelnevalt õpitu kordamine: Redoksreaktsioonid[@atkins_2010_chemical(lk F77-F84)].
 
-## Testid
+### 2024-1-25
 
-### 2023-12-12
+Õppesisu:
 
-#### Ülesanded
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-1.  Mis on keemia?
+Kava: Eelnevalt õpitu kordamine: Reaktsiooni stöhhiomeetria[@atkins_2010_chemical(lk F85-F92)].
 
-    \vspace{0.1\textheight}
+### 2024-1-25
 
-    Mida tähendab keemia makroskoopiline tasand?
-    
-    \vspace{0.1\textheight}
+Kursuse lõpus õpilane:
 
-    Mida tähendab keemia mikroskoopiline tasand?
-    
-    \vspace{0.1\textheight}
+2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
 
-    Mida tähendab keemia sümboolne tasand?
-    
-    \vspace{0.1\textheight}
+Õppesisu:
 
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-\newpage
+Põhimõisted:
 
-2.  Mille poolest erinevad orgaaniline ja anorgaaniline keemia?
-    
-    \vspace{0.1\textheight}
+keemiline analüüs
+: avastamine, millised elemendid on omavahel ühinenud, moodustades aine[@atkins_2010_chemical(lk F22)]
 
-    Mis on füüsikaline keemia?
-        
-    \vspace{0.1\textheight}
+keemiline tasakaal
+: olukord, mida modelleeritakse keemilise võrrandiga, mis sümboliseerib nii kvalitatiivseid kui ka kvantitatiivseid muutusi, mis toimuvad keemilises reaktsioonis[@atkins_2010_chemical(lk 62)]
 
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
+kvalitatiivne analüüs
+: valimis sisalduvate ainete identifitseerimine[@atkins_2010_chemical(lk F69)]
 
-3.  Mille poolest erinevad aine ja substants?
+keemiline süntees
+: elementide ühendamise protsess ühendite saamiseks või ühe ühendi teisendamine teiseks[@atkins_2010_chemical(lk F22)]
 
-    \vspace{0.1\textheight}
-
-    Millised on aine faasid?
-    
-    \vspace{0.1\textheight}
-
-    Kirjelda aatomite liikumist iga aine faasi puhul!
-    
-    \vspace{0.1\textheight}
-    
-    Mis on mineraal?
-        
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-4.  Märgista omadus, kui see on keemiline:
-    
-    \begin{itemize}
-    	\item[\faSquareO] hõbedast esemed tuhmuvad;
-    	\item[\faSquareO] rubiinide punane värvus on tingitud kroomiioonide olemasolust;
-    	\item[\faSquareO] etanooli keemistemperatuur on 78°C.
-    \end{itemize}
-
-    Tuvasta kõik füüsikalised omadused ja muudatused järgmises väites: "Laagri õde mõõtis vigastatud telkija temperatuuri ja süütas propaanipõleti; kui vesi hakkas keema, osa veeauru kondenseerus külmale aknale".
-
-    Leheküljel `r render_pageref(reference="fig:fundamentals-properties-physical-chemical")` oleval joonisel \@ref(fig:fundamentals-properties-physical-chemical) olevates konteinerites tähistavad rohelised sfäärid ühe elemendi aatomeid, punased sfäärid teise elemendi aatomeid. Igal juhul on piltidel näha kas füüsikalist või keemilist muutust; tuvastada muudatuse tüüp.
-    
-    ```{r label = "fundamentals-properties-physical-chemical", echo=FALSE, fig.cap = "Füüsikaline või keemiline muutus."}
-    include_external_graphics("rmd/alused/füüsikaline-keemiline.svg")
-
-    ```
-
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-5.  Märgista, kui omadus on ekstensiivne:
-    
-    \begin{itemize}
-    	\item[\faSquareO] temperatuur, mille juures jää sulab;
-    	\item[\faSquareO] nikkelkloriidi värvus;
-    	\item[\faSquareO] bensiini põlemisel toodetud energia;
-    	\item[\faSquareO] bensiini maksumus.
-    \end{itemize}
-
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-6.  Mis on jõud?
-    
-    \vspace{0.1\textheight}
-
-    Esita üks jõu arvutamise valem ültuntud tähistustega või kasuta legendi!
-        
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-7.  Mis on töö?
-        
-    \vspace{0.1\textheight}
-
-    Esita üks töö arvutamise valem kasutades üldtuntud tähistusi või lisades legend!
-        
-    \vspace{0.1\textheight}
-
-    Mis on termiline liikumine?
-        
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-8.  Mis on energia?
-        
-    \vspace{0.1\textheight}
-
-    Kirjelda, kuidas muutuvad eseme kineetiline ja potentsiaalne energia, kui eset tõstetakse!
-        
-    \vspace{0.1\textheight}
-
-    Kas selle tõstetava eseme koguenergia on suurem enne tõstmist, pärast tõstmist või koguenergia ei muutu?
-
-    \vspace{0.1\textheight}
-
-    Mis on energia jäävuse seadus?
-
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-9.  Esita Coulomb' potentsiaalse energia valem kasutades üldtutnud tähistusi või lisades legendi!
-        
-    \vspace{0.1\textheight}
-
-    Milline seos on elektromagneetilisel väljal ja energial?
-        
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-10. Kui \qty{23,45}{\milli\liter} vett sisaldavasse mõõtesilindrisse uputatakse \qty{112,32}{\g} massiga mittereageerivat metallitükk, tõuseb veetase \qty{29,27}{\milli\liter}-ni. Milline on metalli tihedus (grammides kuupsentimeetri kohta)? Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend! Lubatud on kasutada standardse vee tiheduse tabelit.
-
-    \vspace{0.2\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-11. Teemandi tihedus on \qty{3,51}{\gram\per\cubic\centi\m}. Rahvusvaheline (kuid mitte-SI) teemantide kaalumise ühik on "karaat" (\num{1} karaat = \qty{200}{\milli\gram}). Kui suur on \num{0,750}-karaadise teemandi maht? Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend!
-
-    \vspace{0.2\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-12. Kolb kaalub tühjana \qty{43,50}{\gram} ja veega täidetuna \qty{105,50}{\gram}. Kui sama kolb täita teise vedelikuga, on mass \qty{96,75}{\gram}. Milline on teise vedeliku tihedus?  Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend!
-
-    \vspace{0.3\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-13. Kosmoselaevad on tavaliselt kaetud alumiiniumiga, et tagada varjestus kiirguse eest. Piisav varjestus eeldab, et kattekiht peab sisaldama \qty{20,}{\gram} alumiiniumi ruutsentimeetri kohta. Arvutada, kui paks peab alumiiniumkate piisava varjestuse tagamiseks olema.  Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend! Kasutada on lubatud keemiliste elementide perioodilisussüsteemi tihedustega tabelit.
-
-    \vspace{0.2\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-14. Metalli tihedust mõõdeti kahe erineva meetodiga. Igal juhul arvutage tihedus. Märgi, milline mõõtmine on täpsem.
-
- - Metallist ristkülikukujulise ploki mõõtmeteks mõõdeti \qty{1,10}{\centi\m}, \qty{0,531}{\centi\m} ja  \qty{0,212}{\centi\m}.
-Selle ploki mass oli \qty{0,213}{\gram}.
-
- - Silinder täideti \qty{19,65}{\milli\liter} märgini veega ja silindri mass veega oli \qty{39,753}{\gram}. Metallitüki vette kastmisel tõusis vee tase \qty{20,37}{\milli\liter}-ni ja silindri massiks metalliga vees kaaluti \qty{41,003}{\gram}.
- 
-    Näidata terve lahenduskäik, milles sisendid, väljund, arutelu, arvutamine ja täislauseline lahend!
-
-    \vspace{0.4\textheight}
-
-    Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-#### Tulemused
-
-2023-12-12 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-12) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-12")`.
-
-```{r label="intro-results-2023-12-12", echo=FALSE}
-
-tasks_of_intro_2023_12_12<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    0, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    0, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    0, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    0, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-tasks_of_intro_2023_12_12<- data.frame(
-  c( # Ülesanne
-    8, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    7, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    6, # Malõšev, Polina
-    2, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    1, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    4, # 12. Volkova, Darja
-    3 # Volkova, Jeva
-  ),
-  c( # Hinne
-    1, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    5, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    4, # Malõšev, Polina
-    4, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    3, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    3, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    3, # 12. Volkova, Darja
-    1 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2023_12_12, names = names_10, caption = "Sissejuhatus: 2023-12-12", long = FALSE)
-
-```
-
-\newpage
-
-### 2023-12-14
-
-#### Ülesanded
-
-1.  Berülliumi aatomi mass on \qty{1,50e-26}{\kg}. Mitu berülliumi aatomit on röntgentoru aknana kasutatavas berülliumkiles massiga \qty{0,210}{\g}?
-
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-2.  Täida tabel \@ref(tab:basics-intro-p-n-e) leheküljel `r render_pageref(reference="tab:basics-intro-p-n-e")` vastavalt sellele, kui palju prootoneid, neutroneid ja elektrone on esitatud isotoobi aatomi koostises! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-     
-    ```{r label="basics-intro-p-n-e", echo=FALSE}
-    p <- c(
-      "\\blank{\\num{5}}",
-      "\\blank{\\num{5}}",
-      "\\blank{\\num{15}}",
-      "\\blank{\\num{92}}"
-    )
-    n <- c(
-      "\\blank{\\num{6}}",
-      "\\blank{\\num{5}}",
-      "\\blank{\\num{16}}",
-      "\\blank{\\num{146}}"
-    )
-    e <- c(
-      "\\blank{\\num{5}}",
-      "\\blank{\\num{5}}",
-      "\\blank{\\num{15}}",
-      "\\blank{\\num{92}}"
-    )
-    
-    p_n_e <- data.frame(
-      p,
-      n,
-      e
-    )
-    
-    rownames(p_n_e) <- c(
-      "boor-11",
-      "\\ce{^{10}B}",
-      "fosfor-31",
-      "\\ce{^{238}U}"
-    )
-    
-    colnames(p_n_e) <- c(
-      "Prootoneid",
-      "Neutroneid",
-      "Elektrone"
-    )
-    
-    print_table(table=p_n_e, caption="Boori, fosfori ja uraani isotoopide koostisosad.")
-    
-    ```
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-3.  Täida tabel \@ref(tab:basics-intro-p-n-e-of-unknown) leheküljel `r render_pageref(reference="tab:basics-intro-p-n-e-of-unknown")` vastavalt sellele, millise isotoobi aatomi koostises on nii palju prootoneid, neutroneid ja elektrone! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-     
-    ```{r label="basics-intro-p-n-e-of-unknown", echo=FALSE}
-    p <- c(
-      "\\num{77}",
-      "\\num{10}",
-      "\\num{23}"
-    )
-    n <- c(
-      "\\num{117}",
-      "\\num{12}",
-      "\\num{28}"
-    )
-    e <- c(
-      "\\num{77}",
-      "\\num{10}",
-      "\\num{23}"
-    )
-    
-    p_n_e <- data.frame(
-      p,
-      n,
-      e
-    )
-    
-    rownames(p_n_e) <- c(
-      "\\blank{\\ce{^{194}Ir}}",
-      "\\blank{\\ce{^{22}Ne}}",
-      "\\blank{\\ce{^{51}V}}"
-    )
-    
-    colnames(p_n_e) <- c(
-      "Prootoneid",
-      "Neutroneid",
-      "Elektrone"
-    )
-    
-    print_table(table=p_n_e, caption="Tundmatute isotoopide koostisosad.")
-    
-    ```
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\begin{landscape}
-
-4.  Täida tabel \\@ref(tab:basics-intro-symbol-p-n-e-A) leheküljel `r render_pageref(reference="tab:basics-intro-symbol-p-n-e-A")`! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-     
-    ```{r label="basics-intro-symbol-p-n-e-A", echo=FALSE}
-    symbol <- c(
-      "\\ce{^{36}Cl}",
-      "\\blank{\\ce{^{65}Zn}}",
-      "\\blank{\\ce{^{40}Ca}}",
-      "\\blank{\\ce{^{137}La}}"
-    )
-    p <- c(
-      "\\blank{\\num{17}}",
-      "\\num{30}",
-      "\\blank{\\num{20}}",
-      "\\blank{\\num{57}}"
-    )
-    n <- c(
-      "\\blank{\\num{19}}",
-      "\\blank{\\num{35}}",
-      "\\num{20}",
-      "\\num{80}"
-    )
-    e <- c(
-      "\\blank{\\num{17}}",
-      "\\blank{\\num{30}}",
-      "\\num{20}",
-      "\\blank{\\num{57}}"
-    )
-    A <- c(
-      "\\blank{\\num{36}}",
-      "\\num{65}",
-      "\\blank{\\num{40}}",
-      "\\blank{\\num{137}}"
-    )
-    
-    symbol_p_n_e_A <- data.frame(
-      symbol,
-      p,
-      n,
-      e,
-      A
-    )
-    
-    rownames(symbol_p_n_e_A) <- c(
-      "\\blank{kloor}",
-      "\\blank{tsink}",
-      "\\blank{kaltsium}",
-      "lantaan"
-    )
-    
-    colnames(symbol_p_n_e_A) <- c(
-      "Sümbol",
-      "Prootoneid",
-      "Neutroneid",
-      "Elektrone",
-      "Nukleone"
-    )
-    
-    print_table(table=symbol_p_n_e_A, caption="Mõne isotoobi koostisosad.")
-    
-    ```
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-5.  Millised omadused on ühised argoon-40, kaalium-40 ja kaltsium-40 aatomitel?
-
-    \vspace{0.1\textheight}
-
-    Mille poolest need erinevad?
-
-    \vspace{0.1\textheight}
-    
-    (Võta arvesse subatomaarsete osakeste arvu ja tüüpe.) Lubatud on elementide tabel.
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\end{landscape}
-
-6.  Arvuta \ce{^{58}Fe} aatomi kogumassi osa, mis tuleneb
-    
-     - neutronitest;
-     
-     - prootonitest;
-     
-     - elektronidest.
-     
-    Kui suur on neutronite mass autos massiga \qty{1,000}{\tonne}? Oletame, et sõiduki kogumass tuleneb \ce{^{56}Fe}-st.
-     
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi ja füüsikaliste aluskonstantide väärtuste tabelit.
-
-    \vspace{0.6\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-7.  Millised aatomi hüpoteesid püstitas John Dalton?
-
-    \vspace{0.1\textheight}
-
-    Milline nendest neljast hüpoteesist lükati hiljem ümber ja miks?
-
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-8.  Mis on keemiline element?
-
-    \vspace{0.1\textheight}
-
-    Mille keemilised elemendid moodustavad?
-    
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-9.  Millest koosneb aatom?
-    
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-10. Mille järgi on keemilised elemendid reastatud süsteemi ühest 118'ni?
-    
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-11. Mille jaoks kasutatakse massispektromeetrit?
-    
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-12. Kuidas jaotub laeng aatomis?
-    
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-13. Mida tähendab massiarv?
-    
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-14. Mille poolest erinevad keemilise elemendi isotoobid?
-    
-    \vspace{0.1\textheight}
-
-    Täna on 2023-12-14 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-#### Tulemused
-
-2023-12-14 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-14) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-14")`.
-
-```{r label="intro-results-2023-12-14", echo=FALSE}
-
-
-tasks_of_intro_2023_12_14<- data.frame(
-  c( # Ülesanne
-    2, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    4, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    3, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    2, # Šerstobitov, Mihhail
-    8, # 7. Šesterikov, Daniil
-    5, # Žigadlo, Grigori
-    9, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    7 # Volkova, Jeva
-  ),
-  c( # Hinne
-    5, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    4, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    3, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail
-    1, # 7. Šesterikov, Daniil
-    4, # Žigadlo, Grigori
-    1, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    3 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2023_12_14, names = names_10, caption = "Sissejuhatus: 2023-12-14", long = FALSE)
-
-```
-
-\newpage
-
-### 2023-12-19
-
-#### Ülesanded
-
-Järgnevad 2024-12-19 ülesanded:
-
-\begin{landscape}
-
-1.  Täidan tabeli \\@ref(tab:basics-intro-name-group-type) leheküljel `r render_pageref(reference="tab:basics-intro-name-group-type")`! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-name-group-type", echo=FALSE}
-    name <- c(
-      "\\blank{skandium}",
-      "\\blank{strontsium}",
-      "\\blank{antimon}",
-      "\\blank{väävel}"
-    )
-    group <- c(
-      "\\blank{\\num{3}}",
-      "\\blank{\\num{2}}",
-      "\\blank{\\num{16}}",
-      "\\blank{\\num{15}}"
-    )
-    type <- c(
-      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
-      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
-      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
-      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid"
-    )
-    
-    name_group_type <- data.frame(
-      name,
-      group,
-      type
-    )
-    
-    rownames(name_group_type) <- c(
-      "\\ce{Sc}",
-      "\\ce{Sr}",
-      "\\ce{S}",
-      "\\ce{Sb}"
-    )
-    
-    colnames(name_group_type) <- c(
-      "Nimi",
-      "Grupp",
-      "Tüüp"
-    )
-    
-    print_table(table=name_group_type, caption="Valitud elementide nimed, grupid ja tüübid.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\end{landscape}
-
-2.  Täidan tabeli \@ref(tab:basics-intro-symbol-type) leheküljel `r render_pageref(reference="tab:basics-intro-symbol-type")`! Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-symbol-type", echo=FALSE}
-    symbol <- c(
-      "\\blank{\\ce{Sr}}",
-      "\\blank{\\ce{Xe}}",
-      "\\blank{\\ce{Si}}"
-    )
-    type <- c(
-      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
-      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid",
-      "\\Circle metall; \\Circle mittemetall; \\Circle metalloid"
-    )
-    
-    symbol_type <- data.frame(
-      symbol,
-      type
-    )
-    
-    rownames(symbol_type) <- c(
-      "Strontsium",
-      "Ksenoon",
-      "Räni"
-    )
-    
-    colnames(symbol_type) <- c(
-      "Sümbol",
-      "Tüüp"
-    )
-    
-    print_table(table=symbol_type, caption="Valitud elementide sümbolid ja tüübid.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\begin{landscape}
-
-3.  Täidan tabeli \\@ref(tab:basics-intro-halogens) leheküljel `r render_pageref(reference="tab:basics-intro-halogens")` halogeenide kohta. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-halogens", echo=FALSE}
-    name <- c(
-      "\\blank{Fluor}",
-      "\\blank{Kloor}",
-      "\\blank{Broom}",
-      "\\blank{Jood}",
-      "\\blank{Astaat}",
-      "\\blank{Tennessiin}"
-    )
-    symbol <- c(
-      "\\blank{F}",
-      "\\blank{Cl}",
-      "\\blank{Br}",
-      "\\blank{I}",
-      "\\blank{At}",
-      "\\blank{Ts}"
-    )
-    Z <- c(
-      "\\blank{9}",
-      "\\blank{17}",
-      "\\blank{35}",
-      "\\blank{53}",
-      "\\blank{85}",
-      "\\blank{117}"
-    )
-    phase <- c(
-      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
-      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
-      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
-      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
-      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu",
-      "\\Circle gaas; \\Circle vedel; \\Circle tahke; \\Circle tundmatu"
-    )
-
-    halogens <- data.frame(
-      name,
-      symbol,
-      Z,
-      phase
-    )
-
-    colnames(halogens) <- c(
-      "Nimi",
-      "Sümbol",
-      "$Z$",
-      "Faas toatemperatuuril"
-    )
-    
-    print_table(table=halogens, caption="Halogeenid.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\end{landscape}
-
-4.  Täidan tabeli \@ref(tab:basics-intro-blocks) leheküljel `r render_pageref(reference="tab:basics-intro-blocks")` plokkide kohta. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-blocks", echo=FALSE}
-    block <- c(
-      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
-      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
-      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
-      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
-      "\\Circle s; \\Circle p; \\Circle d; \\Circle f",
-      "\\Circle s; \\Circle p; \\Circle d; \\Circle f"
-    )
-
-    blocks <- data.frame(
-      block
-    )
-
-    colnames(blocks) <- c(
-      "Plokk"
-    )
-    rownames(blocks) <- c(
-      "Tsirkoonium",
-      "\\ce{As}",
-      "\\ce{Ta}",
-      "Baarium",
-      "\\ce{Si}",
-      "Koobalt"
-    )
-    print_table(table=blocks, caption="Plokid.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-5.  Element, millel on \num{118} neutronit ja mille massiarv on \num{200}, on \blank{Plii}. See element asub \blank{\num{14}}. rühmas ja on \Circle metall \Circle mittemetall \Circle metalloid.  Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-(ref:caption-basics-review-compounds-mixture-element) \faSquareO element, \faSquareO ühend, \faSquareO segu.
-
-\newpage
-
-6.  Pildil \@ref(fig:basics-compounds-mixture-elements) leheküljel `r render_pageref(reference="fig:basics-compounds-mixture-elements")` kujutatud konteinerid sisaldavad kas segu, ühte ühendit, ühte elementi või nende kombinatsiooni. Sinised sfäärid tähistavad ühe elemendi aatomeid, rohelised sfäärid teise elemendi aatomeid. Täidan kummagi pildi allkirja vastavalt selle sisule.
-    
-    ```{r label = "basics-compounds-mixture-elements", echo=FALSE, fig.cap = "Konteinerid.", fig.subcap=c("(ref:caption-basics-review-compounds-mixture-element)", "(ref:caption-basics-review-compounds-mixture-element)"), fig.align="center"}
-    include_external_graphics("rmd/alused/alused-kordamine-ühendid-segu-element.svg")
-    include_external_graphics("rmd/alused/alused-ühendid-element.svg")
-
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-7.  Pildil \@ref(fig:basics-review-compounds-ball-stick) leheküljel `r render_pageref(reference="fig:basics-review-compounds-ball-stick")` kujutatud palli- ja pulgakujulistes molekulaarstruktuurides tähistab hall värv süsinikku, punane värv hapnikku, valge värv vesinikku, sinine värv lämmastikku ja roheline värv kloori. Kirjutan kummagi struktuuri alla vastava struktuuri keemilise valemi tähtede ja numbritega.
-
-    ```{r label = "basics-review-compounds-ball-stick", echo=FALSE, fig.cap = "Pallid ja pulgad.", fig.subcap=c("\\blank{\\ce{C3H7NO2}}.", "\\blank{\\ce{C2h7n}}."), fig.align="center"}
-    include_external_graphics("rmd/alused/alused-kordamine-ühendid-pallid-pulgad-C-H-N-O.svg")
-    include_external_graphics("rmd/alused/alused-kordamine-ühendid-C-H-N.svg")
-
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-8.  Täidan tabeli \@ref(tab:basics-intro-compounds-ions) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-ions")` vastavalt sellele, kas element moodustab tõenäolisemalt katiooni või aniooni. Kirjutan tabelisse kõige tõenäolisemalt moodustuva iooni valemi. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-compounds-ions", echo=FALSE}
-    type <- c(
-      "\\Circle katioon \\Circle anioon",
-      "\\Circle katioon \\Circle anioon",
-      "\\Circle katioon \\Circle anioon",
-      "\\Circle katioon \\Circle anioon"
-    )
-
-    ion <- c(
-      "\\blank{\\ce{Cs+}}",
-      "\\blank{\\ce{I-}}",
-      "\\blank{\\ce{Se2-}}",
-      "\\blank{\\ce{Ca2+}}"
-    )
-    ions <- data.frame(
-      type,
-      ion
-    )
-
-    colnames(ions) <- c(
-      "Tüüp",
-      "Valem"
-    )
-    rownames(ions) <- c(
-      "Tseesium",
-      "Jood",
-      "Seleen",
-      "Kaltsium"
-    )
-    print_table(table=ions, caption="Tõenäolisimalt moodustuvad ioonid.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-9.  Täidan tabeli \@ref(tab:basics-intro-compounds-contents-of-ions) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-contents-of-ions")`. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-compounds-contents-of-ions", echo=FALSE}
-    p <- c(
-      "\\blank{\\num{4}}",
-      "\\blank{\\num{8}}",
-      "\\blank{\\num{35}}",
-      "\\blank{\\num{33}}"
-    )
-
-    n <- c(
-      "\\blank{\\num{6}}",
-      "\\blank{\\num{9}}",
-      "\\blank{\\num{45}}",
-      "\\blank{\\num{42}}"
-    )
-
-    e <- c(
-      "\\blank{\\num{2}}",
-      "\\blank{\\num{10}}",
-      "\\blank{\\num{36}}",
-      "\\blank{\\num{36}}"
-    )
-    content_of_ions <- data.frame(
-      p,
-      n,
-      e
-    )
-
-    colnames(content_of_ions) <- c(
-      "Prootoneid",
-      "Neutroneid",
-      "Elektrone"
-    )
-    rownames(content_of_ions) <- c(
-      "\\ce{^10Be^2+}",
-      "\\ce{^17O^2-}",
-      "\\ce{^80Br^-}",
-      "\\ce{^75As^3-}"
-    )
-    print_table(table=content_of_ions, caption="Valitud ioonide koostis.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-10. Täidan tabeli \@ref(tab:basics-intro-compounds-formulas-of-ions) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-formulas-of-ions")`. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-compounds-formulas-of-ions", echo=FALSE}
-    p <- c(
-      "\\num{9}",
-      "\\num{12}",
-      "\\num{52}",
-      "\\num{37}"
-    )
-
-    n <- c(
-      "\\num{10}",
-      "\\num{12}",
-      "\\num{76}",
-      "\\num{49}"
-    )
-
-    e <- c(
-      "\\num{10}",
-      "\\num{10}",
-      "\\num{54}",
-      "\\num{36}"
-    )
-    symbol <- c(
-      "\\blank{\\ce{^19F-}}",
-      "\\blank{\\ce{^24Mg^2+}}",
-      "\\blank{\\ce{^128Te^2-}}",
-      "\\blank{\\ce{^86Rb+}}"
-    )
-    formulas_of_ions <- data.frame(
-      p,
-      n,
-      e,
-      symbol
-    )
-
-    colnames(formulas_of_ions) <- c(
-      "Prootoneid",
-      "Neutroneid",
-      "Elektrone",
-      "Valem"
-    )
-    print_table(table=formulas_of_ions, caption="Valitud ioonide valemid koostise järgi.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-11. Täidan tabeli \@ref(tab:basics-intro-compounds-by-elements) leheküljel `r render_pageref(reference="tab:basics-intro-compounds-by-elements")` vastavalt sellele, milline ühend moodustub etteantud elementidest. Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-
-    ```{r label="basics-intro-compounds-by-elements", echo=FALSE}
-    element_1 <- c(
-      "\\ce{Al}",
-      "\\ce{Mg}",
-      "\\ce{Na}",
-      "\\ce{Rb}"
-    )
-    element_2 <- c(
-      "\\ce{Te}",
-      "\\ce{O}",
-      "\\ce{S}",
-      "\\ce{I}"
-    )
-    formula <- c(
-      "\\blank{\\ce{Al2Te3}}",
-      "\\blank{\\ce{MgO}}",
-      "\\blank{\\ce{Na2S}}",
-      "\\blank{\\ce{RbI}}"
-    )
-    compounds_by_elements <- data.frame(
-      element_1,
-      element_2,
-      formula
-    )
-
-    colnames(compounds_by_elements) <- c(
-      "1. element",
-      "2. element",
-      "Ühend"
-    )
-    print_table(table=compounds_by_elements, caption="Ühendid elementide järgi.")
-    
-    ```
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-12. Kolmanda perioodi põhirühma element moodustab järgmised ioonühendid: $E\ce{Br3}$ ja $E\ce{_2O3}$. Element $E$ kuulub \blank{\num{13}}. rühma. Elemendi $E$ nimi on \blank{\ce{Alumiinium}} ja sümbol on \blank{\ce{Al}}. Lubatud on kasutada perioodilisussüsteemi tabelit.
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-13. Määran \ce{^48Ti} aatomi kogumassi osa, mis tuleneb
-     - neutronitest;
-     - prootonitest;
-     - elektronidest.
- 
-    Kui suur on prootonite mass titaanist jalgrattaraamis massiga \qty{3,0e1}{\kg}? Oletame, et jalgratta raami kogumass tuleneb \ce{^48Ti}-st. Märkus. Vabade prootonite ja neutronite mass on veidi suurem kui nende osakeste mass aatomites, seega on vastus vaid ligikaudne.
-    
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi ja põhikonstantide tabelit.
-
-    \vspace{0.5\textheight}
-
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-14. Järgmised ühendid sisaldavad polüatoomseid ioone.
-     - Naatriumioonidest ja vesinikfosfitioonidest (\ce{HPO3^2-}) moodustunud ühendi  valem on \blank{Na2HPO3}.
-     - Ammooniumioonidest (\ce{NH4+}) ja karbonaadiioonidest (\ce{CO3^2-}) moodustuva ammooniumkarbonaadi valem on \blank{(NH4)2CO3}.
-     - Magneesiumsulfaadi valem on \ce{MgSO4}. Katiooni laeng \ce{CuSO4}-s on \blank{2+}.
-     - Kaaliumfosfaadi valem on \ce{K3PO4}. \ce{Sn3(PO4)2} katiooni laeng on \blank{2+}.
- 
-    Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-#### Tulemused
-
-2023-12-19 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-19) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-19")`.
-
-```{r label="intro-results-2023-12-19", echo=FALSE}
-tasks_of_intro_2023_12_19<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    7, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    6, # Malõšev, Polina
-    4, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    2, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    5, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    4, # Malõšev, Polina
-    5, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    3, # Šerstobitov, Mihhail, esimesel katsel 1
-    0, # 7. Šesterikov, Daniil
-    2, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2023_12_19, names = names_10, caption = "Sissejuhatus: 2023-12-19", long = FALSE)
-
-```
-
-### 2024-1-9
-
-#### Ülesanded
-
-1.  Kirjutan järgnevate ühendite valemid:
-     - mangaan(II)kloriid: \blank{\ce{MnCl2}};
-     - kaltsiumfosfaat: \blank{\ce{Ca3(PO4)2}};
-     - alumiiniumsulfit: \blank{\ce{Al2(SO3)3}};
-     - magneesiumnitriid: \blank{\ce{Mg3N2}}.
- 
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\begin{landscape}
-
-2.  Täidan tabeli \\@ref(tab:basics-intro-nomenclature-old-modern-names) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-old-modern-names")`.
-
-    ```{r label="basics-intro-nomenclature-old-modern-names", echo=FALSE}
-    old <- c(
-      "\\blank{kolmealuseline} \\blank{kaltsiumfosfaat}",
-      "\\blank{tina-} \\blank{disulfiid}",
-      "\\blank{vanaadiumpentoksiid}",
-      "\\blank{vaskoksiid}"
-    )
-    modern <- c(
-      "\\blank{trikaltsiumbis}",
-      "\\blank{tina(IV)sulfiid}",
-      "\\blank{divanaadium-} \\blank{pentaoksiid}",
-      "\\blank{vask(I)oksiid}"
-    )
-    names <- data.frame(
-      old,
-      modern
-    )
-
-    colnames(names) <- c(
-      "Vana",
-      "Tänapäevane"
-    )
-    rownames(names) <- c(
-      "luude peamine anorgaaniline komponent \\ce{Ca3(PO4)2}",
-      "\\ce{SnS2}",
-      "\\ce{V2O5}",
-      "\\ce{Cu2O}"
-    )
-    print_table(table=names, caption="Valitud ioonühendid vana ja tänapäevase nimega.") %>%
-      column_spec(1, width="8em") %>%
-      column_spec(2, width="16em") %>%
-      column_spec(3, width="32em")
-    
-    ```
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-     
-\end{landscape}
-
-3.  Kirjutan valemi:
-     
-     \begin{multicols}{2}
-     - titaandioksiid: \blank{\ce{TiO2}};
-     
-     - ränitetrakloriid: \blank{\ce{SiCl4}};
-     
-     - süsinikdisulfiid: \blank{\ce{CS2}};
-     
-     - vääveltetrafluoriid: \blank{\ce{SF4}};
-     
-     - liitiumsulfiid: \blank{\ce{Li2S}};
-     
-     - antimonpentafluoriid: \blank{\ce{SbF5}};
-     
-     - dilämmastikpentooksiid: \blank{\ce{N2O5}};
-     
-     - joodheptafluoriid: \blank{\ce{IF7}}.
-     \end{multicols}
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-4.  Kirjutan järgmiste binaarsete molekulaarsete ühendi nimed:
-     
-     - \ce{SF6}: \blank{väävelheksafluoriid};
-     
-     - \ce{N2O5}: \blank{dilämmastik-}\blank{pentaoksiid};
-     
-     - \ce{NI3}: \blank{lämmastiktrijodiid};
-     
-     - \ce{XeF4}: \blank{ksenoontetrafluoriid};
-     
-     - \ce{AsBr3}: \blank{arseentribromiid};
-     
-     - \ce{ClO2}: \blank{kloordioksiid};
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-5.  Järgmised vesilahused on tavalised laborihapped. Mis on nende nimed?
-
-     - \ce{HCl(aq)}: \blank{vesinikkloriidhape};
-     
-     - \ce{H2SO4(aq)}: \blank{väävelhape};
-     
-     - \ce{HNO3(aq)}: \blank{lämmastikhape};
-     
-     - \ce{CH3COOH(aq)}: \blank{äädikhape};
-     
-     - \ce{H2SO3(aq)}: \blank{väävlishape};
-     
-     - \ce{H3PO4(aq)}: \blank{fosforhape}.
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-6.  Kirjutan valemi ioonse ühendi kohta, mis moodustub
-
-     - tsingi- ja fluoriidiioonist: \blank{\ce{ZnF2}};
-     
-     - baariumi- ja nitraadiioonist: \blank{\ce{Ba(NO3)2}};
-     
-     - hõbe- ja jodiidiioonist: \blank{\ce{AgI}};
-     
-     - liitiumi- ja nitriidiioonist: \blank{\ce{Li3N}};
-     
-     - kroom(III)- ja sulfiidiioonist: \blank{\ce{Cr2S3}}.
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-     
-7.  Ühendi, mis moodustub perioodilisuse tabeli \num{2}. rühma \num{6}. perioodi elemendi kombineerimisel rühma \num{17} / VII \num{3}. perioodi elemendiga, nimetus on \blank{baariumkloriid} ja selle valem on \blank{\ce{BaCl2}}. See ühend on \Circle molekulaarne \Circle{ioonne}. Kasutada on lubatud keemiliste elementide perioodilisussüsteemi tabelit.
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-8.  Nimetan kõik järgmised ühendid:
-
-     - \ce{Na2SO3}: \blank{naatriumsulfit};
-     
-     - \ce{Fe2O3}: \blank{raud(III)oksiid};
-     
-     - \ce{FeO}: \blank{raud(II)oksiid};
-     
-     - \ce{Mg(OH)2}: \blank{magneesiumhüdroksiid};
-     
-     - \ce{NiSO4.6H2O}: \blank{nikkel(II)-} \blank{sulfaatheksahüdraat};
-     
-     - \ce{PCl5}: \blank{fosforpentakloriid};
-     
-     - \ce{Cr(H2PO4)3}: \blank{kroom(III)-} \blank{divesinikfosfaat};
-     
-     - \ce{As2O3}: \blank{trisenoks};
-     
-     - \ce{RuCl2}: \blank{ruteenium(II)kloriid}.
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\newpage
-
-9.  Täidan tabeli \@ref(tab:basics-intro-nomenclature-incorrect-correct-names) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-incorrect-correct-names")`.
-
-    ```{r label="basics-intro-nomenclature-incorrect-correct-names", echo=FALSE}
-    incorrect <- c(
-      "vask(I)karbonaat",
-      "kaaliumsulfaat",
-      "liitiumkloor"
-    )
-    correct <- c(
-      "\\blank{vask(II)karbonaat}",
-      "\\blank{kaaliumsulfit}",
-      "\\blank{liitiumkloriid}"
-    )
-    incorrect_correct_names <- data.frame(
-      incorrect,
-      correct
-    )
-
-    colnames(incorrect_correct_names) <- c(
-      "Vale",
-      "Õige"
-    )
-    rownames(incorrect_correct_names) <- c(
-      "\\ce{CuCO3}",
-      "\\ce{K2SO3}",
-      "\\ce{LiCl}"
-    )
-    print_table(table=incorrect_correct_names, caption="Valitud ühendite nime korrigeerimine.")
-    
-    ```
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-10. Nimetan kõik järgmised orgaanilised ühendid:
-
-     - \ce{CH3CH2CH2CH2CH2CH2CH3}: \blank{heptaan};
-     
-     - \ce{CH3CH2CH3}: \blank{propaan};
-     
-     - \ce{CH3CH2CH2CH2CH3}: \blank{pentaan};
-     
-     - \ce{CH3CH2CH2CH3}: \blank{butaan}.
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\begin{landscape}
-
-11. Täidan tabeli \\@ref(tab:basics-intro-nomenclature-old-contemporary-names-formulas) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-old-contemporary-names-formulas")`. Lubatud on kasutada levinuimate katioonide nimetuste ja nende laengute tabelit.
-
-    ```{r label="basics-intro-nomenclature-old-contemporary-names-formulas", echo=FALSE}
-    contemporary <- c(
-      "\\blank{koobalt(III)-} \\blank{oksiidmonohüdraat}",
-      "\\blank{koobalt(II)-} \\blank{hüdroksiid}"
-    )
-    formula <- c(
-      "\\blank{\\ce{Co2O3.H2O}}",
-      "\\blank{\\ce{Co(OH)2}}"
-    )
-    old_contemporary_names_formulas <- data.frame(
-      contemporary,
-      formula
-    )
-
-    colnames(old_contemporary_names_formulas) <- c(
-      "Kaasaegne nimi",
-      "Valem"
-    )
-    rownames(old_contemporary_names_formulas) <- c(
-      "koobaltoksiidmonohüdraat",
-      "koobaltishüdroksiid"
-    )
-    print_table(table=old_contemporary_names_formulas, caption="Valitud ühendite nime kaasajastamine ja valemid.") %>%
-      column_spec(2, width="24em")
-    
-    ```
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-12. Täidan tabeli \\@ref(tab:basics-intro-nomenclature-exceptions-name-type) leheküljel `r render_pageref(reference="tab:basics-intro-nomenclature-exceptions-name-type")`.
-
-    ```{r label="basics-intro-nomenclature-exceptions-name-type", echo=FALSE}
-    name <- c(
-      "\\blank{liitiumalumiiniumhüdriid}",
-      "\\blank{naatriumhüdriid}"
-    )
-    type <- c(
-      "\\Circle ioonne \\Circle molekulaarne",
-      "\\Circle ioonne \\Circle molekulaarne"
-    )
-    exceptions_name_type <- data.frame(
-      name,
-      type
-    )
-
-    colnames(exceptions_name_type) <- c(
-      "Nimetus",
-      "Tüüp"
-    )
-    rownames(exceptions_name_type) <- c(
-      "\\ce{LiAlH4}",
-      "\\ce{NaH}"
-    )
-    print_table(table=exceptions_name_type, caption="Valitud ühendite erandlikud nimed ja tüübid.")
-    
-    ```
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\end{landscape}
-
-13. Nimetan kõik järgmised ühendid, kasutades juhisena analoogseid fosfori ja väävliga ühendeid:
-
-     - \ce{H2SeO4}: \blank{seleenhape};
-     
-     - \ce{Na3AsO4}: \blank{naatriumarsenaat}.
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-14. Kirjutan orgaanilise ühendi tüübi:
-
-     - \ce{CH3CH2CH2OH}: \blank{alkohol};
-     
-     - \ce{CH3CH2CH2CH2COOH}: \blank{karboksüülhape};
-     
-     - \ce{CH3F}: \blank{fluorometaan}.
-
-    Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-#### Tulemused
-
-2024-1-9 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-9) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-9")`.
-
-```{r label="intro-results-2024-1-9", echo=FALSE}
-tasks_of_intro_2024_1_9<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    7, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    6, # Malõšev, Polina
-    4, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    1, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    1, # Malõšev, Polina
-    3, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    4, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_9, names = names_10, caption = "Sissejuhatus: 2024-1-9", long = FALSE)
-
-```
-
-\pagebreak
-
-### 2024-1-11
-
-#### Ülesanded
-
-1.  Nanotehnoloogia valdkond pakub mõningaid intrigeerivaid võimalusi, näiteks ühe aatomi laiuste kiudude loomine. Oletame, et mul õnnestuks süsinik-nanotorudesse kapseldades ühendada \qty{1,00}{\mol} \ce{Ag}-aatomit, millest igaühe raadius on \qty{144}{\pico\m}, üheks sellistest kiududest. Kui pikk see kiud oleks?
-    
-    \vspace{0.2\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-2.  Nanotehnoloogia laboris võib mul olla võimalik üksikute aatomitega manipuleerida. Joonisel \@ref(fig:basics-revision-moles-Br-Ca) leheküljel `r render_pageref(reference="fig:basics-revision-moles-Br-Ca")` vasakpoolsed aatomid on broomiaatomid (moolmass \qty{80}{\g\per\mol}), paremal on kaltsiumi aatomid (moolmass \qty{40}{\g\per\mol}). Mitu kaltsiumi aatomit tuleks parempoolsele pannile lisada, et kahe panni massid oleksid võrdsed?
-
-    ```{r label="basics-revision-moles-Br-Ca", echo=FALSE, fig.cap="Vaataja poolt vasakul asuvad broomi aatomid."}
-    include_external_graphics("rmd/alused/alused-kordamine-Br-Ca.svg")
-    
-    ```
-    
-    \vspace{0.2\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-3.  Maa ligikaudne rahvaarv on \num{6,0} miljardit inimest.
-Mitu mooli inimesi elab Maal? Kui kõik inimesed oleksid hernekorjajad, siis kui kaua kuluks kogu Maa elanikkonnal \qty{1}{\mol} herneste korjamiseks kiirusega üks hernes sekundis, töötades \num{24} tundi ööpäevas, \num{365} päeva aastas?
-    
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-4.  Epsomi soolad koosnevad magneesiumsulfaatheptahüdraadist. Kirjutan selle valemi. Mitu hapnikuaatomit on \qty{5,15}{\g} Epsomi soolades? Mitu ühendi valemiühikut on \qty{5,15}{\g}-s? Mitu mooli veemolekule on \qty{5,15}{\g} Epsomi soolades? Kasutada on lubatud keemiliste elementide perioodilisussüsteemi tabelit.
-    
-    \vspace{0.5\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-5.  Tuumaenergiatööstus ekstraheerib liitiumi looduslikest proovidest \ce{^6Li}, kuid mitte \ce{^7Li}. Selle tulemusena suureneb liitiumi kaubanduslike proovide molaarmass. Kahe isotoobi praegune arvukus on vastavalt \qty{7,42}{\percent} ja \qty{92,58}{\percent} ning nende aatomite massid on vastavalt \qty{9,988e-24}{\g} ja \qty{1,165e-23}{\g}. Kui suur on liitiumi loodusliku proovi praegune molaarmass? Kui suur on molaarmass, kui \ce{^6Li} arvukus väheneb \qty{5,67}{\percent}-ni?
-    
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-6.  Boori aatomite molaarmass looduslikus proovis on \qty{10,81}{\g\per\mol}. Proov koosneb teadaolevalt \ce{^10B}-st (moolmass \qty{10,013}{\g\per\mol}) ja \ce{^11B} (moolmass \qty{11,093}{\g\per\mol}). Kui suur on kahe isotoobi arvukus protsentides?
-    
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-7.  Milline proov kõigist järgmistest paaridest sisaldab suuremat arvu aatomite mooli?
-
- - \qty{75}{\g} indiumi või \qty{8,0e1}{\g} telluuri;
- 
- - \qty{15,0}{\g} \ce{P} või \qty{15,0}{\g} \ce{S};
- 
- - \num{7,36e27} aatomit \ce{Ru} või \num{7,36e27} aatomit \ce{Fe}.
- 
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-     
-    \vspace{0.5\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-8.  Aruandes väideti, et Kanadas Sudbury's asuv Sudbury' Neutrino Observatoorium kasutab \qty{12}{\m} läbimõõduga sfäärilises paagis \qty{1,00e3}{\tonne} (\qty{1}{\tonne} = \qty{1e3}{\kg}) rasket vett \ce{D2O}, et tuvastada subatomaarseid osakesi, mida nimetatakse neutriinodeks. Tavalise vee (\ce{H2O}) tihedus paagi temperatuuril on \qty{1,00}{\g\per\cubic\centi\m}.
-Arvutan \ce{D2O} molaarmassi, kasutades deuteeriumi molaarmassi \qty{2,014}{\g\per\mole}. Eeldades, et \ce{D2O} molekuli ruumala on sama, mis \ce{H2O} molekuli ruumala, arvutan raske vee tiheduse.
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-         
-    \vspace{0.4\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-9.  Raske vee tihedus on \qty{1,1117e3}{\kg\per\cubic\m}. Arvutan tiheduse andmete ja raske vee massi \qty{1,00e6}{\kg} põhjal paagi mahu kuupmeetrites, seejärel võrdlen seda mahtu paagi mahuga, mis on arvutatud selle läbimõõdu \qty{1,2e1}{\m} järgi. Kas teatatud raske vee mass on täpne? Kas eeldus, et \ce{D2O} molekuli ruumala on sama mis \ce{H2O} molekuli ruumala, on mõistlik? Selgitan oma arutluskäiku. (Raadiusega $r$ sfääri ruumala on $V = \frac{4 \cdot \pi \cdot r^3}{3}$.)
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-         
-    \vspace{0.4\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-10. Arvutan hulga (moolides) ning molekulide ja valemiühikute (või aatomite, kui on märgitud) arvu:
-
- - \qty{10,0}{\g} alumiiniumoksiidi \ce{Al2O3};
- 
- - \qty{25,92}{\milli\g} vesinikfluoriidi, \ce{HF}.
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-         
-    \vspace{0.4\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-11. Arvutan hulga (moolides) ning molekulide ja valemiühikute (või aatomite, kui on märgitud) arvu:
-
- - \qty{1,55}{\milli\g} vesinikperoksiidi, \ce{H2O2};
- 
- - \qty{1,25}{\kg} glükoosi, \ce{C6H12O6};
- 
- - \qty{4,37}{\g} lämmastikku \ce{N} aatomite ja \ce{N2} molekulidena.
- 
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-         
-    \vspace{0.5\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-12. Arvutan (moolides)
-
- - \ce{Cu2+}-ioonide hulga \qty{3,00}{\g}'s \ce{CuBr2}'s;
- 
- - \ce{SO3} molekulide hulga \qty{7,00e2}{\milli\g}'s \ce{SO3}'s;
- 
- - \ce{F-}-ioonide hulga \qty{25,2}{\kg}'s \ce{UF6}'s;
- 
- - \ce{H2O} hulga \qty{2,00}{\g}'s \ce{Na2CO3.10H2O}'s.
- 
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-         
-    \vspace{0.6\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-13. Määran \ce{KNO3} valemiühikute arvu \qty{0,750}{\mol}'s \ce{KNO3}'s.
-
-    Kui suur on \num{2,39e20} \ce{Ag2SO4} valemiühiku mass (milligrammides)?
-    
-    Hindan \ce{NaHCO2} valemiühikute arvu \qty{3,429}{\g}'s \ce{NaHCO2}'s, naatriumformiaadis, mida kasutatakse kangaste värvimisel ja trükkimisel.
- 
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.5\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-14. Arvutan ühe veemolekuli massi grammides.
-
-    Määran \ce{H2O} molekulide arvu \qty{1,00}{\kg}'s vees.
-     
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-#### Tulemused
-
-2024-1-11 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-11) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-11")`.
-
-```{r label="intro-results-2024-1-11", echo=FALSE}
-tasks_of_intro_2024_1_11<- data.frame(
-  c( # Ülesanne
-    3, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    5, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    1, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    2, # Šerstobitov, Mihhail, teisel katsel 6
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    1, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    1, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    1, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    1, # Šerstobitov, Mihhail, teisel katsel 5
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_11, names = names_10, caption = "Sissejuhatus: 2024-1-11", long = FALSE)
-
-```
-
-\pagebreak
-
-### 2024-1-16
-
-1.  Tsitraal on sidruniõli lõhnav komponent, mida kasutatakse odekolonnides. Joonisel \@ref(fig:basics-revision-formulas-citral-C-H) leheküljel `r render_pageref(reference="fig:basics-revision-formulas-citral-C-H")` on näidatud molekulaarne struktuur. Arvutan süsiniku ja vesiniku massiosad tsitraalis protsentides.
-
-    ```{r label="basics-revision-formulas-citral-C-H", echo=FALSE, fig.cap="Tsitraali molekul: halliga on tähistatud süsiniku, valgelt vesiniku aatomid ja punaselt hapniku aatom."}
-    include_external_graphics("rmd/alused/alused-kordamine-valemid-tsitraal.svg")
-    
-    ```
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-    
-\pagebreak
-
-2.  Tsitraal on sidruniõli lõhnav komponent, mida kasutatakse odekolonnides. Joonisel \@ref(fig:basics-revision-formulas-citral-N-O) leheküljel `r render_pageref(reference="fig:basics-revision-formulas-citral-N-O")` on näidatud molekulaarne struktuur. Arvutan lämmastiku ja hapniku massiosad tsitraalis protsentides.
-
-    ```{r label="basics-revision-formulas-citral-N-O", echo=FALSE, fig.cap="Tsitraali molekul: halliga on tähistatud süsiniku, valgelt vesiniku aatomid ja punaselt hapniku aatom."}
-    include_external_graphics("rmd/alused/alused-kordamine-valemid-tsitraal.svg")
-    
-    ```
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-    
-\pagebreak
-
-3.  Milline on süsiniku ja lämmastiku kummagi massiosa protsentides \ce{L}-karnitiinis \ce{C7H15NO3}'s - ühendis, mida kasutatakse toidulisandina lihaste väsimuse vähendamiseks?
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.5\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-    
-\pagebreak
-
-4.  Milline on vesiniku massiosa protsentides \ce{L}-karnitiinis \ce{C7H15NO3}'s - ühendis, mida kasutatakse toidulisandina lihaste väsimuse vähendamiseks?
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-    
-\pagebreak
-
-5.  Milline on hapniku massiosa protsentides \ce{L}-karnitiinis \ce{C7H15NO3}'s - ühendis, mida kasutatakse toidulisandina lihaste väsimuse vähendamiseks?
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-6.  Metall $M$ moodustab oksiidi valemiga \ce{$M$2O}, mille metalli osa ühendi massis on \qty{88,8}{\percent}. Milline on selle metalli molaarmass? Ühendi nimetus on \blank{vask(I)oksiid}.
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-7.  Alumiiniumi tootmisel kasutatava ühendi krüoliidi komponentide massiosad on \qty{32,79}{\percent}&nbsp;\ce{Na}, \qty{13,02}{\percent} \ce{Al} ja \qty{54,19}{\percent} \ce{F}. Krüoliidi empiiriline valem on \blank{\ce{Na3AlF6}}. Näitan terve arvutuskäigu.
-    
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-8.  Määran järgmiste analüüside põhjal empiirilise valemi: Laboris gaasi \ce{O2} tekitamiseks kasutataval ühendil on järgmine massiosaline koostis: \qty{31,91}{\percent} \ce{K} ja \qty{28,93}{\percent} \ce{Cl}, ülejäänu on hapnik. Hapniku tootmiseks kasutatava ühendi empiiriline valem on \blank{\ce{KClO3}}.
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.4\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-9.  Määran järgmiste analüüside põhjal empiirilise valemi: Väetise massiosaline koostis on järgmine: \qty{12,2}{\percent} \ce{N}, \qty{5,26}{\percent} \ce{H}, \qty{26,9}{\percent} \ce{P} ja \qty{55,6}{\percent} \ce{O}. Selle väetise empiiriline valem on \blank{\ce{NH6PO4}}. 
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.4\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-10. Katses kombineeriti \qty{4,14}{\g} fosforit klooriga, et saada \qty{27,8}{\g} valget tahket ühendit. Selle ühendi empiiriline valem on \blank{\ce{PCl5}}. Kui oletada, et ühendi empiiriline ja molekulaarne valem on samad, siis selle ühendi nimetus on \blank{fosforpentakloriid}.
-
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-11. Ärevuse raviks kasutatav ravim diasepaam sisaldab \qty{67,49}{\percent} \ce{C}, \qty{4,60}{\percent} \ce{H}, \qty{12,45}{\percent} \ce{Cl}. Diasepaami empiirilise valemi süsiniku, vesiniku ja kloori osa, kui kloori osa moolides on kõige väiksem, on \blank{\ce{C16H13Cl}}?
-
-    Näitan terve arvutuskäigu.
-    
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.4\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-12. Ärevuse raviks kasutatav ravim diasepaam sisaldab \qty{12,45}{\percent} \ce{Cl}, \qty{9,84}{\percent} \ce{N} ja \qty{5,62}{\percent} \ce{O}. Diasepaami empiirilise valemi lämmastiku, hapniku ja kloori osa, kui kloori osa moolides on kõige väiksem, on \blank{\ce{ClN2O}}.
-
-    Näitan terve arvutuskäigu.
-    
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.4\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-13. Kohvis ja tees sisalduva stimulaatori kofeiini koostis on \qty{49,48}{\percent} \ce{C}, \qty{5,19}{\percent} \ce{H}, \qty{28,85}{\percent} \ce{N} ja \qty{16,48}{\percent} \ce{O}. Kofeiini empiiriline valem on \blank{\ce{C4H5N2O}}.
-
-    Näitan terve arvutuskäigu.
-    
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.5\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-\pagebreak
-
-14. Kohvis ja tees sisalduva stimulaatori kofeiini molaarmass on \qty{194,19}{\g\per\mol} ja kofeiini empiiriline valem on \ce{C4H5N2O}. Kofeiini molekulvalem on \blank{\ce{C8H10N4O2}}.
-
-    Näitan terve arvutuskäigu.
-        
-    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
-             
-    \vspace{0.3\textheight}
-    
-    Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
+Kava: Eelnevalt õpitu kordamine: Reagentide piiramine[@atkins_2010_chemical(lk F95-F103)].

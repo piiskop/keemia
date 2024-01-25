@@ -48,6 +48,29 @@
   output-decimal-marker = {,},
   separate-uncertainty-units = repeat
 }
+% For "retain-explicit-decimal-marker"
+\ExplSyntaxOn
+\keys_define:nn { siunitx }
+  { retain-explicit-decimal-marker .bool_set:N = \l__siunitx_number_explicit_decimal_bool }
+\cs_gset_protected:Npn \__siunitx_number_parse_loop_main_end:NN #1#2
+  {
+    \tl_if_empty:NT \l__siunitx_number_partial_tl
+      {
+        \bool_if:NTF #2
+          { \tl_set:Nn \l__siunitx_number_partial_tl { 0 } }
+          {
+            \bool_if:NT \l__siunitx_number_explicit_decimal_bool
+              { \tl_set:Nn \l__siunitx_number_partial_tl { \empty } }
+          }
+      }
+    \tl_put_right:Nx #1
+      {
+        { \exp_not:V \l__siunitx_number_partial_tl }
+        \bool_if:NT #2 { { } }
+        { }
+      }
+  }
+\ExplSyntaxOff
 
 \usepackage{cancel}
 
@@ -68,3 +91,5 @@
 
 \usepackage{ragged2e}
 \RaggedRight
+
+\raggedbottom % for hindering to spread paragraphs over the page

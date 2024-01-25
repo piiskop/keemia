@@ -2537,9 +2537,9 @@ Summa tuleb jagada ühega vähem kui mõõtmiste arv, et saada üksiktulemuse di
 
 ## Lahustuvus
 
-Vees lahustustuvus on esitatud tabelis \@ref(tab:solubility) leheküljel `r render_pageref(reference="tab:solubility")`.
+Vees lahustustuvus on esitatud tabelites \@ref(tab:solubility) leheküljel `r render_pageref(reference="tab:solubility")` ja \@ref(tab:solubility-ammonium) leheküljel `r render_pageref(reference="tab:solubility-ammonium")`.
 
-(ref:solubility) Kilogrammi ühendi lahustuvus vees kilogrammi vee kohta[@haynes_2014_crc, lk 4-43-4-114]. Kui skalaarne lahustuvus ei ole teada, siis on lahustuvus märgitud järgnevalt: kergelt lahustuv: \qty{1}{\kg\per\kg}, lahustuv: \qty{1e-1}{\kg\per\kg}, väga lahustuv: \qty{1e-2}{\kg\per\kg}.
+(ref:solubility) Kilogrammi ühendi lahustuvus vees kilogrammi vee kohta[@haynes_2014_crc, lk 4-43-4-114]. Kui skalaarne lahustuvus ei ole teada, siis on lahustuvus märgitud järgnevalt: väga lahustuv: \qty{1}{\kg\per\kg}, lahustuv: \qty{1e-1}{\kg\per\kg}, kergelt lahustuv: \qty{1e-2}{\kg\per\kg}.
 
 ```{r label="solubility", echo=FALSE}
 Li <- c(
@@ -2549,6 +2549,7 @@ Li <- c(
   4.59, # chlorate
   8.45e-1, # chloride
   0, # chromate
+  1.34e-3, # fluoride
   0, # hydroxide
   1.65, # iodide
   1.02, # nitrate
@@ -2567,6 +2568,7 @@ Na <- c(
   1, # chlorate
   3.60e-1, # chloride
   8.76e-1, # chromate
+  4.13e-2, # fluoride
   1, # hydroxide
   1.84, # iodide
   9.12e-1, # nitrate
@@ -2585,6 +2587,7 @@ K <- c(
   8.61e-2, # chlorate
   3.55e-1, # chloride
   6.50e-1, # chromate
+  1.02, # fluoride
   1.21, # hydroxide
   1.48, # iodide
   3.83e-1, # nitrate
@@ -2603,6 +2606,7 @@ Rb <- c(
   6.63e-2, # chlorate
   9.39e-1, # chloride
   7.62e-1, # chromate
+  3, # fluoride
   1.73, # hydroxide
   1.65, # iodide
   6.50e-1, # nitrate
@@ -2621,6 +2625,7 @@ Cs <- c(
   7.78e-2, # chlorate
   1.91, # chloride
   0, # chromate
+  5.73, # fluoride
   3, # hydroxide
   8.48e-1, # iodide
   2.79e-1, # nitrate
@@ -2632,6 +2637,25 @@ Cs <- c(
   0 # sulfide
 )
 
+Mg <- c(
+  6.56e-1, # acetate
+  1.02, # bromide
+  1.8e-3, # carbonate
+  0, # chlorate
+  5.6e-1, # chloride
+  0, # chromate
+  1.3e-4, # fluoride
+  6.9e-6, # hydroxide
+  1.46, # iodide
+  7.12e-1, # nitrate
+  3.8e-4, # oxalate
+  1e-2, # oxide
+  1, # perchlorate
+  0, # phosphate
+  3.57e-1, # sulfate
+  0 # sulfide
+)
+
 Ca <- c(
   1e-1, # acetate
   1.56, # bromide
@@ -2639,6 +2663,7 @@ Ca <- c(
   1.97, # chlorate
   8.13e-1, # chloride
   1e-2, # chromate
+  1.6e-5, # fluoride
   1.6e-3, # hydroxide
   2.15, # iodide
   1.44, # nitrate
@@ -2657,6 +2682,7 @@ Sr <- c(
   1.76, # chlorate
   5.47e-1, # chloride
   1.06e-3, # chromate
+  2.1e-4, # fluoride
   2.25e-2, # hydroxide
   1.77, # iodide
   8.02e-1, # nitrate
@@ -2675,6 +2701,7 @@ Ba <- c(
   3.79e-1, # chlorate
   3.70e-1, # chloride
   0, # chromate
+  1.61e-3, # fluoride
   4.91e-2, # hydroxide
   2.21, # iodide
   1.03e-1, # nitrate
@@ -2693,6 +2720,7 @@ Cu <- c(
   0, # chlorate
   7.57e-1, # chloride
   0, # chromate
+  7.5e-4, # fluoride
   0, # hydroxide
   0, # iodide
   1.45, # nitrate
@@ -2711,6 +2739,7 @@ Ag <- c(
   1.76e-1, # chlorate
   1.9e-6, # chloride
   0, # chromate
+  1.72, # fluoride
   0, # hydroxide
   3e-8, # iodide
   2.34, # nitrate
@@ -2722,6 +2751,25 @@ Ag <- c(
   0 # sulfide
 )
 
+Cd <- c(
+  1, # acetate
+  1.15, # bromide
+  0, # carbonate
+  0, # chlorate
+  1.2, # chloride
+  0, # chromate
+  4.36e-2, # fluoride
+  1.5e-6, # hydroxide
+  8.62e-1, # iodide
+  1.56, # nitrate
+  6.0e-5, # oxalate
+  0, # oxide
+  0, # perchlorate
+  0, # phosphate
+  7.67e-1, # sulfate
+  0 # sulfide
+)
+
 Hg2 <- c(
   2.5e-2, # acetate
   6.1e-3, # bromide
@@ -2729,6 +2777,7 @@ Hg2 <- c(
   2.5e-2, # chlorate
   7.31e-2, # chloride
   1, # chromate
+  0, # fluoride
   0, # hydroxide
   6e-5, # iodide
   1e-1, # nitrate
@@ -2747,6 +2796,7 @@ Pb <- c(
   1.44, # chlorate
   1.08e-2, # chloride
   1.7e-7, # chromate
+  6.7e-4, # fluoride
   1.2e-6, # hydroxide
   7.6e-4, # iodide
   5.97e-2, # nitrate
@@ -2758,38 +2808,21 @@ Pb <- c(
   0 # sulfide
 )
 
-NH4 <- c(
-  1.48, # acetate
-  7.83e-1, # bromide
-  1, # carbonate
-  2.87e-1, # chlorate
-  3.95e-1, # chloride
-  3.7e-1, # chromate
-  0, # hydroxide
-  1.78, # iodide
-  2.13, # nitrate
-  5.20e-2, # oxalate
-  0, # oxide
-  2.45e-1, # perchlorate
-  0, # phosphate
-  7.64e-1, # sulfate
-  1e-1 # sulfide
-)
-
 solubility <- data.frame(
   Li,
   Na,
   K,
   Rb,
   Cs,
+  Mg,
   Ca,
   Sr,
   Ba,
   Cu,
   Ag,
+  Cd,
   Hg2,
-  Pb,
-  NH4
+  Pb
 )
 
 colnames(solubility) <- c(
@@ -2798,14 +2831,15 @@ colnames(solubility) <- c(
   "\\ce{K+}",
   "\\ce{Rb+}",
   "\\ce{Cs+}",
+  "\\ce{Mg^2+}",
   "\\ce{Ca^2+}",
   "\\ce{Sr^2+}",
   "\\ce{Ba^2+}",
   "\\ce{Cu^2+}",
   "\\ce{Ag+}",
+  "\\ce{Cd^2+}",
   "\\ce{[Hg2]^2+}",
-  "\\ce{Pb^2+}",
-  "\\ce{[NH4]+}"
+  "\\ce{Pb^2+}"
 )
 rownames(solubility) <- c(
   "\\ce{[CH3CO2]-}",
@@ -2814,6 +2848,7 @@ rownames(solubility) <- c(
   "\\ce{[ClO3]-}",
   "\\ce{Cl-}",
   "\\ce{[CrO4]^2-}",
+  "\\ce{F-}",
   "\\ce{[OH]-}",
   "\\ce{I-}",
   "\\ce{[NO3]-}",
@@ -2829,7 +2864,64 @@ librarian::shelf(c(
   "strtools"
 ))
 solubility <- mutate_all(.tbl=solubility, ~cell_spec(format_SI(.x), color=spec_color(.x), font_size = spec_font_size(.x)))
-print_table(table=solubility, caption="(ref:solubility)", additional_header=c("Anioon"=1, "Muldmetallid"=5, "Leelismuldmetallid"=3, "Siirdemetallid"=3, "Järgne"=1, "Ammoonium"=1)) %>%
+print_table(table=solubility, caption="(ref:solubility)", additional_header=c("Anioon"=1, "Muldmetallid"=5, "Leelismuldmetallid"=4, "Siirdemetallid"=4, "Järgne"=1)) %>%
+  landscape()
+
+```
+
+(ref:solubility-ammonium) Kilogrammi ühendi lahustuvus vees kilogrammi vee kohta[@haynes_2014_crc, lk 4-43-4-114]. Kui skalaarne lahustuvus ei ole teada, siis on lahustuvus märgitud järgnevalt: väga lahustuv: \qty{1}{\kg\per\kg}, lahustuv: \qty{1e-1}{\kg\per\kg}, kergelt lahustuv: \qty{1e-2}{\kg\per\kg}.
+
+```{r label="solubility-ammonium", echo=FALSE}
+NH4 <- c(
+  1.48, # acetate
+  7.83e-1, # bromide
+  1, # carbonate
+  2.87e-1, # chlorate
+  3.95e-1, # chloride
+  3.7e-1, # chromate
+  8.35e-1, # fluoride
+  0, # hydroxide
+  1.78, # iodide
+  2.13, # nitrate
+  5.20e-2, # oxalate
+  0, # oxide
+  2.45e-1, # perchlorate
+  0, # phosphate
+  7.64e-1, # sulfate
+  1e-1 # sulfide
+)
+
+solubility_ammonium <- data.frame(
+  NH4
+)
+
+colnames(solubility_ammonium) <- c(
+  "\\ce{[NH4]+}"
+)
+rownames(solubility_ammonium) <- c(
+  "\\ce{[CH3CO2]-}",
+  "\\ce{Br-}",
+  "\\ce{[CO3]^2-}",
+  "\\ce{[ClO3]-}",
+  "\\ce{Cl-}",
+  "\\ce{[CrO4]^2-}",
+  "\\ce{F-}",
+  "\\ce{[OH]-}",
+  "\\ce{I-}",
+  "\\ce{[NO3]-}",
+  "\\ce{[C2O4]^2-}",
+  "\\ce{O^2-}",
+  "\\ce{[ClO4]-}",
+  "\\ce{[PO4]^3-}",
+  "\\ce{[SO4]^2-}",
+  "\\ce{S^2-}"
+)
+librarian::shelf(c(
+  "dplyr",
+  "strtools"
+))
+solubility_ammonium <- mutate_all(.tbl=solubility_ammonium, ~cell_spec(format_SI(.x), color=spec_color(.x), font_size = spec_font_size(.x)))
+print_table(table=solubility_ammonium, caption="(ref:solubility-ammonium)", additional_header=c("Anioon"=1, "Ammoonium"=1)) %>%
   landscape()
 
 ```

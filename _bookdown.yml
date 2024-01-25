@@ -7,6 +7,8 @@ rmd_files: [
   "rmd/soovitusi-õppimiseks.Rmd",
   "rmd/baasreeglistik/baasreeglistik.Rmd",
   "rmd/alused/keemia-alused.Rmd",
+  "rmd/alused/keemia-alused-testid-2023.Rmd",
+  "rmd/alused/keemia-alused-testid-2024.Rmd",
   "rmd/formulas.Rmd",
   "rmd/phone.Rmd",
   "rmd/mõõtmiseksperiment.Rmd",
