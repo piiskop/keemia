@@ -585,9 +585,25 @@ Kava: Eelnevalt õpitu kordamine: Happed ja alused[@atkins_2010_chemical(lk F72-
 
 Õppesisu:
 
-2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+3. Hapete ja aluste protolüütiline teooria.
 
-Kava: Eelnevalt õpitu kordamine: Redoksreaktsioonid[@atkins_2010_chemical(lk F77-F84)].
+6. pH.
+
+Õpitulemusena õpilane:
+
+3. selgitab happe ja aluse mõistet protolüütilise teoora põhjal;
+
+Põhimõisted:
+
+hape
+: molekul või ioon, mis on prootoni doonor[@atkins_2010_chemical(lk 74)]
+
+alus
+: molekul või ioon, mis on prootoni aktseptor[@atkins_2010_chemical(lk 74)]
+
+Kava: Eelnevalt õpitu kordamine: Happed ja alused[@atkins_2010_chemical(lk F72-F76)].
+
+Selgitasin soola moodustamise ülesannet (Mihhail).
 
 ### 2024-1-25
 
@@ -595,9 +611,99 @@ Kava: Eelnevalt õpitu kordamine: Redoksreaktsioonid[@atkins_2010_chemical(lk F7
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-Kava: Eelnevalt õpitu kordamine: Reaktsiooni stöhhiomeetria[@atkins_2010_chemical(lk F85-F92)].
+2. Elektrolüüdid ja mitteelektrolüüdid; tugevad ja nõrgad elektrolüüdid.
+
+Õpitulemustena õpilane:
+
+1. kirjeldab lahuste teket (iooniliste ja kovalentsete ainete korral);
+
+2. eristab elektrolüüte ja mitteelektrolüüte ning tugevaid ja nõrku elektrolüüte;
+
+3. määrab A-rühmade keemiliste elementide maksimaalseid ja minimaalseid oksüdatsiooniastmeid elemendi asukoha järgi perioodilisustabelis ning koostab elementide tüüpühendite valemeid;
+
+5. koostab ioonidevaheliste reaktsioonide võrrandeid (molekulaarsel ja ioonsel kujul).
+
+Põhimõisted:
+
+elektrolüüt
+: aine, mis lahuses esineb ioonidena[@atkins_2010_chemical(lk F66)]
+
+kvalitatiivne analüüs
+: valimis sisalduvate ainete identifitseerimine[@atkins_2010_chemical(lk F69)]
+
+kvantitatiivne analüüs
+: iga esineva aine või elemendi koguse määramine[@atkins_2010_chemical(lk F69)]
+
+mitteelektrolüüt
+: aine, mis lahuses ioone ei moodusta[@atkins_2010_chemical(lk F66)]
+
+nõrk elektrolüüt
+: lahuses mittetäielikult ioniseeritud aine[@atkins_2010_chemical(lk F66)]
+
+tugev elektrolüüt
+:     aine, mis esineb lahuses peaaegu täielikult ioonidena[@atkins_2010_chemical(lk F66)]
+
+Kava:
+
+1. Eelnevalt õpitu kordamine: Keemiliste valemite määramine[@atkins_2010_chemical(lk F45-F50)]. Selgitasin Vladislavi ülesannet: empiirilise valemi koostamine. 
+
+2. Eelnevalt õpitu kordamine: Vesilahused ja sademine[@atkins_2010_chemical(lk F65-F70)]. Selgitasin Feliksi ülesannet: ioonvõrrand iooni eraldamise kohta.
+
+3. Eelnevalt õpitu kordamine: Redoksreaktsioonid[@atkins_2010_chemical(lk F77-F84)]. Selgitasin redoksreaktsioonide osad K1 ja K2 kuni enne näidet K.1.
 
 ### 2024-1-25
+
+Kursuse lõpus õpilane:
+
+2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Põhimõisted:
+
+keemiline analüüs
+: avastamine, millised elemendid on omavahel ühinenud, moodustades aine[@atkins_2010_chemical(lk F22)]
+
+keemiline tasakaal
+: olukord, mida modelleeritakse keemilise võrrandiga, mis sümboliseerib nii kvalitatiivseid kui ka kvantitatiivseid muutusi, mis toimuvad keemilises reaktsioonis[@atkins_2010_chemical(lk 62)]
+
+kvalitatiivne analüüs
+: valimis sisalduvate ainete identifitseerimine[@atkins_2010_chemical(lk F69)]
+
+keemiline süntees
+: elementide ühendamise protsess ühendite saamiseks või ühe ühendi teisendamine teiseks[@atkins_2010_chemical(lk F22)]
+
+Kava: Eelnevalt õpitu kordamine: Redoksreaktsioonid[@atkins_2010_chemical(lk F77-F84)]. Kuni osa K3'ni tegime läbi.
+
+### 2024-1-30
+
+Kursuse lõpus õpilane:
+
+2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
+
+Õppesisu:
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Põhimõisted:
+
+keemiline analüüs
+: avastamine, millised elemendid on omavahel ühinenud, moodustades aine[@atkins_2010_chemical(lk F22)]
+
+keemiline tasakaal
+: olukord, mida modelleeritakse keemilise võrrandiga, mis sümboliseerib nii kvalitatiivseid kui ka kvantitatiivseid muutusi, mis toimuvad keemilises reaktsioonis[@atkins_2010_chemical(lk 62)]
+
+kvalitatiivne analüüs
+: valimis sisalduvate ainete identifitseerimine[@atkins_2010_chemical(lk F69)]
+
+keemiline süntees
+: elementide ühendamise protsess ühendite saamiseks või ühe ühendi teisendamine teiseks[@atkins_2010_chemical(lk F22)]
+
+Kava: Eelnevalt õpitu kordamine: Reaktsiooni stöhhiomeetria[@atkins_2010_chemical(lk F85-F92)].
+
+### 2024-1-30
 
 Kursuse lõpus õpilane:
 
