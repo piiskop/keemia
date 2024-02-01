@@ -67,7 +67,7 @@
     Leheküljel `r render_pageref(reference="fig:fundamentals-properties-physical-chemical")` oleval joonisel \@ref(fig:fundamentals-properties-physical-chemical) olevates konteinerites tähistavad rohelised sfäärid ühe elemendi aatomeid, punased sfäärid teise elemendi aatomeid. Igal juhul on piltidel näha kas füüsikalist või keemilist muutust; tuvastada muudatuse tüüp.
     
     ```{r label = "fundamentals-properties-physical-chemical", echo=FALSE, fig.cap = "Füüsikaline või keemiline muutus."}
-    include_external_graphics("rmd/alused/füüsikaline-keemiline.svg")
+    include_external_graphics("rmd/alused/testid-2023/füüsikaline-keemiline.svg")
 
     ```
 
@@ -767,8 +767,8 @@ Järgnevad 2024-12-19 ülesanded:
 6.  Pildil \@ref(fig:basics-compounds-mixture-elements) leheküljel `r render_pageref(reference="fig:basics-compounds-mixture-elements")` kujutatud konteinerid sisaldavad kas segu, ühte ühendit, ühte elementi või nende kombinatsiooni. Sinised sfäärid tähistavad ühe elemendi aatomeid, rohelised sfäärid teise elemendi aatomeid. Täidan kummagi pildi allkirja vastavalt selle sisule.
     
     ```{r label = "basics-compounds-mixture-elements", echo=FALSE, fig.cap = "Konteinerid.", fig.subcap=c("(ref:caption-basics-review-compounds-mixture-element)", "(ref:caption-basics-review-compounds-mixture-element)"), fig.align="center"}
-    include_external_graphics("rmd/alused/alused-kordamine-ühendid-segu-element.svg")
-    include_external_graphics("rmd/alused/alused-ühendid-element.svg")
+    include_external_graphics("rmd/alused/testid-2023/alused-kordamine-ühendid-segu-element.svg")
+    include_external_graphics("rmd/alused/testid-2023/alused-ühendid-element.svg")
 
     ```
 
@@ -777,8 +777,8 @@ Järgnevad 2024-12-19 ülesanded:
 7.  Pildil \@ref(fig:basics-review-compounds-ball-stick) leheküljel `r render_pageref(reference="fig:basics-review-compounds-ball-stick")` kujutatud palli- ja pulgakujulistes molekulaarstruktuurides tähistab hall värv süsinikku, punane värv hapnikku, valge värv vesinikku, sinine värv lämmastikku ja roheline värv kloori. Kirjutan kummagi struktuuri alla vastava struktuuri keemilise valemi tähtede ja numbritega.
 
     ```{r label = "basics-review-compounds-ball-stick", echo=FALSE, fig.cap = "Pallid ja pulgad.", fig.subcap=c("\\blank{\\ce{C3H7NO2}}.", "\\blank{\\ce{C2h7n}}."), fig.align="center"}
-    include_external_graphics("rmd/alused/alused-kordamine-ühendid-pallid-pulgad-C-H-N-O.svg")
-    include_external_graphics("rmd/alused/alused-kordamine-ühendid-C-H-N.svg")
+    include_external_graphics("rmd/alused/testid-2023/alused-kordamine-ühendid-pallid-pulgad-C-H-N-O.svg")
+    include_external_graphics("rmd/alused/testid-2023/alused-kordamine-ühendid-C-H-N.svg")
 
     ```
 

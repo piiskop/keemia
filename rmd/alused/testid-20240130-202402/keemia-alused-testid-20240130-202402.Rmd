@@ -1,0 +1,602 @@
+
+### 2024-1-30
+
+#### Ülesanded
+
+1.  Kirjutan võrrandi iga järgmise redoksreaktsiooni skeleti kohta:
+
+ - \ce{NO2(g) + O3(g) -> N2O5(g) + O2(g)}:
+              
+    \vspace{0.1\textheight}
+
+ - \ce{S8(s) + Na(s) -> Na2S(s)}:
+              
+    \vspace{0.1\textheight}
+
+ - \ce{Cr^2+ (aq) + Sn^4+ (aq) -> Cr^3+ (aq) + Sn^2+ (aq)}:
+              
+    \vspace{0.1\textheight}
+
+ - \ce{As(s) + Cl2(g) -> AsCl3(l)}:
+              
+    \vspace{0.1\textheight}
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+2.  Kirjutan võrrandi iga järgmise redoksreaktsiooni jaoks:
+
+ - Vask(II)'iooni väljatõrjumine lahusest magneesiumimetalliga: \ce{Mg(s) + Cu^2+(aq) -> Mg^2+(aq) + Cu(s)}:
+               
+    \vspace{0.1\textheight}
+
+ - Raud(III)iooni moodustumine järgmises reaktsioonis:
+\ce{Fe^2+ (aq) + Ce^4+ (aq) -> Fe^3+ (aq) + Ce^3+ (aq)}:
+               
+    \vspace{0.1\textheight}
+
+ - vesinikkloriidi süntees selle elementidest:
+\ce{H2(g) + Cl2(g) -> HCl(g)}:
+               
+    \vspace{0.1\textheight}
+
+ - rooste teke (lihtsustatud võrrand):
+\ce{Fe(s) + O2(g) -> Fe2O3(s)}:
+               
+    \vspace{0.1\textheight}
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+3.  Määran tabelis \@ref(tab:intro-redox-reactions-5) leheküljel `r render_pageref(reference="tab:intro-redox-reactions-5")` märgitud elemendi oksüdatsiooniarvu kõigis esitatud ühendites.
+
+    ```{r label="intro-redox-reactions-5", echo=FALSE}
+    intro_redox_reactions_5<- data.frame(
+      linebreak(c(
+        "\\ce{Si}",
+        "\\ce{Sn}",
+        "\\ce{N}",
+        "\\ce{P}",
+        "\\ce{S}",
+        "\\ce{P}"
+      )),
+      c(
+        "\\blank{4+}",
+        "\\blank{4+}",
+        "\\blank{2-}",
+        "\\blank{5+}",
+        "\\blank{1+}",
+        "\\blank{0}"
+      )
+    )
+
+    rownames(intro_redox_reactions_5) <- c(
+      "\\ce{H4SiO4}",
+      "\\ce{SnO2}",
+      "\\ce{N2H4}",
+      "\\ce{P4O10}",
+      "\\ce{S2Cl2}",
+      "\\ce{P4}"
+    )
+
+    colnames(intro_redox_reactions_5) <- c(
+      "Element",
+      "Oksüdatsiooniarv"
+    )
+    
+    print_table(table = intro_redox_reactions_5, caption = "Oksüdatsiooniarvu määramine molekulide puhul.")
+    
+    ```
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+4.  Määran tabelisse \@ref(tab:intro-redox-reactions-7) leheküljel `r render_pageref(reference="tab:intro-redox-reactions-7")` märgitud elemendi oksüdatsiooniarvu igas esitatud ioonis.
+
+    ```{r label="intro-redox-reactions-7", echo=FALSE}
+    intro_redox_reactions_7<- data.frame(
+      linebreak(c(
+        "\\ce{Zn}",
+        "\\ce{Pd}",
+        "\\ce{U}",
+        "\\ce{Si}",
+        "\\ce{I}"
+      )),
+      c(
+        "\\blank{2+}",
+        "\\blank{2+}",
+        "\\blank{6+}",
+        "\\blank{4+}",
+        "\\blank{1+}"
+      )
+    )
+
+    rownames(intro_redox_reactions_7) <- c(
+      "\\ce{[Zn(OH)4]^2-}",
+      "\\ce{[PdCl4]^2-}",
+      "\\ce{[UO2]^2+}",
+      "\\ce{[SiF6]^2-}",
+      "\\ce{[IO]^-}"
+    )
+
+    colnames(intro_redox_reactions_7) <- c(
+      "Element",
+      "Oksüdatsiooniarv"
+    )
+    
+    print_table(table = intro_redox_reactions_7, caption = "Oksüdatsiooniarvu määramine ioonide puhul.")
+    
+    ```
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+(ref:intro-redox-reactions-9) Iga tabelisse \@ref(tab:intro-redox-reactions-9) leheküljel `r render_pageref(reference="tab:intro-redox-reactions-9")` märgitud redoksreaktsiooni puhul identifitseerin oksüdeeritud aine ja oksüdatsiooniarvu muutuse tõttu redutseeritud aine.
+
+\begin{landscape}
+
+5.  (ref:intro-redox-reactions-9)
+
+    ```{r label="intro-redox-reactions-9", echo=FALSE}
+    intro_redox_reactions_9<- data.frame(
+      linebreak(c(
+        "\\blank{\\ce{CH3OH(aq)}}",
+        "\\blank{\\ce{some sulfur}}",
+        "\\blank{\\ce{Tl +}}"
+      )),
+      c(
+        "\\blank{\\ce{O2(g)}}",
+        "\\blank{\\ce{Mo}}",
+        "\\blank{\\ce{Tl +}}"
+      )
+    )
+
+    rownames(intro_redox_reactions_9) <- c(
+      "\\ce{CH3OH(aq) + O2(g) -> HCOOH(aq) + H2O(l)}",
+      "\\ce{2 MoCl5 (s) + 5 Na2S -> 2 MoS2 (s) + 10 NaCl + S (s)}",
+      "\\ce{3 Tl+ (aq) -> 2 Tl (s) + Tl^3+ (aq)}"
+    )
+
+    colnames(intro_redox_reactions_9) <- c(
+      "Oksüdeeritu",
+      "Redutseeruv"
+    )
+    
+    print_table(table = intro_redox_reactions_9, caption = "Oksüdeeritava ja redutseeruva aine määramine.")
+    
+    ```
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+6.  Milline on tugevam oksüdeerija?
+Selgitan oma arutluskäiku:
+
+ - \ce{Cl2} või \ce{Cl-}:
+    
+    \blank{\ce{Cl2} will be reduced}\leavevmode\
+    
+    \blank{more easily}\leavevmode\
+    
+    \blank{and is therefore}\leavevmode\
+    
+    \blank{a stronger oxidizing agent}\leavevmode\
+    
+    \blank{than \ce{Cl -} .}
+ 
+ - \ce{N2O5} või \ce{N2O}:
+    
+    \blank{\ce{N2O5} will be}\leavevmode\
+    
+    \blank{a stronger oxidizing agent}\leavevmode\
+    
+    \blank{because it will be}\leavevmode\
+    
+    \blank{readily reduced.}\leavevmode\
+    
+    \blank{\ce{N^5 +} will accept \ce{e -}}\leavevmode\
+    
+    \blank{more readily}\leavevmode\
+    
+    \blank{than will \ce{N +} .}
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+(ref:intro-redox-reactions-13) Teen kindlaks oksüdeerija ja redutseerija igas tabelisse \@ref(tab:intro-redox-reactions-13) leheküljel `r render_pageref(reference="tab:intro-redox-reactions-13")` märgitud reaktsioonis.
+
+\begin{landscape}
+
+7.  (ref:intro-redox-reactions-13)
+
+    ```{r label="intro-redox-reactions-13", echo=FALSE}
+    intro_redox_reactions_13<- data.frame(
+      linebreak(c(
+        "lihtne vahend gaasilise \\ce{H2} valmistamiseks laboris",
+        "reaktsioon, mida kasutatakse väävli tootmiseks vesiniksulfiidist, maagaasi \\textit{hapugaasist}",
+        "elementaarse boori preparaat"
+      )),
+      linebreak(c(
+        "\\blank{\\ce{H +}}\n\\blank{\\ce{HCl(aq)}'s}",
+        "\\blank{\\ce{SO2(g)}}",
+        "\\blank{\\ce{B2O3(s)}}"
+      )),
+      c(
+        "\\blank{\\ce{Zn(s)}}",
+        "\\blank{\\ce{H2S(g)}}",
+        "\\blank{\\ce{Mg(s)}}"
+      )
+    )
+
+    rownames(intro_redox_reactions_13) <- linebreak(c(
+      "\\ce{Zn(s) + 2 HCl(aq)\n -> ZnCl2(aq) + H2(g)}",
+      "\\ce{2 H2S(g) + SO2(g)\n -> 3 S(s) + 2 H2O(l)}",
+      "\\ce{B2O3(s) + 3 Mg(s)\n -> 2B(s) + 3 MgO(s)}"
+    ))
+
+    colnames(intro_redox_reactions_13) <- c(
+      "Selgitus",
+      "Oksüdeerija",
+      "Redutseerija"
+    )
+    
+    print_table(table = intro_redox_reactions_13, caption = "Oksüdeerija ja redutseerija määramine mittetäieliku reaktsiooni kirjelduse puhul.") %>%
+      column_spec(2, width="9em")
+    
+    ```
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+8.  Kas valiksin iga järgneva mittetäieliku reaktsiooni jaoks muundamiseks oksüdeeriva või redutseeriva aine?
+
+ - \ce{ClO4- (aq) -> ClO2 (g)} jaoks valiksin \Circle oksüdeeriva; \Circle redutseeriva aine.
+ 
+ - \ce{SO4^2- (vesi) -> SO2 (g)} jaoks valiksin \Circle oksüdeeriva; \Circle redutseeriva aine.
+ 
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+9.  Sabatieri protsessi on kasutatud \ce{CO2} eemaldamiseks tehisatmosfääridest, näiteks allveelaevadest ja kosmoseaparaatidest.
+Eeliseks on see, et see toodab metaani, \ce{CH4}, mida saab kütusena põletada, ja vett, mida saab taaskasutada. Kujundan protsessi võrrandi ja määran reaktsiooni tüübi:
+\blank{1}\ce{CO2(g)} + \blank{4}\ce{H2(g) ->} \blank{1}\ce{CH4(g)} + \blank{2}\ce{H2O(l)}. See reaktsioon on \blank{redoks-}reaktsioon.
+ 
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+(ref:intro-redox-reactions-19) Määran tabelisse \@ref(tab:intro-redox-reactions-19) leheküljel `r render_pageref(reference="tab:intro-redox-reactions-19")` iga kirjeldatud reaktsiooni oksüdeerija ja redutseerija.
+
+\begin{landscape}
+
+10. (ref:intro-redox-reactions-19)
+
+    ```{r label="intro-redox-reactions-19", echo=FALSE}
+    intro_redox_reactions_19<- data.frame(
+      linebreak(c(
+        "volframmetalli tootmine selle oksiidist",
+        "baasilise vesiniku genereerimine laboris",
+        "metallilise tina tootmine tina(IV)oksiidist",
+        "reaktsioon, mida kasutatakse rakettide liikuma panemiseks"
+      )),
+      linebreak(c(
+        "\\blank{\\ce{WO3(s)}}",
+        "\\blank{\\ce{HCl}}",
+        "\\blank{\\ce{SnO2(s)}}",
+        "\\blank{\\ce{N2O4(g)}}"
+      )),
+      c(
+        "\\blank{\\ce{H2(g)}}",
+        "\\blank{\\ce{Mg(s)}}",
+        "\\blank{\\ce{C(s)}}",
+        "\\blank{\\ce{N2H4(g)}}"
+      )
+    )
+
+    rownames(intro_redox_reactions_19) <- linebreak(c(
+      "\\ce{WO3(s) + 3 H2(g)\n -> W(s) + 3 H2O(l)}",
+      "\\ce{Mg(s) + 2 HCl(aq)\n -> H2(g) + MgCl2(aq)}",
+      "\\ce{SnO2(s) + 2 C(s)\n ->[\\Delta] Sn(l) + 2 CO(g)}",
+      "\\ce{2 N2H4(g) + N2O4(g)\n -> 3 N2(g) + 4 H2O(g)}"
+    ))
+
+    colnames(intro_redox_reactions_19) <- c(
+      "Selgitus",
+      "Oksüdeerija",
+      "Redutseerija"
+    )
+    
+    print_table(table = intro_redox_reactions_19, caption = "Oksüdeerija ja redutseerija määramine täieliku reaktsiooni kirjelduse puhul.") %>%
+      column_spec(2, width="9em")
+    
+    ```
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+11. Kosmoselaevade õhus olev lämmastik kaob järk-järgult lekke tõttu ja see tuleb asendada. Üks meetod on lämmastiku säilitamine hüdrasiini, \ce{N2H4(l)} kujul, millest lämmastikku saab kuumutamisel kergesti kätte. Samuti toodetud ammoniaaki saab edasi töödelda, et saada veelgi rohkem lämmastikku: \ce{N2H4(l) -> NH3(g) + N2(g)}.
+
+    Märgin tabelisse \@ref(tab:intro-redox-reactions-21) leheküljel `r render_pageref(reference="tab:intro-redox-reactions-21")` iga esitatud ühendi lämmastiku oksüdatsiooniarvu.
+    
+    ```{r label="intro-redox-reactions-21", echo=FALSE}
+    intro_redox_reactions_21<- data.frame(
+      c(
+        "\\blank{-2}",
+        "\\blank{-3}",
+        "\\blank{0}"
+      )
+    )
+
+    rownames(intro_redox_reactions_21) <- linebreak(c(
+      "\\ce{N2H4}",
+      "\\ce{NH3}",
+      "\\ce{N2}"
+    ))
+
+    colnames(intro_redox_reactions_21) <- c(
+      "Oksüdatsiooniarv"
+    )
+    
+    print_table(table = intro_redox_reactions_21, caption = "Oksüdatsiooniarvud.")
+    
+    ```
+
+    Oksüdeeriv aine on \blank{\ce{N2H4}}. Redutseeriv aine on \blank{\ce{N2H4}}.
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+12. Mitu mooli hüdrasiini \ce{N2H4} on \qty{1,0}{\litre}'st hüdrasiini?  (Hüdrasiini tihedus on toatemperatuuril \qty{1,004}{\g\per\cubic\centi\m}.)
+    
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+                   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+13. Kui \qty{28}{\g} gaasilist lämmastikku hõivab toatemperatuuril ja rõhul \qty{24}{\litre}, siis millise koguse gaasilist lämmastikku saab \qty{31,3}{\mol}'st hüdrasiinist? Reaktsioonivõrrand on \ce{3 N2H4(l) -> 4 NH3(g) + N2(g)}.
+    
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+                   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+(ref:intro-redox-reactions-25) Tabelisse \@ref(tab:intro-redox-reactions-25) leheküljel `r render_pageref(reference="tab:intro-redox-reactions-25")` märgitud redoksreaktsioonid on teatud elementide rafineerimisel olulised. Kujundan võrrandid ja kirjutan igal juhul elemendi lähteühendi nimetuse (jämedas kirjas) ja sellest ühendist ekstraheeritava elemendi oksüdatsiooniarvu.
+
+\begin{landscape}
+
+14. (ref:intro-redox-reactions-25)
+
+    ```{r label="intro-redox-reactions-25", echo=FALSE}
+    intro_redox_reactions_25<- data.frame(
+      linebreak(c(
+        "\\blank{ränitetrakloriid}",
+        "\\blank{tinaoksiid}",
+        "\\blank{vanaadiumpentoksiid}",
+        "\\blank{booroksiid}"
+      ))
+    )
+
+    rownames(intro_redox_reactions_25) <- linebreak(c(
+      "\\blank{1}\\textbf{\\ce{Si\\textsuperscript{\\blank{4+}}}\\ce{Cl4(l)} +}\\blank{2} \\ce{H2(g)}\n \\ce{ ->}\\blank{1}\\ce{ Si(s) +}\\blank{2}\\ce{ HCl(g)}",
+      "\\blank{1}\\textbf{\\ce{Sn\\textsuperscript{\\blank{4+}}}\\ce{O2(s)} +}\\blank{1}\\ce{ C(s)}\n \\ce{ ->[\\qty{1,2e3}{\\degreeCelsius}]}\\blank{1}\\ce{ Sn(l) +}\\blank{1}\\ce{ CO2}",
+      "\\blank{1}\\textbf{\\ce{V2\\textsuperscript{\\blank{5+}}}\\ce{O5 (s)} +}\\blank{5}\\ce{ Ca (l)}\n \\ce{->[\\Delta]}\\blank{2}\\ce{ V (s) +}\\blank{5}\\ce{ CaO (s)}",
+      "\\blank{1}\\textbf{\\ce{B2\\textsuperscript{\\blank{3+}}}\\ce{O3(s)} +}\\blank{3}\\ce{ Mg(s)}\n \\ce{ ->}\\blank{2}\\ce{ B(s) +}\\blank{3}\\ce{ MgO(s)}"
+    ))
+
+    colnames(intro_redox_reactions_25) <- c(
+      "Nimetus"
+    )
+    
+    print_table(table = intro_redox_reactions_25, caption = "Oksüdatsiooniastme määramine ja võrrandi kujundamine.")
+    
+    ```
+
+    Täna on 2024-1-30 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\end{landscape}
+
+#### Tulemused
+
+2024-1-30 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-30) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-30")`.
+
+```{r label="intro-results-2024-1-30", echo=FALSE}
+tasks_of_intro_2024_1_30<- data.frame(
+  c( # Ülesanne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    6, # Kustov, Vladimir
+    2, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail,
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    7, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # Hinne
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    3, # Kustov, Vladimir
+    2, # Malõšev, Polina
+    0, # 6. Nersesjan, Feliks
+    0, # 7. Salnikova, Veronika
+    4, # Šerstobitov, Mihhail,
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    4, # 10. Trubilko, Vladislav
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_intro_2024_1_25, names = names_10, caption = "Sissejuhatus: 2024-1-25", long = FALSE)
+
+```
+
+### 2024-2-1
+
+1.  Aktiivselt otsitakse ühendeid, mida saaks kasutada vesiniku säilitamiseks sõidukites. Üks uuritav reaktsioon vesiniku säilitamiseks on \ce{Li3N(s) + 2 H2(g) -> LiNH2(s) + 2 LiH(s)}.
+
+ - Mitu mooli \ce{H2} on vaja, et reageerida \qty{1,5}{\milli\g} \ce{Li3N}'ga?
+ 
+ - Arvutan \ce{Li3N} massi, mis annab \qty{0,650}{\mol} \ce{LiH}.
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+                    
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+2.  Tahkekütus kosmosesüstiku võimendusfaasis on ammooniumperkloraadi ja alumiiniumipulbri segu. Süttimisel toimub reaktsioon \ce{6 NH4ClO4(s) + 10 Al(s) -> 5 Al2O3(s) + 3 N2(g) + 6 HCl(g) + 9 H2O(g)}. Milline mass alumiiniumi tuleks selle reaktsiooni jaoks segada \qty{1,325}{\kg} \ce{NH4ClO4}'ga?
+                     
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+3.  Tahkekütus kosmosesüstiku võimendusfaasis on ammooniumperkloraadi ja alumiiniumipulbri segu. Süttimisel toimub reaktsioon \ce{6 NH4ClO4(s) + 10 Al(s) -> 5 Al2O3(s) + 3 N2(g) + 6 HCl(g) + 9 H2O(g)}. Määran \qty{3,500e3}{\kg} alumiiniumi reaktsioonil tekkinud \ce{Al2O3} (alumiiniumoksiid, peeneks jahvatatud valge pulber, mis tekib valge suitsu lainetena) massi.
+   
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+4.  Kaamel säilitab oma küürus rasvase tristeariini \ce{C57H110O6}. Lisaks sellele, et rasv on energiaallikas, on see ka veeallikas, sest selle kasutamisel toimub reaktsioon \ce{2 C57H110O6(s) + 163 O2(g) -> 114 CO2(g) + 110 H2O(l)}.
+
+ - Millise massi vett saab \qty{454}{\g} sellest rasvast?
+ 
+ - Kui palju hapnikku on vaja selle koguse tristeariini oksüdeerimiseks?
+   
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+5.  Süsivesiniku põlemisel tekivad vesi ja süsihappegaas. Bensiini tihedus on \qty{0,79}{\g\per\milli\liter}. Oletame, et bensiin on esindatud oktaanarvuga \ce{C8H18}, mille põlemisreaktsioon on \ce{2 C8H18(l) + 25 O2(g) -> 16 CO2(g) + 18 H2O(l)}. Arvutan vee massi, mis tekib \num{1,0} galloni (\qty{3,8}{\liter}) bensiini põletamisel.
+   
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+6.  Magu kasutab toidu seedimiseks \ce{HCl}'i. Liigne maohape võib aga põhjustada probleeme ja seda tuleb mõnikord neutraliseerida närides antatsiiditablette, mis sisaldavad alust nagu \ce{Mg(OH)2}. Populaarne antatsiidi tablett sisaldab \qty{150,}{\milli\g} \ce{Mg(OH)2}. Millise massi \ce{HCl}'i suudab antatsiiditableti magneesiumhüdroksiidi osa neutraliseerida?
+   
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+7.  Magu kasutab toidu seedimiseks \ce{HCl}'i. Liigne maohape võib aga põhjustada probleeme ja seda tuleb mõnikord neutraliseerida närides antatsiiditablette, mis sisaldavad alust nagu \ce{Mg(OH)2}. Kasutatakse ka karbonaate nagu \ce{CaCO3}, kuna need võivad reageerida alustena: \ce{CaCO3(s) + 2 HCl(aq) -> CaCl2(aq) + CO2(g) + H2O(l)}. Populaarne antatsiidi tablett sisaldab \qty{400,}{\milli\g} \ce{CaCO3}. Kui antatsiiditableti magneesiumhüdroksiidi osa suudab neutraliseerida \qty{0,0001873}{\kg} vesinikkloriidhapet. Millise massi \ce{HCl}'i suudab terve antatsiiditablett neutraliseerida?
+   
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+8.  Naatriumhüdroksiidi lahust mahuga \qty{15,00}{\milli\liter} tiitriti stöhhiomeetrilise punktini \qty{17,40}{\milli\liter} \num{0,234}-M \ce{HCl}'i vesilahusega.
+
+ - Milline on \ce{NaOH} algmolaarsus lahuses?
+ 
+ - Arvutan \ce{NaOH} massi lahuses.
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+9.  Baariumhüdroksiidi proov massiga \qty{9,670}{\g} lahustati ja lahjendati märgini \num{250,0}-\unit{\milli\liter} mõõtekolvis.
+Leiti, et \qty{25,0}{\milli\litre} lämmastikhappe lahuse tiitrimisel oli stöhhiomeetrilise punkti saavutamiseks vaja \qty{11,56}{\milli\litre} seda lahust. Arvutan \ce{HNO3} lahuse molaarsuse.
+  
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+10. Baariumhüdroksiidi proov massiga \qty{9,670}{\g} lahustati ja lahjendati märgini \num{250,0}-\unit{\milli\liter} mõõtekolvis.
+Leiti, et lämmastikhappe lahuse tiitrimisel oli stöhhiomeetrilise punkti saavutamiseks vaja \qty{11,56}{\milli\litre} seda lahust. Kui suur on \ce{HNO3} mass algproovis?
+  
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+11. \num{50,0}-\unit{\milli\litre} \ce{AgNO3} vesilahusele lisati ülemäära \ce{NaI} ja moodustus \qty{1,76}{\g} \ce{AgI} sadet. Kui suur oli \ce{AgNO3} molaarne kontsentratsioon alglahuses?
+  
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+   
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+12. Vesinikkloriidhappe lahus valmistati, mõõtes \qty{10,00}{\milli\liter} kontsentreeritud hapet \num{1000}-liitrisesse mõõtekolbi ja lisades vett kuni märgini. Teine lahus valmistati, lisades \qty{0,832}{\g} veevaba naatriumkarbonaati \qty{100,0}{\milli\litre} mõõtekolbi ja lisades vett kuni märgini. Seejärel pipetiti \qty{25,00}{\milli\litre} karbonaadi lahust kolbi ja tiitriti lahjendatud happega. Kirjutan võrrandi \ce{HCl(aq)} ja \ce{Na2CO3(aq)} reaktsiooni kohta.
+
+    \vspace{0.1\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+13. Vesinikkloriidhappe lahus valmistati, mõõtes \qty{10,00}{\milli\liter} kontsentreeritud hapet \num{1000}-liitrisesse mõõtekolbi ja lisades vett kuni märgini. Teine lahus valmistati, lisades \qty{0,832}{\g} veevaba naatriumkarbonaati \qty{100,0}{\milli\litre} mõõtekolbi ja lisades vett kuni märgini. Seejärel pipetiti \qty{25,00}{\milli\litre} karbonaadi lahust kolbi ja tiitriti lahjendatud happega, mida iseloomustab võrrand \ce{Na2CO3(aq) + 2 HCl(aq) -> 2 NaCl(aq) + H2CO3(aq)}. Stöhhiomeetriline punkt saavutati pärast \qty{31,25}{\milli\litre} happe lahuse lisamist. Milline on algse kontsentreeritud vesinikkloriidhappe molaarsus?
+     
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+ 
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+14. Tiosulfaadi ioonid (\ce{[S2O3]^2-}) "ebaproportsionaalselt" happelises lahuses annavad tahke väävli (\ce{S}) ja vesiniksulfitiooni (\ce{[HSO3]-}): \ce{2 [S2O3]^2- (aq) + 2 [H3O]+ (aq) -> 2 [HSO3]- (aq) + 2 H2O(l) + 2 S(s)}. Disproportsioonireaktsioon on teatud tüüpi oksüdatsiooni-redutseerimisreaktsioon. Mis aine oksüdeerub, milline redutseerub?
+ 
+    \vspace{0.1\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+15. Tiosulfaadi ioonid (\ce{[S2O3]^2-}) "ebaproportsionaalselt" happelises lahuses annavad tahke väävli (\ce{S}) ja vesiniksulfitiooni (\ce{[HSO3]-}): \ce{2 [S2O3]^2- (aq) + 2 [H3O]+ (aq) -> 2 [HSO3]- (aq) + 2 H2O(l) + 2 S(s)}. Kui reaktsioonis saadakse \qty{10,1}{\milli\litre} \num{55,0}-massiprotsendist \ce{HSO3}, siis kui suur mass oli \ce{[S2O3]^2-} algselt, eeldades, et reaktsioon kulges lõpuni? \ce{[HSO3]-} lahuse tihedus on \qty{1,45}{\g\per\cubic\centi\m}.
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+ 
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
