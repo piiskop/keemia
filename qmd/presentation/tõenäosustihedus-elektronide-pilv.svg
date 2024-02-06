@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="82.309mm" height="46.361mm" version="1.1" viewBox="0 0 82.309 46.361" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1354">
+   <path d="m49.452 233.68h110.12v-110.12h-110.12z"/>
+  </clipPath>
+  <radialGradient id="radialGradient1364" cx="0" cy="0" r="1" gradientTransform="matrix(55.06 0 0 -55.06 104.51 178.62)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#231f20" offset="0"/>
+   <stop stop-color="#231f20" offset=".00562"/>
+   <stop stop-color="#231f20" offset=".40599"/>
+   <stop stop-color="#fff" offset="1"/>
+  </radialGradient>
+  <clipPath id="clipPath1394">
+   <path d="m176.39 251.81h-127.35v-128.26h127.35z"/>
+  </clipPath>
+  <clipPath id="clipPath1402">
+   <path d="m0 781.35h609.72v-781.08h-609.72z"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-103.37 -22.978)">
+  <g transform="matrix(.35278 0 0 -.35278 86.07 112.65)">
+   <g clip-path="url(#clipPath1354)">
+    <path d="m159.57 178.62c0-30.409-24.652-55.06-55.06-55.06s-55.059 24.651-55.059 55.06c0 30.408 24.651 55.059 55.059 55.059s55.06-24.651 55.06-55.059" fill="url(#radialGradient1364)"/>
+   </g>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 123.12 28.434)">
+   <path d="m0 0 66.008-20.837v-60.286l-66.008 20.837zm0-45.214 66.008-20.838m-66.008 35.909 66.008-20.837m-66.008 35.909 66.008-20.838m-16.502 20.281v-60.285m-16.502 65.494v-60.285m-16.502 65.495v-60.286" fill="none" stroke="#a7a9ac" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 123 28.286)">
+   <path d="m0 0c9.194-28.009 23.971-62.131 66.33-81.863" fill="none" stroke="#df8637" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 122.94 49.637)">
+   <path d="m0 0v60.856" fill="#fff"/>
+   <path d="m0 0v60.856" fill="none" stroke="#231f20" stroke-width=".5"/>
+   <path d="m0 0v44.756" fill="#fff"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 86.07 112.65)">
+   <g clip-path="url(#clipPath1394)">
+    <g clip-path="url(#clipPath1402)">
+     <g transform="translate(104.51 178.62)" fill="none" stroke-width=".5">
+      <path d="m0 0v44.756" stroke="#bbbdbf"/>
+      <path d="m0 0-55.382-21.252" stroke="#231f20"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 122.94 49.637)" fill="none" stroke-width=".5">
+   <path d="m0 0-41.763-16.026" stroke="#a7a9ac"/>
+   <path d="m0 0 66.974-20.93" stroke="#231f20"/>
+   <path d="m0 0 37.094-11.592" stroke="#a7a9ac"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 138.69 30.563)">
+   <path d="m0 0-32.741-22.522" fill="#fff"/>
+   <path d="m0 0-32.741-22.522" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <text x="129.43117" y="27.803921" fill="#231f20" font-family="Sabon" font-size="6.35px" stroke-width=".35278" xml:space="preserve"><tspan x="129.43117" y="27.803921" font-family="'DejaVu Sans'" font-size="6.35px" stroke-width=".35278">tõenäosustihedus</tspan></text>
+  <text x="112.25371" y="67.81498" fill="#231f20" font-family="Sabon" font-size="6.35px" stroke-width=".35278" xml:space="preserve"><tspan x="112.25371" y="67.81498" font-family="'DejaVu Sans'" font-size="6.35px" stroke-width=".35278">elektronide pilv</tspan></text>
+ </g>
+</svg>

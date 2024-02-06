@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="36.8mm" height="19.511mm" version="1.1" viewBox="0 0 36.8 19.511" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1866">
+   <path d="m75.79 383.03h23.51v-23.51h-23.51z"/>
+  </clipPath>
+  <radialGradient id="radialGradient1872" cx="0" cy="0" r="1" fx=".27875" fy="-.42625" gradientTransform="matrix(11.755 0 0 -11.755 87.545 371.28)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffdaa2" offset="0"/>
+   <stop stop-color="#a72c31" offset="1"/>
+  </radialGradient>
+  <clipPath id="clipPath1882">
+   <path d="m165.04 383.03h-104.53v-55.307h104.53z"/>
+  </clipPath>
+  <clipPath id="clipPath1904">
+   <path d="m75.79 351.23h23.51v-23.51h-23.51z"/>
+  </clipPath>
+  <radialGradient id="radialGradient1910" cx="0" cy="0" r="1" fx=".27875" fy="-.42625" gradientTransform="matrix(11.755 0 0 -11.755 87.545 339.48)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffdaa2" offset="0"/>
+   <stop stop-color="#a72c31" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(-78.502 -35.55)">
+  <g transform="matrix(.35278 0 0 -.35278 100.63 41.799)">
+   <path d="m0 0v12.832" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 100.63 37.273)">
+   <path d="m0 0 2.131-3.332 0.848 0.584-2.561 3.99h-0.815l-2.634-3.961 0.832-0.588 2.199 3.307" fill="#231f20" fill-rule="evenodd"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 100.63 48.679)">
+   <path d="m0 0v-12.832" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 100.63 53.205)">
+   <path d="m0 0 2.131 3.332 0.848-0.584-2.561-3.99h-0.815l-2.634 3.96 0.832 0.588 2.199-3.306" fill="#231f20" fill-rule="evenodd"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 57.156 170.67)">
+   <g clip-path="url(#clipPath1866)">
+    <path d="m99.3 371.28c0-6.493-5.263-11.755-11.755-11.755s-11.755 5.262-11.755 11.755c0 6.492 5.263 11.755 11.755 11.755s11.755-5.263 11.755-11.755" fill="url(#radialGradient1872)"/>
+   </g>
+   <g clip-path="url(#clipPath1882)">
+    <g transform="translate(107.02 367.95)">
+     <path d="m0 0c-4.914-0.747-11.487-1.204-18.707-1.204-15.22 0-27.558 2.028-27.558 4.529 0 1.808 6.449 3.369 15.773 4.094m21.983 0.114c10.171-0.666 17.358-2.299 17.358-4.208 0-1.314-3.407-2.498-8.849-3.325" fill="none" stroke="#231f20" stroke-width=".5"/>
+    </g>
+   </g>
+   <g clip-path="url(#clipPath1904)">
+    <path d="m99.3 339.48c0-6.492-5.263-11.755-11.755-11.755s-11.755 5.263-11.755 11.755 5.263 11.755 11.755 11.755 11.755-5.263 11.755-11.755" fill="url(#radialGradient1910)"/>
+   </g>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 94.912 52.087)">
+   <path d="m0 0c-4.914-0.746-11.487-1.204-18.707-1.204-15.22 0-27.558 2.028-27.558 4.53 0 1.807 6.449 3.368 15.773 4.094m21.983 0.113c10.171-0.666 17.358-2.299 17.358-4.207 0-1.315-3.407-2.498-8.849-3.326" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 94.911 40.87)">
+   <path d="m0 0-3.035-2.537 0.688-0.768 3.632 3.049-0.103 0.807-4.265 2.11-0.477-0.9 3.56-1.761" fill="#231f20" fill-rule="evenodd"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 94.098 52.198)">
+   <path d="M 0,0 3.619,-1.598 3.17,-2.525 -1.164,-0.603 -1.288,0.203 2.225,3.41 2.933,2.677 0,0" fill="#231f20" fill-rule="evenodd"/>
+  </g>
+  <g fill="#231f20">
+   <g stroke-width=".35278">
+    <text x="103.47761" y="51.603432" font-family="Sabon" font-size="2.8222px" font-style="italic" xml:space="preserve"><tspan x="103.47761" y="51.603432" stroke-width=".35278">m</tspan></text>
+    <text x="105.82853" y="52.661766" font-family="Sabon" font-size="2.4694px" font-style="italic" xml:space="preserve"><tspan x="105.82853" y="52.661766" stroke-width=".35278">s</tspan></text>
+    <text x="107.57372" y="51.603432" font-family="Symbol" font-size="3.175px" xml:space="preserve"><tspan x="107.57372" y="51.603432" stroke-width=".35278">= -</tspan></text>
+   </g>
+   <g font-family="Sabon">
+    <text x="112.45228" y="50.545101" font-size="2.1167px" stroke-width=".35278" xml:space="preserve"><tspan x="112.45228" y="50.545101" stroke-width=".35278">1</tspan></text>
+    <text transform="scale(.89443 1.118)" x="126.8046" y="46.155514" font-size="3.1553px" font-style="italic" stroke-width=".31553" xml:space="preserve"><tspan x="126.8046" y="46.155514" stroke-width=".31553">/</tspan></text>
+    <g stroke-width=".35278">
+     <text x="114.20206" y="51.603432" font-size="2.1167px" xml:space="preserve"><tspan x="114.20206" y="51.603432" stroke-width=".35278">2</tspan></text>
+     <text x="103.47761" y="40.314934" font-size="2.8222px" font-style="italic" xml:space="preserve"><tspan x="103.47761" y="40.314934" stroke-width=".35278">m</tspan></text>
+     <text x="105.82853" y="41.373264" font-size="2.4694px" font-style="italic" xml:space="preserve"><tspan x="105.82853" y="41.373264" stroke-width=".35278">s</tspan></text>
+    </g>
+   </g>
+   <text x="107.57372" y="40.314934" font-family="Symbol" font-size="3.175px" stroke-width=".35278" xml:space="preserve"><tspan x="107.57372" y="40.314934" stroke-width=".35278">=</tspan></text>
+   <g font-family="Sabon">
+    <text x="112.45228" y="39.256599" font-size="2.1167px" stroke-width=".35278" xml:space="preserve"><tspan x="112.45228" y="39.256599" stroke-width=".35278">1</tspan></text>
+    <text transform="scale(.89443 1.118)" x="126.8046" y="36.058773" font-size="3.1553px" font-style="italic" stroke-width=".31553" xml:space="preserve"><tspan x="126.8046" y="36.058773" stroke-width=".31553">/</tspan></text>
+    <text x="114.20206" y="40.314934" font-size="2.1167px" stroke-width=".35278" xml:space="preserve"><tspan x="114.20206" y="40.314934" stroke-width=".35278">2</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>

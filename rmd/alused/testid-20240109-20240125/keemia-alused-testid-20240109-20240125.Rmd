@@ -1,8 +1,8 @@
+[]{#intro-tasks-2024-1-9}
+
 ## Testid 2024
 
 ### 2024-1-9
-
-#### Ülesanded
 
 1.  Kirjutan järgnevate ühendite valemid:
      - mangaan(II)kloriid: \blank{\ce{MnCl2}};
@@ -281,55 +281,11 @@
 
     Täna on 2024-1-9 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-#### Tulemused
-
-2024-1-9 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-9) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-9")`.
-
-```{r label="intro-results-2024-1-9", echo=FALSE}
-tasks_of_intro_2024_1_9<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    7, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    6, # Malõšev, Polina
-    4, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    1, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    1, # Malõšev, Polina
-    3, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    4, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_9, names = names_10, caption = "Sissejuhatus: 2024-1-9", long = FALSE)
-
-```
-
 \pagebreak
 
-### 2024-1-11
+[]{#intro-tasks-2024-1-11}
 
-#### Ülesanded
+### 2024-1-11
 
 1.  Nanotehnoloogia valdkond pakub mõningaid intrigeerivaid võimalusi, näiteks ühe aatomi laiuste kiudude loomine. Oletame, et mul õnnestuks süsinik-nanotorudesse kapseldades ühendada \qty{1,00}{\mol} \ce{Ag}-aatomit, millest igaühe raadius on \qty{144}{\pico\m}, üheks sellistest kiududest. Kui pikk see kiud oleks?
     
@@ -490,55 +446,11 @@ Arvutan \ce{D2O} molaarmassi, kasutades deuteeriumi molaarmassi \qty{2,014}{\g\p
     
     Täna on 2024-1-11 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-#### Tulemused
-
-2024-1-11 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-11) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-11")`.
-
-```{r label="intro-results-2024-1-11", echo=FALSE}
-tasks_of_intro_2024_1_11<- data.frame(
-  c( # Ülesanne
-    3, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    5, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    1, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    2, # Šerstobitov, Mihhail, teisel katsel 6
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    1, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    1, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    1, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    1, # Šerstobitov, Mihhail, teisel katsel 5
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_11, names = names_10, caption = "Sissejuhatus: 2024-1-11", long = FALSE)
-
-```
-
 \pagebreak
 
-### 2024-1-16
+[]{#intro-tasks-2024-1-16}
 
-#### Ülesanded
+### 2024-1-16
 
 1.  Tsitraal on sidruniõli lõhnav komponent, mida kasutatakse odekolonnides. Joonisel \@ref(fig:basics-revision-formulas-citral-C-H) leheküljel `r render_pageref(reference="fig:basics-revision-formulas-citral-C-H")` on näidatud molekulaarne struktuur. Arvutan süsiniku ja vesiniku massiosad tsitraalis protsentides.
 
@@ -692,53 +604,9 @@ tasks_of_intro_2024_1_11<- data.frame(
     
     Täna on 2024-1-16 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-#### Tulemused
-
-2024-1-16 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-16) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-16")`.
-
-```{r label="intro-results-2024-1-16", echo=FALSE}
-tasks_of_intro_2024_1_16<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    7, # Kustov, Vladimir
-    2, # Malõšev, Polina
-    4, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    1, # Šerstobitov, Mihhail,
-    5, # 7. Šesterikov, Daniil
-    3, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    3, # Kustov, Vladimir
-    2, # Malõšev, Polina
-    3, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    4, # Šerstobitov, Mihhail,
-    2, # 7. Šesterikov, Daniil
-    5, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_16, names = names_10, caption = "Sissejuhatus: 2024-1-16", long = FALSE)
-
-```
+[]{#intro-tasks-2024-1-18}
 
 ### 2024-1-18
-
-#### Ülesanded 
 
 Järgnevad ülesanded on mõeldud lahendamiseks 2024-1-18:
 
@@ -949,55 +817,11 @@ Järgnevad ülesanded on mõeldud lahendamiseks 2024-1-18:
 
     Täna on 2024-1-18 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-#### Tulemused
-
-2024-1-18 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-18) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-18")`.
-
-```{r label="intro-results-2024-1-18", echo=FALSE}
-tasks_of_intro_2024_1_18<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    0, # Malõšev, Polina
-    5, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    2, # Šerstobitov, Mihhail,
-    0, # 7. Šesterikov, Daniil
-    1, # Žigadlo, Grigori
-    3, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    0, # Malõšev, Polina
-    1, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    1, # Šerstobitov, Mihhail,
-    0, # 7. Šesterikov, Daniil
-    3, # Žigadlo, Grigori
-    2, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_18, names = names_10, caption = "Sissejuhatus: 2024-1-18", long = FALSE)
-
-```
-
 \pagebreak
 
-### 2024-1-23
+[]{#intro-tasks-2024-1-23}
 
-#### Ülesanded
+### 2024-1-23
 
 1.  Näib, et keemilise avaldise \ce{Cu + SO2 -> CuO + S} tasakaalustamine oleks lihtne, kui saaksime saaduspoolele lisada veel ühe \ce{O}:
 
@@ -1150,55 +974,11 @@ tasks_of_intro_2024_1_18<- data.frame(
                      
     Täna on 2024-1-23 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-#### Tulemused
-
-2024-1-23 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-23) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-23")`.
-
-```{r label="intro-results-2024-1-23", echo=FALSE}
-tasks_of_intro_2024_1_23<- data.frame(
-  c( # Ülesanne
-    3, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    7, # Kustov, Vladimir
-    6, # Malõšev, Polina
-    1, # 6. Nersesjan, Feliks
-    2, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail,
-    0, # 7. Šesterikov, Daniil
-    9, # Žigadlo, Grigori, enne 8
-    0, # 9. Žukova, Darja
-    4, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    5, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    5, # Kustov, Vladimir
-    3, # Malõšev, Polina
-    1, # 6. Nersesjan, Feliks
-    1, # 7. Salnikova, Veronika
-    2, # Šerstobitov, Mihhail,
-    0, # 7. Šesterikov, Daniil
-    2, # Žigadlo, Grigori, enne 5, aga tuvastasin, et ta ei jaga ööd ega mütsi
-    0, # 9. Žukova, Darja
-    3, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_23, names = names_10, caption = "Sissejuhatus: 2024-1-23", long = FALSE)
-
-```
-
 \pagebreak
 
-### 2024-1-25
+[]{#intro-tasks-2024-1-25}
 
-#### Ülesanded
+### 2024-1-25
 
 1.  Pildil \@ref(fig:basics-revision-aqueous-solutions-and-precipitation-1) leheküljel `r render_pageref(reference="fig:basics-revision-aqueous-solutions-and-precipitation-1")` vaataja poolt vasakpoolne keeduklaas sisaldab \num{0,50} M \ce{CaCl2(aq)} ja parempoolne keeduklaas \num{0,50} M \ce{Na2SO4(aq)}. Oletame, et kahe keeduklaasi sisu on segatud. Kirjeldan, milline näeks välja kolmanda keeduklaasi sisu, millesse oleksid kahe kahe esimese keeduklaasi sisu kokku valatud ja segatud.
 
@@ -1520,47 +1300,3 @@ tasks_of_intro_2024_1_23<- data.frame(
     ```
 
 \end{landscape}
-
-#### Tulemused
-
-2024-1-25 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-25) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-25")`.
-
-```{r label="intro-results-2024-1-25", echo=FALSE}
-tasks_of_intro_2024_1_25<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    4, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    3, # Kustov, Vladimir
-    8, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    7, # Šerstobitov, Mihhail,
-    6, # 7. Šesterikov, Daniil
-    1, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    4, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    5, # Kustov, Vladimir
-    1, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    2, # Šerstobitov, Mihhail,
-    2, # 7. Šesterikov, Daniil
-    4, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_25, names = names_10, caption = "Sissejuhatus: 2024-1-25", long = FALSE)
-
-```

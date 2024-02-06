@@ -357,3 +357,10 @@ Kasutan oma nimekujus koolonit, mis tähendab soovi olla ka juriidiliselt sõltu
 Mõni aasta tagasi leidis vastuseid hõlpsasti, aga järjepanu neid vastuseid eemaldati. Selleks ajaks olin enda jaoks juhtmõtte piisavalt selgeks teinud. Eesti inimestel kipub jah olema, et kas osatakse inglise keelt või vene keelt, mõlema oskajaid on üsna vähe. Kui sa valdad vene keelt, siis leiad ka selles keeles hullult palju infot, aga tuleb täheldada, et šarlatane on sõltumata keeleoskusest ja tuleb osata välja lugeda enda jaoks tõest teavet. Nimelt paljuski loodavad inimesed, kes oma eluga ise hakkama ei saa, lihtsatele lahendustele, et umbes kuulutada end vabaks ja kohtutäitur ei võta korterit ära. Nii see ei toimi. Tuleb pühenduda ja aru saada ümbritsevast keskkonnast ning hästi oluline on mitte tegutseda pelgalt kellegi muu järgi, vaid minna oma teed, sest ainult nii suudetakse põhjendada, miks midagi tehakse. Muidu oleks ka vastuolu: kirjutatakse nimi küll väikeselt, aga ikkagi elatakse kellegi muu järgi.
 
 Eesti suhtes avalikult teatamiseks loetakse vähemalt üle-Eestilises avalikus väljaandes teatamist. Kui väljaanne on saadaval Interneti kaudu, siis on tegemist lausa globaalse teadaandega. Mina olen seda teinud Harku Valla Teatajas[@lk, lk 4]  ja Õhtulehes[@jrgmine].
+
+```{r label="link-to-web", echo=FALSE}
+if (knitr::is_latex_output()) {
+  "[veebiteisend](http://keemia.ons.ee)"
+}
+
+```

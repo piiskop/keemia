@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="67.035mm" height="35.635mm" version="1.1" viewBox="0 0 67.035 35.635" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath69845">
+   <path d="m167.8 528.1 51.103-42.881-41.094-48.974-51.103 42.881z"/>
+  </clipPath>
+  <linearGradient id="linearGradient69857" x2="1" gradientTransform="matrix(29.324 -24.606 -24.606 -29.324 157.75 494.81)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#231f20" offset="0"/>
+   <stop stop-color="#fff" offset=".22472"/>
+   <stop stop-color="#808284" offset=".48877"/>
+   <stop stop-color="#fff" offset=".79213"/>
+   <stop stop-color="#231f20" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath69889">
+   <path d="m175.46 505.01 52.995-44.468-43.224-51.512-52.995 44.468z"/>
+  </clipPath>
+  <linearGradient id="linearGradient69901" x2="1" gradientTransform="matrix(27.516 -23.089 -23.089 -27.516 166.13 468.94)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#231f20" offset="0"/>
+   <stop stop-color="#fff" offset=".22472"/>
+   <stop stop-color="#808284" offset=".48877"/>
+   <stop stop-color="#fff" offset=".79213"/>
+   <stop stop-color="#231f20" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-89.936 -87.933)">
+  <g transform="matrix(.35278 0 0 -.35278 149.1 117.66)">
+   <path d="M 0,0 -41.409,13.293 V 70.128 L 0,65.394 V 0" fill="#ffefcf"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 138.09 105.98)">
+   <path d="m0 0v-7.605l-13.077 6.109v7.649l-5.103 2.402v-13.779l23.135-10.887v13.78l-4.955 2.331" fill="#231f20"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 133.47 106.51)">
+   <path d="m 0,0 -58.665,-24.845 v 8.666 L 0,7.649 V 0" fill="#bbbdbf"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 133.47 103.81)">
+   <path d="m 0,0 -58.665,-23.828 -5.781,2.721 L -5.103,2.402 0,0" fill="#e6e7e8"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 138.09 108.66)">
+   <path d="m 0,0 -56.928,-25.656 -14.814,6.92 L -13.077,6.109 0,0" fill="#a7a9ac"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 118 114.67)">
+   <path d="m0 0v-8.615l-14.814 6.92v8.666l-5.781 2.721v-15.61l26.208-12.333v15.609l-5.613 2.642" fill="#808284"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 135.61 109.73)">
+   <path d="m0 0v32.969" fill="#a7a9ac"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 117.08 111.27)">
+   <path d="M 0,0 -12.036,4.536 V 18.142 L 0,13.781 V 0" fill="#a7a9ac"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 114.97 113.67)">
+   <path d="M 0,0 -6.055,11.339 5.981,6.803 0,0" fill="#a7a9ac"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 137.42 103.19)">
+   <path d="M 0,0 -10.634,4.008 V 16.031 L 0,12.177 V 0" fill="#a7a9ac"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 137.42 98.891)">
+   <path d="M 0,0 -57.637,-21.313 -69.673,-16.952 -10.634,3.854 0,0" fill="#e6e7e8"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 66.288 275.18)">
+   <g clip-path="url(#clipPath69845)">
+    <path d="m201.62 487.54-57.637-22.917v13.781l57.637 21.313v-12.177" fill="url(#linearGradient69857)"/>
+   </g>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 134.48 93.009)">
+   <path d="m0 0 41.185-4.711v-65.172h0.5v65.618l-41.628 4.762-0.057-0.497" fill="#a72c31"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 107.06 118.53)">
+   <path d="m0 0c9e-3 0 21.312 8.208 27.135 11.232 2.88 1.503 16.056 7.947 28.494 14.013 6.219 3.033 12.258 5.967 16.74 8.154 2.25 1.089 4.095 1.989 5.391 2.61 1.296 0.63 2.025 0.99 2.025 0.99l0.018 9e-3 19.098 13.095-0.288 0.414-19.08-13.086 0.144-0.207-0.108 0.225s-46.872-22.752-52.668-25.767c-2.871-1.503-9.648-4.311-15.696-6.732-3.033-1.215-5.877-2.34-7.965-3.15-2.088-0.819-3.411-1.332-3.42-1.332l0.18-0.468" fill="#a72c31"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 107.11 118.56)">
+   <path d="m0 0s1.296 0.558 3.348 1.431c6.147 2.601 19.08 8.01 23.931 9.495 6.516 1.998 57.375 19.053 57.384 19.053l-0.081 0.234-0.027-0.243 15.165-1.557 0.054 0.495-15.219 1.566-0.054-0.018s-0.792-0.27-2.196-0.738c-9.828-3.294-49.491-16.569-55.179-18.315-6.534-1.998-27.315-10.944-27.324-10.944l0.198-0.459" fill="#a72c31"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 66.288 275.18)">
+   <g clip-path="url(#clipPath69889)">
+    <path d="m208.48 463.52-56.27-26.786v15.609l56.27 24.957v-13.78" fill="url(#linearGradient69901)"/>
+   </g>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 139.83 106.8)">
+   <path d="m 0,0 -56.27,-24.957 -5.613,2.642 L -4.955,2.331 0,0" fill="#e6e7e8"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 135.55 105.31)">
+   <path d="m 0,0 -58.334,-23.709 5.981,6.803 L 5.284,6.011 0,0" fill="#6c6e70"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 142.45 101.04)">
+   <path d="m0 0c-0.486 0-1.08 0.064-1.712 0.198-0.051 0.011-0.102 0.022-0.153 0.034l0.45 0.308-0.288 0.414-0.804-0.551c-1.113 0.337-1.88 0.809-1.806 1.154 0.052 0.247 0.521 0.377 1.203 0.377 0.489 0 1.087-0.067 1.722-0.206 1.53-0.324 2.691-0.927 2.601-1.35-0.053-0.248-0.524-0.378-1.213-0.378" fill="#bd664f"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 141.79 100.96)">
+   <path d="M 0,0 C -0.223,0.051 -0.439,0.109 -0.642,0.171 L 0.162,0.722 0.45,0.308 0,0" fill="#a72c31"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 142.85 108.79)">
+   <path d="m0 0c-0.487 0-1.083 0.064-1.715 0.198-0.872 0.186-1.628 0.466-2.098 0.752l2.233-0.23 0.054 0.495-2.794 0.288c-1e-3 0.018 0 0.036 4e-3 0.054 0.052 0.247 0.521 0.377 1.205 0.377 0.49 0 1.09-0.067 1.729-0.206 1.521-0.324 2.691-0.927 2.601-1.35-0.053-0.248-0.527-0.378-1.219-0.378" fill="#bd664f"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 142.29 108.54)">
+   <path d="M 0,0 -2.233,0.23 C -2.548,0.421 -2.734,0.614 -2.74,0.783 L 0.054,0.495 0,0" fill="#a72c31"/>
+  </g>
+  <g font-size="5.6444px">
+   <text x="124.54153" y="122.29383" fill="#231f20" font-family="Sabon" stroke-width=".35278" xml:space="preserve"><tspan x="124.54153" y="122.29383" font-family="'DejaVu Sans'" font-size="5.6444px" stroke-width=".35278">magnet</tspan></text>
+   <text x="103.78521" y="123.48798" fill="#000000" font-family="'DejaVu Sans'" stroke-dasharray="1.76, 1.76" stroke-dashoffset="3.52" stroke-linecap="square" stroke-width="1.76" text-align="center" text-anchor="middle" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="103.78521" y="123.48798" stroke-width="1.76">aatomikiir</tspan></text>
+   <text x="138.12036" y="92.220963" fill="#000000" font-family="'DejaVu Sans'" stroke-dasharray="1.76, 1.76" stroke-dashoffset="3.52" stroke-linecap="square" stroke-width="1.76" text-align="center" text-anchor="middle" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="138.12036" y="92.220963" stroke-width="1.76">kogumisplaat</tspan></text>
+  </g>
+ </g>
+</svg>

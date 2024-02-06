@@ -1,7 +1,6 @@
+[]{#intro-tasks-2024-1-30}
 
 ### 2024-1-30
-
-#### Ülesanded
 
 1.  Kirjutan võrrandi iga järgmise redoksreaktsiooni skeleti kohta:
 
@@ -399,49 +398,7 @@ Eeliseks on see, et see toodab metaani, \ce{CH4}, mida saab kütusena põletada,
 
 \end{landscape}
 
-#### Tulemused
-
-2024-1-30 lühitesti tulemused on tabelis \@ref(tab:intro-results-2024-1-30) leheküljel `r render_pageref(reference="tab:intro-results-2024-1-30")`.
-
-```{r label="intro-results-2024-1-30", echo=FALSE}
-tasks_of_intro_2024_1_30<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    6, # Kustov, Vladimir
-    2, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail,
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    7, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    3, # Kustov, Vladimir
-    2, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    4, # Šerstobitov, Mihhail,
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    4, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2024_1_25, names = names_10, caption = "Sissejuhatus: 2024-1-25", long = FALSE)
-
-```
+[]{#intro-tasks-2024-2-1}
 
 ### 2024-2-1
 
@@ -600,3 +557,464 @@ Leiti, et lämmastikhappe lahuse tiitrimisel oli stöhhiomeetrilise punkti saavu
     \vspace{0.5\textheight}
 
     Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+### Tulemused
+
+Keemia aluste kursuse tulemused on tabelites \@ref(tab:intro-results-1) leheküljel `r render_pageref(reference="tab:intro-results-1")` ja \@ref(tab:intro-results-2) leheküljel `r render_pageref(reference="tab:intro-results-2")`.
+
+\landscapebegin
+
+(ref:intro-tasks-2023-12-12) [2023-12-12](#intro-tasks-2023-12-12)
+(ref:intro-tasks-2023-12-14) [2023-12-14](#intro-tasks-2023-12-14)
+(ref:intro-tasks-2023-12-19) [2023-12-19](#intro-tasks-2023-12-19)
+(ref:intro-tasks-2024-1-9) [2024-1-9](#intro-tasks-2024-1-9)
+(ref:intro-tasks-2024-1-11) [2024-1-11](#intro-tasks-2024-1-11)
+(ref:intro-tasks-2024-1-16) [2024-1-16](#intro-tasks-2024-1-16)
+(ref:intro-tasks-2024-1-18) [2024-1-18](#intro-tasks-2024-1-18)
+(ref:intro-tasks-2024-1-23) [2024-1-23](#intro-tasks-2024-1-23)
+(ref:intro-tasks-2024-1-25) [2024-1-25](#intro-tasks-2024-1-25)
+(ref:intro-tasks-2024-1-30) [2024-1-30](#intro-tasks-2024-1-30)
+(ref:intro-tasks-2024-2-1) [2024-2-1](#intro-tasks-2024-2-1)
+
+```{r label="intro-results-1", echo=FALSE}
+
+intro_dates <- c(
+  "(ref:intro-tasks-2023-12-12)",
+  "(ref:intro-tasks-2023-12-14)",
+  "(ref:intro-tasks-2023-12-19)",
+  "(ref:intro-tasks-2024-1-9)",
+  "(ref:intro-tasks-2024-1-11)",
+  "(ref:intro-tasks-2024-1-16)",
+  "(ref:intro-tasks-2024-1-18)",
+  "(ref:intro-tasks-2024-1-23)",
+  "(ref:intro-tasks-2024-1-25)",
+  "(ref:intro-tasks-2024-1-30)",
+  "(ref:intro-tasks-2024-2-1)"
+)
+
+intro_tasks <- data.frame(
+  c( # 2023-12-12
+    8, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    7, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    6, # Malõšev, Polina
+    2, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    NA, # 7. Šesterikov, Daniil
+    1, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    4, # 12. Volkova, Darja
+    3 # Volkova, Jeva
+  ),
+  c( # 2023-12-14
+    2, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    4, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    3, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail
+    8, # 7. Šesterikov, Daniil
+    5, # Žigadlo, Grigori
+    9, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    7 # Volkova, Jeva
+  ),
+  c( # 2023-12-19
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    7, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    6, # Malõšev, Polina
+    4, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    NA, # 7. Šesterikov, Daniil
+    2, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-9
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    7, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    6, # Malõšev, Polina
+    4, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-11
+    3, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    5, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail, teisel katsel 6, kolmandal 8
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-16
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    7, # Kustov, Vladimir
+    2, # Malõšev, Polina
+    4, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    1, # Šerstobitov, Mihhail,
+    5, # 7. Šesterikov, Daniil
+    3, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-18
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    5, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    10, # Šerstobitov, Mihhail, varem 2
+    NA, # 7. Šesterikov, Daniil
+    1, # Žigadlo, Grigori
+    3, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-23
+    3, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    7, # Kustov, Vladimir
+    6, # Malõšev, Polina
+    1, # 6. Nersesjan, Feliks
+    2, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail,
+    NA, # 7. Šesterikov, Daniil
+    9, # Žigadlo, Grigori, enne 8
+    NA, # 9. Žukova, Darja
+    4, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-25
+    NA, # 1. Babiy, Alisa
+    4, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    3, # Kustov, Vladimir
+    8, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    7, # Šerstobitov, Mihhail,
+    6, # 7. Šesterikov, Daniil
+    1, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-30
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    6, # Kustov, Vladimir
+    2, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail,
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    7, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-2-1
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    5, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail,
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    4, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  )
+)
+
+intro_grades <- data.frame(
+  c( # 2023-12-12
+    1, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    5, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    4, # Malõšev, Polina
+    4, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    3, # Šerstobitov, Mihhail
+    NA, # 7. Šesterikov, Daniil
+    3, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    3, # 12. Volkova, Darja
+    1 # Volkova, Jeva
+  ),
+  c( # 2023-12-14
+    5, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    4, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    3, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    5, # Šerstobitov, Mihhail
+    1, # 7. Šesterikov, Daniil
+    4, # Žigadlo, Grigori
+    1, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    3 # Volkova, Jeva
+  ),
+  c( # 2023-12-19
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    5, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    4, # Malõšev, Polina
+    5, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    3, # Šerstobitov, Mihhail, esimesel katsel 1
+    1, # 7. Šesterikov, Daniil
+    2, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-9
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    3, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    4, # Šerstobitov, Mihhail
+    1, # 7. Šesterikov, Daniil
+    1, # Žigadlo, Grigori
+    1, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-11
+    1, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    1, # Šerstobitov, Mihhail, teisel katsel 5, kolmandal ka 1
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-16
+    1, # 1. Babiy, Alisa
+    1, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    3, # Kustov, Vladimir
+    2, # Malõšev, Polina
+    3, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    4, # Šerstobitov, Mihhail,
+    2, # 7. Šesterikov, Daniil
+    5, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-18
+    1, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    1, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail, enne 1
+    NA, # 7. Šesterikov, Daniil
+    3, # Žigadlo, Grigori
+    2, # 9. Žukova, Darja
+    1, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-23
+    5, # 1. Babiy, Alisa
+    1, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    5, # Kustov, Vladimir
+    3, # Malõšev, Polina
+    1, # 6. Nersesjan, Feliks
+    1, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail,
+    1, # 7. Šesterikov, Daniil
+    2, # Žigadlo, Grigori, enne 5, aga tuvastasin, et ta ei jaga ööd ega mütsi
+    1, # 9. Žukova, Darja
+    1, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-25
+    NA, # 1. Babiy, Alisa
+    4, # Donat Irhin
+    1, # 3. Kimasks, Stanislavs
+    1, # Kustov, Vladimir
+    1, # Malõšev, Polina
+    1, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    2, # Šerstobitov, Mihhail,
+    2, # 7. Šesterikov, Daniil
+    4, # Žigadlo, Grigori
+    1, # 9. Žukova, Darja
+    1, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-1-30
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    3, # Kustov, Vladimir
+    2, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    4, # Šerstobitov, Mihhail,
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    4, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-2-1
+    NA, # 1. Babiy, Alisa
+    NA, # Donat Irhin
+    2, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    3, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    4, # Šerstobitov, Mihhail,
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    3, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  )
+)
+
+summary <- rowMeans(x=intro_grades, na.rm=TRUE)
+
+data_frame <- cbind(intro_tasks[1], intro_grades[1])
+number_of_tests <- length(intro_dates)
+limit_of_dates <- 6
+additional_header <- data.frame(
+  c("Õpilane", intro_dates[1:limit_of_dates]),
+  c(1, rep(x=2, limit_of_dates))
+)
+
+for (date in 2:number_of_tests) {
+  data_frame <- cbind(data_frame, intro_tasks[date], intro_grades[date])
+}
+
+data_frame <- cbind(data_frame, summary)
+
+last_column <- limit_of_dates * 2
+data_frame_1 <- subset(data_frame, select = c(1:last_column))
+colnames(data_frame_1) <- c(
+  rep(x=c("Üles-anne", "Hinne"), limit_of_dates)
+)
+rownames(data_frame_1) <- names_10
+table <- print_table(
+  table = data_frame_1,
+  caption = paste("Keemia aluste kursuse tulemused ", intro_dates[1], " kuni ", intro_dates[limit_of_dates], ".", sep=""),
+  additional_header = additional_header
+)
+
+for (date in 1:limit_of_dates) {
+  table <- column_spec(kable_input = table, column = date * 2, width = "2em")
+}
+
+table
+
+```
+
+```{r label="intro-results-2", echo=FALSE}
+first_date_2 <- limit_of_dates + 1
+number_of_tests_2 <- number_of_tests - limit_of_dates
+double_number_of_tests <- number_of_tests * 2
+first_column_2 <- last_column + 1
+data_frame_2 <- subset(data_frame, select = c(first_column_2:(double_number_of_tests + 1)))
+colnames(data_frame_2) <- c(
+  rep(x=c("Üles-anne", "Hinne"), number_of_tests_2),
+  "Lühitestide koondhinne"
+)
+rownames(data_frame_2) <- names_10
+additional_header <- data.frame(
+  c("Õpilane", intro_dates[first_date_2:number_of_tests], ""),
+  c(1, rep(x=2, number_of_tests_2), 1)
+)
+
+table <- print_table(
+  table = data_frame_2,
+  caption = paste("Keemia aluste kursuse tulemused ", intro_dates[first_date_2], " kuni ", intro_dates[number_of_tests], ".", sep=""),
+  additional_header =additional_header
+)
+
+for (date in 1:number_of_tests_2) {
+  table <- column_spec(kable_input = table, column = date * 2, width = "2em")
+}
+
+table %>%
+  column_spec(column=12, width="8em")
+
+```
+
+\landscapeend

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="46.199mm" height="29.272mm" version="1.1" viewBox="0 0 46.199 29.272" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1732">
+   <path d="m177.16 619.83h-128.12v-82.977h128.12"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(208.62 238.64)">
+  <path d="m-197.28-211.96h-4.9389v-4.9389h4.9389z" fill="#7aafde"/>
+  <path d="m-197.28-211.96h-4.9389v-4.9389h4.9389z" fill="none" stroke="#0066b3" stroke-width=".35278"/>
+  <path d="m-197.31-218.67h-4.9389v-4.9389h4.9389z" fill="#fec232"/>
+  <path d="m-197.31-218.67h-4.9389v-4.9389h4.9389z" fill="none" stroke="#bc9705" stroke-width=".35278"/>
+  <path d="m-186.02-218.67h-4.9389v-4.9389h4.9389z" fill="#fec232"/>
+  <path d="m-186.02-218.67h-4.9389v-4.9389h4.9389z" fill="none" stroke="#bc9705" stroke-width=".35278"/>
+  <path d="m-191.67-218.67h-4.9389v-4.9389h4.9389z" fill="#fec232"/>
+  <path d="m-191.67-218.67h-4.9389v-4.9389h4.9389z" fill="none" stroke="#bc9705" stroke-width=".35278"/>
+  <path d="m-197.31-225.03h-4.9389v-4.9389h4.9389z" fill="#df8637"/>
+  <path d="m-197.31-225.03h-4.9389v-4.9389h4.9389z" fill="none" stroke="#a72c31" stroke-width=".35278"/>
+  <path d="m-186.08-225.03h-4.9389v-4.9389h4.9389z" fill="#df8637"/>
+  <path d="m-186.08-225.03h-4.9389v-4.9389h4.9389z" fill="none" stroke="#a72c31" stroke-width=".35278"/>
+  <path d="m-191.7-225.03h-4.9389v-4.9389h4.9389z" fill="#df8637"/>
+  <path d="m-191.7-225.03h-4.9389v-4.9389h4.9389z" fill="none" stroke="#a72c31" stroke-width=".35278"/>
+  <path d="m-174.85-225.03h-4.9389v-4.9389h4.9389z" fill="#df8637"/>
+  <path d="m-174.85-225.03h-4.9389v-4.9389h4.9389z" fill="none" stroke="#a72c31" stroke-width=".35278"/>
+  <path d="m-180.47-225.03h-4.9389v-4.9389h4.9389z" fill="#df8637"/>
+  <path d="m-180.47-225.03h-4.9389v-4.9389h4.9389z" fill="none" stroke="#a72c31" stroke-width=".35278"/>
+  <path d="m-191.81-231.4h-4.9389v-4.9389h4.9389z" fill="#f9b49b"/>
+  <path d="m-191.81-231.4h-4.9389v-4.9389h4.9389z" fill="none" stroke="#6850a1" stroke-width=".35278"/>
+  <path d="m-180.57-231.4h-4.9389v-4.9389h4.9389z" fill="#f9b49b"/>
+  <path d="m-180.57-231.4h-4.9389v-4.9389h4.9389z" fill="none" stroke="#6850a1" stroke-width=".35278"/>
+  <path d="m-186.19-231.4h-4.9389v-4.9389h4.9389z" fill="#f9b49b"/>
+  <path d="m-186.19-231.4h-4.9389v-4.9389h4.9389z" fill="none" stroke="#6850a1" stroke-width=".35278"/>
+  <path d="m-169.34-231.4h-4.9389v-4.9389h4.9389z" fill="#f9b49b"/>
+  <path d="m-169.34-231.4h-4.9389v-4.9389h4.9389z" fill="none" stroke="#6850a1" stroke-width=".35278"/>
+  <path d="m-174.96-231.4h-4.9389v-4.9389h4.9389z" fill="#f9b49b"/>
+  <g transform="matrix(.35278 0 0 -.35278 -224.92 -19.982)">
+   <g clip-path="url(#clipPath1732)">
+    <path d="m141.63 599.29h-14v14h14z" fill="none" stroke="#6850a1"/>
+    <g transform="translate(176.91 537.1)">
+     <path d="m0 0h-116.2v82.478h116.2z" fill="none" stroke="#231f20" stroke-width=".5"/>
+    </g>
+   </g>
+  </g>
+  <path d="m-163.83-231.4h-4.9389v-4.9389h4.9389z" fill="#f9b49b"/>
+  <path d="m-163.83-231.4h-4.9389v-4.9389h4.9389z" fill="none" stroke="#6850a1" stroke-width=".35278"/>
+  <path d="m-197.38-231.4h-4.9389v-4.9389h4.9389z" fill="#f9b49b"/>
+  <path d="m-197.38-231.4h-4.9389v-4.9389h4.9389z" fill="none" stroke="#6850a1" stroke-width=".35278"/>
+  <g fill="#231f20" font-family="Sabon" font-size="2.8222px" stroke-width=".35278">
+   <text x="-182.54996" y="-226.536" xml:space="preserve"><tspan x="-182.54996" y="-226.536" stroke-width=".35278">1</tspan></text>
+   <text x="-177.11717" y="-226.536" xml:space="preserve"><tspan x="-177.11717 -189.37408" y="-226.536" stroke-width=".35278">20</tspan></text>
+   <text x="-194.8266" y="-226.536" xml:space="preserve"><tspan x="-194.8266" y="-226.536" stroke-width=".35278">-1</tspan></text>
+   <text x="-200.94659" y="-226.536" xml:space="preserve"><tspan x="-200.94659" y="-226.536" stroke-width=".35278">-2</tspan></text>
+   <text x="-177.04379" y="-232.9001" xml:space="preserve"><tspan x="-177.04379" y="-232.9001" stroke-width=".35278">1</tspan></text>
+   <text x="-171.61102" y="-232.9001" xml:space="preserve"><tspan x="-171.61102" y="-232.9001" stroke-width=".35278">2</tspan></text>
+   <text x="-165.91013" y="-232.9001" xml:space="preserve"><tspan x="-165.91013 -183.86794" y="-232.9001" stroke-width=".35278">30</tspan></text>
+   <text x="-189.32045" y="-232.9001" xml:space="preserve"><tspan x="-189.32045" y="-232.9001" stroke-width=".35278">-1</tspan></text>
+   <text x="-195.44043" y="-232.9001" xml:space="preserve"><tspan x="-195.44043" y="-232.9001" stroke-width=".35278">-2</tspan></text>
+   <text x="-200.5162" y="-232.9001" xml:space="preserve"><tspan x="-200.5162" y="-232.9001">-3</tspan><tspan x="-201.56889" y="-213.44934">0</tspan></text>
+   <text x="-188.24802" y="-220.08156" xml:space="preserve"><tspan x="-188.24802 -194.92258" y="-220.08156" stroke-width=".35278">10</tspan></text>
+   <text x="-200.52467" y="-220.08156" xml:space="preserve"><tspan x="-200.52467" y="-220.08156">-1</tspan><tspan x="-208.18417 -206.61502" y="-213.45781">4s</tspan><tspan x="-208.68372 -207.11456" y="-220.17188">4p</tspan><tspan x="-208.68372 -207.11456" y="-226.53598">4d</tspan><tspan x="-208.12209 -206.55293" y="-232.90009">4f</tspan><tspan x="-168.82829 -167.25914" y="-211.5782">16</tspan></text>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,599 @@
+---
+author:
+  - name: 'peacecop kalmer:'
+bibliography: presentation.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+title: |
+    | Keemia alused: aatomid: kvantmaailm
+output-file: presentation.html
+format:
+  revealjs:
+    incremental: false
+    multiplex:
+      url: 'http://manual-for-rstudio.ons.ee:1948/'
+      secret: "16759825730498538629"
+      socketId: "f3edf0ff0d09982e"
+language: et.yml
+crossref:
+  fig-prefix: joonis   # (default is "Figure")
+
+---
+
+## Õpitulemused
+
+```{r label="preamble"}
+#' This function displays external graphics by making the appropriate conversion aforehead.
+#' 
+#' @param path the path to the image file
+include_external_graphics = function(path) {
+
+  if (knitr::is_latex_output() && ("pdf" != xfun::file_ext(path))) {
+    output = xfun::with_ext(path, 'pdf')
+    
+    if ("svg" == xfun::file_ext(path)) {
+      system2('rsvg-convert', c('-f', 'pdf', '-a', '-o', shQuote(c(output, path))))
+    } else {
+      system(paste('gm convert ', path, ' ', output), intern = FALSE, ignore.stdout = FALSE, ignore.stderr = FALSE, wait = TRUE)
+    }
+    
+  } else {
+    output = path
+  }
+  
+  knitr::include_graphics(output)
+}
+
+```
+
+Kursuse lõpus õpilane:
+
+1. kirjeldab elektronide paiknemist aatomi välises elektronkihis sõltuvalt elemendi asukohast perioodilisustabelis;
+
+2. selgitab A-rühmade elementide metallilisuse ja mittemetallilisuse muutumist perioodilisustabelis seoses aatomi ehituse muutumisega; 
+
+3. määrab A-rühmade keemiliste elementide maksimaalseid ja minimaalseid oksüdatsiooniastmeid elemendi asukoha järgi perioodilisustabelis ning koostab elementide tüüpühendite valemeid.
+
+## Õppesisu
+
+1. Tänapäevane ettekujutus aatomi ehitusest. 
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+## Põhimõisted
+
+aatomorbitaal
+: elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
+
+## Elektroni avastamine 1897
+
+```{r label="fig-discovering-electron", echo=FALSE, fig.cap="Aparaat, mida Joseph John Thomson kasutas elektronide omaduste uurimiseks. Kahe plaadi vahele luuakse elektriväli ja rakendatakse elektriväljaga risti magnetvälja[@atkins_2010_chemical(lk&nbsp;2)]."}
+include_external_graphics("elektroni-kõrvalekalle.svg")
+
+```
+
+## Aatomi tuuma avastamine 1908
+
+Umbes 1 osake 20 000'st kaldus väga suure nurga all kõrvale (@fig-discovering-proton-1).
+
+```{r label="fig-discovering-proton-1", echo=FALSE, fig.cap="Osa Hans Geigeri ja Ernest Marsdeni kasutatud eksperimentaalsest paigutusest 1908[@atkins_2010_chemical(lk 3)]."}
+include_external_graphics("prootoni-avastamine-1.svg")
+
+```
+
+## Tuuma avastamine: detailvaade
+
+Suurem osa aatomist on peaaegu tühi ruum. Suurused joonisel on ebaproportsionaalsed (@fig-discovering-proton-2).
+
+```{r label="fig-discovering-proton-2", echo=FALSE, fig.cap="Enamik osakesi läbib peaaegu otse läbi plaatinafooliumi, samas kui väga vähesed – need, mis põrkuvad otse tuuma vastu – kalduvad oluliselt kõrvale[@atkins_2010_chemical(lk 3)]."}
+include_external_graphics("prootoni-avastamine-2.svg")
+
+```
+
+## Tuuma avastamine: simulatsioon
+
+Hans Geiger ja Ernest Marsden pommitasid aatomeid alfaosakestega[@rutherford].
+
+```{r label="sim-rutherford-scattering", echo=FALSE, fig.cap="Rutherfordi hajumine[@rutherford]."}
+knitr::include_url("https://phet.colorado.edu/sims/html/rutherford-scattering/latest/rutherford-scattering_all.html") 
+
+```
+
+## Aatomi tuuma avastamine: järeldused
+
+| Tähelepanek | Järeldus |
+|---------|-----|
+| Mõned α-osakesed kaldusid suurte nurkade all kõrvale.  | Positiivne laeng on kontsentreeritud - tuum. |
+| Enamus α-osakesi ei kaldunud kõrvale. | Enamik aatomit on tühi ruum. |
+| Väga harva põrkus α-osake tagasi. | Tuum peab olema väga väike. |
+
+: Ernest Rutherfordi järeldused Hans Geigeri ja Ernest Marsdeni eksperimendi kohta alfaosakestega[@the].
+
+## Elektroni laeng 1913[@charge]
+
+```{r label="fig-discovering-charge-of-electron", echo=FALSE, fig.cap="Robert Millikani õlitilkade eksperimendi skemaatiline diagramm. Õli pihustatakse peene uduna laetud gaasi sisaldavasse kambrisse ning õlitilga asukohta jälgitakse mikroskoobi abil. Laetud osakesed (ioonid) tekivad gaasis, eksponeerides seda röntgenikiirgusele. Laetud tilga langemist tasakaalustab elektriväli[@atkins_2010_chemical(lk 2)]."}
+include_external_graphics("elektroni-laengu-tuvastamine.svg")
+
+```
+
+## Elektroni laengu väärtus
+
+$$e = 1,602 176 634 \times 10^{-19} \mathrm{C} =1,602 176 634 \times 10^{-19} \text{A s}$$
+
+## Lainefunktsioon 1927[@atkins_2010_chemical(lk 17)]
+
+Erwin Schrödingeri lähenemisviis oli asendada osakese täpne trajektoor lainefunktsiooniga
+
+lainefunktsioon
+: matemaatiline funktsioon, mille väärtused muutuvad sõltuvalt osakese asukohast
+
+tähistus: $\psi$
+
+## Kvantarv[@atkins_2010_chemical(lk 18)]
+
+kvantarv
+: täisarv (või mõnel juhul pooltäisarv), mis märgib lainefunktsiooni, määrab oleku ja mida saab kasutada süsteemi omaduse väärtuse arvutamiseks
+
+## Peakvantarv[@atkins_2010_chemical(lk 23)]
+
+- tähistus: $n$
+
+- tüüp: täisarv
+
+- tähistab perioodi ehk taset
+
+- $n = 1$ madalaimal energiatasemel
+
+- $n = \infty$ väljaspool aatomit
+
+## Energiatasemed ja lainefunktsioonid
+
+Näidatud on kuus esimest lainefunktsiooni ja nende energiad (@fig-energy-levels).
+
+```{r label="fig-energy-levels", echo=FALSE, fig.cap="Osake massiga $m$ on kahe läbimatu seina vahel, mis asuvad üksteisest $L$-kaugusel. Nullpunkti energia on 1,25, kuna peakvantarv $n$ ei saa olla null[@atkins_2010_chemical(lk 18)]."}
+include_external_graphics("energiatasemed.svg")
+
+```
+
+## Energiatasemed ja vahemaa
+
+```{r label="fig-energy-levels-distance", echo=FALSE, fig.cap="Vahemaa suurenedes (võrdle vasakul ja paremal asuvaid kaste), energiatasemed langevad ja lähenevad üksteisele[@atkins_2010_chemical(lk 20)]."}
+include_external_graphics("energiatasemed-vahemaa.svg")
+
+```
+
+## Peakvantarv ja periood
+
+```{r label="fig-periodic-table-n", echo=FALSE, fig.cap="Viimase elektronkihi peakvantarv[@periodic]."}
+include_external_graphics("perioodiline-tabel-n.svg")
+
+```
+
+## Kestad ja orbitaalid
+
+```{r label="fig-shells-orbitals", echo=FALSE, fig.cap="Kvantarv $m_l$ on alternatiivne märgis üksikute orbitaalide jaoks: keemias on tavalisem kasutada selle asemel $x$'i, $y$'t ja $z$'d[@atkins_2010_chemical(lk 26)]."}
+include_external_graphics("kest-alamkest-orbitaal.svg")
+
+```
+
+## Elektronide tõenäosustihedus
+
+```{r label="fig-probability-density-electron-cloud", echo=FALSE, fig.cap="Kolmemõõtmeline elektronipilv, mis vastab elektronile vesiniku 1s-orbitaalil. Varjutuse tihedus näitab elektroni leidmise tõenäosust mis tahes punktis. Ülaltoodud graafik näitab, et tõenäosus varieerub sõltuvalt punkti kaugusest tuumast mis tahes raadiuses[@atkins_2010_chemical(lk 26)]."}
+include_external_graphics("tõenäosustihedus-elektronide-pilv.svg")
+
+```
+
+## s-kihid eri tasemetel
+
+```{r label="fig-multiple-s-shells", echo=FALSE, fig.cap="Kolm madalaima energiaga s-orbitaali. Lihtsaim viis aatomiorbitaali joonistamiseks on piirpinnana, mille seest on suur tõenäosus (tavaliselt 90 %) elektron leida. Me kasutame sinist s-orbitaalide tähistamiseks, kuid see värv on ainult abivahend nende tuvastamisel. Piirpindade sees olev varjutus näitab ligikaudset elektrontihedust igas punktis. Mida tumedam on varjund, seda suurem on tõenäosus leida elektron[@atkins_2010_chemical(lk 28)]."}
+include_external_graphics("mitu-s-kihti.svg")
+
+```
+
+## p-orbitaalid
+
+```{r label="fig-p-orbitals", echo=FALSE, fig.cap="Sama energiaga p-orbitaale on kolm ja need asuvad piki kolme risti asetsevat telge. p-orbitaalide tähistamiseks kasutame kollast värvi: tumedad ja heledad toonid tähistavad lainefunktsiooni erinevaid märke[@atkins_2010_chemical(lk 29)]."}
+include_external_graphics("p-orbitaalid.svg")
+
+```
+
+## d-orbitaalid
+
+```{r label="fig-d-orbitals", echo=FALSE, fig.cap="d-orbitaali piirpind on keerulisem kui s- või p-orbitaalil. Sama energiaga on viis d-orbitaali; neljal nendest on neli laba, üks on veidi erinev. Igal juhul ei leita tuumast elektroni, mis asub d-orbitaalil. Tähistamiseks kasutame oranži: tumedad ja heledad toonid tähistavad lainefunktsiooni erinevaid märke[@atkins_2010_chemical(lk 29)]."}
+include_external_graphics("d-orbitaalid.svg")
+
+```
+
+## f-orbitaalid
+
+```{r label="fig-f-orbitals", echo=FALSE, fig.cap="Kesta seitse f-orbitaali ($l = 3$) on väga keerulise välimusega. Nende olemasolu on oluline perioodilisuse tabeli, lantanoidide ja aktinoidide olemasolu ning hilisemate d\u2011ploki elementide omaduste mõistmiseks. Tumedam värv tähistab positiivset, heledam negatiivset[@atkins_2010_chemical(lk 30)]."}
+include_external_graphics("f-orbitaalid.svg")
+
+```
+
+## Orbitaalide tähistused kvantarvudega
+
+```{r label="fig-orbitals-16", echo=FALSE, fig.cap="Kestas tasemel $n = 4$ on 16 orbitaali, millest igaüks mahutab kaks elektroni. Kokku mahutavad s-, p-, d- ja f-orbitaalid 32 elektroni[@atkins_2010_chemical(lk 30)]."}
+include_external_graphics("orbitals-16.svg")
+
+```
+
+
+
+## Pöördemomendi avastamine 1920
+
+```{r label="fig-gerlach-stern", echo=FALSE, fig.cap="Otto Sterni ja Walter Gerlachi kasutatud aparaadi skemaatiline kujutis. Katses jaguneb aatomivoog magneti pooluste vahelt läbides kaheks. Ühes voolus olevatel aatomitel on paaritu $\\uparrow$-elektron ja teises olevatel paaritu $\\downarrow$-elektron[@atkins_2010_chemical(lk 31)]."}
+include_external_graphics("gerlach-stern.svg")
+
+```
+
+## Elektronide pöörlemismoment
+
+```{r label="fig-electron-spin", echo=FALSE, fig.cap="Elektroni kahte pöörlemis-olekut saab kujutada päripäeva või vastupäeva pöörlemisena ümber elektroni läbiva telje. Neid kahte olekut identifitseeritakse kvantarvuga $m_s$ ja neid kujutatakse paremal näidatud nooltega[@atkins_2010_chemical(lk 30)]."}
+include_external_graphics("pöörlemissuund.svg")
+
+```
+
+## Pöörlemismomendi simulatsioon
+
+```{r label="sim-gerlach-stern", echo=FALSE, fig.cap="Elektroni pöörlemismomendi avastamine."}
+knitr::include_url("https://phet.colorado.edu/sims/stern-gerlach/stern-gerlach_en.html") 
+
+```
+
+## Neutroni avastamine 1932[@atomic]
+
+- James Chadwick
+
+- α-osakestega Be'i, B'i ja Li'i aatomite pommitamine
+
+- Be'i, B'i, ja Li'i aatomitest väljusid laenguta osakesed ja radiatsioon.
+
+- Laenguta osakestega omakorda pommitati parafiini.
+
+- Parafiinist väljusid prootonid.
+
+## Elektronkonfiguratsiooni ülesanded
+
+Lahendame ülesanded 2, 4, 5 ja 7[@ekoolikottee] (@fig-qr-electron-configuration-ekoolikott).
+
+```{r label="fig-qr-electron-configuration-ekoolikott", echo=FALSE, fig.cap="Tänapäevane ettekujutus aatomi ehitusest - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19636-1-2-Aine-ehitus/228031#228032-Tanapaeva-ettekujutus-aatomi-ehitusest", ecl="H")
+plot(code)
+
+```
+
+## Perioodilisussüsteemi ülesanded
+
+Lahendame ülesanded 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14[@ekoolikottee_information_in_periodic_table] (@fig-qr-information-in-periodic-table-ekoolikott).
+
+```{r label="fig-qr-information-in-periodic-table-ekoolikott", echo=FALSE, fig.cap="Informatsioon perioodilisustabelis - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19636-1-2-Aine-ehitus/228033#228034-Informatsioon-perioodilisustabelis", ecl="H")
+plot(code)
+
+```
+
+## Setup
+
+1. For every presentation a subfolder inside the subfolder *qmd*.
+
+2. Link to the presentation in *js.js*:
+
+```
+  let nameOfPresentation = "<name-of-presentation>";
+  createLink(div, "presentation-" + nameOfPresentation, nameOfPresentation + ".html", "<The title of the presentation>");
+
+```
+
+## Preparing for remote controlling
+
+1. Cloning *multiplex* [@a2023_multiplex].
+
+2.  In the *multiplex*'s folder:
+
+    ```
+    npm install reveal-multiplex
+    
+    ```
+    
+3.  Creating the service:
+
+    ```
+    sudo emacs /etc/systemd/system/multiplex.service
+    
+    ```
+    
+4.  Starting the server:
+
+    ```
+    sudo systemctl start multiplex.service
+    
+    ```
+
+5. Directing traffic to port 1948 into the server machine.
+
+## Remote controlling
+
+1.  Configuring:
+
+    ```
+    format:
+  revealjs:
+    multiplex:
+      url: 'http://manual-for-rstudio.tennis24.ee:1948/'
+      secret: "16759825730498538629"
+      socketId: "f3edf0ff0d09982e"
+      
+    ```
+
+2. Opening the main presentation HyperText Markup Language file for the audience.
+
+3. Opening the file with the ending "-speaker.html" for remote controlling.
+
+## Metadata: author
+
+```
+    author:
+      - name: <the name of the first author>
+      - name: '<the name of the second author>'
+    <further names if necessary>
+
+```
+
+## Metadata: title
+
+```
+title: |
+    | <first line of the title>
+    | <second line of the title>
+
+```
+
+## Metadata: output file
+
+```
+    output-file: ../../_book/<the-name-of-the-output-file>.html
+
+```
+
+## Metadata: format
+
+```
+    format:
+      revealjs:
+        incremental: true
+        self-contained: true
+
+```
+
+`incremental: true` displays list items one by one [@quarto]
+
+`self-contained: false` results with missing files or undated content
+
+## Table
+
+```
+| Product | Price |
+|---------|-----:|
+| SET: NaClO2 Mouth Rinse and HCl Hair Rinse      | 25.00   |
+| DMSO (DIMETHYLSULFOXIDE)     | 24.00  |
+
+: The reagents for making CDS with their prices were bought on 2021/05/04.
+
+```
+
+| Product | Price |
+|---------|-----:|
+| SET: NaClO2 Mouth Rinse and HCl Hair Rinse      | 25.00   |
+| DMSO (DIMETHYLSULFOXIDE)     | 24.00  |
+
+: The reagents for making CDS with their prices were bought on 2021/05/04.
+
+## Figures
+
+With a caption:
+
+```
+![Pillikeel ja lainepikkus.](vibstr1.gif)
+
+```
+
+![Pillikeel ja lainepikkus.](vibstr1.gif)
+
+Without a caption:
+
+```
+![](vibstr1.gif)
+
+```
+
+![](vibstr1.gif)
+
+## Managing external references
+
+A separate BIB-file in the subfolder of the presentation with records like this:
+
+```
+@misc{silent,
+  title = {Silent Teacher},
+  url = {https://silentteacher.toxicode.fr/},
+  urldate = {2022-09-29},
+  organization = {silentteacher.toxicode.fr}
+}
+
+```
+
+In the metadata:
+
+```
+    bibliography: <the-name-of-the-presentation>.bib
+
+```
+
+A reference:
+
+```
+@quarto
+
+```
+
+@quarto
+
+```
+[@quarto]
+
+```
+
+[@quarto]
+
+```
+[@quarto(p. 41)]
+
+```
+
+[@quarto(p. 41)]
+
+## List of references at the end
+
+````
+[<The name of the main site>](/)
+
+## External references
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
+
+````
+
+## List
+
+```
+-   no instructions:
+
+    - no formulas,
+  
+    - no theorems,
+
+-   no explanations
+
+```
+
+-   no instructions:
+
+    - no formulas,
+  
+    - no theorems,
+
+-   no explanations
+
+## Quantities
+
+- Comma without braces causes a space is not inside braces a space would be added[@a2022_l, lk 146; @a2019_how] (@quantities-incorrect).
+
+    (@quantities-incorrect) An example of incorrect punctuation:
+    
+      :::: {layout="[ 60, 40 ]"}
+      
+      ::: {#quantities-1}
+  
+      ```
+      $$30,0^{\circ} \ne 30^{\circ}$$
+      
+      ```
+      
+      :::
+
+      ::: {#quantities-2}
+      
+      $$30,0^{\circ} \ne 30^{\circ}$$
+      
+      :::
+      
+      ::::
+
+- Comma with braces causes no space (@quantities-correct).
+
+    (@quantities-correct) An example of correct punctuation:
+
+      :::: {layout="[ 60, 40 ]"}
+      
+      ::: {#quantities-3}
+  
+      ```
+      $$30{,}0^{\circ} \ne 30^{\circ}$$
+      
+      ```
+      :::
+
+      ::: {#quantities-4}
+      
+      $$30{,}0^{\circ} \ne 30^{\circ}$$
+      :::
+      
+      ::::
+
+## Columns
+
+Column layout (@columns)[@quarto-block-layout].
+
+(@columns) An example of column layout:
+
+:::: {layout="[50, 50]"}
+
+::: {#columns-1}
+
+```
+:::: {layout="[ 60, 40 ]"}
+
+::: {#columns-3}
+first column
+
+:::
+
+::: {#columns-4}
+second column
+
+:::
+
+::::
+
+```
+
+:::
+
+::: {#columns-2}
+:::: {layout="[ 60, 40 ]"}
+
+::: {#columns-3}
+first column
+
+:::
+
+::: {#columns-4}
+second column
+
+:::
+
+::::
+
+:::
+
+::::
+
+## External references
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
+
+[Manual for RStudio Server](/)

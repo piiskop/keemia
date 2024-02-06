@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="45.555mm" height="100.79mm" version="1.1" viewBox="0 0 45.555 100.79" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath26948">
+   <path d="m90.394 365.22h-28.21v-262.64h28.21"/>
+  </clipPath>
+  <clipPath id="clipPath26958">
+   <path d="m62.183 102.59-1.6e-5 262.64h28.212l1.5e-5 -262.64z"/>
+  </clipPath>
+  <linearGradient id="linearGradient26964" x2="1" gradientTransform="matrix(-1.53e-5 262.64 262.64 1.53e-5 76.289 102.59)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fec232" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath26978">
+   <path d="m169.46 168.24h-52.442v-65.658h52.442z"/>
+  </clipPath>
+  <clipPath id="clipPath26988">
+   <path d="m117.02 102.59v65.658h52.441v-65.658z"/>
+  </clipPath>
+  <linearGradient id="linearGradient26994" x2="1" gradientTransform="matrix(0 65.658 65.658 0 143.24 102.59)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fec232" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-82.935 -62.867)">
+  <g transform="matrix(.35278 0 0 -.35278 84.433 109.83)">
+   <path d="m0 0v14.832" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 84.433 104.59)">
+   <path d="m0 0 2.13-3.332 0.849 0.584-2.561 3.99h-0.815l-2.635-3.961 0.832-0.588 2.2 3.307" fill="#231f20" fill-rule="evenodd"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 65.763 193.96)">
+   <g clip-path="url(#clipPath26948)">
+    <g clip-path="url(#clipPath26958)">
+     <path d="m90.394 365.22h-28.21v-262.64h28.21" fill="url(#linearGradient26964)"/>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 97.652 157.77)">
+   <path d="m0 0h-30.992v262.64m2.782-256.28h28.21m-28.21 17.88h28.21m-28.21 29.8h28.21m-28.21 42.514h28.21m-28.21 53.242h28.21m-28.21 66.354h28.21" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 65.763 193.96)">
+   <g clip-path="url(#clipPath26978)">
+    <g clip-path="url(#clipPath26988)">
+     <path d="m169.46 168.24h-52.442v-65.658h52.442z" fill="url(#linearGradient26994)"/>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 97.652 157.77)">
+   <path d="m0 0h79.069m-52.442 1.59h52.442m-52.442 4.468h52.442m-52.442 7.452h52.442m-52.442 10.627h52.442m-52.442 13.311h52.442m-52.442 16.589h52.442" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <g transform="matrix(.35278 0 0 -.35278 97.652 81.519)">
+   <path d="m0 0 26.627-162.11m-26.627 95.756 26.627-112.34m-26.627 59.103 27.766-73.552m-27.766 31.038 26.627-40.527m-26.627 10.727 26.627-18.179m-26.627 0.299 28.608-4.767" fill="none" stroke="#231f20" stroke-dasharray="0, 1" stroke-linecap="round" stroke-width=".5"/>
+  </g>
+  <path d="m87.7 163.66h-2.8032v-2.8035h2.8032z" fill="#231f20"/>
+  <path d="m100.46 163.66h-2.8032v-2.8035h2.8032z" fill="#231f20"/>
+  <g transform="matrix(.35278 0 0 -.35278 86.859 162.26)">
+   <path d="m0 0h34.567" fill="#fff"/>
+   <path d="m0 0h34.567" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <path d="m107.32 163.66h-2.8032v-2.8035h2.8032z" fill="#231f20"/>
+  <path d="m128.49 163.66h-2.8032v-2.8035h2.8032z" fill="#231f20"/>
+  <g transform="matrix(.35278 0 0 -.35278 106.48 162.26)">
+   <path d="m0 0h59.202" fill="#fff"/>
+   <path d="m0 0h59.202" fill="none" stroke="#231f20" stroke-width=".5"/>
+  </g>
+  <g fill="#231f20" font-family="Sabon" font-size="2.8222px" stroke-width=".35278">
+   <text transform="rotate(-90)" x="-119.05709" y="84.949661" xml:space="preserve"><tspan x="-119.05709 -117.33271 -115.76356 -114.51049 -113.41264 -112.00153" y="84.949661" stroke-width=".35278">Energy</tspan></text>
+   <text x="84.091385" y="158.72377" xml:space="preserve"><tspan x="84.091385" y="158.72377">0</tspan><tspan x="95.024673" y="154.82346">1</tspan><tspan x="95.024673" y="148.51579">2</tspan><tspan x="95.024673" y="138.00302">3</tspan><tspan x="95.024673" y="123.00573">4</tspan><tspan x="95.024673" y="104.22384">5</tspan><tspan x="95.024673" y="80.81633">6</tspan></text>
+   <text x="95.024673" y="64.416397" font-style="italic" xml:space="preserve"><tspan x="95.024673" y="64.416397" stroke-width=".35278">n</tspan></text>
+  </g>
+ </g>
+</svg>

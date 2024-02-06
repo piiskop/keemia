@@ -1,8 +1,8 @@
+[]{#intro-tasks-2023-12-12}
+
 ## Testid 2023
 
 ### 2023-12-12
-
-#### Ülesanded
 
 1.  Mis on keemia?
 
@@ -187,91 +187,11 @@ Selle ploki mass oli \qty{0,213}{\gram}.
 
     Täna on 2023-12-12 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-#### Tulemused
-
-2023-12-12 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-12) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-12")`.
-
-```{r label="intro-results-2023-12-12", echo=FALSE}
-
-tasks_of_intro_2023_12_12<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    0, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    0, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    0, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    0, # Malõšev, Polina
-    0, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    0, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-tasks_of_intro_2023_12_12<- data.frame(
-  c( # Ülesanne
-    8, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    7, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    6, # Malõšev, Polina
-    2, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    1, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    4, # 12. Volkova, Darja
-    3 # Volkova, Jeva
-  ),
-  c( # Hinne
-    1, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    5, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    4, # Malõšev, Polina
-    4, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    3, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    3, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    3, # 12. Volkova, Darja
-    1 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2023_12_12, names = names_10, caption = "Sissejuhatus: 2023-12-12", long = FALSE)
-
-```
-
 \newpage
 
-### 2023-12-14
+[]{#intro-tasks-2023-12-14}
 
-#### Ülesanded
+### 2023-12-14
 
 1.  Berülliumi aatomi mass on \qty{1,50e-26}{\kg}. Mitu berülliumi aatomit on röntgentoru aknana kasutatavas berülliumkiles massiga \qty{0,210}{\g}?
 
@@ -569,6 +489,8 @@ tasks_of_intro_2023_12_14<- data.frame(
 ```
 
 \newpage
+
+[]{#intro-tasks-2023-12-19}
 
 ### 2023-12-19
 
@@ -983,47 +905,3 @@ Järgnevad 2024-12-19 ülesanded:
      - Kaaliumfosfaadi valem on \ce{K3PO4}. \ce{Sn3(PO4)2} katiooni laeng on \blank{2+}.
  
     Täna ei ole 2023-12-19 ja mina olen \blank{10. Trubilko, Vladislav}.
-
-#### Tulemused
-
-2023-12-19 lühitesti tulemused on tabelis \@ref(tab:intro-results-2023-12-19) leheküljel `r render_pageref(reference="tab:intro-results-2023-12-19")`.
-
-```{r label="intro-results-2023-12-19", echo=FALSE}
-tasks_of_intro_2023_12_19<- data.frame(
-  c( # Ülesanne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    7, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    6, # Malõšev, Polina
-    4, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    5, # Šerstobitov, Mihhail
-    0, # 7. Šesterikov, Daniil
-    2, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  ),
-  c( # Hinne
-    0, # 1. Babiy, Alisa
-    0, # Donat Irhin
-    5, # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    4, # Malõšev, Polina
-    5, # 6. Nersesjan, Feliks
-    0, # 7. Salnikova, Veronika
-    3, # Šerstobitov, Mihhail, esimesel katsel 1
-    0, # 7. Šesterikov, Daniil
-    2, # Žigadlo, Grigori
-    0, # 9. Žukova, Darja
-    0, # 10. Trubilko, Vladislav
-    0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
-  )
-)
-
-# build_table_with_grades(tasks = tasks_of_intro_2023_12_19, names = names_10, caption = "Sissejuhatus: 2023-12-19", long = FALSE)
-
-```

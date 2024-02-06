@@ -4,23 +4,19 @@
 
 Mõõtmise jaoks tuleb järjest endale selgeks teha kõik osad, mis on esitatud joonisel \@ref(fig:activities-of-learning-measuring) leheküljel `r render_pageref(reference = "fig:activities-of-learning-measuring")`. Nende seas mõõtemääramatuse otsustusskeem on esitatud joonisel \@ref(fig:activities-of-learning-uncertainty) leheküljel `r render_pageref(reference = "fig:activities-of-learning-uncertainty")`.
 
-\onecolumn
-
 ```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused.", out.height="96%"}
 include_external_graphics("rmd/baasreeglistik/physics-measuring.svg")
 
 ```
 
 ```{r label = "activities-of-learning-uncertainty", echo=FALSE, fig.cap = "Mõõtemääramatuse otsustamine.", out.height="96%"}
-include_external_graphics("rmd/baasreeglistik/physics-uncertainty.svg")
+include_external_graphics("rmd/baasreeglistik/füüsika-Mõõtmine-Mõõtmine.drawio.pdf")
 
 ```
 
 Mõõtemääramatust on üldjoontes kaht tüüpi: A ja B.
 
 Mõõtesüsteemi varieeruvusest annab ülevaate joonis 15 [@jcgm_gum_6_2020pdf(lk 83)].
-
-\twocolumn
 
 ## Suhteline viga
 
@@ -31,7 +27,7 @@ R = \frac{|\text{väärtus}_\text{aktsepteeritud} - \text{väärtus}_\text{mõõ
 (\#eq:relative-error)
 \end{align}
 
-## Pythagorase teoreem:
+## Pythagorase teoreem
 
 Pythagorase teoreem on esitatud avaldisena \@ref(eq:pythagorean) leheküljel `r render_pageref(reference = "eq:pythagorean")`.
 
@@ -42,7 +38,69 @@ Pythagorase teoreem on esitatud avaldisena \@ref(eq:pythagorean) leheküljel `r 
 \end{equation}
 ```
 
-\onecolumn
+## Konstandid ja ühikud
+
+Konstandid ja ühikud on esitatud joonisel \@ref(fig:constants-units) leheküljel `r render_pageref(reference = "fig:constants-units")`.
+
+```{r label = "constants-units", echo=FALSE, fig.cap = "Konstandid ja ühikud."}
+include_external_graphics("rmd/baasreeglistik/konstandid-ühikud.svg")
+
+```
+
++----------+-----------------+--------+---------+--------------------+
+| Eesliide | Kümne astendaja | Lühend | Näide   | Selgitus           |
++==========+=================+========+=========+====================+
+| piko-    | -12             | p      | 1 pN    | üks pikonjuuton    |
++----------+-----------------+--------+---------+--------------------+
+| nano-    | -9              | n      | 2 nm    | kaks nanomeetrit   |
++----------+-----------------+--------+---------+--------------------+
+| mikro-   | -6              | μ      | 3 μg    | kolm mikrogrammi   |
++----------+-----------------+--------+---------+--------------------+
+| milli-   | -3              | m      | 4 mW    | neli millivatti    |
++----------+-----------------+--------+---------+--------------------+
+| senti-   | -2              | c      | 5 cK    | viis sentikelvinit |
++----------+-----------------+--------+---------+--------------------+
+| detsi-   | -1              | d      | 6 dA    | kuus detsiamprit   |
++----------+-----------------+--------+---------+--------------------+
+| deka-    | 1               | D      | 7 Db    | seitse dekabitti   |
++----------+-----------------+--------+---------+--------------------+
+| hekto-   | 2               | H      | 8 HB    | kaheksa hektobaiti |
++----------+-----------------+--------+---------+--------------------+
+| kilo-    | 3               | K      | 9 Klx   | üheksa kiloluksi   |
++----------+-----------------+--------+---------+--------------------+
+| mega-    | 6               | M      | 10 MJ   | kümme megadžauli   |
++----------+-----------------+--------+---------+--------------------+
+| giga-    | 9               | G      | 100 GPa | sada gigapaskalit  |
++----------+-----------------+--------+---------+--------------------+
+| tera-    | 12              | T      | 0.5 Tcd | pool terakandelat  |
++----------+-----------------+--------+---------+--------------------+
+
+: Ühikute eesliited
+
+Konvertereid:
+
+1.  (UnitConverters.net)[<https://www.unitconverters.net/volume/cubic-kilometer-to-cubic-meter.htm>]
+
+2.  (Calculate weight of compounds and materials per volume)[<https://www.aqua-calc.com/calculate/volume-to-weight>]
+
+```{r label = "converters", echo=FALSE}
+convertFromKmPerHToMPerS <- function(velocityInKmPerH) {
+  (velocityInKmPerH * 1000 / 3600)
+}
+
+convertFromMiToM <- function(mi) {
+  mi * 1609.344
+}
+
+convertFromFtToM <- function(ft) {
+  convertFromMiToM(ft / 5280)
+}
+
+convert_degrees_to_radians <- function(degrees) {
+  return(degrees * pi / 180)
+}
+
+```
 
 ## Aeg ja selle talitlused
 
@@ -2190,62 +2248,6 @@ milles $P$ on võimsus ja $r$ kaugus heliallikast [@giancoli_2014_physics(lk 310
 \onecolumn
 
 []{#prefixes}
-
-## Ühikud
-
-+----------+-----------------+--------+---------+--------------------+
-| Eesliide | Kümne astendaja | Lühend | Näide   | Selgitus           |
-+==========+=================+========+=========+====================+
-| piko-    | -12             | p      | 1 pN    | üks pikonjuuton    |
-+----------+-----------------+--------+---------+--------------------+
-| nano-    | -9              | n      | 2 nm    | kaks nanomeetrit   |
-+----------+-----------------+--------+---------+--------------------+
-| mikro-   | -6              | μ      | 3 μg    | kolm mikrogrammi   |
-+----------+-----------------+--------+---------+--------------------+
-| milli-   | -3              | m      | 4 mW    | neli millivatti    |
-+----------+-----------------+--------+---------+--------------------+
-| senti-   | -2              | c      | 5 cK    | viis sentikelvinit |
-+----------+-----------------+--------+---------+--------------------+
-| detsi-   | -1              | d      | 6 dA    | kuus detsiamprit   |
-+----------+-----------------+--------+---------+--------------------+
-| deka-    | 1               | D      | 7 Db    | seitse dekabitti   |
-+----------+-----------------+--------+---------+--------------------+
-| hekto-   | 2               | H      | 8 HB    | kaheksa hektobaiti |
-+----------+-----------------+--------+---------+--------------------+
-| kilo-    | 3               | K      | 9 Klx   | üheksa kiloluksi   |
-+----------+-----------------+--------+---------+--------------------+
-| mega-    | 6               | M      | 10 MJ   | kümme megadžauli   |
-+----------+-----------------+--------+---------+--------------------+
-| giga-    | 9               | G      | 100 GPa | sada gigapaskalit  |
-+----------+-----------------+--------+---------+--------------------+
-| tera-    | 12              | T      | 0.5 Tcd | pool terakandelat  |
-+----------+-----------------+--------+---------+--------------------+
-
-: Ühikute eesliited
-
-Konvertereid:
-
-1.  (UnitConverters.net)[<https://www.unitconverters.net/volume/cubic-kilometer-to-cubic-meter.htm>]
-
-2.  (Calculate weight of compounds and materials per volume)[<https://www.aqua-calc.com/calculate/volume-to-weight>]
-
-```{r label = "converters", echo=FALSE}
-convertFromKmPerHToMPerS <- function(velocityInKmPerH) {
-  (velocityInKmPerH * 1000 / 3600)
-}
-
-convertFromMiToM <- function(mi) {
-  mi * 1609.344
-}
-
-convertFromFtToM <- function(ft) {
-  convertFromMiToM(ft / 5280)
-}
-
-convert_degrees_to_radians <- function(degrees) {
-  return(degrees * pi / 180)
-}
-```
 
 ## Mõõtemääramatus[@ldmtmisedloodusteadustesxlsx]
 
