@@ -730,7 +730,7 @@ intro_tasks <- data.frame(
     NA, # 6. Nersesjan, Feliks
     NA, # 7. Salnikova, Veronika
     7, # Šerstobitov, Mihhail,
-    6, # 7. Šesterikov, Daniil
+    6, # 7. Šesterikov, Daniil, pärast 9
     1, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     NA, # 10. Trubilko, Vladislav
@@ -908,7 +908,7 @@ intro_grades <- data.frame(
     1, # Malõšev, Polina
     1, # 6. Nersesjan, Feliks
     NA, # 7. Salnikova, Veronika
-    2, # Šerstobitov, Mihhail,
+    2, # Šerstobitov, Mihhail, hiljem 1
     2, # 7. Šesterikov, Daniil
     4, # Žigadlo, Grigori
     1, # 9. Žukova, Darja
@@ -919,14 +919,14 @@ intro_grades <- data.frame(
   c( # 2024-1-30
     NA, # 1. Babiy, Alisa
     NA, # Donat Irhin
-    NA, # 3. Kimasks, Stanislavs
+    1, # 3. Kimasks, Stanislavs
     3, # Kustov, Vladimir
     2, # Malõšev, Polina
     NA, # 6. Nersesjan, Feliks
-    NA, # 7. Salnikova, Veronika
+    1, # 7. Salnikova, Veronika
     4, # Šerstobitov, Mihhail,
     NA, # 7. Šesterikov, Daniil
-    NA, # Žigadlo, Grigori
+    1, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     4, # 10. Trubilko, Vladislav
     NA, # 12. Volkova, Darja
@@ -1012,8 +1012,8 @@ for (date in 1:number_of_tests_2) {
   table <- column_spec(kable_input = table, column = date * 2, width = "2em")
 }
 
-table %>%
-  column_spec(column=12, width="8em")
+# table %>%
+#   column_spec(column=12, width="8em")
 
 ```
 

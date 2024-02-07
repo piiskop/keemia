@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="131.74mm" height="56.002mm" version="1.1" viewBox="0 0 131.74 56.002" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-18.604 77.711)">
+  <g transform="translate(-46.762 -162.74)" fill="#000000" font-family="'DejaVu Sans'" font-size="5.6444px" stroke-dasharray="0.36, 0.36" stroke-dashoffset=".72" stroke-linecap="square" stroke-width=".36" text-anchor="middle">
+   <text x="82.33004" y="97.524712" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="82.33004" y="97.524712" stroke-width=".36">6p</tspan></text>
+   <text x="82.33004" y="105.14288" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="82.33004" y="105.14288" stroke-width=".36">5p</tspan></text>
+   <text x="82.33004" y="112.76105" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="82.33004" y="112.76105" stroke-width=".36">4p</tspan></text>
+   <text x="82.33004" y="120.37923" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="82.33004" y="120.37923" stroke-width=".36">3p</tspan></text>
+  </g>
+  <g font-family="'DejaVu Sans'" font-size="5.6444px" stroke-dasharray="0.36, 0.36" stroke-dashoffset=".72" stroke-linecap="square" stroke-width=".36" text-anchor="middle">
+   <text x="62.799141" y="-56.607086" fill="#000000" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="62.799141" y="-56.607086" stroke-width=".36">4d</tspan></text>
+   <text x="62.799141" y="-64.22525" fill="#000000" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="62.799141" y="-64.22525" stroke-width=".36">5d</tspan></text>
+   <text x="148.07631" y="-56.031181" fill="#ebebf6" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="148.07631" y="-56.031181" fill="#ebebf6" stroke-width=".36">3</tspan></text>
+   <text x="134.959" y="-56.031181" fill="#8aa678" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="134.959" y="-56.031181" fill="#8aa678" stroke-width=".36">1</tspan></text>
+   <text x="141.53407" y="-56.031181" fill="#8d91d0" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="141.53407" y="-56.031181" fill="#8d91d0" stroke-width=".36">2</tspan></text>
+   <text x="128.403" y="-56.031181" fill="#9dde67" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="128.403" y="-56.031181" fill="#9dde67" stroke-width=".36">0</tspan></text>
+   <text x="122.01798" y="-56.031181" fill="#dacf2f" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="122.01798" y="-56.031181" fill="#dacf2f" stroke-width=".36">-1</tspan></text>
+   <text x="115.48965" y="-56.031181" fill="#f5d479" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="115.48965" y="-56.031181" fill="#f5d479" stroke-width=".36">-2</tspan></text>
+   <text x="108.90481" y="-56.071136" fill="#cd8282" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="108.90481" y="-56.071136" fill="#cd8282" stroke-width=".36">-3</tspan></text>
+  </g>
+  <g fill="#000000" font-family="'DejaVu Sans'" font-size="5.6444px" stroke-dasharray="0.36, 0.36" stroke-dashoffset=".72" stroke-linecap="square" stroke-width=".36" text-anchor="middle">
+   <text x="102.70081" y="-55.981567" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="102.70081" y="-55.981567" stroke-width=".36">m<tspan baseline-shift="sub" font-size="65%">l</tspan></tspan></text>
+   <text x="102.70081" y="-62.685661" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="102.70081" y="-62.685661" stroke-width=".36">4f</tspan></text>
+   <text x="102.70081" y="-70.303825" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="102.70081" y="-70.303825" stroke-width=".36">5f</tspan></text>
+   <text x="62.799141" y="-71.843422" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="62.799141" y="-71.843422" stroke-width=".36">6d</tspan></text>
+   <text x="35.567734" y="-34.739098" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="35.567734" y="-34.739098" stroke-width=".36">2p</tspan></text>
+   <text x="62.799141" y="-48.988907" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="62.799141" y="-48.988907" stroke-width=".36">3d</tspan></text>
+   <text x="35.567734" y="-72.829956" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="35.567734" y="-72.829956" stroke-width=".36">7p</tspan></text>
+  </g>
+  <path d="m106.61-71.733v-2.8316h4.4047v5.6631h-4.4047z" fill="#cd8282" fill-opacity=".36277" style="paint-order:markers fill stroke"/>
+  <g transform="translate(-46.762 -162.74)" fill="#000000" font-family="'DejaVu Sans'" font-size="5.6444px" stroke-dasharray="0.36, 0.36" stroke-dashoffset=".72" stroke-linecap="square" stroke-width=".36" text-anchor="middle">
+   <text x="68.35659" y="140.248" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="68.35659" y="140.248" stroke-width=".36">1s</tspan></text>
+   <text x="68.35659" y="94.538963" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="68.35659" y="94.538963" stroke-width=".36">7s</tspan></text>
+   <text x="68.35659" y="102.15714" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="68.35659" y="102.15714" stroke-width=".36">6s</tspan></text>
+   <text x="68.35659" y="109.77531" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="68.35659" y="109.77531" stroke-width=".36">5s</tspan></text>
+   <text x="68.35659" y="117.39348" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="68.35659" y="117.39348" stroke-width=".36">4s</tspan></text>
+   <text x="68.35659" y="125.01166" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="68.35659" y="125.01166" stroke-width=".36">3s</tspan></text>
+   <text x="68.35659" y="132.62982" text-align="center" style="paint-order:markers fill stroke" xml:space="preserve"><tspan x="68.35659" y="132.62982" stroke-width=".36">2s</tspan></text>
+  </g>
+  <path d="m106.61-64.182v-2.8316h4.4047v5.6631h-4.4047z" fill="#cd8282" fill-opacity=".36277" style="paint-order:markers fill stroke"/>
+  <g fill="#f5d479" fill-opacity=".36277">
+   <path d="m113.06-71.733v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m113.06-64.182v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m67.287-73.306v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m67.287-65.755v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m67.287-58.126v-2.7529h4.562v5.5058h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m67.287-50.496v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+  </g>
+  <g fill="#dacf2f" fill-opacity=".36277">
+   <path d="m119.67-71.733v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m119.67-64.182v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m73.894-73.306v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m73.894-65.755v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m73.894-58.126v-2.7529h4.4047v5.5058h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m73.894-50.496v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m39.758-74.879v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m39.758-67.171v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m39.758-59.62v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m39.758-51.991v-2.7529h4.4047v5.5058h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m39.758-44.361v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m39.758-36.81v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+  </g>
+  <g fill="#9dde67" fill-opacity=".36277">
+   <path d="m126.12-71.733v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m126.12-64.182v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m80.344-73.306v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m80.344-65.755v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m80.344-58.126v-2.7529h4.562v5.5058h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m80.344-50.496v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m46.208-74.879v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m46.208-67.171v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m46.208-59.62v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m46.208-51.991v-2.7529h4.562v5.5058h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m46.208-44.361v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m46.208-36.81v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m25.443-70.16v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m25.443-62.609v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m25.443-54.98v-2.7529h4.562v5.5058h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m25.443-47.35v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m25.443-39.799v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m25.443-32.091v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m25.443-24.54v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+  </g>
+  <g fill="#8aa678" fill-opacity=".36277">
+   <path d="m132.73-71.733v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m132.73-64.182v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m52.814-74.879v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m52.814-67.171v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m52.814-59.62v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m52.814-51.991v-2.7529h4.4047v5.5058h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m52.814-44.361v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m52.814-36.81v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m86.951-73.306v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m86.951-65.755v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m86.951-58.126v-2.7529h4.4047v5.5058h-4.4047z" style="paint-order:markers fill stroke"/>
+   <path d="m86.951-50.496v-2.8316h4.4047v5.6631h-4.4047z" style="paint-order:markers fill stroke"/>
+  </g>
+  <g fill="#8d91d0" fill-opacity=".36277">
+   <path d="m139.18-71.733v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m139.18-64.182v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m93.4-73.306v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m93.4-65.755v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m93.4-58.126v-2.7529h4.562v5.5058h-4.562z" style="paint-order:markers fill stroke"/>
+   <path d="m93.4-50.496v-2.8316h4.562v5.6631h-4.562z" style="paint-order:markers fill stroke"/>
+  </g>
+  <path d="m145.78-71.733v-2.8316h4.562v5.6631h-4.562z" fill="#d6d7ef" fill-opacity=".36277" style="paint-order:markers fill stroke"/>
+  <path d="m145.78-64.182v-2.8316h4.562v5.6631h-4.562z" fill="#d6d7ef" fill-opacity=".36277" style="paint-order:markers fill stroke"/>
+ </g>
+</svg>

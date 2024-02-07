@@ -837,6 +837,67 @@ Kava: Eelnevalt õpitu kordamine: Reagentide piiramine[@atkins_2010_chemical(lk 
 
 ### 2024-2-6
 
+Õppesisu:
+
+1. Tänapäevane ettekujutus aatomi ehitusest. 
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+Põhimõisted:
+
+aatomorbitaal
+: elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
+
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Jõudsime slaidini *Orbitaalide tähistused kvantarvudega*.
+
+### 2024-2-6
+
+Kursuse lõpus õpilane:
+
+1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral);
+
+2. selgitab A-rühmade elementide metallilisuse ja mittemetallilisuse muutumist perioodilisustabelis seoses aatomi ehituse muutumisega.
+
+Õppesisu:
+
+1. Tänapäevane ettekujutus aatomi ehitusest. 
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+6. Ainete füüsikaliste omaduste sõltuvus aine ehitusest. 
+
+Põhimõisted:
+
+aatomorbitaal
+: elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
+
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Kirjutasime kolme esimese perioodi elementide elektronkonfiguratsioonid.
+
+### 2024-2-8
+
+Kursuse lõpus õpilane:
+
+1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral);
+
+2. selgitab A-rühmade elementide metallilisuse ja mittemetallilisuse muutumist perioodilisustabelis seoses aatomi ehituse muutumisega.
+
+Õppesisu:
+
+1. Tänapäevane ettekujutus aatomi ehitusest. 
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+6. Ainete füüsikaliste omaduste sõltuvus aine ehitusest. 
+
+Põhimõisted:
+
+aatomorbitaal
+: elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
+
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Jätkame neljanda perioodi elementide elektronkonfiguratsioonide kirjutamisega.
+
+### 2024-2-8
+
 Kursuse lõpus õpilane:
 
 1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral);
@@ -858,7 +919,7 @@ aatomorbitaal
 
 Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)].
 
-### 2024-2-6
+### 2024-2-8
 
 Kursuse lõpus õpilane:
 

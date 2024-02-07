@@ -119,6 +119,21 @@ include_external_graphics("elektroni-laengu-tuvastamine.svg")
 
 $$e = 1,602 176 634 \times 10^{-19} \mathrm{C} =1,602 176 634 \times 10^{-19} \text{A s}$$
 
+## Heisenbergi printsiip 1927[@atkins_2010_chemical(lk 15-17)]
+
+- asukoha ja hoo vastastikune täiendavus: kui üks omadus on teada, ei saa teist samaaegselt teada
+
+- Werner Heisenberg
+
+$$\Delta(\vec{r}) \cdot \Delta(\vec{p}) \ge \frac{1}{2} \cdot \hbar$$
+
+## Määramatuse printsiip
+
+```{r label="fig-heisenberg-uncertainty", echo=FALSE, fig.cap="Määramatuse printsiibi esitus[@atkins_2010_chemical(lk 15)]. (a) Osakese asukoht on halvasti määratletud ja seega saab noolega tähistatud osakese impulsi määrata mõistlikult täpselt. (b) Osakese asukoht on täpselt määratletud ja seega ei saa impulssi väga täpselt määrata."}
+include_external_graphics("heisenbergi-määramatus.svg")
+
+```
+
 ## Lainefunktsioon 1927[@atkins_2010_chemical(lk 17)]
 
 Erwin Schrödingeri lähenemisviis oli asendada osakese täpne trajektoor lainefunktsiooniga
@@ -128,24 +143,34 @@ lainefunktsioon
 
 tähistus: $\psi$
 
+## Elektronkate
+
+- Elektronkate koosneb kestadest ehk energiatasemetest ehk kihtidest.
+
+- Kest koosneb alamkestadest ehk erinevat tüüpi orbitaalide rühmadest.
+
+- Alamkest koosneb sama tüüpi orbitaalidest.
+
 ## Kvantarv[@atkins_2010_chemical(lk 18)]
 
 kvantarv
 : täisarv (või mõnel juhul pooltäisarv), mis märgib lainefunktsiooni, määrab oleku ja mida saab kasutada süsteemi omaduse väärtuse arvutamiseks
 
-## Peakvantarv[@atkins_2010_chemical(lk 23)]
+## Peakvantarv
 
-- tähistus: $n$
+- tähistus: $n$[@atkins_2010_chemical(lk 23)]
 
 - tüüp: täisarv
 
-- tähistab perioodi ehk taset
+- tähistab energiataset ja alamkestade arvu sellel tasemel[@atkins_2010_chemical(lk 25)]
 
-- $n = 1$ madalaimal energiatasemel
+- mida suurem $n$, seda kaugemal on elektronid tuumast
+
+- $n = 1$ madalaimal energiatasemel ehk põhiseisundis
 
 - $n = \infty$ väljaspool aatomit
 
-## Energiatasemed ja lainefunktsioonid
+## Energia ja lainefunktsioonid
 
 Näidatud on kuus esimest lainefunktsiooni ja nende energiad (@fig-energy-levels).
 
@@ -161,9 +186,9 @@ include_external_graphics("energiatasemed-vahemaa.svg")
 
 ```
 
-## Peakvantarv ja periood
+## Peakvantarv ja elemendid
 
-```{r label="fig-periodic-table-n", echo=FALSE, fig.cap="Viimase elektronkihi peakvantarv[@periodic]."}
+```{r label="fig-periodic-table-n", echo=FALSE, fig.cap="Kõrgeima hõivatud aatomiorbitaali peakvantarv[@periodic]."}
 include_external_graphics("perioodiline-tabel-n.svg")
 
 ```
@@ -181,6 +206,30 @@ include_external_graphics("kest-alamkest-orbitaal.svg")
 include_external_graphics("tõenäosustihedus-elektronide-pilv.svg")
 
 ```
+
+## Orbitaalid
+
+- Orbitaalid on:
+    
+    s
+    : *sharp*,
+    
+    p
+    : *principal*,
+    
+    d
+    : *diffuse* ja
+    
+    f
+    : *fundamental*[@atkins_2010_chemical(lk 25).
+
+## Orbitaalide omadused
+
+- Eri tüüpi orbitaalidel on eri kuju.
+
+- Eri tüüpi orbitaale on samal energiatasemel eri arv.
+
+- Igasse orbitaali mahub kuni kaks elektroni.
 
 ## s-kihid eri tasemetel
 
@@ -207,6 +256,58 @@ include_external_graphics("d-orbitaalid.svg")
 
 ```{r label="fig-f-orbitals", echo=FALSE, fig.cap="Kesta seitse f-orbitaali ($l = 3$) on väga keerulise välimusega. Nende olemasolu on oluline perioodilisuse tabeli, lantanoidide ja aktinoidide olemasolu ning hilisemate d\u2011ploki elementide omaduste mõistmiseks. Tumedam värv tähistab positiivset, heledam negatiivset[@atkins_2010_chemical(lk 30)]."}
 include_external_graphics("f-orbitaalid.svg")
+
+```
+
+## Orbiidi nurkimpulsi kvantarv[@atkins_2010_chemical(lk 25-26)]
+
+- tähistus: $l$
+
+- tüüp: täisarv
+
+- Sama $l$'i väärtusega orbitaalid moodustavad alamkesta.
+
+- Näitab, mitu erinevust on orbitaalide tüüpide vahel.
+
+- Iga $n$'i kohta on $n$ $l$'i väärtust.
+
+- $l = 0$ madalaimal energiatasemel
+
+- $l = n - 1$ suvalisel energiatasemel
+
+## Plancki lihtsustatud konstant[@haynes_2014_crc(lk 1-1)]
+
+$$\hbar = \frac{h}{2 \cdot \pi} = 1,054 571 726(47) × 10^{-34} \text{J s}$$
+
+## Orbiidi nurkimpulss[@atkins_2010_chemical(lk 25)]
+
+määr, millega elektron "ringleb" tuuma ümber
+
+$$\text{orbiidi nurkimpulss} = [l \cdot (l + 1)]^\frac{1}{2} \cdot \hbar$$
+
+## $l$ ja elemendid
+
+```{r label="fig-periodic-table-l", echo=FALSE, fig.cap="Kõrgeima hõivatud aatomiorbitaali orbiidi nurkimpulsi kvantarv[@periodic]."}
+include_external_graphics("perioodiline-tabel-l.svg")
+
+```
+
+## Magnetiline kvantarv[@atkins_2010_chemical(lk 26)]
+
+- eristab alamkestas olevaid orbitaale
+
+- tüüp: täisarv
+
+- $2 \cdot l + 1$ erinevat $m_l$'i väärtust iga $l$'i puhul ja erinevat orbitaali selles alamkestas
+
+- väikseim väärtus $-l$
+
+- suurim väärtus $l$
+
+## $m_l$ ja elemendid
+
+```{r label="fig-ml", echo=FALSE, fig.cap="Kõrgeima hõivatud aatomiorbitaali magnetiline kvantarv[@periodic]."}
+include_external_graphics("ml.svg")
 
 ```
 
