@@ -731,32 +731,6 @@ keemiline süntees
 
 Kava: Eelnevalt õpitu kordamine: Reaktsiooni stöhhiomeetria[@atkins_2010_chemical(lk F85-F92)]. Selgitasin raud(III)oksiidi näitel moolimajandust.
 
-### 2024-1-30
-
-Kursuse lõpus õpilane:
-
-2. eristab kvalitatiivset ja kvantitatiivset analüüsi ning füüsikalisi ja keemilisi uurimismeetodeid.
-
-Õppesisu:
-
-2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
-
-Põhimõisted:
-
-keemiline analüüs
-: avastamine, millised elemendid on omavahel ühinenud, moodustades aine[@atkins_2010_chemical(lk F22)]
-
-keemiline tasakaal
-: olukord, mida modelleeritakse keemilise võrrandiga, mis sümboliseerib nii kvalitatiivseid kui ka kvantitatiivseid muutusi, mis toimuvad keemilises reaktsioonis[@atkins_2010_chemical(lk 62)]
-
-kvalitatiivne analüüs
-: valimis sisalduvate ainete identifitseerimine[@atkins_2010_chemical(lk F69)]
-
-keemiline süntees
-: elementide ühendamise protsess ühendite saamiseks või ühe ühendi teisendamine teiseks[@atkins_2010_chemical(lk F22)]
-
-Kava: Eelnevalt õpitu kordamine: Reaktsiooni stöhhiomeetria[@atkins_2010_chemical(lk F85-F92)].
-
 ### 2024-2-1
 
 Kursuse lõpus õpilane:
@@ -894,7 +868,7 @@ Põhimõisted:
 aatomorbitaal
 : elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
 
-Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Jätkame neljanda perioodi elementide elektronkonfiguratsioonide kirjutamisega.
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Jätkame neljanda perioodi elementide elektronkonfiguratsioonide kirjutamisega. Jõudsime broomi elektronkonfiguratsiooni kirjutatud.
 
 ### 2024-2-8
 
@@ -917,7 +891,7 @@ Põhimõisted:
 aatomorbitaal
 : elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
 
-Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)].
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Jõudsime tseesiumi elektronkonfiguratsiooni kirjutatud.
 
 ### 2024-2-8
 
@@ -940,4 +914,31 @@ Põhimõisted:
 aatomorbitaal
 : elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
 
-Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)].
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Tegime astaadini elektronkonfiguratsioonid. Näitasin elektroni pöördehoo avastamist. Tegime ruutskeemid boorini.
+
+### 2024-2-13
+
+Kursuse lõpus õpilane:
+
+1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral);
+
+2. selgitab A-rühmade elementide metallilisuse ja mittemetallilisuse muutumist perioodilisustabelis seoses aatomi ehituse muutumisega.
+
+Õppesisu:
+
+1. Tänapäevane ettekujutus aatomi ehitusest. 
+
+2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
+
+6. Ainete füüsikaliste omaduste sõltuvus aine ehitusest. 
+
+Põhimõisted:
+
+aatomorbitaal
+: elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
+
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Alustame süsiniku ruutskeemist.
+
+### 2024-2-13
+
+Kava: kursuse lõputest.

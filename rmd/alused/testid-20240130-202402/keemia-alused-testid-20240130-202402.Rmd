@@ -936,13 +936,13 @@ intro_grades <- data.frame(
     NA, # 1. Babiy, Alisa
     NA, # Donat Irhin
     2, # 3. Kimasks, Stanislavs
-    NA, # Kustov, Vladimir
+    1, # Kustov, Vladimir
     3, # Malõšev, Polina
     NA, # 6. Nersesjan, Feliks
     NA, # 7. Salnikova, Veronika
     4, # Šerstobitov, Mihhail,
-    NA, # 7. Šesterikov, Daniil
-    NA, # Žigadlo, Grigori
+    1, # 7. Šesterikov, Daniil
+    1, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     3, # 10. Trubilko, Vladislav
     NA, # 12. Volkova, Darja
