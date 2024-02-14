@@ -126,7 +126,7 @@ Sisetingimustes toimub teadmiste ja oskuste kontrollimine järgnevalt:
      - arvutamine: õpilane kasutab lõplikku valemit pannes sinna muutujatele väärtused, näitab arvutuskäigu ja arvutab kasutades korrektselt tüvenumbrite teooriat. Kui ülesande osa on vahetulemuste arvutamine, siis need tuleb arvutada igaüks vastava lõpliku valemiga ja lõpptulemuses võib siis vahetulemusi kasutada,
      - lahend täislausega.
         
-    Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest mulle märku anda käetõstmisega. Mitmeostarbelises arvutis oleva tõlkeprogrammi kasutamisest tuleb ka mulle käestõstmisega märku anda.
+    Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest mulle märku anda käetõstmisega. Mitmeostarbelises arvutis oleva tõlkeprogrammi kasutamisest tuleb ka mulle käetõstmisega märku anda.
 
     Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane minu enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega.
 

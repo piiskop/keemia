@@ -920,9 +920,7 @@ Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Tegime astaadini ele
 
 Kursuse lõpus õpilane:
 
-1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral);
-
-2. selgitab A-rühmade elementide metallilisuse ja mittemetallilisuse muutumist perioodilisustabelis seoses aatomi ehituse muutumisega.
+1. kirjeldab elektronide paiknemist aatomi välises elektronkihis (üksikud elektronid, elektronipaarid) sõltuvalt elemendi asukohast perioodilisustabelis (A-rühmade elementide korral).
 
 Õppesisu:
 
@@ -930,15 +928,17 @@ Kursuse lõpus õpilane:
 
 2. Informatsioon perioodilisustabelis ja selle tõlgendamine.
 
-6. Ainete füüsikaliste omaduste sõltuvus aine ehitusest. 
-
 Põhimõisted:
 
 aatomorbitaal
 : elektroni lainefunktsioon aatomis[@atkins_2010_chemical(lk 23)]
 
-Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Alustame süsiniku ruutskeemist.
+Kava: aatomid: kvantmaailm[@atkins_2010_chemical(lk 1-48)]. Alustasime süsiniku ruutskeemist. Jõudsime vist fosfori ruutskeemi ära teha.
 
 ### 2024-2-13
 
 Kava: kursuse lõputest.
+
+### 2024-2-15
+
+Kava: kursuse lõputesti kordus sisetingimustes.

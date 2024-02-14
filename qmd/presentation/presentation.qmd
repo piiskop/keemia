@@ -394,6 +394,19 @@ plot(code)
 
 ```
 
+## Ioonilise sideme ülesanded
+
+Lahendame ülesanded 2, 3, 6, 7[@ekoolikottee] (@fig-qr-ionic-metallic-bonding-ekoolikott).
+
+```{r label="fig-qr-ionic-metallic-bonding-ekoolikott", echo=FALSE, fig.cap="Iooniline ja metalliline side - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19636-1-2-Aine-ehitus/228037#228038-Iooniline-side-ja-metalliline-side", ecl="H")
+plot(code)
+
+```
+
 ## External references
 
 ```{=tex}

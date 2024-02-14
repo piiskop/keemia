@@ -558,7 +558,7 @@ Leiti, et lämmastikhappe lahuse tiitrimisel oli stöhhiomeetrilise punkti saavu
 
     Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-### Tulemused
+### Lühitestide tulemused
 
 Keemia aluste kursuse tulemused on tabelites \@ref(tab:intro-results-1) leheküljel `r render_pageref(reference="tab:intro-results-1")` ja \@ref(tab:intro-results-2) leheküljel `r render_pageref(reference="tab:intro-results-2")`.
 
@@ -982,7 +982,7 @@ for (date in 1:limit_of_dates) {
   table <- column_spec(kable_input = table, column = date * 2, width = "2em")
 }
 
-table
+# table
 
 ```
 
@@ -1018,3 +1018,295 @@ for (date in 1:number_of_tests_2) {
 ```
 
 \landscapeend
+
+\twocolumn
+
+### Lõputest
+
+#### Juhend
+
+Lahendan kõik ülesanded. Arvutusülesannete puhul kasutan ülesande lahendamise struktuuri: joonis, sisend(id), väljund(id), arutelu, arvutamine, täislauseline lahend.
+
+#### Ülesanded
+
+##### Metall {-}
+
+Eesmärk: Ülesandega testitakse õpilase oskust kasutada keemiliste elementide perioodilisussüsteemi.
+
+Ühe liiklusmärgi taga on kleeps (joonis \@ref(fig:intro-test-metal) leheküljel `r render_pageref(reference="fig:intro-test-metal")`). Kui seda kleepsu vaadata nii, et selle teksti saaks õigetpidi lugeda, siis ülemises vasemas ruudus on neljakohaline arv, mille teine number tähistab ühe keemilise elemendi elektronide arvu. Selle elemendi sümbol on \blank{\ce{Li}}.
+
+```{r label="intro-test-metal", echo=FALSE, fig.cap="Metalli sümbol."}
+include_external_graphics("rmd/alused/testid-20240130-202402/metall-IMG_20231019_152719.jpg")
+
+```
+
+##### Pniktogeen {-}
+
+Eesmärk: Ülesandega testitakse õpilase oskust kasutada keemiliste elementide perioodilisussüsteemi.
+
+Kõige kõrgemale on märgitud üks täht (joonis \@ref(fig:intro-test-pnictogen) leheküljel `r render_pageref(reference="fig:intro-test-pnictogen")`). See täht on ühe keemilise elemendi sümbol. See sümbol on \blank{\ce{P}}.
+
+```{r label="intro-test-pnictogen", echo=FALSE, fig.cap="Pniktogeeni sümbol."}
+include_external_graphics("rmd/alused/testid-20240130-202402/pniktogeen-IMG_20231012_153723.jpg")
+
+```
+
+##### Prootonidoonor {-}
+
+Eesmärk: Ülesandega testitakse õpilase teadmisi elektronkatte kohta.
+
+Aia küljes on ruudukujuline silt, millele on märgitud ühe keemilise elemendi sümbol (joonis \@ref(fig:intro-test-proton-donor) leheküljel `r render_pageref(reference="fig:intro-test-proton-donor")`). See sümbol on \blank{\ce{H}}.
+
+```{r label="intro-test-proton-donor", echo=FALSE, fig.cap="Prootoni doonori sümbol."}
+include_external_graphics("rmd/alused/testid-20240130-202402/prootonidoonor-IMG_20231012_154002.jpg")
+
+```
+
+##### Väliskihid
+
+Eesmärk: Ülesandega testitakse õpilase teadmisi aatomi elektronkatte kohta.
+
+Väited:
+
+(1; 1): Aatomarv on prootonite arv tuumas.
+
+(2; 1): Osakese asukohta ja hoogu saab samaaegselt suvalise täpsusega teada.
+
+(7; 1): Kvantitatiivset seost iga mõõtmise täpsuse vahel kirjeldab Heisenbergi määramatuse printsiip.
+
+(8; 2): Elektronil on spinni omadus; spinni kirjeldab kvantarv $m_s$
+, millel võib olla üks kahest väärtusest.
+
+Kogukonna aias on kaardiga silt (joonis \@ref(fig:intro-test-allegiations) leheküljel `r render_pageref(reference="fig:intro-test-allegiations")`), mille pealkiri on oluline. Iga väite ees on koordinaadid. Esimene koordinaat näitab, mitmes täht pealkirjas on esimene, teine koordinaat, mitu järjestikust tähte moodustavad keemilise elemendi sümboli. Seejuures võib väiketähe teha suureks ja vastupidi. Kui väide on õige, kirjutan, mitu elektroni on sümboliga esindatud aatomi elektronkatte kõige suurema energiatasemega alamkestas, kui vale, siis kestas:
+
+- \ce{N}: \blank{3},
+- \ce{O}: \blank{6},
+- \ce{K}: \blank{1},
+- \ce{Na}: \blank{1}.
+
+```{r label="intro-test-allegiations", echo=FALSE, fig.cap="Tekst, mille tähtedest saab moodustada keemiliste elementide sümboleid."}
+include_external_graphics("rmd/alused/testid-20240130-202402/1-väliskihid-IMG_20231012_154831.jpg")
+
+```
+
+\onecolumn
+
+##### Molaarsus
+
+\multicolsbegin
+
+Eesmärk: Ülesandega testitakse, kas õpilane oskab seletada etteantud valemit ning saab aru elektronide paarduvusest.
+
+Varbaia küljes on vapiga silt, millel on ka tekst (joonis \@ref(fig:intro-test-molarity) leheküljel `r render_pageref(reference="fig:intro-test-molarity")`). Iga suurtäht selles tekstis on kas ühe A-rühma keemilise elemendi sümbol või ei ole. Kui on, siis arvesta, et sul on iga selles sõnas olevast erineva A-rühma keemilise elemendi sümboli kohta üks vastav aatom. Arvuta kokku, mitu paardumata elektroni on nende aatomite elektronkattes!
+
+\multicolsend
+
+```{r label="intro-test-molarity", echo=FALSE, fig.cap="Keemiliste elementide sümbolid tekstis."}
+include_external_graphics("rmd/alused/testid-20240130-202402/2-molaarsus-IMG_20231012_151505.jpg")
+
+```
+
+Kui paardumata elektrone on kaks, siis selgitan aine hulga valemit molaarsuse ja mahu kaudu.
+
+Kui paardumata elektrone on kokku kolm, siis selgitan molaarsuse valemit aine hulga ja mahu kaudu.
+
+Valem:
+$$A = \frac{B}{I},$$
+milles
+$A$ on \blank{molaarsus}, mille üldine tähistus on \blank{c} ja mille lihtsaim ühik on \blank{\unit{\mol\per\cubic\m}},
+$B$ on \blank{aine hulk}, mille üldine tähistus on \blank{n} ja mille lihtsaim ühik on \blank{\unit{mol}},
+$I$ on \blank{ruumala}, mille üldine tähistus on \blank{V} ja mille lihtsaim ühik on \blank{\unit{\cubic\m}}.
+
+##### Molaarsuse järgi
+
+\multicolsbegin
+
+Eesmärk: Ülesandega testitakse, kas õpilane oskab arvutada molaarsust ja saab aru ühikust M.
+
+Maja puidlaudisele kinnitatud sinisel sildil on kaks arvu (joonis \@ref(fig:intro-test-from-molarity) leheküljel `r render_pageref(reference="fig:intro-test-from-molarity")`). Oletagem, et ülemine arv on lahuse maht liitrites ja alumine on lahustatava aine molaarsus ühikuga M! Arvuta lahustatava aine hulk moolides selles lahuses!
+
+\multicolsend
+
+```{r label="intro-test-from-molarity", echo=FALSE, fig.cap="Keemiliste elementide sümbolid tekstis."}
+include_external_graphics("rmd/alused/testid-20240130-202402/3-molaarsuse-järgi-IMG_20231012_154123.jpg")
+
+```
+   
+\vspace{0.3\textheight}
+
+##### Ioonvõrrand
+
+Eesmärk: Ülesandega testitakse õpilase teadmisi ja oskusi elektronkatte, elektrolüütide, hapete, aluste ja ioonvõrrandite teemades.
+
+Esitatud on keemilise reaktsiooni võrrand, milles on tundmatud $a$, $b$ ja $f$, mis on keemilised elemendid:
+
+$$a_2b + f_2b\text{O}_4 \rightarrow \underbrace{f_2b\text{O}_4}_{\text{sool}} + f_2b.$$
+
+Arvuliselt tähistamata ülesande püstitusse on märgitud, et sealt saab keemilise elemendi sümboli. Kahe elemendi sümboli saan seega nende ülesannete lahendamisel, ühe siinse ülesande lahendamisel. Vihmavee toru kõrval on ruudukujuline silt, millel on selle keemilise elemendi sümbol (joonis \@ref(fig:intro-test-ionic-equality) leheküljel `r render_pageref(reference="fig:intro-test-ionic-equality")`).
+
+```{r label="intro-test-ionic-equality", echo=FALSE, fig.cap="Vihmavee toru juures oleva keemilise elemendi sümbol."}
+include_external_graphics("rmd/alused/testid-20240130-202402/4-ioonvõrrand-IMG_20231012_153357.jpg")
+
+```
+
+Sisendid: Asendan võrrandis muutujad õigete keemiliste elementide sümbolitega:
+
+$a$ =  \blank{\ce{K}}.
+
+$b$ = \blank{\ce{S}}.
+
+$f$ = \blank{\ce{H}}.
+
+Sisendite osaga testitakse õpilase teadmisi ja oskusi elektronkatte teemas.
+
+Võrrandi osad: Täidan lüngad võrrandi koostisosade kohta:
+
+Reagent $a_2b$ on \blank{tugev elektrolüüt} (tugev elektrolüüt või nõrk elektrolüüt või mitteelektrolüüt).
+
+Reagent $f_2b\text{O}_4$ on \blank{tugev elektrolüüt} (tugev elektrolüüt või nõrk elektrolüüt või mitteelektrolüüt), \blank{tugev hape} (tugev hape või nõrk hape või tugev alus või nõrk alus) ja prootonite-\blank{doonor} (doonor või vastuvõtja).
+
+Soolasaadus on \blank{tugev elektrolüüt} (tugev elektrolüüt või nõrk elektrolüüt või mitteelektrolüüt).
+
+Saadus $f_2b$ on \blank{mitteelektrolüüt} (tugev elektrolüüt või nõrk elektrolüüt või mitteelektrolüüt), \blank{nõrk hape} (tugev hape või nõrk hape või tugev alus või nõrk alus) ja prootonite-\blank{doonor} (doonor või vastuvõtja).
+
+Võrrandi osade osaga testitakse õpilase arusaamist elektrolüütidest, hapetest, alustest.
+
+Lõppvõrrand:
+
+Lammutan esialgse võrrandi ioonvõrrandiks:
+   
+\blank{\ce{2K^+ (aq) + S^{2-} (aq)}}
+
+\blank{\ce{+ H^+ (aq) + [SO_4]^{2-} (aq)}}
+
+\blank{\ce{-> 2K^+ (aq) + [SO_4]^{2-} (aq)}}
+
+\blank{\ce{+ H_2S (g)}.}
+
+Lihtsustan ioonvõrrandi:
+
+\blank{\ce{2H}}$^+$ (aq) + \blank{\ce{S}}$^{2-}$ (aq) $\rightarrow$ \blank{\ce{H}}$_2$\blank{\ce{S}} (g).
+
+Ioonvõrrandi osaga testitakse õpilase teadmisi ja oskusi ioonvõrrandi koostamises arvestades elektrolüüte, hapete ja aluste tüüpe.
+
+\pagebreak
+
+##### Kvaliteet
+
+\multicolsbegin
+
+Eesmärk: Testitakse õpilase teadmisi ja oskusi viia läbi kvalitatiivne analüüs.
+
+Lahendamiseks on vaja lahendada kaks arvuliselt tähistamata ülesannet, sest nendest saad teabe kahe vajaliku keemilise elemendi kohta. Siit saad info veel ühe keemilise elemendi kohta. Nimelt on vihmavee toru küljes silt, millel on üks täht (joonis \@ref(fig:intro-test-calcogen) leheküljel `r render_pageref(reference="fig:intro-test-calcogen")`). See täht sümboliseeribki vajalikku keemilist elementi.
+
+\multicolsend
+
+```{r label="intro-test-calcogen", echo=FALSE, fig.cap="Vihmavee toru küljes oleva keemilise elemendi sümbol."}
+include_external_graphics("rmd/alused/testid-20240130-202402/5-kvaliteet-IMG_20231019_154011.jpg")
+
+```
+
+\multicolsbegin
+
+Ühend koosneb nelja keemilise elemendi aatomitest ja selle koostis ühe mooli ühendi kohta on järgmine: metalli on kümme mooli, pniktogeeni kaks mooli, kalkogeeni \qty{12}{\mol} ja veel ühe keemilise elemendi aatomeid on üks mool[@zhu_2023_sulfidebased]. Metalli massiosa ühendis on \num{0,118}, pniktogeeni massiosa \num{0,150} ja kalkogeeni massiosa \num{0,654}.
+
+Milline on element, mille aatomeid on ühendis ja mille massiosa ma sulle ei teata? Kirjutan selle elemendi sümboli.
+
+\multicolsend
+
+\vspace{0.6\textheight}
+
+#### Metateave
+
+Olen \blank{Šerstobitov, Mihhail} ja täna on 2024-2-15.
+
+\pagebreak
+
+\multicolsbegin
+
+#### Vihjed
+
+##### Metall {-}
+
+1. Sellel keemilisel elemendil on üks oksüdatsiooniarv.
+
+2. Selle keemilise elemendi aatomil on kaks elektroni spinniga \num{0,5}.
+
+3. Selle keemilise elemendi aatomil on kaks energiataset.
+
+##### Pniktogeen {-}
+
+1. Sellel keemilisel elemendil on kaheksa oksüdatsiooniarvu.
+
+2. Selle keemilise elemendi aatomil on kolm paardumata elektroni.
+
+3. Selle keemilise elemendi aatomil on kolm energiataset.
+
+##### Prootonidoonor {-}
+
+1. Sellel keemilisel elemendil on kaks oksüdatsiooniarvu.
+
+2. Selle keemilise elemendi aatomil on üks paardumata elektron.
+
+3. Selle keemilise elemendi aatomil on üks energiatase.
+
+\columnbreak
+
+##### Väliskihid
+
+1. Keemiliste elementide perioodilisussüsteem.
+
+2. Igal energiatasemel on elektronkattes vähemalt üks kest, mis võib sisaldada alamkesti. Nt viiendal energiatasemel on neli alamkesta: s, p, d ja f. Kui viiendal energiatasemel on kokku kohti 32'le elektronile, siis viiendal p-tasemel on kohti ainult kuuele elektronile.
+
+3. Alamkestade energiatasemed on kahanevas järjekorras f, d, p ja s. Indiumi aatomi elektronkatte väline kest on viies. Selles kestas on s-alamkest ja p-alamkest. Viiendas s-alamkestas on kaks elektroni, p-alamkestas on üks elektron. Seega on indiumi kõige kõrgema energiatasemega alamkestas üks elektron.
+
+##### Molaarsus
+
+1. Keemiliste elementide perioodilisussüsteem.
+
+2. Moolide arv on inglise keeles "number of moles", ruumala "volume".
+
+3. Aine hulga lihtsaim ühik on üks seitsmest SI põhiühikust.
+
+##### Molaarsuse järgi
+
+1. $\text{M} = \frac{\text{mol}}{\text{l}}.$
+
+2. $n = V \cdot c.$
+
+3. Lõppvastuses peab tüvenumbrite arv olema õige.
+
+##### Ioonvõrrand
+
+1. Sellel keemilisel elemendil on kaks oksüdatsiooniarvu.
+
+2. Selle keemilise elemendi aatomis on üks paardumata elektron.
+
+3. Selle keemilise elemendi aatomil on neli energiataset.
+
+4. Hästi juhib elektrit sellise aine vesilahus, mis laguneb ioonideks.
+
+5. Tugevad happed ja alused lahustuvad hästi vees.
+
+6. Happed on prootonite doonorid, alused, prootonite vastuvõtjad.
+
+7. Tugevad elektrolüüdid lagunevad täielikult ioonideks.
+
+8. Nõrgad elektrolüüdid lagunevad osaliselt ioonideks.
+
+9. Mitteelektrolüüdid ioonideks ei lagune.
+
+##### Kvaliteet
+
+1.  $m_{\text{metall}} = n_{\text{metall}} \cdot M_{\text{metall}}.$
+
+    $m = \frac{m_{\text{metall}}}{\frac{m_{\text{metall}}}{m}} = \frac{n_{\text{metall}} \cdot M_{\text{metall}}}{\frac{m_{\text{metall}}}{m}}.$
+    
+2. $\frac{m_{\text{x}}}{m} = 1,00 - \frac{m_{\text{metall}}}{m} - \frac{m_{\text{P}}}{m} - \frac{m_{\text{S}}}{m}.$
+
+\multicolsend
+
+3.  \begin{align}m_{\text{x}} = \frac{m_{\text{x}}}{m} \cdot m = (1,00 - \frac{m_{\text{metall}}}{m} - \frac{m_{\text{pniktogeen}}}{m} - \frac{m_{\text{kalkogeen}}}{m}) \cdot m\leavevmode\\
+= (1,00 - \frac{m_{\text{metall}}}{m} - \frac{m_{\text{pniktogeen}}}{m} - \frac{m_{\text{kalkogeen}}}{m}) \cdot \frac{n_{\text{metall}} \cdot M_{\text{metall}}}{\frac{m_{\text{metall}}}{m}}.\end{align}
+
+    $M_{\text{x}} = \frac{m_{\text{x}}}{n_{\text{x}}} = \frac{(1,00 - \frac{m_{\text{metall}}}{m} - \frac{m_{\text{pniktogeen}}}{m} - \frac{m_{\text{kalkogeen}}}{m}) \cdot \frac{n_{\text{metall}} \cdot M_{\text{metall}}}{\frac{m_{\text{metall}}}{m}}}{n_{\text{x}}}.$
