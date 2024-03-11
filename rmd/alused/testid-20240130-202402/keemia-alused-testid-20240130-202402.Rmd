@@ -558,6 +558,49 @@ Leiti, et lämmastikhappe lahuse tiitrimisel oli stöhhiomeetrilise punkti saavu
 
     Täna on 2024-2-1 ja mina olen \blank{10. Trubilko, Vladislav}.
 
+\newpage
+
+### Tulevik
+
+1.  Lubjakivi, mis on peamiselt \ce{CaCO3}, kuumutamisel tekivad reaktsiooni \@ref(eq:fundamentals-tests-future-limestone) leheküljel `r render_pageref(reference="eq:fundamentals-tests-future-limestone")` käigus süsinikdioksiid ja kustutatud lubi, \ce{CaO}.
+ Kui \qty{42,73}{\g} \ce{CaCO3} termilisel lagunemisel tekib \qty{17,5}{\g} \ce{CO2}, siis kui suur on reaktsiooni saagis protsentides?
+
+    \begin{align}
+    \ce{CaCO3(s) ->[\Delta] CaO(s) + CO2(g)}.
+    (\#eq:fundamentals-tests-future-limestone)
+    \end{align}
+ 
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+ 
+    \vspace{0.4\textheight}
+
+    Täna on \blank{2024-12-31} ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+2.  Tahket boori saab eraldada tahkest booroksiidist, pannes viimase reageerima kõrgel temperatuuril magneesiummetalliga. Teine toode on tahke magneesiumoksiid. Kirjuta reaktsiooni jaoks tasakaalustatud võrrand.
+  
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+ 
+    \vspace{0.2\textheight}
+
+    Täna on \blank{2024-12-31} ja mina olen \blank{10. Trubilko, Vladislav}.
+
+### Kaugem tulevik
+
+1.  Tahket boori saab eraldada tahkest booroksiidist, pannes viimase reageerima kõrgel temperatuuril magneesiummetalliga. Teine toode on tahke magneesiumoksiid. Reaktsiooni võrrand on \@ref(eq:fundamentals-tests-future-boron) leheküljel `r render_pageref(reference="eq:fundamentals-tests-future-boron")`. Kui \qty{125}{\kg} booroksiidi kuumutatakse \qty{125}{\kg} magneesiumiga, siis millise massi boori saab toota?
+
+    \begin{align}
+    \ce{B2O3(s) + 3Mg(s) ->[\Delta] 2B(s) + 3MgO(s)}.
+    (\#eq:fundamentals-tests-future-boron)
+    \end{align}
+  
+    Lubatud on kasutada keemiliste elementide perioodilisussüsteemi tabelit.
+ 
+    \vspace{0.5\textheight}
+
+    Täna on \blank{2024-12-31} ja mina olen \blank{10. Trubilko, Vladislav}.
+
 ### Lühitestide tulemused
 
 Keemia aluste kursuse tulemused on tabelites \@ref(tab:intro-results-1) leheküljel `r render_pageref(reference="tab:intro-results-1")` ja \@ref(tab:intro-results-2) leheküljel `r render_pageref(reference="tab:intro-results-2")`.
