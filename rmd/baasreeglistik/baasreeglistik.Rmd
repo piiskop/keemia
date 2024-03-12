@@ -2552,6 +2552,7 @@ Li <- c(
   8.45e-1, # chloride
   0, # chromate
   1.34e-3, # fluoride
+  0,# hydrogen sulfate
   0, # hydroxide
   1.65, # iodide
   1.02, # nitrate
@@ -2571,6 +2572,7 @@ Na <- c(
   3.60e-1, # chloride
   8.76e-1, # chromate
   4.13e-2, # fluoride
+  2.85e-1,# hydrogen sulfate
   1, # hydroxide
   1.84, # iodide
   9.12e-1, # nitrate
@@ -2590,6 +2592,7 @@ K <- c(
   3.55e-1, # chloride
   6.50e-1, # chromate
   1.02, # fluoride
+  5.06e-1,# hydrogen sulfate
   1.21, # hydroxide
   1.48, # iodide
   3.83e-1, # nitrate
@@ -2609,6 +2612,7 @@ Rb <- c(
   9.39e-1, # chloride
   7.62e-1, # chromate
   3, # fluoride
+  1e-1,# hydrogen sulfate
   1.73, # hydroxide
   1.65, # iodide
   6.50e-1, # nitrate
@@ -2628,6 +2632,7 @@ Cs <- c(
   1.91, # chloride
   0, # chromate
   5.73, # fluoride
+  1e-1,# hydrogen sulfate
   3, # hydroxide
   8.48e-1, # iodide
   2.79e-1, # nitrate
@@ -2647,6 +2652,7 @@ Mg <- c(
   5.6e-1, # chloride
   0, # chromate
   1.3e-4, # fluoride
+  0,# hydrogen sulfate
   6.9e-6, # hydroxide
   1.46, # iodide
   7.12e-1, # nitrate
@@ -2666,6 +2672,7 @@ Ca <- c(
   8.13e-1, # chloride
   1e-2, # chromate
   1.6e-5, # fluoride
+  0,# hydrogen sulfate
   1.6e-3, # hydroxide
   2.15, # iodide
   1.44, # nitrate
@@ -2685,6 +2692,7 @@ Sr <- c(
   5.47e-1, # chloride
   1.06e-3, # chromate
   2.1e-4, # fluoride
+  0,# hydrogen sulfate
   2.25e-2, # hydroxide
   1.77, # iodide
   8.02e-1, # nitrate
@@ -2704,6 +2712,7 @@ Ba <- c(
   3.70e-1, # chloride
   0, # chromate
   1.61e-3, # fluoride
+  0,# hydrogen sulfate
   4.91e-2, # hydroxide
   2.21, # iodide
   1.03e-1, # nitrate
@@ -2723,6 +2732,7 @@ Cu <- c(
   7.57e-1, # chloride
   0, # chromate
   7.5e-4, # fluoride
+  0,# hydrogen sulfate
   0, # hydroxide
   0, # iodide
   1.45, # nitrate
@@ -2742,6 +2752,7 @@ Ag <- c(
   1.9e-6, # chloride
   0, # chromate
   1.72, # fluoride
+  0,# hydrogen sulfate
   0, # hydroxide
   3e-8, # iodide
   2.34, # nitrate
@@ -2761,6 +2772,7 @@ Cd <- c(
   1.2, # chloride
   0, # chromate
   4.36e-2, # fluoride
+  0,# hydrogen sulfate
   1.5e-6, # hydroxide
   8.62e-1, # iodide
   1.56, # nitrate
@@ -2780,6 +2792,7 @@ Hg2 <- c(
   7.31e-2, # chloride
   1, # chromate
   0, # fluoride
+  0,# hydrogen sulfate
   0, # hydroxide
   6e-5, # iodide
   1e-1, # nitrate
@@ -2799,6 +2812,7 @@ Pb <- c(
   1.08e-2, # chloride
   1.7e-7, # chromate
   6.7e-4, # fluoride
+  0,# hydrogen sulfate
   1.2e-6, # hydroxide
   7.6e-4, # iodide
   5.97e-2, # nitrate
@@ -2851,6 +2865,7 @@ rownames(solubility) <- c(
   "\\ce{Cl-}",
   "\\ce{[CrO4]^2-}",
   "\\ce{F-}",
+  "\\ce{[HSO4]^-}",
   "\\ce{[OH]-}",
   "\\ce{I-}",
   "\\ce{[NO3]-}",
